@@ -1,157 +1,130 @@
 #!/usr/bin/env python3
 """
-Real-time scraper for the latest Wild Rift item updates
-Gets the most current data including recent changes like Yordle Death Dance
+Scrape Latest Updates for Wild Rift Items
+Focuses on getting the most up-to-date information for specific items
 """
 
 import requests
 import json
+import re
 import time
 from bs4 import BeautifulSoup
 from pathlib import Path
+from real_time_item_scraper import RealTimeItemScraper
 
-class LatestWildRiftScraper:
-    def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+def scrape_rabadon():
+    """Scrape the latest data for Rabadon's Deathcap"""
+    print("Scraping latest data for Rabadon's Deathcap...")
+    
+    scraper = RealTimeItemScraper()
+    item_data = scraper.scrape_specific_item("Rabadon's Deathcap")
+    
+    if item_data:
+        print("\nSuccessfully scraped Rabadon's Deathcap:")
+        print(f"Name: {item_data['name']}")
+        print(f"Cost: {item_data['cost']}")
+        print(f"Stats: {json.dumps(item_data['stats'], indent=2)}")
+        print(f"Passive: {item_data['passive']}")
+        print(f"Description: {item_data['description']}")
+        if item_data.get('tips'):
+            print("Tips:")
+            for tip in item_data['tips']:
+                print(f"  • {tip}")
+    else:
+        print("Failed to scrape Rabadon's Deathcap")
+        
+        # Try direct approach with custom URL
+        print("\nTrying direct approach...")
+        session = requests.Session()
+        session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
         
-        # Latest Wild Rift item data (updated for current patch)
-        self.latest_items = {
-            "Yordle Death Dance": {
-                "stats": {
-                    "attack_damage": {"value": 45, "type": "flat"},
-                    "health": {"value": 300, "type": "flat"},
-                    "cooldown_reduction": {"value": 15, "type": "percentage"}
-                },
-                "cost": 3200,
-                "passive": "Yordle Magic: Dealing damage to enemy champions grants you and nearby allied champions 10% Movement Speed for 2 seconds. Champion takedowns extend this duration by 2 seconds.",
-                "description": "Provides Attack Damage, Health, and Cooldown Reduction. Grants movement speed to you and nearby allies when dealing damage to champions.",
-                "build_path": ["Phage", "Caulfield's Warhammer"],
-                "tier": "A",
-                "tags": ["Damage", "Physical", "Health", "CDR", "Movement", "Team Buff"]
-            },
-            "Death's Dance": {
-                "stats": {
-                    "attack_damage": {"value": 55, "type": "flat"},
-                    "armor": {"value": 45, "type": "flat"},
-                    "magic_resist": {"value": 45, "type": "flat"}
-                },
-                "cost": 3300,
-                "passive": "Ignore Pain: Stores 35% of post-mitigation physical and magic damage received, and is taken as damage over time true damage instead. Takedowns cleanse Ignore Pain's remaining damage and grant 15% missing Health as heal.",
-                "description": "Provides Attack Damage, Armor, and Magic Resist. Converts a portion of damage taken into damage over time, with healing on takedowns.",
-                "build_path": ["Caulfield's Warhammer", "Chain Vest"],
-                "tier": "S",
-                "tags": ["Damage", "Physical", "Armor", "Magic Resist", "Sustain", "Damage Conversion"]
-            },
-            "Terminus": {
-                "stats": {
-                    "attack_damage": {"value": 45, "type": "flat"},
-                    "attack_speed": {"value": 35, "type": "percentage"}
-                },
-                "cost": 3000,
-                "passive": "Juxtaposition: Attacks alternate between dealing bonus magic damage and bonus true damage based on the target's missing Health. Champion takedowns grant 25 Attack Damage and 25% Attack Speed for 60 seconds.",
-                "description": "Provides Attack Damage and Attack Speed. Attacks alternate between magic and true damage, with powerful takedown bonuses.",
-                "build_path": ["Recurve Bow", "Pickaxe"],
-                "tier": "S",
-                "tags": ["Damage", "Physical", "Attack Speed", "On-Hit", "True Damage", "Magic Damage", "Scaling"]
-            },
-            "Sundered Sky": {
-                "stats": {
-                    "attack_damage": {"value": 55, "type": "flat"},
-                    "health": {"value": 400, "type": "flat"},
-                    "cooldown_reduction": {"value": 20, "type": "percentage"}
-                },
-                "cost": 3300,
-                "passive": "Lightshield Strike: After using an ability, your next attack deals bonus physical damage based on the target's missing Health and heals you for the same amount (1.5 second cooldown).",
-                "description": "Provides Attack Damage, Health, and Cooldown Reduction. Spellblade effect that deals missing health damage and heals.",
-                "build_path": ["Phage", "Caulfield's Warhammer"],
-                "tier": "A",
-                "tags": ["Damage", "Physical", "Health", "CDR", "Healing", "Spellblade", "Execute"]
-            },
-            "Bloodthirster": {
-                "stats": {
-                    "attack_damage": {"value": 65, "type": "flat"},
-                    "critical_chance": {"value": 20, "type": "percentage"},
-                    "physical_vamp": {"value": 20, "type": "percentage"}
-                },
-                "cost": 3400,
-                "passive": "Overheal: Excess healing is converted into a shield, up to 350 (+140% bonus AD). The shield decays slowly if you haven't dealt or taken damage recently.",
-                "description": "Provides Attack Damage, Critical Strike Chance, and Physical Vamp. Excess healing creates a protective shield.",
-                "build_path": ["B.F. Sword", "Vampiric Scepter"],
-                "tier": "A",
-                "tags": ["Damage", "Physical", "Critical", "Sustain", "Shield"]
-            }
-        }
-    
-    def update_item_with_latest_data(self, item_name, filename):
-        """Update an item with the latest Wild Rift data"""
-        if item_name not in self.latest_items:
-            print(f"No latest data available for {item_name}")
-            return False
-        
-        data = self.latest_items[item_name]
-        
-        item_data = {
-            "name": item_name,
-            "stats": data["stats"],
-            "cost": data["cost"],
-            "passive": data["passive"],
-            "active": data.get("active", ""),
-            "description": data["description"],
-            "category": "legendary",
-            "tier": data["tier"],
-            "build_path": data["build_path"],
-            "tags": data["tags"]
-        }
-        
-        filepath = Path("items") / filename
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(item_data, f, indent=2, ensure_ascii=False)
-        
-        print(f"✅ Updated {item_name} with latest Wild Rift data")
-        return True
-    
-    def check_for_item_renames(self):
-        """Check if Death's Dance has been renamed to Yordle Death Dance"""
-        deaths_dance_file = Path("items/deaths_dance.json")
-        yordle_deaths_dance_file = Path("items/yordle_death_dance.json")
-        
-        if deaths_dance_file.exists():
-            print("🔄 Checking if Death's Dance has been updated to Yordle Death Dance...")
+        try:
+            response = session.get("https://wr-meta.com/items", timeout=10)
+            response.raise_for_status()
             
-            # Create Yordle Death Dance with new stats
-            self.update_item_with_latest_data("Yordle Death Dance", "yordle_death_dance.json")
+            soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Keep Death's Dance as legacy item but update it too
-            self.update_item_with_latest_data("Death's Dance", "deaths_dance.json")
+            # Look for Rabadon's in the page content
+            rabadon_elements = soup.find_all(string=re.compile(r"Rabadon", re.I))
             
-            print("✅ Both Death's Dance variants updated!")
+            if rabadon_elements:
+                print(f"Found {len(rabadon_elements)} mentions of Rabadon")
+                
+                for elem in rabadon_elements:
+                    print(f"\nFound mention: {elem}")
+                    
+                    # Look at parent elements
+                    parent = elem.parent
+                    if parent:
+                        container = parent.find_parent(['div', 'section', 'article', 'tr', 'td'])
+                        if container:
+                            print("Container text:")
+                            container_text = container.get_text()
+                            print(container_text[:500] + "..." if len(container_text) > 500 else container_text)
+                            
+                            # Extract key information
+                            cost_match = re.search(r'(\d{3,4})\s*(?:gold|cost)', container_text, re.I)
+                            if cost_match:
+                                print(f"Cost: {cost_match.group(1)}")
+                            
+                            ap_match = re.search(r'(\+?\d+)\s*(?:Ability Power|AP)', container_text, re.I)
+                            if ap_match:
+                                print(f"Ability Power: {ap_match.group(1)}")
+                            
+                            passive_match = re.search(r'(?:Passive|PASSIVE|Overkill)[:\s]*([^.]+(?:\.[^.]*)*)', container_text, re.I)
+                            if passive_match:
+                                print(f"Passive: {passive_match.group(1).strip()}")
+            else:
+                print("No mentions of Rabadon found on the page")
+        
+        except Exception as e:
+            print(f"Error in direct approach: {e}")
+
+def scrape_multiple_items():
+    """Scrape multiple important items"""
+    items_to_scrape = [
+        "Rabadon's Deathcap",
+        "Infinity Edge",
+        "Trinity Force",
+        "Guardian Angel",
+        "Duskblade of Draktharr"
+    ]
     
-    def update_latest_items(self):
-        """Update all items with latest patch data"""
-        print("🔄 Updating items with latest Wild Rift patch data...")
+    scraper = RealTimeItemScraper()
+    
+    for item_name in items_to_scrape:
+        print(f"\nScraping {item_name}...")
+        item_data = scraper.scrape_specific_item(item_name)
         
-        # Check for renames first
-        self.check_for_item_renames()
+        if item_data:
+            print(f"Successfully scraped {item_name}")
+            print(f"Cost: {item_data['cost']}")
+            print(f"Stats: {', '.join(f'{k}: {v['value']}' for k, v in item_data['stats'].items())}")
+        else:
+            print(f"Failed to scrape {item_name}")
         
-        # Update other recently changed items
-        recent_updates = [
-            ("Terminus", "terminus.json"),
-            ("Sundered Sky", "sundered_sky.json"),
-            ("Bloodthirster", "bloodthirster.json")
-        ]
-        
-        for item_name, filename in recent_updates:
-            self.update_item_with_latest_data(item_name, filename)
-            time.sleep(0.1)
-        
-        print("✅ All items updated with latest Wild Rift data!")
+        # Rate limiting
+        time.sleep(1)
 
 def main():
-    scraper = LatestWildRiftScraper()
-    scraper.update_latest_items()
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Scrape latest updates for Wild Rift items')
+    parser.add_argument('--rabadon', action='store_true', help='Scrape Rabadon\'s Deathcap')
+    parser.add_argument('--multiple', action='store_true', help='Scrape multiple important items')
+    
+    args = parser.parse_args()
+    
+    if args.rabadon:
+        scrape_rabadon()
+    elif args.multiple:
+        scrape_multiple_items()
+    else:
+        print("Please specify an action: --rabadon or --multiple")
+        # Default to Rabadon's
+        scrape_rabadon()
 
 if __name__ == "__main__":
     main()

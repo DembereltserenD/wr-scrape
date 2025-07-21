@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Batch Champion Data Scraper for WR-META.com
-Scrapes ALL champions from the WR-META website
+Scrapes ALL champions from the WR-META website with real-time item data
 
 Usage: python batch_scrape_all_champions.py
 """
@@ -14,6 +14,7 @@ import os
 from bs4 import BeautifulSoup
 from enhanced_scrape_champion import WRMetaScraper
 from champion_url_mapper import ChampionURLMapper
+from real_time_item_scraper import RealTimeItemScraper
 
 class BatchChampionScraper:
     def __init__(self):

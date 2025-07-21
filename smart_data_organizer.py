@@ -1,447 +1,188 @@
 #!/usr/bin/env python3
 """
-Smart Data Organizer - Separates champion data from item/rune details
-Creates clean architecture with separate folders for different data types.
-
-Usage: python smart_data_organizer.py
+Smart Data Organizer for Wild Rift
+Integrates real-time data scraping with batch processing
 """
 
 import os
 import json
-import glob
+import time
+import subprocess
 from pathlib import Path
+from real_time_item_scraper import RealTimeItemScraper
 
 class SmartDataOrganizer:
     def __init__(self):
-        self.base_dir = Path(".")
+        self.item_scraper = RealTimeItemScraper()
         self.items_dir = Path("items")
         self.runes_dir = Path("runes")
         self.champions_dir = Path("champions_clean")
+        self.scraped_champions_dir = Path("scraped_champions")
         
-        # Create directories
+        # Create directories if they don't exist
         self.items_dir.mkdir(exist_ok=True)
         self.runes_dir.mkdir(exist_ok=True)
         self.champions_dir.mkdir(exist_ok=True)
+        self.scraped_champions_dir.mkdir(exist_ok=True)
+    
+    def run_batch_scrape_champions(self, max_champions=None):
+        """Run the batch champion scraper with real-time data"""
+        print("Starting batch champion scraping with real-time data...")
         
-        # Storage for unique items and runes
-        self.items_database = {}
-        self.runes_database = {}
-
-    def extract_and_organize_data(self):
-        """
-        Extract item and rune data from enhanced champion files
-        and organize into separate folders
-        """
-        print("🚀 Starting smart data organization...")
+        cmd = ["python", "batch_scrape_all_champions.py"]
+        if max_champions:
+            cmd.extend(["--max", str(max_champions)])
         
-        # Find all enhanced champion files
-        enhanced_files = glob.glob('scraped_champions/*_enhanced.json')
-        enhanced_files.extend(glob.glob('*_enhanced.json'))
+        try:
+            subprocess.run(cmd, check=True)
+            print("Batch champion scraping completed successfully")
+            return True
+        except subprocess.CalledProcessError as e:
+            print(f"Error running batch champion scraper: {e}")
+            return False
+    
+    def update_item_data(self):
+        """Update all item data with real-time information"""
+        print("Updating all item data with real-time information...")
         
-        print(f"Found {len(enhanced_files)} enhanced files to process")
+        # Get list of all items from champion builds
+        items_to_update = set()
         
-        processed_champions = 0
-        
-        for file_path in enhanced_files:
+        # Scan champion files for items
+        for champion_file in self.scraped_champions_dir.glob("*_data.json"):
             try:
-                print(f"Processing: {file_path}")
+                with open(champion_file, 'r', encoding='utf-8') as f:
+                    champion_data = json.load(f)
                 
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
+                if 'builds' in champion_data:
+                    builds = champion_data['builds']
+                    
+                    # Collect items from all categories
+                    for category in ['starting_items', 'core_items', 'boots', 'situational_items']:
+                        if category in builds and builds[category]:
+                            for item_name in builds[category]:
+                                if item_name and isinstance(item_name, str):
+                                    items_to_update.add(item_name)
+            except Exception as e:
+                print(f"Error reading {champion_file}: {e}")
+        
+        print(f"Found {len(items_to_update)} unique items to update")
+        
+        # Update each item
+        updated_count = 0
+        for item_name in items_to_update:
+            print(f"\nUpdating item: {item_name}")
+            
+            # Scrape real-time data
+            item_data = self.item_scraper.scrape_specific_item(item_name)
+            
+            if item_data:
+                updated_count += 1
+            
+            # Rate limiting
+            time.sleep(1)
+        
+        print(f"Updated {updated_count}/{len(items_to_update)} items with real-time data")
+        return updated_count
+    
+    def validate_data_consistency(self):
+        """Validate data consistency across all files"""
+        print("Validating data consistency...")
+        
+        issues = []
+        
+        # Check item files
+        for item_file in self.items_dir.glob("*.json"):
+            try:
+                with open(item_file, 'r', encoding='utf-8') as f:
+                    item_data = json.load(f)
                 
-                # Extract items and runes, clean champion data
-                clean_champion_data = self._process_champion_file(data)
+                # Check required fields
+                required_fields = ['name', 'stats', 'cost']
+                for field in required_fields:
+                    if field not in item_data or not item_data[field]:
+                        issues.append(f"Missing {field} in {item_file}")
                 
-                # Save clean champion data
-                champion_name = self._get_champion_name_from_file(file_path)
-                clean_file_path = self.champions_dir / f"{champion_name}.json"
-                
-                with open(clean_file_path, 'w', encoding='utf-8') as f:
-                    json.dump(clean_champion_data, f, indent=2, ensure_ascii=False)
-                
-                processed_champions += 1
+                # Check stats structure
+                if 'stats' in item_data and item_data['stats']:
+                    for stat_name, stat_value in item_data['stats'].items():
+                        if not isinstance(stat_value, dict) or 'value' not in stat_value:
+                            issues.append(f"Invalid stat structure for {stat_name} in {item_file}")
                 
             except Exception as e:
-                print(f"Error processing {file_path}: {e}")
-                continue
+                issues.append(f"Error reading {item_file}: {e}")
         
-        # Save item and rune databases
-        self._save_items_database()
-        self._save_runes_database()
-        
-        print(f"\n✅ Successfully processed {processed_champions} champions")
-        print(f"📦 Created {len(self.items_database)} unique items")
-        print(f"🔮 Created {len(self.runes_database)} unique runes")
-        
-        return processed_champions
-
-    def _process_champion_file(self, data):
-        """
-        Process champion file: extract items/runes, return clean champion data
-        """
-        clean_data = data.copy()
-        
-        # Process builds
-        if 'builds' in clean_data:
-            clean_data['builds'] = self._clean_builds_section(clean_data['builds'])
-        
-        # Process runes
-        if 'runes' in clean_data:
-            clean_data['runes'] = self._clean_runes_section(clean_data['runes'])
-        
-        return clean_data
-
-    def _clean_builds_section(self, builds):
-        """
-        Clean builds section: extract detailed items, keep only references
-        """
-        clean_builds = builds.copy()
-        
-        # Categories that have detailed versions
-        detailed_categories = [
-            'starting_items_detailed',
-            'boots_detailed', 
-            'situational_items_detailed',
-            'example_build_detailed'
-        ]
-        
-        for category in detailed_categories:
-            if category in builds and builds[category]:
-                # Extract items to database
-                for item_data in builds[category]:
-                    if isinstance(item_data, dict) and 'name' in item_data:
-                        item_name = item_data['name']
-                        if item_name and item_name.strip():  # Skip empty names
-                            self.items_database[item_name] = item_data
+        # Check champion files
+        for champion_file in self.scraped_champions_dir.glob("*_data.json"):
+            try:
+                with open(champion_file, 'r', encoding='utf-8') as f:
+                    champion_data = json.load(f)
                 
-                # Remove detailed version from champion data
-                del clean_builds[category]
-        
-        return clean_builds
-
-    def _clean_runes_section(self, runes):
-        """
-        Clean runes section: extract detailed runes, keep only references
-        """
-        clean_runes = runes.copy()
-        
-        # Process primary runes
-        if 'primary' in runes:
-            primary = runes['primary'].copy()
-            
-            # Extract keystone details
-            if 'keystone_detailed' in primary:
-                keystone_data = primary['keystone_detailed']
-                if isinstance(keystone_data, dict) and 'name' in keystone_data:
-                    rune_name = keystone_data['name']
-                    if rune_name and rune_name.strip():
-                        self.runes_database[rune_name] = keystone_data
-                del primary['keystone_detailed']
-            
-            # Extract primary runes details
-            if 'runes_detailed' in primary:
-                for rune_data in primary['runes_detailed']:
-                    if isinstance(rune_data, dict) and 'name' in rune_data:
-                        rune_name = rune_data['name']
-                        if rune_name and rune_name.strip():
-                            self.runes_database[rune_name] = rune_data
-                del primary['runes_detailed']
-            
-            clean_runes['primary'] = primary
-        
-        # Process secondary runes
-        if 'secondary' in runes and 'runes_detailed' in runes['secondary']:
-            for rune_data in runes['secondary']['runes_detailed']:
-                if isinstance(rune_data, dict) and 'name' in rune_data:
-                    rune_name = rune_data['name']
-                    if rune_name and rune_name.strip():
-                        self.runes_database[rune_name] = rune_data
-            del clean_runes['secondary']['runes_detailed']
-        
-        return clean_runes
-
-    def _save_items_database(self):
-        """
-        Save individual item files and create index
-        """
-        print(f"💾 Saving {len(self.items_database)} items...")
-        
-        # Save individual item files
-        for item_name, item_data in self.items_database.items():
-            # Create safe filename
-            safe_name = self._create_safe_filename(item_name)
-            item_file = self.items_dir / f"{safe_name}.json"
-            
-            with open(item_file, 'w', encoding='utf-8') as f:
-                json.dump(item_data, f, indent=2, ensure_ascii=False)
-        
-        # Create items index
-        items_index = {
-            "total_items": len(self.items_database),
-            "items": {
-                name: {
-                    "file": f"{self._create_safe_filename(name)}.json",
-                    "category": data.get('category', 'unknown'),
-                    "cost": data.get('cost', 0),
-                    "tier": data.get('tier', 'A')
-                }
-                for name, data in self.items_database.items()
-            }
-        }
-        
-        with open(self.items_dir / "index.json", 'w', encoding='utf-8') as f:
-            json.dump(items_index, f, indent=2, ensure_ascii=False)
-
-    def _save_runes_database(self):
-        """
-        Save individual rune files and create index
-        """
-        print(f"🔮 Saving {len(self.runes_database)} runes...")
-        
-        # Save individual rune files
-        for rune_name, rune_data in self.runes_database.items():
-            if not rune_name or not rune_name.strip():  # Skip empty names
-                continue
+                # Check required sections
+                required_sections = ['champion', 'stats', 'abilities', 'builds']
+                for section in required_sections:
+                    if section not in champion_data:
+                        issues.append(f"Missing {section} section in {champion_file}")
                 
-            # Create safe filename
-            safe_name = self._create_safe_filename(rune_name)
-            rune_file = self.runes_dir / f"{safe_name}.json"
-            
-            with open(rune_file, 'w', encoding='utf-8') as f:
-                json.dump(rune_data, f, indent=2, ensure_ascii=False)
+            except Exception as e:
+                issues.append(f"Error reading {champion_file}: {e}")
         
-        # Create runes index
-        valid_runes = {name: data for name, data in self.runes_database.items() 
-                      if name and name.strip()}
+        if issues:
+            print(f"\nFound {len(issues)} data consistency issues:")
+            for issue in issues[:10]:  # Show first 10
+                print(f"  • {issue}")
+            if len(issues) > 10:
+                print(f"  ... and {len(issues) - 10} more")
+        else:
+            print("No data consistency issues found!")
         
-        runes_index = {
-            "total_runes": len(valid_runes),
-            "runes": {
-                name: {
-                    "file": f"{self._create_safe_filename(name)}.json",
-                    "tree": data.get('tree', 'Unknown'),
-                    "type": data.get('type', 'Primary'),
-                    "tier": data.get('tier', 'A')
-                }
-                for name, data in valid_runes.items()
-            }
-        }
-        
-        with open(self.runes_dir / "index.json", 'w', encoding='utf-8') as f:
-            json.dump(runes_index, f, indent=2, ensure_ascii=False)
-
-    def _create_safe_filename(self, name):
-        """
-        Create safe filename from item/rune name
-        """
-        # Replace problematic characters
-        safe_name = name.replace("'", "").replace(":", "").replace("/", "_")
-        safe_name = safe_name.replace(" ", "_").replace("-", "_")
-        safe_name = safe_name.replace("(", "").replace(")", "")
-        safe_name = safe_name.lower()
-        
-        # Remove multiple underscores
-        while "__" in safe_name:
-            safe_name = safe_name.replace("__", "_")
-        
-        return safe_name.strip("_")
-
-    def _get_champion_name_from_file(self, file_path):
-        """
-        Extract champion name from file path
-        """
-        filename = os.path.basename(file_path)
-        # Remove _enhanced.json or _data_enhanced.json
-        name = filename.replace('_enhanced.json', '')
-        name = name.replace('_data_enhanced.json', '')
-        name = name.replace('_complete_data_enhanced.json', '')
-        return name
-
-    def create_data_loader(self):
-        """
-        Create a data loader utility for accessing items and runes
-        """
-        loader_code = '''#!/usr/bin/env python3
-"""
-Data Loader - Smart utility to load champion, item, and rune data
-Usage: 
-    loader = DataLoader()
-    champion = loader.get_champion("blitzcrank")
-    item = loader.get_item("Rabadon's Deathcap")
-    rune = loader.get_rune("Guardian")
-"""
-
-import json
-from pathlib import Path
-
-class DataLoader:
-    def __init__(self):
-        self.base_dir = Path(".")
-        self.items_dir = self.base_dir / "items"
-        self.runes_dir = self.base_dir / "runes"
-        self.champions_dir = self.base_dir / "champions_clean"
-        
-        # Load indexes
-        self.items_index = self._load_index(self.items_dir / "index.json")
-        self.runes_index = self._load_index(self.runes_dir / "index.json")
-
-    def _load_index(self, index_path):
-        """Load index file"""
-        try:
-            with open(index_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            return {}
-
-    def get_champion(self, champion_name):
-        """Get champion data"""
-        champion_file = self.champions_dir / f"{champion_name.lower()}.json"
-        try:
-            with open(champion_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            return None
-
-    def get_item(self, item_name):
-        """Get detailed item data"""
-        if item_name not in self.items_index.get('items', {}):
-            return None
-        
-        item_info = self.items_index['items'][item_name]
-        item_file = self.items_dir / item_info['file']
-        
-        try:
-            with open(item_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            return None
-
-    def get_rune(self, rune_name):
-        """Get detailed rune data"""
-        if rune_name not in self.runes_index.get('runes', {}):
-            return None
-        
-        rune_info = self.runes_index['runes'][rune_name]
-        rune_file = self.runes_dir / rune_info['file']
-        
-        try:
-            with open(rune_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            return None
-
-    def get_champion_with_details(self, champion_name):
-        """Get champion data with full item and rune details"""
-        champion = self.get_champion(champion_name)
-        if not champion:
-            return None
-        
-        # Add detailed items to builds
-        if 'builds' in champion:
-            builds = champion['builds']
-            
-            # Add details for each item category
-            for category in ['starting_items', 'core_items', 'boots', 'situational_items', 'example_build']:
-                if category in builds and builds[category]:
-                    detailed_items = []
-                    for item_name in builds[category]:
-                        item_details = self.get_item(item_name)
-                        if item_details:
-                            detailed_items.append(item_details)
-                        else:
-                            # Fallback to basic structure
-                            detailed_items.append({"name": item_name, "error": "Details not found"})
-                    builds[f"{category}_detailed"] = detailed_items
-        
-        # Add detailed runes
-        if 'runes' in champion:
-            runes = champion['runes']
-            
-            # Primary runes
-            if 'primary' in runes:
-                primary = runes['primary']
-                if 'keystone' in primary:
-                    primary['keystone_detailed'] = self.get_rune(primary['keystone'])
-                if 'runes' in primary:
-                    primary['runes_detailed'] = [self.get_rune(rune) for rune in primary['runes']]
-            
-            # Secondary runes
-            if 'secondary' in runes and 'runes' in runes['secondary']:
-                runes['secondary']['runes_detailed'] = [
-                    self.get_rune(rune) for rune in runes['secondary']['runes']
-                ]
-        
-        return champion
-
-    def list_items(self, category=None):
-        """List all items, optionally filtered by category"""
-        items = self.items_index.get('items', {})
-        if category:
-            return {name: info for name, info in items.items() if info.get('category') == category}
-        return items
-
-    def list_runes(self, tree=None):
-        """List all runes, optionally filtered by tree"""
-        runes = self.runes_index.get('runes', {})
-        if tree:
-            return {name: info for name, info in runes.items() if info.get('tree') == tree}
-        return runes
-
-    def search_items(self, query):
-        """Search items by name"""
-        items = self.items_index.get('items', {})
-        query_lower = query.lower()
-        return {name: info for name, info in items.items() if query_lower in name.lower()}
-
-# Example usage
-if __name__ == "__main__":
-    loader = DataLoader()
+        return issues
     
-    # Get champion with full details
-    blitz = loader.get_champion_with_details("blitzcrank")
-    if blitz:
-        print(f"Champion: {blitz['champion']['name']}")
+    def run_full_data_update(self, max_champions=None):
+        """Run a full data update process"""
+        print("Starting full data update process...")
         
-        # Show item details
-        if 'builds' in blitz and 'starting_items_detailed' in blitz['builds']:
-            for item in blitz['builds']['starting_items_detailed']:
-                print(f"Item: {item['name']} - Cost: {item.get('cost', 'Unknown')}")
-    
-    # Get specific item
-    rabadon = loader.get_item("Rabadon's Deathcap")
-    if rabadon:
-        print(f"\\nRabadon's Deathcap:")
-        print(f"Cost: {rabadon.get('cost', 'Unknown')}")
-        print(f"Description: {rabadon.get('description', 'No description')}")
-'''
+        # Step 1: Run batch champion scraping
+        success = self.run_batch_scrape_champions(max_champions)
+        if not success:
+            print("Batch champion scraping failed, stopping process")
+            return False
         
-        with open('data_loader.py', 'w', encoding='utf-8') as f:
-            f.write(loader_code)
+        # Step 2: Update item data
+        self.update_item_data()
         
-        print("📚 Created data_loader.py utility")
+        # Step 3: Validate data consistency
+        issues = self.validate_data_consistency()
+        
+        print("\nFull data update process completed!")
+        if issues:
+            print(f"Found {len(issues)} issues that need attention")
+        else:
+            print("All data is consistent and up-to-date")
+        
+        return len(issues) == 0
 
 def main():
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Smart Data Organizer for Wild Rift')
+    parser.add_argument('--full-update', action='store_true', help='Run full data update process')
+    parser.add_argument('--update-items', action='store_true', help='Update all item data')
+    parser.add_argument('--validate', action='store_true', help='Validate data consistency')
+    parser.add_argument('--max', type=int, help='Maximum number of champions to process')
+    
+    args = parser.parse_args()
+    
     organizer = SmartDataOrganizer()
     
-    # Organize data
-    processed = organizer.extract_and_organize_data()
-    
-    # Create data loader utility
-    organizer.create_data_loader()
-    
-    print("\n" + "="*50)
-    print("🎉 SMART ORGANIZATION COMPLETE!")
-    print("="*50)
-    print(f"📁 Structure created:")
-    print(f"  ├── champions_clean/     - Clean champion data")
-    print(f"  ├── items/              - Individual item files + index")
-    print(f"  ├── runes/              - Individual rune files + index")
-    print(f"  └── data_loader.py      - Smart data access utility")
-    print(f"\n🔧 Usage:")
-    print(f"  from data_loader import DataLoader")
-    print(f"  loader = DataLoader()")
-    print(f"  item = loader.get_item('Rabadon\\'s Deathcap')")
-    print(f"  champion = loader.get_champion_with_details('blitzcrank')")
+    if args.full_update:
+        organizer.run_full_data_update(args.max)
+    elif args.update_items:
+        organizer.update_item_data()
+    elif args.validate:
+        organizer.validate_data_consistency()
+    else:
+        print("Please specify an action: --full-update, --update-items, or --validate")
 
 if __name__ == "__main__":
     main()
