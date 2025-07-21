@@ -1,0 +1,26 @@
+{
+  "name": "Long Sword",
+  "stats": {
+    "attack_damage": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 350,
+  "passive": "",
+  "active": "",
+  "description": "Basic attack damage component. Used to build into many AD items. Essential early game purchase for AD champions.",
+  "category": "component",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Damage"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

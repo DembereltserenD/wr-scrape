@@ -1,0 +1,477 @@
+{
+  "champion": {
+    "id": "28-janna",
+    "name": "Janna",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437962_janna_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437962_janna_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 52.0,
+      "per_level": 2.71
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 104.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.57
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 435.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 21.0,
+      "per_level": 0.71
+    },
+    "movement_speed": {
+      "base": 340.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 45.0,
+      "per_level": 4.36
+    },
+    "magic_resistance": {
+      "base": 35.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "TAILWIND",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) TAILWIND\n                                Passively gains 5% Movement Speed. Nearby allied champions also gain this bonus.",
+      "damage": [
+        5
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606424827_janna_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) HOWLING GALE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) HOWLING GALE\n 1s   50 \n                                \n                                \n                                Charges up for 0.75 seconds and summons a powerful whirlwind that deals 50 magic damage (50/90/130/170 + 50%  ) and knocks up enemies in its path. The whirlwind always reaches its destination in 0.5 seconds.This ability's charges are stored once every 14 seconds, up to a maximum of 2 charges.",
+      "damage": [
+        50,
+        90,
+        130,
+        170
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606424888_janna_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) ZEPHYR",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) ZEPHYR\n 9/8/7/6s   50/55/60/65 \n                                \n                                \n                                Gains 10/25/20/25% Movement Speed for 2 seconds. The wind spirit automatically searches for the nearest 3 campions within range, granting Movement Speed bonuses to allies and dealing 50 magic damage (50/90/130/170 + 50%  + 20% bonus  ) to enemies.",
+      "damage": [
+        9,
+        8,
+        7,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606424833_janna_2.jpg",
+      "notes": [
+        "range, granting Movement Speed bonuses to allies and dealing 50 magic damage (50/90/130/170 + 50%  + 20% bonus  ) to enemies"
+      ]
+    },
+    "e": {
+      "name": "(E) EYE OF THE STORM",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) EYE OF THE STORM\n 16/14/12/10s   70/80/90/100 \n                                \n                                \n                                Blesses herself and the allied champion with the lowers Health with a shield that absorbs 65 damage (65/90/115/140 + 45% ) and grants 10 Attack Damage (10/20/30/40 + 10% ) while it holds. Lasts for 3 seconds.If there is a turret within range, applies a shield to the turret as well.",
+      "damage": [
+        16,
+        14,
+        12,
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606424895_janna_3.jpg",
+      "notes": [
+        "range, applies a shield to the turret as well"
+      ]
+    },
+    "r": {
+      "name": "(R) MONSOON",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) MONSOON\n 80/75/70s   100 \n                                \n                                \n                                Calls forth mighty winds of salvation to knock back surrounding enemies and restore 50 Health (50/100/150 + 30% ) to nearby allies each second for 3 seconds.",
+      "damage": [
+        80,
+        75,
+        70
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606424854_janna_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [
+      "Relic Shield"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana",
+      "Ionian Boots Of Lucidity",
+      "Dream Maker",
+      "Locket Enchant"
+    ],
+    "situational_items": [
+      "Bulwark Of The Mountain",
+      "Boots Of Mana",
+      "Harmonic Echo",
+      "Ionian Boots Of Lucidity"
+    ],
+    "example_build": [
+      "Bulwark Of The Mountain",
+      "Boots Of Mana",
+      "Harmonic Echo",
+      "Ardent Censer",
+      "Redeeming",
+      "Rabadon's Deathcap"
+    ],
+    "enchants": [
+      "Dream Maker"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "stats": {
+          "health": {
+            "value": 50,
+            "type": "flat"
+          },
+          "health_regeneration": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 400,
+        "passive": "Spoils of War: Melee basic attacks execute minions below 50% health. Killing a minion heals the nearest allied champion for 50 health and grants them kill gold. 3 charges; recharges every 35 seconds.",
+        "description": "Starting support item for tanky supports. Provides sustain and gold generation for both you and your ADC.",
+        "category": "starting",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Ionian Boots Of Lucidity",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Ionian Boots Of Lucidity",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Dream Maker",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Dream Maker",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 8,
+            "type": "flat"
+          }
+        },
+        "cost": 500,
+        "active": "Shield nearby allies for 2.5 seconds, absorbing up to 150 damage",
+        "description": "Boot enchant that provides team protection. Essential for supports who want to shield their team.",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "stats": {
+          "health": {
+            "value": 350,
+            "type": "flat"
+          },
+          "health_regeneration": {
+            "value": 100,
+            "type": "percentage"
+          },
+          "cooldown_reduction": {
+            "value": 10,
+            "type": "percentage"
+          }
+        },
+        "cost": 1600,
+        "passive": "Spoils of War: Melee basic attacks execute minions below 50% health. Killing a minion heals the nearest allied champion for 50 health and grants them kill gold.",
+        "active": "Ward: Places a Stealth Ward that lasts 150 seconds (4 charges, refills upon visiting shop)",
+        "description": "Upgraded support item that provides health, sustain, and vision control. Essential for tanky supports.",
+        "category": "support",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Harmonic Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Harmonic Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Ionian Boots Of Lucidity",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Ionian Boots Of Lucidity",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "stats": {
+          "health": {
+            "value": 350,
+            "type": "flat"
+          },
+          "health_regeneration": {
+            "value": 100,
+            "type": "percentage"
+          },
+          "cooldown_reduction": {
+            "value": 10,
+            "type": "percentage"
+          }
+        },
+        "cost": 1600,
+        "passive": "Spoils of War: Melee basic attacks execute minions below 50% health. Killing a minion heals the nearest allied champion for 50 health and grants them kill gold.",
+        "active": "Ward: Places a Stealth Ward that lasts 150 seconds (4 charges, refills upon visiting shop)",
+        "description": "Upgraded support item that provides health, sustain, and vision control. Essential for tanky supports.",
+        "category": "support",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Harmonic Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Harmonic Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Ardent Censer",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Ardent Censer",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Redeeming",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Redeeming",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize"
+      ],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": [
+        {
+          "name": "Font of Life",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Font of Life",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        },
+        {
+          "name": "Revitalize",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Revitalize",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "",
+      "runes": [],
+      "runes_detailed": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: JANNA Build Guide A NERFED 106 13 119 55 389 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift JANNA , role - Mage / Support",
+    "Use the guidelines to take your JANNA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Support JANNA Build items and runes The information below will help you get familiar with the game on the Support Line JANNA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

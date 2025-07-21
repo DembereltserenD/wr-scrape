@@ -1,0 +1,45 @@
+{
+  "name": "Phantom Dancer",
+  "stats": {
+    "attack_speed": {
+      "value": 45,
+      "type": "percentage"
+    },
+    "critical_chance": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "movement_speed": {
+      "value": 7,
+      "type": "percentage"
+    },
+    "attack_damage": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 2600,
+  "passive": "Spectral Waltz: Basic attacks grant 7% Movement Speed for 2 seconds, stacking up to 4 times. At max stacks, gain Ghosting.",
+  "active": "extend their duration by 1s. Bonuses do not stack. (20s cooldown, reduced by 1s per attack). 2800\n\n\nPhantom Dancer TIPS: This item provides great attack and movement speed, enabling you to kite enemies effectively. Hitting a champion grants a burst of attack and movement speed, and critical strikes while the buff is active extend its duration, helping you stay in fights longer and dodge threats.  — Perfect for marksmen and auto‑attack bruisers who need mobility and speed to dominate duels.",
+  "description": "Item that provides Attack Speed, Movement Speed, Attack Damage. Passive effect: Basic attacks grant 7% Movement Speed for 2 seconds, stacking up to 4 times. At max stacks, gain Ghosting.. Active effect: This item provides great attack and movement speed, enabling you to kite enemies effectively. Hitting a champion grants a burst of attack and movement speed, and critical strikes while the buff is active extend its duration, helping you stay in fights longer and dodge threats.  — Perfect for marksmen and auto‑attack bruisers who need mobility and speed to dominate duels.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Zeal",
+    "Cloak of Agility"
+  ],
+  "tags": [
+    "Attack Speed",
+    "Critical",
+    "Movement"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

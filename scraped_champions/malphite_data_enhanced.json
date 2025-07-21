@@ -1,0 +1,576 @@
+{
+  "champion": {
+    "id": "47-malphite",
+    "name": "Malphite",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Tank</b>",
+    "lanes": [
+      "Baron Lane",
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607439099_malphite_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607439099_malphite_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 52.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 690.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.86
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 345.0,
+      "per_level": 41.0
+    },
+    "mana_regeneration": {
+      "base": 15.0,
+      "per_level": 0.71
+    },
+    "movement_speed": {
+      "base": 340.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 49.0,
+      "per_level": 4.36
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "GRANITE SHIELD",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) GRANITE SHIELD\n                                Shield 72 damage (11% maximum ) after not taking damage for 8/7/6s (at levels 1/5/11).",
+      "damage": [
+        8,
+        7,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432869_malphite_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) SEISMIC SHARD",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) SEISMIC SHARD\n 8s   75/80/85/90 \n                                \n                                \n                                Launches a shard that deals 70 magic damage (70/130/190/250 + 45% of ), slowing the target by 15/20/25/30%, and hasting Malphite by 15/20/25/30% for 3s.",
+      "damage": [
+        75,
+        80,
+        85,
+        90
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432896_malphite_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) THUNDERCLAP",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) THUNDERCLAP\n 10/9/8/7s   25 \n                                \n                                \n                                Passive: Gains 9 Armor (25/30/35/40% ).Active: For the next 6 seconds, attacks deal 19 physical damage (10/20/30/40 + 20%  + 20% ) in a cone. The first attack is empowered to deal 58 bonus physical damage (40/60/80/100 + 40%  + 40% ) to the target.",
+      "damage": [
+        10,
+        9,
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432896_malphite_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) GROUND SLAM",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) GROUND SLAM\n 7s   55/60/65/70 \n                                \n                                \n                                Slams the ground, dealing 71 magic damage (50/100/150/200 + 45%  + 45% ) to nearby enemies and reducing their attack speed by 30/35/40/45% for 3s.",
+      "damage": [
+        55,
+        60,
+        65,
+        70
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432878_malphite_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) UNSTOPPABLE FORCE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) UNSTOPPABLE FORCE\n 75/70/65s   100 \n                                \n                                \n                                Charges to the target area, dealing 200 magic damage (200/300/400 + 90% ) and knocking up nearby enemies for 1.5s.",
+      "damage": [
+        75,
+        70,
+        65
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432845_malphite_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Support"
+    ],
+    "starting_items": [
+      "Shimmering Spark"
+    ],
+    "core_items": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Iceborn Gauntlet"
+    ],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Stoneplate Enchant",
+      "Teleport Enchant"
+    ],
+    "situational_items": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Iceborn Gauntlet",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Iceborn Gauntlet",
+      "Thornmail",
+      "Frozen Heart",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Sunfire Aegis",
+          "Plated Steelcaps",
+          "Iceborn Gauntlet"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Support": {
+        "starting_items": [],
+        "core_items": [
+          "Bulwark Of The Mountain",
+          "Plated Steelcaps",
+          "Sunfire Aegis"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "starting_items_detailed": [
+      {
+        "name": "Shimmering Spark",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Shimmering Spark",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "core_items_detailed": [
+      {
+        "name": "Sunfire Aegis",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sunfire Aegis",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Iceborn Gauntlet",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Iceborn Gauntlet",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%",
+        "description": "Magic resistance boots that also provide tenacity, reducing the duration of crowd control effects. Essential against heavy AP or CC compositions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Stoneplate Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stoneplate Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Teleport Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Teleport Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Sunfire Aegis",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sunfire Aegis",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Iceborn Gauntlet",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Iceborn Gauntlet",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%",
+        "description": "Magic resistance boots that also provide tenacity, reducing the duration of crowd control effects. Essential against heavy AP or CC compositions.",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Sunfire Aegis",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sunfire Aegis",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Iceborn Gauntlet",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Iceborn Gauntlet",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Thornmail",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Thornmail",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 80,
+            "type": "flat"
+          },
+          "mana": {
+            "value": 400,
+            "type": "flat"
+          },
+          "cooldown_reduction": {
+            "value": 20,
+            "type": "percentage"
+          }
+        },
+        "cost": 2700,
+        "passive": "Winter's Caress: Reduces the attack speed of nearby enemies by 15%",
+        "description": "Defensive item that provides armor, mana, and CDR while reducing enemy attack speed. Great against AD-heavy teams.",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranth's Twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranth's Twinguard",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Demolish",
+        "Second Wind",
+        "Bone Plating"
+      ],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "Charge up a powerful attack against a tower while near it for 4 seconds, dealing bonus damage.",
+          "stats": {
+            "damage": "125 + 30% max health",
+            "cooldown": "45s"
+          },
+          "cooldown": "45s",
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, heal over time based on missing health.",
+          "stats": {
+            "healing": "4 + 2.5% missing health over 10s"
+          },
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Domination",
+      "runes": [
+        "Cheap Shot"
+      ],
+      "runes_detailed": [
+        {
+          "name": "Cheap Shot",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Cheap Shot",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: MALPHITE Build Guide A B B ADJUSTED 172 14 186 102 410 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift MALPHITE , role - Tank",
+    "Use the guidelines to take your MALPHITE Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron MALPHITE Build items and runes The information below will help you get familiar with the game on the Solo Baron Line MALPHITE",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

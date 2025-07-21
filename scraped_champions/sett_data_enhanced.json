@@ -1,0 +1,541 @@
+{
+  "champion": {
+    "id": "320-sett",
+    "name": "Sett",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter / Tank</b>",
+    "lanes": [
+      "Baron Lane",
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-01/1641942473_sett_10-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-01/1641942473_sett_10-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 62.0,
+      "per_level": 3.6
+    },
+    "health": {
+      "base": 650.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 10.0,
+      "per_level": 0.8
+    },
+    "attack_speed": {
+      "base": 0.73,
+      "per_level": 0.011
+    },
+    "mana": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "mana_regeneration": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 40.0,
+      "per_level": 4.7
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "PIT GRIT",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) PIT GRIT\n                                Sett's Attacks alternate between left and right punches. Right punches follow the left quickly and deal an additional 9 physical damage (9 + 50% bonus ).Sett gains 0.25/0.5/1/2 Health Regeneration () for each 5% missing Health.Sett will reset back to a left punch if he does not do a right punch within 2 seconds of doing a left punch. The Attack Speed of a right punch is 8 times that of a left punch.",
+      "damage": [
+        25,
+        0
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641942477_sett_p-min.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) KNUCKLE DOWN",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) KNUCKLE DOWN\n 9,5/8/6,5/5s  \n                                \n                                \n                                Sett itches for a fight, gaining 35% Movement Speed towards enemy champions for 1.5 seconds.Additionally empowers the next two attacks to deal an additional 5/20/35/50 plus 1.57% (1% + 0.01/0.015/0.02/0.025% ) max health physical damage.The additional damage is capped at 100 against monsters.",
+      "damage": [
+        5,
+        8,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641942547_settq-min.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) HAYMAKER",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) HAYMAKER\n 16/14,5/13/11,5s  \n                                \n                                \n                                Passive: Stores 100% of damage taken as Grit, up to 305 (50% ). Grit decays quickly 4 seconds after the damage was taken.Active: Consumes all Grits, gaining 100% Grit consumed shield decaying over 3 seconds. Sett then delivers a massive punch, dealing 80/105/130/155 plus 25% (25% + 0.275% bonus ) Grit consumed true damage to enemies in the center (max 157 damage). Enemies not in the center instead take physical damage.",
+      "damage": [
+        16,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641942576_settw-min.png",
+      "notes": [
+        "max 157 damage)"
+      ]
+    },
+    "e": {
+      "name": "(E) FACEBREAKER",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) FACEBREAKER\n 13/11.5/10/8.5s  \n                                \n                                \n                                Smashes enemies on either side into each other, dealing 85 physical damage (50/75/100/125 + 60% ) and slowing them by 50% for 0.5 seconds. If Sett grabbed at least one enemy on each side, all enemies are stunned for 1 second.",
+      "damage": [
+        13,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641942587_sette-min.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) THE SHOW STOPPER",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) THE SHOW STOPPER\n 70/65/60s  \n                                \n                                \n                                Grab an enemy champion and suppresses them as he carries them forward, then slams them into the ground, dealing 200 (200/300/400 + 100% bonus ) plus 40/50/60% bonus Health physical damage to surrounding enemies and Slowing them by 99% for 1 second. Enemies take less damage the further they are from where Sett lands.",
+      "damage": [
+        70,
+        65,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-04/1649796437_sett_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Support"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [
+      "Heartsteel",
+      "Plated Steelcaps",
+      "Titanic Hydra"
+    ],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Stoneplate Enchant"
+    ],
+    "situational_items": [
+      "Heartsteel",
+      "Plated Steelcaps",
+      "Titanic Hydra",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Heartsteel",
+      "Plated Steelcaps",
+      "Titanic Hydra",
+      "Black Cleaver",
+      "Sundered Sky",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Protobelt Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Titanic Hydra"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Support": {
+        "starting_items": [],
+        "core_items": [
+          "Bulwark Of The Mountain",
+          "Plated Steelcaps",
+          "Divine Sunderer"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "core_items_detailed": [
+      {
+        "name": "Heartsteel",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Heartsteel",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Titanic Hydra",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Titanic Hydra",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%",
+        "description": "Magic resistance boots that also provide tenacity, reducing the duration of crowd control effects. Essential against heavy AP or CC compositions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Stoneplate Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stoneplate Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Heartsteel",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Heartsteel",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Titanic Hydra",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Titanic Hydra",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%",
+        "description": "Magic resistance boots that also provide tenacity, reducing the duration of crowd control effects. Essential against heavy AP or CC compositions.",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Heartsteel",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Heartsteel",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Titanic Hydra",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Titanic Hydra",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Black Cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black Cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Sundered Sky",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sundered Sky",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranth's Twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranth's Twinguard",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Demolish",
+        "Second Wind",
+        "Overgrowth"
+      ],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "Charge up a powerful attack against a tower while near it for 4 seconds, dealing bonus damage.",
+          "stats": {
+            "damage": "125 + 30% max health",
+            "cooldown": "45s"
+          },
+          "cooldown": "45s",
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, heal over time based on missing health.",
+          "stats": {
+            "healing": "4 + 2.5% missing health over 10s"
+          },
+          "tier": "A"
+        },
+        {
+          "name": "Overgrowth",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Overgrowth",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Inspiration",
+      "runes": [
+        "Hextech Flashtraption"
+      ],
+      "runes_detailed": [
+        {
+          "name": "Hextech Flashtraption",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Hextech Flashtraption",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: SETT Build Guide A B BUFFED 158 11 169 84 954 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift SETT , role - Fighter / Tank",
+    "Use the guidelines to take your SETT Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron SETT Build items and runes The information below will help you get familiar with the game on the Solo Baron Line SETT",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "60%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

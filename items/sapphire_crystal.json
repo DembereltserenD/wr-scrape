@@ -1,0 +1,30 @@
+{
+  "name": "Sapphire Crystal",
+  "stats": {
+    "mana": {
+      "value": 250,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 5,
+      "type": "flat"
+    }
+  },
+  "cost": 350,
+  "passive": "",
+  "active": "",
+  "description": "Basic mana component. Used to build into mana-based items. Essential for champions with mana costs.",
+  "category": "component",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Mana"
+  ],
+  "tips": [
+    "Perfect for champions with high mana consumption",
+    "Helps sustain your presence in lane without frequent recalls",
+    "The mana pool allows for extended ability usage in fights"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

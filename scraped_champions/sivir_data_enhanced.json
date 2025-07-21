@@ -1,0 +1,420 @@
+{
+  "champion": {
+    "id": "394-sivir",
+    "name": "Sivir",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Marksman</b>",
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "difficulty": "High",
+    "tier": "S",
+    "image": "https://wr-meta.com/uploads/posts/2023-08/1692113210_sivir_0_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2023-08/1692113210_sivir_0_11zon.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.5
+    },
+    "health": {
+      "base": 600.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.86
+    },
+    "attack_speed": {
+      "base": 0.81,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 340.0,
+      "per_level": 60.0
+    },
+    "mana_regeneration": {
+      "base": 10.0,
+      "per_level": 1.21
+    },
+    "movement_speed": {
+      "base": 340.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 34.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 28.0,
+      "per_level": 1.4
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "FLEET OF FOOT",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) FLEET OF FOOT\n                                Gains 31 Movement Speed () for 1.5 seconds after dealing damage to an enemy champion with an attack or ability.",
+      "damage": [
+        31
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253178_fleet_of_foot.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BOOMERANG BLADE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BOOMERANG BLADE\n 9.5/9/8.5/8s   55/60/65/70 \n                                \n                                \n                                Sivir hurls her crossblade, dealing 51 physical damage (10/30/50/70 + 70/75/80/85%  + 60% ) to all enemies it cuts through. For every 1% Critical Rate, damage is increased by 0.5%. The higher the Attack Speed, the shorter the cast time.Deals 80% damage against non-champion enemies.",
+      "damage": [
+        5,
+        9,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253126_boomerang_blade.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) RICOCHET",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) RICOCHET\n 12s   60 \n                                \n                                \n                                Gains 25/30/35/40% Attack Speed for 4 seconds. Her attacks bounce to nearby enemies, dealing 4/6/8/10 + 15/18/21/24% physical damage. If the first attack critically strikes, so will the bounces.Deals 75% damage to minions.Each enemy can be hit by a maximum of 2 bounces.",
+      "damage": [
+        25,
+        30,
+        35,
+        40
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253179_ricochet.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) SPELL SHIELD",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) SPELL SHIELD\n 22/20/18/16s  \n                                \n                                \n                                Gains a spell shield for 2 seconds. Heals herself for 38 Health (65/70/75/80%   + 50% ) and gains Fleet of Foot when she blocks an ability.If the block fails, 50% of the ability's cooldown is refunded.",
+      "damage": [
+        22,
+        20,
+        18,
+        16
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253189_spell_shield.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) ON THE HUNT",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) ON THE HUNT\n 80/70/60s   100 \n                                \n                                \n                                Grants 20% bonus Movement Speed to nearby allied champions for 10/11/12 seconds. During this period, her basic ability cooldowns are reduced by 20/25/30%.Unyielding Valor: While the Hunt is active, gains 1 stack of Morale every time an attack or ability deals damage to an enemy champion, and 2 stacks of Morale after a champion takedown.Each stack of Morale grants 2/3/4 . At 8 stacks, grants an additional 25% bonus Movement Speed to nearby allied champions and refreshes On the Hunt's duration.",
+      "damage": [
+        80,
+        70,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253193_on_the_hunt.webp",
+      "notes": [
+        "duration"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Berserker's Greaves",
+      "Gluttonous Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Bloodthirster",
+      "Berserker's Greaves",
+      "Navori Quickblades",
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Bloodthirster",
+      "Berserker's Greaves",
+      "Navori Quickblades",
+      "Infinity Edge",
+      "Mortal Reminder",
+      "Guardian Angel"
+    ],
+    "enchants": [
+      "Berserker's Greaves",
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Berserker's Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserker's Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Berserker's Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserker's Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Navori Quickblades",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Navori Quickblades",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Berserker's Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserker's Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Navori Quickblades",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Navori Quickblades",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "description": "Core item for critical strike-based marksmen. Provides high attack damage and critical strike chance while amplifying critical strike damage. Essential for ADCs who want to maximize their late-game damage potential.",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Mortal Reminder",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Mortal Reminder",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Guardian Angel",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Guardian Angel",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Lethal Tempo",
+      "runes": [
+        "Legend: Bloodline"
+      ],
+      "keystone_detailed": {
+        "name": "Lethal Tempo",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Lethal Tempo",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Legend: Bloodline",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Bloodline",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating"
+      ],
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Shield",
+    "Flash"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: SIVIR Build Guide S NERFED 52 4 56 52 095 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift SIVIR , role - Marksman",
+    "Use the guidelines to take your SIVIR Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Adc SIVIR Build items and runes The information below will help you get familiar with the game on the Adc Line SIVIR",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "20%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

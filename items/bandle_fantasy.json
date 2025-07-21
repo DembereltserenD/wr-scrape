@@ -1,0 +1,47 @@
+{
+  "name": "Bandle Fantasy",
+  "stats": {
+    "ability_power": {
+      "value": 65,
+      "type": "flat"
+    },
+    "health": {
+      "value": 250,
+      "type": "flat"
+    },
+    "movement_speed": {
+      "value": 5,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 2800,
+  "passive": "Whimsy: Dealing magic damage to enemy champions grants you and nearby allies 10% Movement Speed for 3 seconds.",
+  "active": "ability spawns a trap at their feet. After a brief delay, the trap deals magic damage equal to 105 plus 15% AP to enemies in it (8 second(s) cooldown per target). If a target is hit by more than one trap set by the same champion within a short duration, traps after the first deal only 20% damage. 3000\n\n\nBandle Fantasy TIPS: This item is perfect for mages who want to use their abilities to control the battlefield and deal damage through magical traps. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping to increase damage and ability uptime. The \"Flameblossom\" effect creates traps when dealing damage to enemy champions with an active ability. After a brief delay, the trap explodes, dealing magic damage to enemies within its area. However, if a target is hit by more than one trap set by the same champion within a short duration, traps after the first will deal only 20% of their damage. This item is especially useful for champions who can hit multiple enemies and use traps for damage and crowd control.",
+  "description": "Item that provides Ability Power, Health, Movement Speed, Ability Haste. Passive effect: Dealing magic damage to enemy champions grants you and nearby allies 10% Movement Speed for 3 seconds.. Active effect: This item is perfect for mages who want to use their abilities to control the battlefield and deal damage through magical traps. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping to increase damage and ability uptime. The \"Flameblossom\" effect creates traps when dealing damage to enemy champions with an active ability. After a brief delay, the trap explodes, dealing magic damage to enemies within its area. However, if a target is hit by more than one trap set by the same champion within a short duration, traps after the first will deal only 20% of their damage. This item is especially useful for champions who can hit multiple enemies and use traps for damage and crowd control.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Blasting Wand",
+    "Ruby Crystal"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "Movement",
+    "Support",
+    "Buff"
+  ],
+  "tips": [
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights",
+    "Helps with both engaging and disengaging from unfavorable situations",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

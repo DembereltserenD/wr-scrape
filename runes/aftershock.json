@@ -1,0 +1,12 @@
+{
+  "name": "Aftershock",
+  "tree": "Resolve",
+  "type": "Keystone",
+  "description": "After immobilizing an enemy champion, gain bonus Armor and Magic Resistance for 2.5 seconds, then explode dealing magic damage.",
+  "stats": {
+    "armor_mr_bonus": "35 + 80% bonus resistances",
+    "explosion_damage": "25-120 based on level",
+    "duration": "2.5 seconds"
+  },
+  "tier": "A"
+}

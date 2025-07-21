@@ -1,0 +1,51 @@
+{
+  "name": "Protector's Vow",
+  "stats": {
+    "armor": {
+      "value": 40,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 40,
+      "type": "flat"
+    },
+    "health": {
+      "value": 200,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 10,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 2200,
+  "passive": "Pledge: Bind to an ally champion. While near your partner, gain 20 Armor and Magic Resist. If your partner dies, gain 20% Movement Speed and 20% Attack Speed for 8 seconds.",
+  "active": "",
+  "description": "Item that provides Armor, Magic Resist, Health, Ability Haste, Ability Haste. Passive effect: Bind to an ally champion. While near your partner, gain 20 Armor and Magic Resist. If your partner dies, gain 20% Movement Speed and 20% Attack Speed for 8 seconds.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Aegis of the Legion"
+  ],
+  "tags": [
+    "Armor",
+    "Magic Resist",
+    "Health",
+    "CDR",
+    "Support",
+    "Bond"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

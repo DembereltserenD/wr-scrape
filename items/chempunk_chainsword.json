@@ -1,0 +1,47 @@
+{
+  "name": "Chempunk Chainsword",
+  "stats": {
+    "attack_damage": {
+      "value": 45,
+      "type": "flat"
+    },
+    "health": {
+      "value": 250,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 15,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 2600,
+  "passive": "Putrify: Dealing physical damage to enemy champions inflicts them with 40% Grievous Wounds for 3 seconds.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Health, Ability Haste, Ability Haste. Passive effect: Dealing physical damage to enemy champions inflicts them with 40% Grievous Wounds for 3 seconds.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Executioner's Calling",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "CDR",
+    "Grievous Wounds"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

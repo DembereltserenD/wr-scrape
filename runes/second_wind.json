@@ -1,0 +1,10 @@
+{
+  "name": "Second Wind",
+  "tree": "Resolve",
+  "type": "Primary",
+  "description": "After taking damage from an enemy champion, heal over time based on missing health.",
+  "stats": {
+    "healing": "4 + 2.5% missing health over 10s"
+  },
+  "tier": "A"
+}

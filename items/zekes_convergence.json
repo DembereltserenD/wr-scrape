@@ -1,0 +1,43 @@
+{
+  "name": "Zeke's Convergence",
+  "stats": {
+    "health": {
+      "value": 250,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 30,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 250,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 10,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 2400,
+  "passive": "",
+  "active": "Conduit: Bind to an ally. When you cast your ultimate, you and your ally gain 20% attack speed for 8 seconds",
+  "description": "Support item that provides defensive stats and a powerful active that enhances both you and your ADC. Great for engaging supports who want to boost their carry's damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [],
+  "recipe_cost": 800,
+  "tags": [],
+  "tips": [
+    "Bind to your strongest carry for maximum effect",
+    "Use your ultimate at the start of team fights to activate the effect",
+    "Great for supports who want to amplify their ADC's damage",
+    "The stats provide a good mix of offense and defense",
+    "Consider building this when your team has a fed carry"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

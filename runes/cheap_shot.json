@@ -1,0 +1,11 @@
+{
+  "name": "Cheap Shot",
+  "tree": "Domination",
+  "type": "Primary",
+  "description": "Deal bonus true damage to enemy champions with impaired movement or actions.",
+  "stats": {
+    "true_damage": "10-45 based on level",
+    "cooldown": "4 seconds"
+  },
+  "tier": "A"
+}

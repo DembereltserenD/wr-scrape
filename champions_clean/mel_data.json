@@ -1,0 +1,221 @@
+{
+  "champion": {
+    "id": "536-mel",
+    "name": "Mel",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2025-01/1737748832_mel-lol-splash-art-8k-wallpaper-uhdpaper_com-4285b.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2025-01/1737748832_mel-lol-splash-art-8k-wallpaper-uhdpaper_com-4285b.webp"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "Searing Brilliance",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) Searing Brilliance\n                                Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack. When Mel deals damage through an ability or attack, she applies Overwhelm, which can stack infinitely. If the enemy is hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the target.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748953_mel_passive.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) Radiant Volley",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) Radiant Volley\nMel fires a barrage of projectiles that explode around a target location, dealing damage repeatedly to enemies within the area.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748951_melq.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) Rebuttal",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) Rebuttal\nMel forms a barrier around herself that reflects enemy projectiles back at the attacker, prevents her from taking damage, and grants her movement speed.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748954_melw.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) Solar Snare",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) Solar Snare\nMel fires a radiant orb forward, rooting those at its center while the area around it slows enemies and deals damage over time.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748988_mele.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) Golden Eclipse",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) Golden Eclipse\nMel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm. Ranks of Golden Eclipse increase Overwhelm's damage.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748986_melr.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [],
+    "core_items": [
+      "Mel",
+      "Golden Eclipse",
+      "Archangels-staff",
+      "Rabadons-deathcap",
+      "Staff-of-flowing-water",
+      "Black-cleaver"
+    ],
+    "boots": [
+      "Ionian-boots-of-lucidity",
+      "Mercurys-treads",
+      "Boots-of-dynamism",
+      "Berserkers-greaves",
+      "Quicksilver-enchant",
+      "Teleport-enchant",
+      "Locket-enchant"
+    ],
+    "situational_items": [
+      "Chempunk-chainsword",
+      "Amaranths-twinguard"
+    ],
+    "example_build": [],
+    "enchants": [
+      "Gargoyle-enchant",
+      "Glorious-enchant",
+      "Protobelt-enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "core_items_detailed": [
+      {
+        "name": "Mel",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Mel",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Golden Eclipse",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Golden Eclipse",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Archangels-staff",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Archangels-staff",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Rabadons-deathcap",
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45%",
+        "active": "",
+        "description": "Details for Rabadons-deathcap",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Staff-of-flowing-water",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Staff-of-flowing-water",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Black-cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black-cleaver",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for MEL: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\"> <meta property=\"og:url\" content=\"https://wr-meta",
+    "Tips Con Game Plan Power Spikes MEL Build items and runes The information below will help you get familiar with the game on the  Line MEL",
+    "TIPS --> MEL Tips <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "Strategy and Tactics <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "TIPS --> Wild Rift MEL Ability and Tips <img class=\"xfieldimage lazy-loaded pasiv-img\" data-src=\"/uploads/posts/2025-01/1737748953_mel_passive"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

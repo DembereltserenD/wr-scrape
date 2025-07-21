@@ -1,0 +1,208 @@
+{
+  "champion": {
+    "id": "329-kassadin",
+    "name": "Kassadin",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin / Mage</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-07/1659040595_kassadin-new-splash-art-lol-8k-wallpaper-uhdpaper_com-8231f.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-07/1659040595_kassadin-new-splash-art-lol-8k-wallpaper-uhdpaper_com-8231f.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 4.57
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.86
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.015
+    },
+    "mana": {
+      "base": 480.0,
+      "per_level": 65.0
+    },
+    "mana_regeneration": {
+      "base": 15.0,
+      "per_level": 1.36
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 32.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 43.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "VOID STONE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) VOID STONE\n                                Gains a shield that absorbs 50 magic damage (50 + 30% ) for 1.5s when casting a spell near a visible enemy champion. (9s cooldown)",
+      "damage": [
+        50
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270239_kassadin_passive.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) NULL SPHERE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) NULL SPHERE\n 10/9/8/7s   70/75/80/85 \n                                \n                                \n                                Fires an orb that deals 80 magic damage (80/145/210/275 + 80%  )and silences the first enemy hit for 1s.",
+      "damage": [
+        10,
+        9,
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270317_nulllance.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) NETHER BLADE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) NETHER BLADE\n 10s   20 \n                                \n                                \n                                Enhances his next attack within 4s to gain 250 range, deal an additional 50 magic damage (50/80/110/140 + 50% ) and restore 5% of missing mana (15% vs. champions).If the attack killed the target Nether Blade's remaning cooldown is reduced by 50%.",
+      "damage": [
+        50,
+        80,
+        110,
+        140
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270300_netherblade.png",
+      "notes": [
+        "range, deal an additional 50 magic damage (50/80/110/140 + 50% ) and restore 5% of missing mana (15% vs"
+      ]
+    },
+    "e": {
+      "name": "(E) FORCE PULSE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) FORCE PULSE\n 12/10/8/6s   70/75/80/85 \n                                \n                                \n                                Deals 60 magic damage (60/100/140/180 + 50% ) to enemies and slows them by 30% for 1s.Force Pulse is enhanced after 6 spells are cast nearby, dealing 40% increased damage and slowing for 90% instead.",
+      "damage": [
+        12,
+        10,
+        8,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1659127804_kassadin_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) RIFTWALK",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) RIFTWALK\n 5/3.5/2s  \n                                \n                                \n                                Blinks to target location and deals 80 magic damage (80/100/120 + 30%  + 1.5%  ) to nearby enemies.The next Riftwalk cast within 12s deals 50% increased damage an costs 200% mana (Stacks 3 times).",
+      "damage": [
+        5,
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270373_riftwalk.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Sapphire Crystal"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Tear Of The Goddess",
+      "Boots Of Mana",
+      "Rod Of Ages",
+      "Stasis Enchant",
+      "Protobelt Enchant"
+    ],
+    "example_build": [
+      "Rod Of Ages",
+      "Boots Of Mana",
+      "Seraph's Embrace",
+      "Seraph's Embrace Staff",
+      "Infinity Orb",
+      "Rabadon's Deathcap"
+    ],
+    "enchants": [
+      "Stasis Enchant",
+      "Protobelt Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": []
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [
+        "Legend: Tenacity",
+        "Legend: Bloodline"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: KASSADIN Build Guide A A BUFFED 84 13 97 59 325 2 Jul 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift KASSADIN , role - Assassin / Mage",
+    "Use the guidelines to take your KASSADIN Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid KASSADIN Build items and runes The information below will help you get familiar with the game on the Mid Line KASSADIN",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1F",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

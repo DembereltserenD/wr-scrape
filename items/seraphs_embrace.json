@@ -1,0 +1,45 @@
+{
+  "name": "Seraph's Embrace",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 860,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3200,
+  "passive": "Awe: Gain Ability Power equal to 1% maximum Mana. Lifeline: Upon taking damage that would reduce Health below 30%, gain a shield based on current Mana (120 second cooldown).",
+  "active": "",
+  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Gain Ability Power equal to 1% maximum Mana. Lifeline: Upon taking damage that would reduce Health below 30%, gain a shield based on current Mana (120 second cooldown).. Excellent for supporting allies and enhancing team capabilities.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Archangel's Staff"
+  ],
+  "tags": [
+    "Magic",
+    "Mana",
+    "CDR",
+    "Shield"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Perfect for champions with high mana consumption",
+    "Helps sustain your presence in lane without frequent recalls"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

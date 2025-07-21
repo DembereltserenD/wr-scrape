@@ -1,0 +1,279 @@
+{
+  "champion": {
+    "id": "362-warwick",
+    "name": "Warwick",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter / Tank</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-09/1662398665_warwick_0.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-09/1662398665_warwick_0.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 4.5
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 112.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.015
+    },
+    "mana": {
+      "base": 340.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 16.0,
+      "per_level": 0.71
+    },
+    "movement_speed": {
+      "base": 345.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 46.0,
+      "per_level": 4.3
+    },
+    "magic_resistance": {
+      "base": 43.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "ETERNAL HUNGER",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) ETERNAL HUNGER\n                                Attacks deal an additional 12-46 magic damage (12-46 (+3.5 ) + 20% bonus  + 10% ) on hit.While below 50% health  heal for 100% of the damage dealt.",
+      "damage": [
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662398373_eternal_hunger.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) JAWS OF THE BEAST",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) JAWS OF THE BEAST\n 6s   40 \n                                \n                                \n                                Lunges forward and bites the target enemy, dealing 76 magic damage (130%  + 90% ) plus 6/7/8/9% of the target's max health  and healing for 42.5/55/67.5/80% of damage dealt.Drag: Warwick leaps behind targets and follows their movement.Applies on-hit effects. The bonus damage is capped at 100/125/150/175 against monsters.Deals 50% bonus damage to minions. Refunds 50% of the cooldown when killing a minions.",
+      "damage": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662398370_jaws_of_the_beast.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) BLOOD HUNT",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) BLOOD HUNT\n 70/60/50/40s   70 \n                                \n                                \n                                Passive: Marks enemy champions below 50% health, gaining 40/45/50/55% Movement Speed towards them and gaining 60/70/80/90% Attack Speed against below 50% health. These bonuses are enhanced to 150% of their value against targets below 35% health.Active: Expands Warwick's field of vision briefly, ignoring all terrain, sensing all enemies within range on map, and marking the closest enemy champion for 8 seconds. Cannot be used while in combat with champions.Warwick can only passively sense enemies who were brought below 50% Health by allies.",
+      "damage": [
+        70,
+        60,
+        50,
+        40
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662398435_blood_hunt.webp",
+      "notes": [
+        "range on map, and marking the closest enemy champion for 8 seconds"
+      ]
+    },
+    "e": {
+      "name": "(E) PRIMAL HOWL",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) PRIMAL HOWL\n 14/13/12/11s   30 \n                                \n                                \n                                First cast: Gains 35/40/45/50% damage reduction for 2.5 seconds. After it ends, Warwick howls, fearing nearby enemies and causing them to flee from him for 1 second(s), during which they are slowed by 90%.Recast: Ends the ability early (ending early does not prematurely cancel the damage reduction). If the ability is cast again within 1 seconds, the damage reduction ends immediately, and the ability will not fear enemies. However, 45% of the cooldown will be refunded.",
+      "damage": [
+        14,
+        13,
+        12,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662398462_primal_howl.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) INFINITE DURESS",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) INFINITE DURESS\n 80/70/60s   100 \n                                \n                                \n                                Leaps in a huge distance that scales with his Move Speed. His next attack within 2.5 seconds of landing empowered.If theempowered attcak strikes an enemy champion, he leaps to them and suppresses them for 1 seconds. He attacks them 4 times over the duration, applying On-Hit effects 4 times and dealing 125 magic damage (125/300/475 + 167% bonus ).Restores 100% of all damage dealt while suppressing the target as Health.",
+      "damage": [
+        80,
+        70,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662398431_infinite_duress.webp",
+      "notes": [
+        "duration, applying On-Hit effects 4 times and dealing 125 magic damage (125/300/475 + 167% bonus )"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Gluttonous Greaves",
+      "Blade Of The Ruined King"
+    ],
+    "boots": [
+      "Gluttonous Greaves",
+      "Mercury's Treads",
+      "Stoneplate Enchant"
+    ],
+    "situational_items": [
+      "Trinity Force",
+      "Gluttonous Greaves",
+      "Blade Of The Ruined King",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Trinity Force",
+      "Gluttonous Greaves",
+      "Blade Of The Ruined King",
+      "Terminus",
+      "Death's Dance",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Trinity Force",
+          "Gluttonous Greaves",
+          "Blade Of The Ruined King"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Jungle": {
+        "starting_items": [],
+        "core_items": [
+          "Divine Sunderer",
+          "Gluttonous Greaves",
+          "Blade Of The Ruined King"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "core_items_detailed": [
+      {
+        "name": "Trinity Force",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Trinity Force",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Blade Of The Ruined King",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade Of The Ruined King",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Lethal Tempo",
+      "runes": [
+        "Triumph",
+        "Legend: Alacrity",
+        "Legend: Tenacity"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Second Wind",
+        "Bone Plating"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: WARWICK Build Guide S B NERFED 112 8 120 86 135 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift WARWICK , role - Fighter / Tank",
+    "Use the guidelines to take your WARWICK Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Jungle Path Jungle WARWICK Build items and runes The information below will help you get familiar with the game on the Jungle Line WARWICK",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "10%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fleet Footwork",
+  "tree": "Precision",
+  "type": "Keystone",
+  "description": "Attacking a champion heals you and grants Movement Speed. Healing is stronger against champions.",
+  "stats": {
+    "healing": "10-100 based on level",
+    "movement_speed": "20%",
+    "duration": "1 second",
+    "champion_healing_bonus": "300%"
+  },
+  "tier": "A"
+}

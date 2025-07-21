@@ -1,0 +1,211 @@
+{
+  "champion": {
+    "id": "55-tristana",
+    "name": "Tristana",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Marksman</b>",
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-01/1609848916_tristana_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-01/1609848916_tristana_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 54.0,
+      "per_level": 6.0
+    },
+    "health": {
+      "base": 600.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.7
+    },
+    "attack_speed": {
+      "base": 0.81,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 300.0,
+      "per_level": 41.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.7
+    },
+    "movement_speed": {
+      "base": 335.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 35.0,
+      "per_level": 4.0
+    },
+    "magic_resistance": {
+      "base": 30.0,
+      "per_level": 1.4
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "DRAW A BEAD",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) DRAW A BEAD\n                                Increases the range of attacks, Explosive Charge, and Buster Shot by 10 per level.",
+      "damage": [
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609849178_tristana-passive-min.png",
+      "notes": [
+        "range of attacks, Explosive Charge, and Buster Shot by 10 per level"
+      ]
+    },
+    "q": {
+      "name": "(Q) RAPID FIRE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) RAPID FIRE\n 18/17/16/15s  \n                                \n                                \n                                Gain 50/75/100/125% bonus Attack Speed for 7 seconds.",
+      "damage": [
+        18,
+        17,
+        16,
+        15
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609849173_tristana-q-min.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) ROCKET JUMP",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) ROCKET JUMP\n 22/19/16/13s   60 \n                                \n                                \n                                Leap to a target location, dealing 85 magic damage (85/155/225/295 + 50% ) and slowing nearby enemies by 60% for 1.5/2/2.5/3s.Takedowns and fully stacked Explosive Charge detonations on champions reset Rocket Jump's cooldown.",
+      "damage": [
+        22,
+        19,
+        16,
+        13
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609849171_tristana-w-min.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) EXPLOSIVE CHARGE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) EXPLOSIVE CHARGE\n 15/14/13/12s   55/60/65/70 \n                                \n                                \n                                Passive: Enemies explode when killed by Tristana's attacks, dealing 55 magic damage (55/85/115/145 + 25% ) to nearby enemies.Active: Places a bomb on an enemy or turret, dealing 50 physical damage (50/75/100/125 + 65/100/135/170%  + 50/70/90/110% ) to nearby enemies. Tristana's attacks and abilities charge the bomb's damage by 30% stacking 4 times.Bombs explode immediately at full stacks. Explosion radius is double for bombs placed on turrets.",
+      "damage": [
+        15,
+        14,
+        13,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609849200_tristana-e-min.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) BUSTER SHOT",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) BUSTER SHOT\n 70/65/60s   100 \n                                \n                                \n                                Fires a massive cannonball at an enemy, dealing 350 magic damage (350/450/550 + 100% ) and knocking them back.",
+      "damage": [
+        70,
+        65,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609849192_tristana-r-min.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Gluttonous Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Bloodthirster",
+      "Gluttonous Greaves",
+      "Navori Quickblades",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Bloodthirster",
+      "Gluttonous Greaves",
+      "Navori Quickblades",
+      "Magnetic Blaster",
+      "Terminus",
+      "Immortal Shieldbow"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Fleet Footwork",
+      "runes": [
+        "Legend: Alacrity",
+        "Coup de Grace"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: TRISTANA Build Guide A A NERFED 139 15 154 125 156 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift TRISTANA , role - Marksman",
+    "Use the guidelines to take your TRISTANA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Adc TRISTANA Build items and runes The information below will help you get familiar with the game on the Adc Line TRISTANA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

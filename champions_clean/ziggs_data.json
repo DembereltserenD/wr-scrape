@@ -1,0 +1,207 @@
+{
+  "champion": {
+    "id": "29-ziggs",
+    "name": "Ziggs",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437989_ziggs_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437989_ziggs_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 52.0,
+      "per_level": 3.6
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.7
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 460.0,
+      "per_level": 73.0
+    },
+    "mana_regeneration": {
+      "base": 16.0,
+      "per_level": 0.9
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 34.0,
+      "per_level": 4.0
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "SHORT FUSE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) SHORT FUSE\n                                Zigg's abilities deal 24% damage to turrets.Empowers Boucing Bomb to deal 20 magic damage (17 + 3  + 25% ) and 32% damage to turrets.Short Fuse's cooldown is reduced by 4 (-1s per 5 lvl) seconds whenever Ziggs casts an ability.",
+      "damage": [
+        24
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606425187_ziggs_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BOUNCING BOMB",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BOUNCING BOMB\n 6/5.5/5/4.5s   55/60/65/70 \n                                \n                                \n                                Throws a bouncing bomb that deals 70 magic damage (70/135/200/265 + 65% ).",
+      "damage": [
+        6,
+        5
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606425226_ziggs_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) SATCHEL CHARGE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) SATCHEL CHARGE\n 18/16/14/12s   65 \n                                \n                                \n                                Flings an explosive charge that can be detonated within 4 seconds to deal 70 magic damage (70/115/160/205 + 50% ) to enemies and knock them away. Ziggs is also knocked away without taking damage.Damages turrets and demolishes them if they are below 20/22.5/25/27.5% Health.",
+      "damage": [
+        18,
+        16,
+        14,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606425149_ziggs_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) HEXPLOSIVE MINEFIELD",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) HEXPLOSIVE MINEFIELD\n 16s   70/80/90/100 \n                                \n                                \n                                Scatters proximity mines that deal 50 magic damage (50/105/160/215 + 35% ) on contact and slow by 35/40/45/50% for 2 seconds.Enemies detonating multiple mines take 40% damage from subsequent mines. Mines last 5 seconds.",
+      "damage": [
+        70,
+        80,
+        90,
+        100
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606425187_ziggs_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) MEGA INFERNO BOMB",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) MEGA INFERNO BOMB\n 85/75/65s   100 \n                                \n                                \n                                Catapults the Mega Inferno Bomb an enormous to the target location. The bomb explodes upon arrival, dealing 270 magic damage (270/375/480 + 85% ) to enemies in the blast zone.When auto-aiming, the ability automatically selects and hurls the bomb at a target within range (based on Targeting Priority settings).",
+      "damage": [
+        85,
+        75,
+        65
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606425243_ziggs_4.jpg",
+      "notes": [
+        "range (based on Targeting Priority settings)"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Stasis Enchant",
+      "Protobelt Enchant",
+      "Rabadon's Deathcap"
+    ],
+    "example_build": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Rabadon's Deathcap",
+      "Bandle Fantasy",
+      "Crown Of The Shattered Queen"
+    ],
+    "enchants": [
+      "Stasis Enchant",
+      "Protobelt Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Demolish"
+      ]
+    },
+    "secondary": {
+      "tree": "",
+      "runes": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: ZIGGS Build Guide A BUFFED 107 10 117 53 788 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift ZIGGS , role - Mage",
+    "Use the guidelines to take your ZIGGS Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid ZIGGS Build items and runes The information below will help you get familiar with the game on the Mid Line ZIGGS",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

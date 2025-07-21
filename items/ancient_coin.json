@@ -1,0 +1,39 @@
+{
+  "name": "Ancient Coin",
+  "stats": {
+    "health": {
+      "value": 75,
+      "type": "flat"
+    },
+    "mana_regeneration": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "gold_generation": {
+      "value": 2,
+      "type": "flat"
+    }
+  },
+  "cost": 400,
+  "passive": "Favor: Nearby enemy minions that die without you killing them drop coins that grant gold and mana.",
+  "active": "",
+  "description": "Item that provides Health. Passive effect: Nearby enemy minions that die without you killing them drop coins that grant gold and mana.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "C",
+  "build_path": [],
+  "tags": [
+    "Health",
+    "Support",
+    "Gold Generation",
+    "Mana"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

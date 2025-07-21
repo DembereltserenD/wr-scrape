@@ -1,0 +1,43 @@
+{
+  "name": "Immortal Shieldbow",
+  "stats": {
+    "attack_damage": {
+      "value": 50,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "critical_chance": {
+      "value": 20,
+      "type": "percentage"
+    }
+  },
+  "cost": 3400,
+  "passive": "Lifeline: If you would take damage that would reduce your Health below 30%, gain a shield and bonus Attack Damage for 8 seconds (90 second cooldown).",
+  "active": "",
+  "description": "Item that provides Attack Damage, Attack Speed. Passive effect: If you would take damage that would reduce your Health below 30%, gain a shield and bonus Attack Damage for 8 seconds (90 second cooldown).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Noonquiver",
+    "Cloak of Agility"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Attack Speed",
+    "Critical",
+    "Shield"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

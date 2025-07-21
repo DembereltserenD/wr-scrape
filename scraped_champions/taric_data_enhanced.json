@@ -1,0 +1,351 @@
+{
+  "champion": {
+    "id": "402-taric",
+    "name": "Taric",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-10/1665255391_taric_0_53_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-10/1665255391_taric_0_53_11zon.webp"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "BRAVADO",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) BRAVADO\n                                Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession.",
+      "damage": [
+        2
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255355_bravado.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) STARLIGHT'S TOUCH",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) STARLIGHT'S TOUCH",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255418_starlight27s_touch.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) BASTION",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) BASTION",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255435_bastion.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) DAZZLE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) DAZZLE\nTaric readies a beam of starlight that, after a brief delay, deals magic damage and stuns enemies.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255419_dazzle.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) COSMIC RADIANCE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) COSMIC RADIANCE\nPulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255420_cosmic_radiance.webp",
+      "notes": [
+        "duration"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [],
+    "core_items": [
+      "Taric",
+      "Archangels-staff",
+      "Rabadons-deathcap",
+      "Staff-of-flowing-water",
+      "Black-cleaver",
+      "Blade-of-the-ruined-king"
+    ],
+    "boots": [
+      "Ionian-boots-of-lucidity",
+      "Mercurys-treads",
+      "Boots-of-dynamism",
+      "Berserkers-greaves",
+      "Quicksilver-enchant",
+      "Teleport-enchant",
+      "Locket-enchant"
+    ],
+    "situational_items": [
+      "Chempunk-chainsword",
+      "Amaranths-twinguard"
+    ],
+    "example_build": [],
+    "enchants": [
+      "Gargoyle-enchant",
+      "Glorious-enchant",
+      "Protobelt-enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "core_items_detailed": [
+      {
+        "name": "Taric",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Taric",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Archangels-staff",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Archangels-staff",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Rabadons-deathcap",
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45%",
+        "active": "",
+        "description": "Details for Rabadons-deathcap",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Staff-of-flowing-water",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Staff-of-flowing-water",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Black-cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black-cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Blade-of-the-ruined-king",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade-of-the-ruined-king",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Ionian-boots-of-lucidity",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Ionian-boots-of-lucidity",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Mercurys-treads",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          },
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of crowd control effects by 30%",
+        "active": "",
+        "description": "Details for Mercurys-treads",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Boots-of-dynamism",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots-of-dynamism",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Berserkers-greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserkers-greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver-enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver-enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Teleport-enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Teleport-enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Locket-enchant",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Locket-enchant",
+        "category": "support",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Chempunk-chainsword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Chempunk-chainsword",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranths-twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranths-twinguard",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": [],
+      "runes_detailed": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for TARIC: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\"> <meta property=\"og:url\" content=\"https://wr-meta",
+    "Tips Con Game Plan Power Spikes TARIC Build items and runes The information below will help you get familiar with the game on the  Line TARIC",
+    "TIPS --> TARIC Tips <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "Strategy and Tactics <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "TIPS --> Wild Rift TARIC Ability and Tips <img class=\"xfieldimage lazy-loaded pasiv-img\" data-src=\"/uploads/posts/2022-10/1665255355_bravado"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

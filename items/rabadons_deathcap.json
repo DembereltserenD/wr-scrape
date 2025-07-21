@@ -1,0 +1,32 @@
+{
+  "name": "Rabadon's Deathcap",
+  "stats": {
+    "ability_power": {
+      "value": 120,
+      "type": "flat"
+    }
+  },
+  "cost": 3600,
+  "passive": "Magical Opus: Increases Ability Power by 40%.",
+  "active": "",
+  "description": "High-tier AP item providing massive Ability Power. The Magical Opus passive amplifies all your AP by 40%, making it the ultimate damage multiplier for mages. Best built when you already have some AP items to maximize the percentage bonus.",
+  "category": "legendary",
+  "tier": "S",
+  "build_path": [
+    "Needlessly Large Rod",
+    "Blasting Wand"
+  ],
+  "tags": [
+    "Magic",
+    "Ability Power"
+  ],
+  "tips": [
+    "Build after other AP items to maximize the 40% bonus effect",
+    "The passive applies to ALL ability power, including from other items and runes",
+    "Essential for burst mages and late-game scaling champions",
+    "Expensive but provides the highest AP scaling in the game",
+    "Great on champions like Orianna, Syndra, and Brand who scale well with AP"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

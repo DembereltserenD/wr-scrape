@@ -1,0 +1,31 @@
+{
+  "name": "Relic Shield",
+  "stats": {
+    "health": {
+      "value": 50,
+      "type": "flat"
+    },
+    "health_regeneration": {
+      "value": 25,
+      "type": "percentage"
+    }
+  },
+  "cost": 400,
+  "passive": "Spoils of War: Melee basic attacks execute minions below 50% health. Killing a minion heals the nearest allied champion for 50 health and grants them kill gold. 3 charges; recharges every 35 seconds.",
+  "active": "",
+  "description": "Starting support item for tanky supports. Provides sustain and gold generation for both you and your ADC.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [],
+  "recipe_cost": 0,
+  "tags": [],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Divine Sunderer",
+  "stats": {
+    "attack_damage": {
+      "value": 40,
+      "type": "flat"
+    },
+    "health": {
+      "value": 400,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 25,
+      "type": "flat"
+    }
+  },
+  "cost": 3300,
+  "passive": "Spellblade: After using an ability, your next attack deals bonus damage based on target's max Health and heals you.",
+  "active": "ly use their abilities and auto-attacks to deal damage, such as fighters. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve survivability and increase damage. The \"Spellblade\" effect allows you to deal bonus physical damage based on the target’s maximum health after using an ability, and also heal when attacking enemy champions. This item helps you deal damage and sustain in fights, making it especially useful for extended engagements.",
+  "description": "Item that provides Attack Damage, Health, Ability Haste, Ability Haste. Passive effect: After using an ability, your next attack deals bonus damage based on target's max Health and heals you.. Active effect: ly use their abilities and auto-attacks to deal damage, such as fighters. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve survivability and increase damage. The \"Spellblade\" effect allows you to deal bonus physical damage based on the target’s maximum health after using an ability, and also heal when attacking enemy champions. This item helps you deal damage and sustain in fights, making it especially useful for extended engagements.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Sheen",
+    "Phage"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "CDR",
+    "Healing",
+    "Spellblade"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

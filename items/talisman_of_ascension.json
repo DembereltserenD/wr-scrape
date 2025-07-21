@@ -1,0 +1,54 @@
+{
+  "name": "Talisman of Ascension",
+  "stats": {
+    "health": {
+      "value": 300,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "mana_regeneration": {
+      "value": 150,
+      "type": "percentage"
+    },
+    "attack_damage": {
+      "value": 2,
+      "type": "flat"
+    },
+    "ability_power": {
+      "value": 4,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 2200,
+  "passive": "",
+  "active": "Ascension: Grant nearby allies 40% Movement Speed for 3 seconds (60 second cooldown).",
+  "description": "Item that provides Health, Ability Haste, Attack Damage, Ability Power, Ability Haste. Active effect: Grant nearby allies 40% Movement Speed for 3 seconds (60 second cooldown).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Ancient Coin"
+  ],
+  "tags": [
+    "Health",
+    "CDR",
+    "Support",
+    "Movement",
+    "Aura"
+  ],
+  "tips": [
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights",
+    "Helps with both engaging and disengaging from unfavorable situations",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

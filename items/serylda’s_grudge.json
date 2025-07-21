@@ -1,0 +1,43 @@
+{
+  "name": "Serylda's Grudge",
+  "stats": {
+    "attack_damage": {
+      "value": 45,
+      "type": "flat"
+    },
+    "armor_penetration": {
+      "value": 30,
+      "type": "percentage"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    }
+  },
+  "cost": 3200,
+  "passive": "Bitter Cold: Damaging an enemy champion with an Ability slows them by 30% for 1 second.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Ability Haste. Passive effect: Damaging an enemy champion with an Ability slows them by 30% for 1 second.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Last Whisper",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Armor Penetration",
+    "CDR",
+    "Slow"
+  ],
+  "tips": [
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses",
+    "Great for assassins looking to eliminate priority targets",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

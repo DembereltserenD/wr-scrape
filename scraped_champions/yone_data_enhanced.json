@@ -1,0 +1,430 @@
+{
+  "champion": {
+    "id": "363-yone",
+    "name": "Yone",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin / Fighter</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-09/1662399235_yone_0_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-09/1662399235_yone_0_11zon.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 54.0,
+      "per_level": 4.0
+    },
+    "health": {
+      "base": 650.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 1.0
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "mana_regeneration": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 43.0,
+      "per_level": 4.4
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 165.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "WAY OF THE HUNTER",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) WAY OF THE HUNTER\n                                Steel and Spirit: Every other attack deals 50% of the attack's damage as magic damage instead.Intent: Yone's Critical Rate  is doubled. Yone converts Critical Rate above 100% into Attack Damage at a rate of 0.6 Attack Damage per 1% Critical Rate.",
+      "damage": [
+        50
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662399280_yone_way_of_the_hunter.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) MORTAL STEEL",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) MORTAL STEEL\n 4s  \n                                \n                                \n                                Thrusts forward, dealing 84 physical damage (30/50/70/90 + 100%  (Crit Damage with  Infinity Edge: + 205%  )). Mortal Steel is treated as an attack: it can Critically Strike for bonus damage and applies on-hit effects to all units hit. Cooldown and cast time are reduced by Attack Speed.Damage to monsters: 70%.Grants a stack of Gathering Storm if the thrust damages an enemy. At 12 stacks, Mortal Steel dashes Yone forward and launches a whirlwind that knocks enemies Airborne.",
+      "damage": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662399239_yone_mortal_steel.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) SPIRIT CLEAVE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) SPIRIT CLEAVE\n 14s  \n                                \n                                \n                                Cleaves in a cone, dealing 25/35/45/55 plus 11/12/13/14% of the target's maximum Health as physical and magic damage.Gains a shield that absorbs 50 damage (50 + 85% bonus ) for 1.5 seconds if Spirit Cleave hits an enemy, increased by 100% on hitting a champion and 40% on subsequent champion hits.Deals 60~200 () minimum damage against minions.Deals 30~280 () maximum damage against monsters.",
+      "damage": [
+        25,
+        35,
+        45,
+        55
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662399275_yone_spirit_cleave.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) SOUL UNBOUND",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) SOUL UNBOUND\n 20/17/14/11s  \n                                \n                                \n                                Dashes forward, entering Spirit Form and leaving his body behind for 5 seconds.During Spirit Form, Yone gains 10% Movement Speed that increases over the duration and marks champions damaged with his attacks or abilities.When Soul Unbound ends, Yone returns to his body and marked enemies take 24/28/32/36% of the damage Yone dealt to them as true damage.Re-cast: End Soul Unbound early.",
+      "damage": [
+        20,
+        17,
+        14,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662399268_yone_soul_unbound.webp",
+      "notes": [
+        "duration and marks champions damaged with his attacks or abilities"
+      ]
+    },
+    "r": {
+      "name": "(R) FATE SEALED",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) FATE SEALED\n 80s  \n                                \n                                \n                                Strikes all enemies along a path for 244 (200/350/500 + 80% ) physical and magical damage, teleporting behind the last champion hit and knocking them towards Yone.",
+      "damage": [
+        200,
+        350,
+        500
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662399309_yone_fate_sealed.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Berserker's Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Blade Of The Ruined King",
+      "Berserker's Greaves",
+      "Bloodthirster",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Blade Of The Ruined King",
+      "Berserker's Greaves",
+      "Bloodthirster",
+      "Navori Quickblades",
+      "Trinity Force",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Berserker's Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [
+      {
+        "lane": "Baron Lane",
+        "core_items": [
+          "Blade Of The Ruined King",
+          "Berserker's Greaves"
+        ],
+        "description": "Alternative build for Baron Lane"
+      },
+      {
+        "lane": "Jungle",
+        "core_items": [
+          "Blade Of The Ruined King",
+          "Berserker's Greaves"
+        ],
+        "description": "Alternative build for Jungle"
+      }
+    ],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Berserker's Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserker's Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Blade Of The Ruined King",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade Of The Ruined King",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Berserker's Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserker's Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Blade Of The Ruined King",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade Of The Ruined King",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Berserker's Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserker's Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Navori Quickblades",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Navori Quickblades",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Trinity Force",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Trinity Force",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranth's Twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranth's Twinguard",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Lethal Tempo",
+      "runes": [
+        "Legend: Alacrity",
+        "Coup de Grace"
+      ],
+      "keystone_detailed": {
+        "name": "Lethal Tempo",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Lethal Tempo",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Legend: Alacrity",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Alacrity",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "name": "Coup de Grace",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Coup de Grace",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Second Wind",
+        "Bone Plating"
+      ],
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, heal over time based on missing health.",
+          "stats": {
+            "healing": "4 + 2.5% missing health over 10s"
+          },
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: YONE Build Guide A A REWORKED 176 19 195 126 908 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift YONE , role - Assassin / Fighter",
+    "Use the guidelines to take your YONE Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid YONE Build items and runes The information below will help you get familiar with the game on the Mid Line YONE",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "100%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

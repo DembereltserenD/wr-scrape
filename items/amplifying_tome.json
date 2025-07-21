@@ -1,0 +1,26 @@
+{
+  "name": "Amplifying Tome",
+  "stats": {
+    "ability_power": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 435,
+  "passive": "",
+  "active": "",
+  "description": "Basic ability power component. Used to build into many AP items. Essential early game purchase for AP champions.",
+  "category": "component",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Magic"
+  ],
+  "tips": [
+    "Perfect for champions who rely heavily on abilities",
+    "The cooldown reduction/ability haste maximizes spell uptime",
+    "Synergizes well with champions who have low cooldowns"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

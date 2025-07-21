@@ -1,0 +1,32 @@
+{
+  "name": "Void Staff",
+  "stats": {
+    "ability_power": {
+      "value": 70,
+      "type": "flat"
+    }
+  },
+  "cost": 2700,
+  "passive": "Dissolve: Magic damage ignores 40% of the target's Magic Resist.",
+  "active": "",
+  "description": "Item that provides Ability Power. Passive effect: Magic damage ignores 40% of the target's Magic Resist.. A versatile item that can benefit many champion types.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Blasting Wand",
+    "Magic Penetration"
+  ],
+  "tags": [
+    "Magic",
+    "Magic Penetration"
+  ],
+  "tips": [
+    "Essential against teams building magic resistance",
+    "The percentage penetration scales well into late game",
+    "Great for maintaining damage relevance as MR increases",
+    "Consider building this as a second or third item on mages",
+    "Particularly effective when enemies have over 100 MR"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

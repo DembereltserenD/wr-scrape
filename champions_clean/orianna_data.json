@@ -1,0 +1,205 @@
+{
+  "champion": {
+    "id": "33-orianna",
+    "name": "Orianna",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607438168_orianna_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607438168_orianna_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 46.0,
+      "per_level": 2.7
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.6
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 435.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 1.1
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 28.0,
+      "per_level": 4.0
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "CLOCKWORK WINDUP",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) CLOCKWORK WINDUP\n                                Orianna's Ball acts as a focal point for her abilities. It automatically returns to her if she is too far away from it.Attacks deal 13 bonus magic damage (10 (+3 ) + 15% ). Subsequent attacks against the same target within 4 seconds deal an additional 3 magic damage (3 (+0,5 ) + 3% ). Stacks up to 2 times.",
+      "damage": [
+        13
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606428734_orianna_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) COMMAND: ATTACK",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) COMMAND: ATTACK\n 7,5/6/4,5/3s   30/35/40/45 \n                                \n                                \n                                Commands the Ball to fire toward a target location, dealing 60 magic damage (60/105/150/195 + 45% ) to targets along the way. The damage decreases by 10% for each unit it hits (Minimum 50%).The Ball remains at the target location afterward.",
+      "damage": [
+        5,
+        6,
+        4
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606428713_orianna_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) COMMAND: DISSONANCE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) COMMAND: DISSONANCE\n 7s   70/80/90/100 \n                                \n                                \n                                Commands the Ball to release an electric pulse, dealing 60 magic damage (60/100/140/180 + 45% ) to nearby enemies.The pulse leaves behind an energy field for 3 seconds, slowing enemies by 20/25/30/35% and speeding allies up by 20/25/30/35% for 2 seconds. The effect diminishes over time.",
+      "damage": [
+        70,
+        80,
+        90,
+        100
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606428668_orianna_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) COMMAND: PROTECT",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) COMMAND: PROTECT\n 9s   60 \n                                \n                                \n                                Passive: The Ball grants 10/15/20/25 Armor and Magic Resist to the champion it is attached to.Active: Commands the Ball to attach to an allied champion, granting a shield that absorbs 60 damage (60/110/160/210 + 40% ) for 4s, dealing 60 magic damage (50/90/130/170 + 30% ) to enemies it passes through.",
+      "damage": [
+        10,
+        15,
+        20,
+        25
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606428697_orianna_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) COMMAND: SHOCKWAVE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) COMMAND: SHOCKWAVE\n 75/65/55s   100 \n                                \n                                \n                                Commands the Ball to unleash a shockwave, dealing 200 magic damage (250/350/450 + 85% ) and launching nearby enemies toward the Ball after a brief delay.",
+      "damage": [
+        75,
+        65,
+        55
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606428738_orianna_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Archangel's Staff",
+      "Boots Of Mana",
+      "Luden's Echo",
+      "Stasis Enchant",
+      "Seraph's Embrace",
+      "Rabadon's Deathcap"
+    ],
+    "example_build": [
+      "Seraph's Embrace",
+      "Seraph's Embrace Staff",
+      "Boots Of Mana",
+      "Luden's Echo",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": []
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: ORIANNA Build Guide S ADJUSTED 144 8 152 73 121 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift ORIANNA , role - Mage / Support",
+    "Use the guidelines to take your ORIANNA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid ORIANNA Build items and runes The information below will help you get familiar with the game on the Mid Line ORIANNA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

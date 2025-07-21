@@ -1,0 +1,347 @@
+{
+  "champion": {
+    "id": "388-rell",
+    "name": "Rell",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Tank</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-10/1665251363_rell_0_5_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-10/1665251363_rell_0_5_11zon.webp"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "BREAK THE MOLD",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) BREAK THE MOLD\n                                Rell attacks slowly but steals her target's Armor and Magic Resist on hit, dealing bonus damage based on the amount stolen.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251452_rell_break_the_mold.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) SHATTERING STRIKE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) SHATTERING STRIKE\nRell thrusts her lance to deal magic damage to units in a line, breaking their Shields. The first unit hit additionally suffers Break the Mold's defense steal. If Rell is bound to an ally with Attract and Repel, they both recover health for each enemy champion hit by this spell.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251431_rell_shattering_strike.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) FERROMANCY: CRASH DOWN",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) FERROMANCY: CRASH DOWN\nPassive: Rell gains additional Move Speed while mounted and additional Armor and Magic Resist while armored. Active: Rell changes forms, casting a different spell based on form. Mounted: Rell crashes down in her armor, knocking enemies up and gaining a large shield. Armored: Rell forms her mount, gaining a burst of speed and flipping the next enemy she attacks.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251439_rell_ferromancy-_crash_down.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) ATTRACT AND REPEL",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) ATTRACT AND REPEL\nRell binds a piece of her Armor to another allied champion to grant them Armor and Magic Resist while near. While she has an ally bound in this way, Rell can cast this ability without targeting an allied champion to snap the binding and Stun enemies caught in it.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251500_rell_attract_and_repel.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) MAGNET STORM",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) MAGNET STORM\nRell explodes in a magnetic fury, violently Pulling nearby enemies towards herself. Then Rell constantly Drags nearby enemies towards herself for a short while, dealing magic damage over time.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251486_rell_magnet_storm.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [],
+    "core_items": [
+      "Rell",
+      "Archangels-staff",
+      "Rabadons-deathcap",
+      "Staff-of-flowing-water",
+      "Black-cleaver",
+      "Blade-of-the-ruined-king"
+    ],
+    "boots": [
+      "Ionian-boots-of-lucidity",
+      "Mercurys-treads",
+      "Boots-of-dynamism",
+      "Berserkers-greaves",
+      "Quicksilver-enchant",
+      "Teleport-enchant",
+      "Locket-enchant"
+    ],
+    "situational_items": [
+      "Chempunk-chainsword",
+      "Amaranths-twinguard"
+    ],
+    "example_build": [],
+    "enchants": [
+      "Gargoyle-enchant",
+      "Glorious-enchant",
+      "Protobelt-enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "core_items_detailed": [
+      {
+        "name": "Rell",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Rell",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Archangels-staff",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Archangels-staff",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Rabadons-deathcap",
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45%",
+        "active": "",
+        "description": "Details for Rabadons-deathcap",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Staff-of-flowing-water",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Staff-of-flowing-water",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Black-cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black-cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Blade-of-the-ruined-king",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade-of-the-ruined-king",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Ionian-boots-of-lucidity",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Ionian-boots-of-lucidity",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Mercurys-treads",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          },
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of crowd control effects by 30%",
+        "active": "",
+        "description": "Details for Mercurys-treads",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Boots-of-dynamism",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots-of-dynamism",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Berserkers-greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserkers-greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver-enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver-enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Teleport-enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Teleport-enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Locket-enchant",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Locket-enchant",
+        "category": "support",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Chempunk-chainsword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Chempunk-chainsword",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranths-twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranths-twinguard",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": [],
+      "runes_detailed": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for RELL: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\"> <meta property=\"og:url\" content=\"https://wr-meta",
+    "Tips Con Game Plan Power Spikes RELL Build items and runes The information below will help you get familiar with the game on the  Line RELL",
+    "TIPS --> RELL Tips <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "Strategy and Tactics <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "TIPS --> Wild Rift RELL Ability and Tips <img class=\"xfieldimage lazy-loaded pasiv-img\" data-src=\"/uploads/posts/2022-10/1665251452_rell_break_the_mold"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

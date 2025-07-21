@@ -1,0 +1,40 @@
+{
+  "name": "Yordle Infinity Orb",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "magic_penetration": {
+      "value": 7,
+      "type": "percentage"
+    }
+  },
+  "cost": 2900,
+  "passive": "Destiny: +5% Move Speed. Balanced: +15 Magic Penetration. Inevitable Demise: Abilities and empowered attacks Critically Strike for 20% bonus damage against enemies below 35% Health. Thunderfall: When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealing magic damage equal to 50-85 (+20% AP) to nearby enemies.",
+  "active": "",
+  "description": "This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+  "category": "legendary",
+  "tier": "S",
+  "build_path": [
+    "Blasting Wand",
+    "Magic Penetration"
+  ],
+  "tags": [
+    "Magic",
+    "Magic Penetration",
+    "Execute",
+    "Movement Speed",
+    "Critical Strike",
+    "AOE"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

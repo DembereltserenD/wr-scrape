@@ -1,0 +1,427 @@
+{
+  "champion": {
+    "id": "315-vejgar",
+    "name": "Veigar",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2024-08/1722725060_veigar_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2024-08/1722725060_veigar_11zon.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.6
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.6
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 480.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 16.0,
+      "per_level": 1.1
+    },
+    "movement_speed": {
+      "base": 360.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 37.0,
+      "per_level": 4.0
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "PHENOMENAL EVIL POWER",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) PHENOMENAL EVIL POWER\n                                Hitting an Enemy Champion with a spell grants Veigar 1 stack of Phenomenal Evil.Killing minions or monsters with a spell grants Veigar 1 stack of Phenomenal Evil.Champion takedowns grant Veigar 7 stacks of Phenomenal Evil.Each stack of Phenomenal Evil grants 1 Ability Power.",
+      "damage": [
+        1
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641890652_veigar_0-min.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BALEFUL STRIKE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BALEFUL STRIKE\n 5.5/5/4.5/4s   35/40/45/50 \n                                \n                                \n                                Veigar unleashes a bolt of dark energy, dealing 65 magic damage (65/125/185/245 + 55/60/65/70% ) to the first two enemies hit.",
+      "damage": [
+        5,
+        5,
+        4
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641890551_veigar_1-min.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) DARK MATTER",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) DARK MATTER\n 8s   65/70/75/80 \n                                \n                                \n                                Veigar summons dark matter from the sky, dealing 100 magic damage (100/160/220/280 + 95% ).Every 50 stacks of Phenomenal Evil reduce this ability's cooldown by 10%.",
+      "damage": [
+        65,
+        70,
+        75,
+        80
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641890630_veigar_2-min.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) EVENT HORIZON",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) EVENT HORIZON\n 18/17/16/15s   75/80/85/90 \n                                \n                                \n                                Veigar creates a cage that stuns enemies that pass through for 1.75/2/2.25/2.5 seconds. The cage lasts for 3 seconds.Veigar's auto casts will prioritize targets stunned by Event Horizon.",
+      "damage": [
+        18,
+        17,
+        16,
+        15
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641890677_veigar_3-min.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) PRIMORDIAL BURST",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) PRIMORDIAL BURST\n 60/55/50s   100 \n                                \n                                \n                                Veigar blasts an Enemy Champion with primal magic to deal 185 magic damage (185/250/315 + 75% ) to them, increased by 0% - 100% based on the target's missing health.Deals max damage to enemies below 35% health.",
+      "damage": [
+        60,
+        55,
+        50
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641890626_veigar_4-min.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Stasis Enchant",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen"
+    ],
+    "example_build": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen",
+      "Soulstealer"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Amplifying Tome",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amplifying Tome",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Infinity Orb",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "active": "",
+        "description": "Details for Infinity Orb",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      },
+      {
+        "name": "Crown Of The Shattered Queen",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Crown Of The Shattered Queen",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Infinity Orb",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "active": "",
+        "description": "Details for Infinity Orb",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      },
+      {
+        "name": "Crown Of The Shattered Queen",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Crown Of The Shattered Queen",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Soulstealer",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Soulstealer",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Domination",
+      "keystone": "Electrocute",
+      "runes": [
+        "Zombie Ward"
+      ],
+      "keystone_detailed": {
+        "name": "Electrocute",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Electrocute",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Zombie Ward",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Zombie Ward",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [
+        "Legend: Bloodline"
+      ],
+      "runes_detailed": [
+        {
+          "name": "Legend: Bloodline",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Bloodline",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: VEIGAR Build Guide A B ADJUSTED 55 6 61 52 559 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift VEIGAR , role - Mage",
+    "Use the guidelines to take your VEIGAR Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid VEIGAR Build items and runes The information below will help you get familiar with the game on the Mid Line VEIGAR",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

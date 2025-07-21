@@ -1,0 +1,50 @@
+{
+  "name": "Youmuu's Ghostblade",
+  "stats": {
+    "attack_damage": {
+      "value": 55,
+      "type": "flat"
+    },
+    "lethality": {
+      "value": 18,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 15,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 2900,
+  "passive": "Wraith Step: Gain 20% Movement Speed out of combat.",
+  "active": "Wraith Step: Gain 20% Movement Speed and ghosting for 6 seconds (45 second cooldown).",
+  "description": "Item that provides Attack Damage, Armor, Attack Speed, Ability Haste. Passive effect: Gain 20% Movement Speed out of combat.. Active effect: Gain 20% Movement Speed and ghosting for 6 seconds (45 second cooldown).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Serrated Dirk",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Lethality",
+    "Movement"
+  ],
+  "tips": [
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses",
+    "Great for assassins looking to eliminate priority targets",
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

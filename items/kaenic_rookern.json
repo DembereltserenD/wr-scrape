@@ -1,0 +1,43 @@
+{
+  "name": "Kaenic Rookern",
+  "stats": {
+    "health": {
+      "value": 400,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 80,
+      "type": "flat"
+    },
+    "health_regeneration": {
+      "value": 150,
+      "type": "percentage"
+    }
+  },
+  "cost": 2900,
+  "passive": "Magebane: After not taking magic damage for 4 seconds, gain a magic shield equal to 100% bonus Magic Resist. When the shield is broken, nearby enemies take magic damage.",
+  "active": "",
+  "description": "Item that provides Health, Magic Resist. Passive effect: After not taking magic damage for 4 seconds, gain a magic shield equal to 100% bonus Magic Resist. When the shield is broken, nearby enemies take magic damage.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Spectre's Cowl",
+    "Negatron Cloak"
+  ],
+  "tags": [
+    "Health",
+    "Magic Resist",
+    "Health Regen",
+    "Shield",
+    "Tank"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

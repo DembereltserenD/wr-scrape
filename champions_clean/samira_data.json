@@ -1,0 +1,212 @@
+{
+  "champion": {
+    "id": "330-samira",
+    "name": "Samira",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Marksman</b>",
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-06/1656270567_samira_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-06/1656270567_samira_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 62.0,
+      "per_level": 4.0
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.81,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 345.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 15.0,
+      "per_level": 0.5
+    },
+    "movement_speed": {
+      "base": 340.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 37.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 35.0,
+      "per_level": 1.4
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "DAREDEVIL IMPULSE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) DAREDEVIL IMPULSE\n                                Samira builds a combo by dealing damage with attacks or abilities against enemy champions unique from the previous one. Each one increases her Style from \"E\" to \"S\" grade 6 (total). Samira gains 4% (15% at max grade) Movement Speed per grade.Samira's attacks and abilities in milee range deal an additional 9 magic damage (6 + 3.5% ) increased to 17 magic damage (12+ 7% ) based on the target's missing health.Samira's attack against enemies affected by Immobilizing effects will dash her to her attack range. If the enemy is Knocked Up, she also keeps them Knocked Up for at least 0.5 seconds.",
+      "damage": [
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270689_samira_daredevil_impulse.webp",
+      "notes": [
+        "range deal an additional 9 magic damage (6 + 3",
+        "range"
+      ]
+    },
+    "q": {
+      "name": "(Q) FLAIR",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) FLAIR\n 6.5/5/3.5/2s   30 \n                                \n                                \n                                Samira fires a shot, dealing 77 physical damage (15/20/25/30 + 100/115/130/145% ) to the fist enemy hit.If this ability is cast towards an enemy in melee range, Samira will instead slash with her blade in a cone instead, dealing the same damage to all enemies within.Either hit can critically strike for 25% bonus damage.If cast during Wild Rush Samira will strike all enemies in fer path upon completion.",
+      "damage": [
+        5,
+        5,
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270709_samira_flair.webp",
+      "notes": [
+        "range, Samira will instead slash with her blade in a cone instead, dealing the same damage to all enemies within"
+      ]
+    },
+    "w": {
+      "name": "(W) BLADE WHIRL",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) BLADE WHIRL\n 22/20/18/16s   60 \n                                \n                                \n                                Samira slashes around her for 0.75 seconds, damaging enemies twice for 20 physical damage (20/40/60/80 + 80% bonus ) each and destroying any enemy missiles that enter the area.",
+      "damage": [
+        22,
+        20,
+        18,
+        16
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270750_samira_blade_whirl.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) WILD RUSH",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) WILD RUSH\n 20/17/14/11s   40 \n                                \n                                \n                                Samira dashes through an enemy (including structures), slashing enemies she passes through dealing 45 magic damage (45/60/75/90 + 20% bonus ) and gaining /35/40/45/50% attack speed for 3 seconds.If Samira scores a takedown, Wild Rush's cooldown is reset.Tapping this ability mid-dash will cast Flair.",
+      "damage": [
+        20,
+        17,
+        14,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270750_samira_wild_rush.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) INFERNO TRIGGER",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) INFERNO TRIGGER\n 8s   60/30/0 \n                                \n                                \n                                Samira can only use this ability if her current Style rating is S.Samira unleashes a torrent of shots from her weapons, reducing her Movement Speed by 30% while wildly shooting up 5 enemies around 10 times over 2.23 seconds, each shot dealing 36 physical damage (5/20/35 + 60% ). Each shot can critically strike.Deals 25% damage minions.",
+      "damage": [
+        60,
+        30,
+        0
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270785_samira_inferno_trigger_2.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Gluttonous Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "The Collector",
+      "Gluttonous Greaves",
+      "Bloodthirster",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "The Collector",
+      "Gluttonous Greaves",
+      "Bloodthirster",
+      "Infinity Edge",
+      "Mortal Reminder",
+      "Guardian Angel"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Bloodline"
+      ]
+    },
+    "secondary": {
+      "tree": "Domination",
+      "runes": [
+        "Sudden Impact"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: SAMIRA Build Guide A BUFFED 135 11 146 93 283 Damage Toughness Utility Difficulty League of Legends: Wild Rift SAMIRA , role - Marksman",
+    "Use the guidelines to take your SAMIRA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Adc SAMIRA Build items and runes The information below will help you get familiar with the game on the Adc Line SAMIRA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "10%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

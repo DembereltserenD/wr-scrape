@@ -1,0 +1,41 @@
+{
+  "name": "Tear of the Goddess",
+  "stats": {
+    "mana": {
+      "value": 240,
+      "type": "flat"
+    },
+    "mana_regeneration": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "attack_damage": {
+      "value": 25,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 400,
+  "passive": "Focus: Grants a charge every 8 seconds, up to 4 charges. Casting an ability consumes a charge and grants 12 bonus Mana, up to a maximum of 360 bonus Mana.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Ability Haste. Passive effect: Grants a charge every 8 seconds, up to 4 charges. Casting an ability consumes a charge and grants 12 bonus Mana, up to a maximum of 360 bonus Mana.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "C",
+  "build_path": [],
+  "tags": [
+    "Mana",
+    "Scaling"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Perfect for champions with high mana consumption",
+    "Helps sustain your presence in lane without frequent recalls"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

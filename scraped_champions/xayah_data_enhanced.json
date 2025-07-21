@@ -1,0 +1,399 @@
+{
+  "champion": {
+    "id": "165-xayah",
+    "name": "Xayah",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Marksman</b>",
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-02/1612222688_xayah_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-02/1612222688_xayah_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 54.0,
+      "per_level": 5.0
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.8
+    },
+    "attack_speed": {
+      "base": 0.81,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 435.0,
+      "per_level": 41.0
+    },
+    "mana_regeneration": {
+      "base": 30.0,
+      "per_level": 0.9
+    },
+    "movement_speed": {
+      "base": 335.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 40.0,
+      "per_level": 4.0
+    },
+    "magic_resistance": {
+      "base": 30.0,
+      "per_level": 1.4
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "CLEAN CUTS",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) CLEAN CUTS\n                                After using an ability, Xayah's next 3 attacks will hit all enemies along their path and drop Feathers she can recall. Xayah can store up to 5 Feathers at a time.Lover's Leap: Xayah and Rakan can join each other's recall. Both will reach the Summoning Platform at the time of which the initiator's recall ends.",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222808_xayahpassive-min.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) DOUBLE DAGGERS",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) DOUBLE DAGGERS\n 10/9/8/7s   50 \n                                \n                                \n                                Throws two daggers dealing 50 physical damage (50/75/100/125 + 50% bonus ) each and leaving two Feathers. Targets hit after the first take 50% damage.",
+      "damage": [
+        10,
+        9,
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222834_xayahq-min.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) DEADLY PLUMAGE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) DEADLY PLUMAGE\n 17/16/15/14s   50 \n                                \n                                \n                                Create a storm of blades for 4s that grants 45/50/55/60% Attack Speed and causes attacks to deal 20% more damage.If Deadly Plumage strikes an enemy champion, gain 25/30/35/40% Movement Speed for 1.5 seconds.If Rakan is nearby he will also gain the effects of this skill.",
+      "damage": [
+        17,
+        16,
+        15,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222817_xayahw-min.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) BLADECALLER",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) BLADECALLER\n 11/10/9/8s   40 \n                                \n                                \n                                Calls back all Feathers, dealing 60 physical damage (60/70/80/90 + 90% bonus ) to enemies they pass through. Hitting an enemy with 3 Feathers root them for 1.25s.Minions take 50% damage from Bladecaller.",
+      "damage": [
+        11,
+        10,
+        9,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222927_xayahe-min.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) FEATHERSTORM",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) FEATHERSTORM\n 80/70/60s   100 \n                                \n                                \n                                Leaps into the air, becoming untargetable and throwing out a fan of daggers which deal 125 physical damage (125/250/375 + 100% bonus ) and leave behind a line of FeathersCan move while in the air.",
+      "damage": [
+        80,
+        70,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222986_xayahr-min.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Gluttonous Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Bloodthirster",
+      "Gluttonous Greaves",
+      "Navori Quickblades",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Bloodthirster",
+      "Gluttonous Greaves",
+      "Navori Quickblades",
+      "Magnetic Blaster",
+      "Mortal Reminder",
+      "Trinity Force"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Navori Quickblades",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Navori Quickblades",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Navori Quickblades",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Navori Quickblades",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Magnetic Blaster",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Magnetic Blaster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Mortal Reminder",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Mortal Reminder",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Trinity Force",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Trinity Force",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Alacrity",
+        "Cut Down"
+      ],
+      "keystone_detailed": {
+        "name": "Conqueror",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Conqueror",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Legend: Alacrity",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Alacrity",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "name": "Cut Down",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Cut Down",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating"
+      ],
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: XAYAH Build Guide A ADJUSTED 234 16 250 117 929 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift XAYAH , role - Marksman",
+    "Use the guidelines to take your XAYAH Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Adc XAYAH Build items and runes The information below will help you get familiar with the game on the Adc Line XAYAH",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "20%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Yordle Trap",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "health": {
+      "value": 350,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 40,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 2800,
+  "passive": "Explosive Entrance: Immobilizing an enemy champion creates an explosion around them after 2 seconds, dealing magic damage to nearby enemies.",
+  "active": "",
+  "description": "Item that provides Ability Power, Health, Armor, Ability Haste. Passive effect: Immobilizing an enemy champion creates an explosion around them after 2 seconds, dealing magic damage to nearby enemies.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Blasting Wand",
+    "Giant's Belt"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "AOE",
+    "CC"
+  ],
+  "tips": [
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer",
+    "Great for champions who take extended trades",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy physical damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Boots-of-mana",
+  "stats": {
+    "movement_speed": {
+      "value": 45,
+      "type": "flat"
+    }
+  },
+  "cost": 1000,
+  "passive": "",
+  "active": "",
+  "description": "Movement speed boots that provide additional defensive or offensive benefits. Essential for mobility and positioning in Wild Rift.",
+  "category": "boots",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Movement"
+  ],
+  "tips": [
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights",
+    "Helps with both engaging and disengaging from unfavorable situations",
+    "The movement speed helps with map rotations and positioning",
+    "Consider these boots when facing teams with heavy mixed"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

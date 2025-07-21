@@ -1,0 +1,409 @@
+{
+  "champion": {
+    "id": "295-lucian",
+    "name": "Lucian",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Marksman</b>",
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-01/1641664119_6_29_2021_patch23barticle_classicwildriftsplash-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-01/1641664119_6_29_2021_patch23barticle_classicwildriftsplash-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 4.5
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.9
+    },
+    "attack_speed": {
+      "base": 0.81,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 15.0,
+      "per_level": 0.9
+    },
+    "movement_speed": {
+      "base": 345.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 37.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 35.0,
+      "per_level": 1.5
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "LIGHTSLINGER",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) LIGHTSLINGER\n                                After using an Ability, Lucian's next attack within 3.5 seconds will fire two shots.The second shot deals 40/52.5/65% (increasing at Level 1/6/11) physical damage, increased to 100%   against minions. The second shot is a separate Attack that deals on-hit effects and can critical strike.Vigilance: When healed or shielded by allied champions, or when a nearby enemy champion is immobilized, Lucian's next two attacks deal an additional 20 magic damage (20 + 10% )  (stores up to four empowered attacks).",
+      "damage": [
+        40,
+        52
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641664760_lucian_passive-min.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) PIERCING LIGHT",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) PIERCING LIGHT\n 9.5/8/6.5/5s   50/60/70/80 \n                                \n                                \n                                Shoots a bolt of piercing light through an enemy unit, damaging enemies in a line for 90 physical damage (90/135/180/225 + 65/85/105/125% bonus ).Decreases as attack speed increases (fastest when the bonus attack speed reaches 140%).",
+      "damage": [
+        5,
+        8,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641664770_lucianq-min.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) ARDENT BLAZE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) ARDENT BLAZE\n 13/11.5/10/8.5s   70 \n                                \n                                \n                                Fires a shot that explodes at the end of its range or on the first enemy hit, dealing 75 magic damage (75/125/175/225 + 90% ). briefly revealing enemies and marking them for 6 seconds.When Lucian or an ally damage a market enemy, Lucian gains 65/70/75/80 Movement Speed for 1 second. When allied champions trigger the mark, it grants Lucian Vigilance.",
+      "damage": [
+        13,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641664774_lucianw-min.png",
+      "notes": [
+        "range or on the first enemy hit, dealing 75 magic damage (75/125/175/225 + 90% )"
+      ]
+    },
+    "e": {
+      "name": "(E) RELENTLESS PURSUIT",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) RELENTLESS PURSUIT\n 20.5/18/15.5/13s   45/30/15/0 \n                                \n                                \n                                Quickly dashes a short distance.Cooldown is reduced by 1 second whenever Lucian hits an enemy with Lightslinger (2 seconds for champions).",
+      "damage": [
+        5,
+        18,
+        15
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641664791_luciane-min.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) THE CULLING",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) THE CULLING\n 70/65/60s   100 \n                                \n                                \n                                Fires rapidly in a direction for 3 seconds. Each shot deals 36 physical damage (20/40/60 + 25%  + 10% ) to the first enemy hit. Total 729 physical damage.Number of shots: 22/26/30.Lucian may use Relentless Pursuit during the Culling.Recast to cancel early.Minions take 200% damage from The Culling.",
+      "damage": [
+        70,
+        65,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641664881_lucianr-min.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Gluttonous Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Infinity Edge",
+      "Gluttonous Greaves",
+      "Solari Chargeblade",
+      "Protobelt Enchant"
+    ],
+    "example_build": [
+      "Infinity Edge",
+      "Gluttonous Greaves",
+      "Solari Chargeblade",
+      "Magnetic Blaster",
+      "Terminus",
+      "Bloodthirster"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Protobelt Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "description": "Core item for critical strike-based marksmen. Provides high attack damage and critical strike chance while amplifying critical strike damage. Essential for ADCs who want to maximize their late-game damage potential.",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Solari Chargeblade",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Solari Chargeblade",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Protobelt Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Protobelt Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "description": "Core item for critical strike-based marksmen. Provides high attack damage and critical strike chance while amplifying critical strike damage. Essential for ADCs who want to maximize their late-game damage potential.",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Solari Chargeblade",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Solari Chargeblade",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Magnetic Blaster",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Magnetic Blaster",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Terminus",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Terminus",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Bone Plating"
+      ],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [
+        "Legend: Bloodline",
+        "Coup de Grace"
+      ],
+      "runes_detailed": [
+        {
+          "name": "Legend: Bloodline",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Bloodline",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "name": "Coup de Grace",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Coup de Grace",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: LUCIAN Build Guide SP S BUFFED 88 8 96 119 705 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift LUCIAN , role - Marksman",
+    "Use the guidelines to take your LUCIAN Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Adc LUCIAN Build items and runes The information below will help you get familiar with the game on the Adc Line LUCIAN",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "35%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "23barticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

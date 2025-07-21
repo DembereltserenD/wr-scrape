@@ -1,0 +1,419 @@
+{
+  "champion": {
+    "id": "24-aurelion-sol",
+    "name": "Aurelion Sol",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437747_aurelionsol_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437747_aurelionsol_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 52.0,
+      "per_level": 2.7
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.7
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 435.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 9.0,
+      "per_level": 1.1
+    },
+    "movement_speed": {
+      "base": 345.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 34.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "Cosmic Creator",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) Cosmic Creator\n                                Casting damaging abilities against enemies grants stacks of Stardust, which empower Aurelion Sol's abilities.Breath of Light: This ability's bursts deal bonus magic damage equal to 0% (2.5% of Stardust stacks) of the target's max Health.Astral Flight: Increases max flight distance by 0% (62.5% of Stardust stacks).Singularity: Increases the ability's impact area by 0% (15% of Stardust stacks) and execution threshold by 0% (2.1% of Stardust stacks).Falling Star/The Skies Descend: Increases the ability's impact area by 0% (15% of Stardust stacks).",
+      "damage": [
+        0
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705605807_aurelion_sol_cosmic_creator.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) Breath of Light",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) Breath of Light\n 2.8s   10/14/18/22 \n                                \n                                \n                                Breathes starfire for 3.25 second(s), dealing 43 magic damage (43/58/73/88 + 60% ) per second to the first enemy hit and 50% of that damage to nearby enemies.For every 1 second(s) that the breath hits the same target, Aurelion Sol deals a burst of magic damage equal to 60(60/70/80/90 + 35% ) plus 0% (3% of Stardust stacks) of the target's max Health. If the target is a champion, Aurelion Sol gains 1 stacks of Stardust.Damage dealt based on the target's max Health is capped at 100 against monsters.Aurelion Sol can move slowly while casting this ability.At max ability level, this ability's duration is extended infinitely.If Aurelion Sol is interrupted within 0.25 second(s) of casting this ability, it will go into a 1-second cooldown.Deals 40% damage to monsters.",
+      "damage": [
+        10,
+        14,
+        18,
+        22
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705605847_aurelion_sol_breath_of_light.webp",
+      "notes": [
+        "duration is extended infinitely"
+      ]
+    },
+    "w": {
+      "name": "(W) Astral Flight",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) Astral Flight\n 20.8/18.9/17/15.1s   80/85/90/95 \n                                \n                                \n                                First Cast: Flies in a direction. While flying, Breath of Light has no cooldown or max channel duration, and deals 110/115/120/125% more damage.Recast: Ends the flight early.If a champion is killed within 3 second(s) of taking damage from Aurelion Sol, 90% of this ability's cooldown is refunded.Flight speed: 300 + 100% .Aurelion Sol's flight speed is reduced by 50% if Breath of Light is cast while flying.",
+      "damage": [
+        8,
+        18
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705605842_aurelion_sol_astral_flight.webp",
+      "notes": [
+        "duration, and deals 110/115/120/125% more damage"
+      ]
+    },
+    "e": {
+      "name": "(E) Singularity",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) Singularity\n 10.7s   80/85/90/95 \n                                \n                                \n                                Summons a black hole, dealing 20 magic damage (20/27.5/35/42.5 + 15% ) per second and dragging enemies toward the center of the black hole for 5 second(s).Enemies in the center die instantly when their Health falls below 5% (5 + 2.1% of Stardust stacks).For every second an enemy champion is trapped within the black hole's range, Aurelion Sol gains 1 stack(s) of Stardust. When enemies are killed within the black hole's range, Aurelion Sol gains 5 stack(s) of Stardust for every champion or epic monster killed; 5 stack(s) of Stardust for every siege minion or large monster killed; and 1 stack(s) of Stardust for every minion or small monster killed.",
+      "damage": [
+        80,
+        85,
+        90,
+        95
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705605903_aurelion_sol_singularity.webp",
+      "notes": [
+        "range, Aurelion Sol gains 1 stack(s) of Stardust",
+        "range, Aurelion Sol gains 5 stack(s) of Stardust for every champion or epic monster killed; 5 stack(s) of Stardust for every siege minion or large monster killed; and 1 stack(s) of Stardust for every minion or small monster killed"
+      ]
+    },
+    "r": {
+      "name": "(R) Falling Star",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) Falling Star\n 75.9/71.4/67s   100 \n                                \n                                \n                                Falling Star: Plucks a star from the heavens and crashes it into the earth, dealing 150 magic damage (150/250/350 + 65% ) and stunning enemies within range for 1 second(s). Gains 8 stack(s) of Stardust for every enemy champion hit.Whenever Aurelion Sol collects 65 stack(s) of Stardust, the next Falling Star transforms into The Skies Descend.The Skies Descend: Rains down cosmic fury on the earth, dealing 188 magic damage (188/313/438 + 82% ) over a larger area and knocking targets hit Airborne for 1 second(s).Also emits a huge shockwave at the same time, dealing 150 magic damage (150/250/350 + 65% ) to enemy champions and epic monsters and slowing all enemies hit by 50% for 1 second(s).",
+      "damage": [
+        9,
+        71
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705605886_aurelion_sol_falling_star.webp",
+      "notes": [
+        "range for 1 second(s)"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Rylai's Crystal Scepter",
+      "Boots Of Mana",
+      "Liandry's Torment",
+      "Stasis Enchant",
+      "Meteor Enchant",
+      "Rabadon's Deathcap"
+    ],
+    "example_build": [
+      "Rylai's Crystal Scepter",
+      "Boots Of Mana",
+      "Liandry's Torment",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen",
+      "Riftmaker"
+    ],
+    "enchants": [
+      "Stasis Enchant",
+      "Meteor Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Amplifying Tome",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amplifying Tome",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Rylai's Crystal Scepter",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Rylai's Crystal Scepter",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Liandry's Torment",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Liandry's Torment",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Meteor Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Meteor Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Rylai's Crystal Scepter",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Rylai's Crystal Scepter",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Liandry's Torment",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Liandry's Torment",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      },
+      {
+        "name": "Crown Of The Shattered Queen",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Crown Of The Shattered Queen",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Riftmaker",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Riftmaker",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Bone Plating",
+        "Overgrowth"
+      ],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        },
+        {
+          "name": "Overgrowth",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Overgrowth",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "",
+      "runes": [],
+      "runes_detailed": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: AURELION SOL Build Guide S ADJUSTED 203 20 223 88 354 24 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift AURELION SOL , role - Mage",
+    "Use the guidelines to take your AURELION SOL Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid AURELION SOL Build items and runes The information below will help you get familiar with the game on the Mid Line AURELION SOL",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "65%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

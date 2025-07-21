@@ -1,0 +1,42 @@
+{
+  "name": "Locket of the Iron Solari",
+  "stats": {
+    "armor": {
+      "value": 30,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 30,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 10,
+      "type": "percentage"
+    }
+  },
+  "cost": 2200,
+  "passive": "",
+  "active": "Devotion: Grant nearby allies a shield that absorbs damage for 2.5 seconds (90 second cooldown).",
+  "description": "Item that provides Armor, Magic Resist, Ability Haste. Active effect: Grant nearby allies a shield that absorbs damage for 2.5 seconds (90 second cooldown).. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Aegis of the Legion"
+  ],
+  "tags": [
+    "Armor",
+    "Magic Resist",
+    "CDR",
+    "Support",
+    "Shield"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

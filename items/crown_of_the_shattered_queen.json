@@ -1,0 +1,46 @@
+{
+  "name": "Crown of the Shattered Queen",
+  "stats": {
+    "ability_power": {
+      "value": 70,
+      "type": "flat"
+    },
+    "health": {
+      "value": 250,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Safeguard: Reduce damage from champions by 40% for 1.5 seconds after taking champion damage (40 second cooldown). While Safeguard is active, gain 10-40 Ability Power.",
+  "active": "ability reduces Safeguard's cooldown by 4s. 3000\n\n\nCrown of the Shattered Queen TIPS: This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+  "description": "Item that provides Ability Power, Health, Ability Haste, Ability Haste. Passive effect: Reduce damage from champions by 40% for 1.5 seconds after taking champion damage (40 second cooldown). While Safeguard is active, gain 10-40 Ability Power.. Active effect: This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Lost Chapter",
+    "Ruby Crystal"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "CDR",
+    "Damage Reduction"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

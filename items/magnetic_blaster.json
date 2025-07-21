@@ -1,0 +1,50 @@
+{
+  "name": "Magnetic Blaster",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 30,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 35,
+      "type": "percentage"
+    },
+    "critical_chance": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "movement_speed": {
+      "value": 60,
+      "type": "flat"
+    }
+  },
+  "cost": 2700,
+  "passive": "Magnetic Field: Enemies that attack you are slowed by 15% for 1.5 seconds. This effect stacks up to 3 times.",
+  "active": "",
+  "description": "Item that provides Ability Power, Armor, Attack Speed, Movement Speed. Passive effect: Enemies that attack you are slowed by 15% for 1.5 seconds. This effect stacks up to 3 times.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Blasting Wand",
+    "Cloth Armor"
+  ],
+  "tags": [
+    "Magic",
+    "Armor",
+    "Slow",
+    "Defensive"
+  ],
+  "tips": [
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights",
+    "Helps with both engaging and disengaging from unfavorable situations",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy physical damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

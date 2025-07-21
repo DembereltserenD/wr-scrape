@@ -1,0 +1,51 @@
+{
+  "name": "Frozen Heart",
+  "stats": {
+    "armor": {
+      "value": 80,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 400,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 36,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 25,
+      "type": "flat"
+    }
+  },
+  "cost": 2700,
+  "passive": "Winter's Caress: Reduces Attack Speed of nearby enemies by 15%. When struck by a basic attack, reduces the attacker's Attack Speed by an additional 15% for 1 second.",
+  "active": "",
+  "description": "Tank item providing Armor, Mana, and Ability Haste with attack speed reduction auras. Excellent against auto-attack heavy compositions, reducing both your damage taken and nearby enemies' attack speed.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Warden's Mail",
+    "Glacial Shroud"
+  ],
+  "tags": [
+    "Armor",
+    "Mana",
+    "CDR",
+    "Tank",
+    "Aura"
+  ],
+  "tips": [
+    "Perfect against teams with multiple auto-attack champions",
+    "The aura affects all nearby enemies, great for team fights",
+    "Provides mana for ability-hungry tanks like Malphite or Maokai",
+    "The attack speed reduction stacks with the passive slow effect",
+    "Great on champions who want to stay in the middle of fights"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

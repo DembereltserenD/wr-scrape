@@ -1,0 +1,46 @@
+{
+  "name": "Malignance",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "health": {
+      "value": 600,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 2800,
+  "passive": "Haunt: Damaging an enemy champion with your Ultimate ability deals bonus magic damage and burns the ground beneath them for 4 seconds.",
+  "active": "",
+  "description": "Item that provides Ability Power, Health, Ability Haste, Ability Haste. Passive effect: Damaging an enemy champion with your Ultimate ability deals bonus magic damage and burns the ground beneath them for 4 seconds.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Kindlegem",
+    "Blasting Wand"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "CDR",
+    "Ultimate Enhancement"
+  ],
+  "tips": [
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer",
+    "Great for champions who take extended trades",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

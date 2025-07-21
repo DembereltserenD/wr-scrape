@@ -1,0 +1,206 @@
+{
+  "champion": {
+    "id": "23-shyvana",
+    "name": "Shyvana",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter / Tank</b>",
+    "lanes": [
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437725_shyvana_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437725_shyvana_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 4.6
+    },
+    "health": {
+      "base": 660.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.9
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "mana_regeneration": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 46.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "FURY OF THE DRAGONBORN",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) FURY OF THE DRAGONBORN\n                                Slaying a Large Monster grants 10 stacks of Draconic Bloodline.Champion takedowns or slaying the Rift Herald or Baron Nashor grants 15 stacks of Draconic Bloodline.Slaying a Dragon grants 35 Draconic Bloodline.Every 100 stacks of Draconic Bloodline enhances one of Shyvana's abilities.",
+      "damage": [
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606390622_shyvana_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) TWIN BITE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) TWIN BITE\n 8.5/7.5/6.5/5.5s  \n                                \n                                \n                                Empowers Shyvana's next attack to strike twice, dealing 58 (100% ) and 12 (20/40/60/80% ) physical damage respectively. Attacks reduce the Cooldown of Twin Bite by 0.5 seconds.Dragon Form: Strikes in a larger area and applies on-hits to all enemies.Acquiring 100 stacks of Draconic Bloodline grants Weight of the Mountain, causing Twin Bite to slow enemies hit by 50% while in Dragon Form.",
+      "damage": [
+        5,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606390598_shyvana_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) BURNOUT",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) BURNOUT\n 15/14/13/12s  \n                                \n                                \n                                Deals 40 magic damage (40/55/70/85 + 30% bonus ) per second to nearby enemies and hastes Shyvana by 30/35/40/45%, decaying over 3 seconds. Attacking extends the duration of Burnout by 4 seconds.Dragon Form: Expands the flames, dealing damage in a larger area.Acquiring 200 stacks of Draconic Bloodline, grants Wings of the Cloud, causing Burnout to haste Shyvana by an additional 25% while in Dragon Form.",
+      "damage": [
+        15,
+        14,
+        13,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606390660_shyvana_2.jpg",
+      "notes": [
+        "duration of Burnout by 4 seconds"
+      ]
+    },
+    "e": {
+      "name": "(E) FLAME BREATH",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) FLAME BREATH\n 11/9.8/8.8/7.8s  \n                                \n                                \n                                Launches a fireball that deals 78 magic damage (60/110/160/210 + 30%  + 40% ) to enemies hit and Scorches them for 5 seconds. Shyvana's attacks on Scorched enemies deal bonus magic damage equal to 3% of their max health.Dragon Form: The fireball explodes on impact, dealing 139 magic damage (110 + 50%  + 70% ) in an area and leaving a fire for 4 seconds that deals 40 magic damage (34 + 10%  + 20% ) and Scorches enemies within it.Acquiring 300 stacks of Draconic Bloodline, grants Breath of the Infernal, converting the damage dealt to Scorched enemies to True Damage while in Dragon Form.",
+      "damage": [
+        11,
+        9
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606390629_shyvana_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) DRAGON'S DESCENT",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) DRAGON'S DESCENT\n 1s  \n                                \n                                 100 \n                                Passive: Generate 1.5/2/2.5 Fury per second and 2 Fury per attack. At 100 Fury Shyvana can cast Dragon's Descent. Shyvana remains in Dragon form until she has consumed all of the Fury.Active: Transform into a Dragon, gaining 300/400/500 Health and flying to a target location. Enemies along Shyvana's path take 150 magic damage (150/250/350 + 80% ) and are knocked towards her landing point.Acquiring 400 stacks of Draconic Bloodline, grants Life of the Ocean, gaining 15% Omnivamp  in Dragon Form.",
+      "damage": [
+        5,
+        2,
+        2
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606390612_shyvana_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Mercury's Treads",
+      "Plated Steelcaps",
+      "Stoneplate Enchant"
+    ],
+    "situational_items": [
+      "Trinity Force",
+      "Mercury's Treads",
+      "Wit's End",
+      "Plated Steelcaps"
+    ],
+    "example_build": [
+      "Trinity Force",
+      "Mercury's Treads",
+      "Wit's End",
+      "Sundered Sky",
+      "Sterak's Gage",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Bloodline"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Overgrowth"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: SHYVANA Build Guide A BUFFED 166 15 181 88 236 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift SHYVANA , role - Fighter / Tank",
+    "Use the guidelines to take your SHYVANA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Jungle Path Jungle SHYVANA Build items and runes The information below will help you get familiar with the game on the Jungle Line SHYVANA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "100%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "ing",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

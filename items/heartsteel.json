@@ -1,0 +1,36 @@
+{
+  "name": "Heartsteel",
+  "stats": {
+    "armor": {
+      "value": 60,
+      "type": "flat"
+    },
+    "health": {
+      "value": 350,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 2700,
+  "passive": "requires a 2.5-second charge when near an enemy champion, after which your next strike deals significant bonus physical damage based on your max health and grants you 15% of the damage dealt as bonus health. This allows you to both absorb damage and heal during skirmishes, making the item an excellent choice for extended fights and closing out teamfights.  Excellent synergy with Spirit Visage: the healing amplification and regeneration boost from Spirit Visage further enhance the health restoration from this item’s passive, providing incredible survivability and sustain in combat.",
+  "active": "",
+  "description": "Item that provides Armor, Health, Ability Haste. Passive effect: the healing amplification and regeneration boost from Spirit Visage further enhance the health restoration from this item’s passive, providing incredible survivability and sustain in combat.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Health"
+  ],
+  "tips": [
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer",
+    "Great for champions who take extended trades",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy physical damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

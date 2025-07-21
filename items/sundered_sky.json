@@ -1,0 +1,44 @@
+{
+  "name": "Sundered Sky",
+  "stats": {
+    "attack_damage": {
+      "value": 50,
+      "type": "flat"
+    },
+    "health": {
+      "value": 300,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 3100,
+  "passive": "Lightshield Strike: After using an ability, your next attack deals bonus physical damage based on target's missing Health and heals you (1.5 second cooldown).",
+  "active": "",
+  "description": "Item that provides Attack Damage, Health, Ability Haste. Passive effect: After using an ability, your next attack deals bonus physical damage based on target's missing Health and heals you (1.5 second cooldown).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Phage",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "Ability Haste",
+    "Healing",
+    "Spellblade"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

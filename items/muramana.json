@@ -1,0 +1,46 @@
+{
+  "name": "Muramana",
+  "stats": {
+    "attack_damage": {
+      "value": 35,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 860,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 15,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 2900,
+  "passive": "Awe: Gain bonus Attack Damage equal to 2% maximum Mana. Shock: Basic attacks and single target abilities against champions consume 3% current Mana to deal bonus physical damage.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Ability Haste, Ability Haste. Passive effect: Gain bonus Attack Damage equal to 2% maximum Mana. Shock: Basic attacks and single target abilities against champions consume 3% current Mana to deal bonus physical damage.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Manamune"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Mana",
+    "CDR",
+    "On-Hit"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Perfect for champions with high mana consumption",
+    "Helps sustain your presence in lane without frequent recalls"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

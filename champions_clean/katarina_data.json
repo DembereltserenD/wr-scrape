@@ -1,0 +1,210 @@
+{
+  "champion": {
+    "id": "211-katarina",
+    "name": "Katarina",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin / Mage</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-03/1614637963_imgonline-com-ua-resize-w8pl5octya-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-03/1614637963_imgonline-com-ua-resize-w8pl5octya-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 136.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.78
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.015
+    },
+    "mana": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "mana_regeneration": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "movement_speed": {
+      "base": 345.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 30.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "VORACITY",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) VORACITY\n                                Whenever an enemy champion dies that Katarina has damaged in the last 3 seconds, her remaining ability cooldowns are reduced by 15 seconds.Katarina slashes at all nearby enemies whenever she picks up a Dagger, dealing 40 magic damage (40 (+15 ) + 100% bonus  + 30% (+4.5% ) ).",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-03/1614638381_katarina_passive.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BOUNCING BLADE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BOUNCING BLADE\n 10/9/8/7s  \n                                \n                                \n                                Throws a Dagger, dealing 75 magic damage (75/115/155/195 + 30% ) to the target and 2 nearby enemies. The dagger then ricochets to the ground behind the initial strike point.The Dagger's time in the air is the same regardless of how many times it bounces.",
+      "damage": [
+        10,
+        9,
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-03/1614638414_katarinaq.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) PREPARATION",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) PREPARATION\n 14/13/12/11s  \n                                \n                                \n                                Tosses a Dagger in the air and hastes Katarina by 50/60/70/80%.",
+      "damage": [
+        14,
+        13,
+        12,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-03/1614638561_katarinaw.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) SHUNPO",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) SHUNPO\n 14/12/10/8s  \n                                \n                                \n                                Blink to a location near a Dagger or unit, dealing 49 magic damage (20/50/80/110 + 50%  + 30% ) to the nearest enemy.Picking up a Dagger greatly reduces the Cooldown of Shunpo.Range: 6",
+      "damage": [
+        14,
+        12,
+        10,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-03/1614638562_katarinaewrapper.png",
+      "notes": [
+        "Range: 6"
+      ]
+    },
+    "r": {
+      "name": "(R) DEATH LOTUS",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) DEATH LOTUS\n 60/50/40s  \n                                \n                                \n                                Rapidly throws blades at the 3 nearest enemy champions, dealing 400 magic damage (400/600/800 + 260% bonus  + 290% ) and applying Grievous Wounds. Katarina can move and throw blades for up to 2.6 seconds.Grievous Wounds reduces the effect of Healing and Regeneration effects on 50%.While cast, Katarina's base movement speed is reduced to 125.",
+      "damage": [
+        60,
+        50,
+        40
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-03/1614638631_katarinar.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Infinity Orb",
+      "Boots Of Mana",
+      "Rabadon's Deathcap",
+      "Stasis Enchant",
+      "Crown Of The Shattered Queen"
+    ],
+    "example_build": [
+      "Infinity Orb",
+      "Boots Of Mana",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen",
+      "Riftmaker",
+      "Liandry's Torment"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Bone Plating"
+      ]
+    },
+    "secondary": {
+      "tree": "Domination",
+      "runes": [
+        "Sudden Impact"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: KATARINA Build Guide S BUFFED 191 31 222 84 480 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift KATARINA , role - Assassin / Mage",
+    "Use the guidelines to take your KATARINA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid KATARINA Build items and runes The information below will help you get familiar with the game on the Mid Line KATARINA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "50%",
+    "ban_rate": "Low",
+    "patch": "6.1D",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

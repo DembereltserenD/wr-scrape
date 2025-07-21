@@ -1,0 +1,223 @@
+{
+  "champion": {
+    "id": "399-tahm-kench",
+    "name": "Tahm Kench",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-10/1665254581_tahmkench_0_50_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-10/1665254581_tahmkench_0_50_11zon.webp"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "AN ACQUIRED TASTE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) AN ACQUIRED TASTE\n                                Tahm Kench puts the heft of his immense body behind his attacks, gaining extra damage based on his total health. Damaging enemy champions builds stacks of An Acquired Taste. At three stacks, he can use Devour on an enemy champion.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254602_an_acquired_taste.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) TONGUE LASH",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) TONGUE LASH\nTahm Kench lashes out with his tongue, damaging and slowing the first unit hit and healing himself if he strikes an enemy champion. Applies a stack of An Acquired Taste to enemy champions. If the champion already has 3 stacks of An Acquired Taste, they are stunned and the stacks are consumed.",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254559_tongue_lash.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) ABYSSAL DIVE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) ABYSSAL DIVE\nDive down and then re-appear at target location, damaging and knocking up all enemies in an area.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254591_abyssal_voyage_2.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) THICK SKIN",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) THICK SKIN\nPassive: Tahm Kench stores a percent of the damage he takes and heals based on it while out of combat. Active: Convert all stored damage into a temporary shield.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254555_thick_skin.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) DEVOUR",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) DEVOUR\nTahm Kench devours a champion for a few seconds, dealing magic damage if they are an enemy, or shielding them if they are an ally.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254594_devour.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [],
+    "core_items": [
+      "Tahm Kench",
+      "Archangels-staff",
+      "Rabadons-deathcap",
+      "Staff-of-flowing-water",
+      "Black-cleaver",
+      "Blade-of-the-ruined-king"
+    ],
+    "boots": [
+      "Ionian-boots-of-lucidity",
+      "Mercurys-treads",
+      "Boots-of-dynamism",
+      "Berserkers-greaves",
+      "Quicksilver-enchant",
+      "Teleport-enchant",
+      "Locket-enchant"
+    ],
+    "situational_items": [
+      "Chempunk-chainsword",
+      "Amaranths-twinguard"
+    ],
+    "example_build": [],
+    "enchants": [
+      "Gargoyle-enchant",
+      "Glorious-enchant",
+      "Protobelt-enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "core_items_detailed": [
+      {
+        "name": "Tahm Kench",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Tahm Kench",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Archangels-staff",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Archangels-staff",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Rabadons-deathcap",
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45%",
+        "active": "",
+        "description": "Details for Rabadons-deathcap",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Staff-of-flowing-water",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Staff-of-flowing-water",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Black-cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black-cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Blade-of-the-ruined-king",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade-of-the-ruined-king",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for TAHM KENCH: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\"> <meta property=\"og:url\" content=\"https://wr-meta",
+    "Tips Con Game Plan Power Spikes TAHM KENCH Build items and runes The information below will help you get familiar with the game on the  Line TAHM KENCH",
+    "TIPS --> TAHM KENCH Tips <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "Strategy and Tactics <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "TIPS --> Wild Rift TAHM KENCH Ability and Tips <img class=\"xfieldimage lazy-loaded pasiv-img\" data-src=\"/uploads/posts/2022-10/1665254602_an_acquired_taste"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

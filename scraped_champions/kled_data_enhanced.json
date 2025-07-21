@@ -1,0 +1,350 @@
+{
+  "champion": {
+    "id": "353-kled",
+    "name": "Kled",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-07/1657052161_kled_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-07/1657052161_kled_0-min.jpg"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "SKAARL, THE COWARDLY LIZARD",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) SKAARL, THE COWARDLY LIZARD\n                                Kled rides his trusty steed, Skaarl, who takes damage for him. When Skaarl's health depletes, Kled dismounts. While dismounted, Kled's abilities change and he deals less damage to champions. Kled can restore Skaarl's courage by fighting enemies. At maximum courage, Kled remounts with a portion of Skaarl's health.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052213_skaarl_the_cowardly_lizard.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BEAR TRAP ON A ROPE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BEAR TRAP ON A ROPE\nKled throws a bear trap that damages and hooks an enemy champion. If shackled for a short duration, the target takes additional physical damage and is yanked toward Kled. When dismounted, this ability is replaced by Pocket Pistol, a ranged gun blast that knocks back Kled and restores courage.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052312_beartrap_on_a_rope.webp",
+      "notes": [
+        "duration, the target takes additional physical damage and is yanked toward Kled",
+        "ranged gun blast that knocks back Kled and restores courage"
+      ]
+    },
+    "w": {
+      "name": "(W) VIOLENT TENDENCIES",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) VIOLENT TENDENCIES\nKled gains massive attack speed for four attacks. The fourth attack deals more damage.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052246_violent_tendencies.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) JOUSTING",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) JOUSTING\nKled dashes, dealing physical damage and gaining a short burst of speed. Kled can cast this ability again to dash back through his initial target, dealing the same damage.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052341_jousting.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) CHAAAAAAAARGE!!!",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) CHAAAAAAAARGE!!!\nKled and Skaarl charge to a location, leaving a speed-granting trail behind them and gaining a shield. Skaarl locks onto and rams the first enemy champion encountered.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052371_chaaaaaaaarge212121.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [],
+    "core_items": [
+      "Kled",
+      "Archangels-staff",
+      "Rabadons-deathcap",
+      "Staff-of-flowing-water",
+      "Black-cleaver",
+      "Blade-of-the-ruined-king"
+    ],
+    "boots": [
+      "Ionian-boots-of-lucidity",
+      "Mercurys-treads",
+      "Boots-of-dynamism",
+      "Berserkers-greaves",
+      "Quicksilver-enchant",
+      "Teleport-enchant",
+      "Locket-enchant"
+    ],
+    "situational_items": [
+      "Chempunk-chainsword",
+      "Amaranths-twinguard"
+    ],
+    "example_build": [],
+    "enchants": [
+      "Gargoyle-enchant",
+      "Glorious-enchant",
+      "Protobelt-enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "core_items_detailed": [
+      {
+        "name": "Kled",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Kled",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Archangels-staff",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Archangels-staff",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Rabadons-deathcap",
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45%",
+        "active": "",
+        "description": "Details for Rabadons-deathcap",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Staff-of-flowing-water",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Staff-of-flowing-water",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Black-cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black-cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Blade-of-the-ruined-king",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade-of-the-ruined-king",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Ionian-boots-of-lucidity",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Ionian-boots-of-lucidity",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Mercurys-treads",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          },
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of crowd control effects by 30%",
+        "active": "",
+        "description": "Details for Mercurys-treads",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Boots-of-dynamism",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots-of-dynamism",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Berserkers-greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Berserkers-greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver-enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver-enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Teleport-enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Teleport-enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Locket-enchant",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Locket-enchant",
+        "category": "support",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Chempunk-chainsword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Chempunk-chainsword",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranths-twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranths-twinguard",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": [],
+      "runes_detailed": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for KLED: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\"> <meta property=\"og:url\" content=\"https://wr-meta",
+    "Tips Con Game Plan Power Spikes KLED Build items and runes The information below will help you get familiar with the game on the  Line KLED",
+    "TIPS --> KLED Tips <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "Strategy and Tactics <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "TIPS --> Wild Rift KLED Ability and Tips <img class=\"xfieldimage lazy-loaded pasiv-img\" data-src=\"/uploads/posts/2022-07/1657052213_skaarl_the_cowardly_lizard"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

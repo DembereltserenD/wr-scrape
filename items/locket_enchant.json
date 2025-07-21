@@ -1,0 +1,29 @@
+{
+  "name": "Locket Enchant",
+  "stats": {
+    "magic_resistance": {
+      "value": 8,
+      "type": "flat"
+    }
+  },
+  "cost": 500,
+  "passive": "",
+  "active": "Shield nearby allies for 2.5 seconds, absorbing up to 150 damage",
+  "description": "Boot enchant that provides team protection. Essential for supports who want to shield their team during team fights.",
+  "category": "enchant",
+  "tier": "A",
+  "build_path": [],
+  "recipe_cost": 500,
+  "tags": [
+    "Active"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

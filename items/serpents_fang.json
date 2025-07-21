@@ -1,0 +1,46 @@
+{
+  "name": "Serpent's Fang",
+  "stats": {
+    "attack_damage": {
+      "value": 55,
+      "type": "flat"
+    },
+    "lethality": {
+      "value": 18,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 15,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 2600,
+  "passive": "Shield Reaver: Deal 50% bonus damage to shields. When you damage an enemy champion, reduce their shield power by 50% for 3 seconds.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Armor, Ability Haste. Passive effect: Deal 50% bonus damage to shields. When you damage an enemy champion, reduce their shield power by 50% for 3 seconds.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Serrated Dirk",
+    "Long Sword"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Lethality",
+    "Anti-Shield"
+  ],
+  "tips": [
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses",
+    "Great for assassins looking to eliminate priority targets",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy physical damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

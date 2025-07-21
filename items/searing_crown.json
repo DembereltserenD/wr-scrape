@@ -1,0 +1,42 @@
+{
+  "name": "Searing Crown",
+  "stats": {
+    "ability_power": {
+      "value": 90,
+      "type": "flat"
+    },
+    "health": {
+      "value": 300,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 50,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Immolate: Deal magic damage to nearby enemies every second. Enemy champions take 50% increased damage from this effect.",
+  "active": "",
+  "description": "Item that provides Ability Power, Health, Armor. Passive effect: Deal magic damage to nearby enemies every second. Enemy champions take 50% increased damage from this effect.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Bami's Cinder",
+    "Blasting Wand"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "AOE",
+    "DOT"
+  ],
+  "tips": [
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer",
+    "Great for champions who take extended trades",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy physical damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

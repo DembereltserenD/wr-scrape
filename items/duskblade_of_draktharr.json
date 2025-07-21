@@ -1,0 +1,46 @@
+{
+  "name": "Duskblade Of Draktharr",
+  "stats": {
+    "attack_damage": {
+      "value": 55,
+      "type": "flat"
+    },
+    "lethality": {
+      "value": 18,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 18,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 3100,
+  "passive": "Nightstalker: After takedown, become invisible for 1.5 seconds (90 second cooldown). Your next attack deals 99 (+30% bonus AD) bonus physical damage.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Armor, Ability Haste. Passive effect: After takedown, become invisible for 1.5 seconds (90 second cooldown). Your next attack deals 99 (+30% bonus AD) bonus physical damage.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "S",
+  "build_path": [
+    "Serrated Dirk",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Lethality",
+    "Stealth"
+  ],
+  "tips": [
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses",
+    "Great for assassins looking to eliminate priority targets",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

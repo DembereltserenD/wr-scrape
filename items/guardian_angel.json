@@ -1,0 +1,38 @@
+{
+  "name": "Guardian Angel",
+  "stats": {
+    "attack_damage": {
+      "value": 40,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 40,
+      "type": "flat"
+    }
+  },
+  "cost": 2800,
+  "passive": "Rebirth: Upon taking lethal damage, revive with 50% base Health and 30% maximum Mana after 4 seconds of stasis (300 second cooldown).",
+  "active": "",
+  "description": "Defensive item that provides Attack Damage and Armor with a powerful revival passive. The Rebirth effect gives you a second chance in team fights, making it invaluable for carries who need to stay alive to deal damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "B.F. Sword",
+    "Chain Vest"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Armor",
+    "Revive"
+  ],
+  "tips": [
+    "Great for ADCs and assassins who are high-priority targets",
+    "The revival gives your team time to help you or disengage",
+    "Long cooldown means positioning is still crucial",
+    "Can bait enemies into overcommitting when they see the passive is up",
+    "Consider building when you're ahead and want to maintain your lead"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Quicksilver Enchant",
+  "stats": {
+    "magic_resist": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 500,
+  "passive": "): After the Quicksilver effects ends, grant 30% Tenacity and 30% Slow Resist for 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects. 800\n\n\nQuicksilver Enchant TIPS: This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+  "active": "Quicksilver: Remove all debuffs and gain 50% Tenacity and Slow Resist for 3 seconds (90 second cooldown).",
+  "description": "Item that provides Magic Resist. Passive effect: After the Quicksilver effects ends, grant 30% Tenacity and 30% Slow Resist for 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects. 800\n\n\nQuicksilver Enchant TIPS: This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.. Active effect: Remove all debuffs and gain 50% Tenacity and Slow Resist for 3 seconds (90 second cooldown).. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Magic Resist",
+    "Cleanse",
+    "Tenacity",
+    "Enchant"
+  ],
+  "tips": [
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy magic damage compositions",
+    "The resistances help you survive longer in team fights",
+    "Perfect for champions who rely heavily on abilities",
+    "The cooldown reduction/ability haste maximizes spell uptime"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

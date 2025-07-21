@@ -1,0 +1,44 @@
+{
+  "name": "Goredrinker",
+  "stats": {
+    "attack_damage": {
+      "value": 45,
+      "type": "flat"
+    },
+    "health": {
+      "value": 400,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3300,
+  "passive": "",
+  "active": "Thirsting Slash: Deal damage to nearby enemies and heal based on damage dealt and missing Health. Healing increases with more enemies hit (15 second cooldown).",
+  "description": "Sustain-focused bruiser mythic providing Attack Damage, Health, and Ability Haste. The active provides AOE damage and significant healing based on missing health and enemies hit. Ideal for team fighters who need to sustain through extended battles.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Ironspike Whip",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "Ability Haste",
+    "Sustain",
+    "AOE"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

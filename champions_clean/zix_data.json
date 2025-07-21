@@ -1,0 +1,55 @@
+{
+  "champion": {
+    "id": "371-kha-zix",
+    "name": "Zix",
+    "title": "&raquo; WR-META - Wild Rift Tutorials",
+    "role": "Fighter",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "Medium",
+    "tier": "A",
+    "image": "https://wr-meta.com/images/icon-stat/cdr.png",
+    "splash_art": "https://wr-meta.com/images/icon-stat/cdr.png"
+  },
+  "stats": {},
+  "abilities": {},
+  "builds": {
+    "core_items": [],
+    "starting_items": [],
+    "boots": [
+      "Boots"
+    ],
+    "situational": []
+  },
+  "runes": {
+    "primary": {
+      "tree": "",
+      "keystone": "",
+      "runes": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": []
+    }
+  },
+  "summoner_spells": [
+    "Heal"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "user/membership?u=86210996\"><i style=\"color:#2bff65\" class=\"fas fa-tachometer-alt\"></i></a></li>\n</ul>\n\n                <div class=\"btn-search2 anim js-search\"><span class=\"fas fa-search\"></span></div>\n                <div class=\"btn-login js-login\"><span class=\"fas fa-user-alt anim\"></span></div>\n                \n                <div class=\"btn-menu hidden\"><span class=\"fas fa-bars\"></span></div>\n                <!--noindex-->\n\n\n\n<div class=\"login-box not-logged\">\n    <form method=\"post\" class=\"fx-row\">\n        <div class=\"login-left\">\n            <div class=\"login-avatar\"><span class=\"far fa-user\"></span></div>\n        </div>\n        <div class=\"login-right fx-1\">\n            <div class=\"login-header\">\n                <div class=\"login-title\">Authorization</div>\n            </div>\n            <div class=\"login-input\"><input type=\"text\" name=\"login_name\" id=\"login_name\" placeholder=\"Username\" /></div>\n            <div class=\"login-input\"><input type=\"password\" name=\"login_password\" id=\"login_password\" placeholder=\"Password\" /></div>\n            <div class=\"login-check\">\n                <label for=\"login_not_save\">\n                    <input type=\"checkbox\" name=\"login_not_save\" id=\"login_not_save\" value=\"1\" />\n                    <span>Remember me</span>\n                </label>\n            </div>\n            <div class=\"login-btn\"><button onclick=\"submit();\" type=\"submit\" title=\"Вход\">Sign in</button></div>\n            <input name=\"login\" type=\"hidden\" id=\"login\" value=\"submit\" />\n            <div class=\"login-btm fx-row\">\n                <a href=\"/?do=register\" class=\"log-register\">Create an account</a>\n                <a href=\"https://wr-meta."
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Bloodthirster",
+  "stats": {
+    "attack_damage": {
+      "value": 55,
+      "type": "flat"
+    },
+    "critical_chance": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "physical_vamp": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "armor": {
+      "value": 20,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 20,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 15,
+      "type": "percentage"
+    }
+  },
+  "cost": 3400,
+  "passive": "Overheal: Excess healing is converted into a shield, up to 350 (+140% bonus AD).",
+  "active": "",
+  "description": "Item that provides Attack Damage, Armor, Magic Resist, Attack Speed. Passive effect: Excess healing is converted into a shield, up to 350 (+140% bonus AD).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "B.F. Sword",
+    "Vampiric Scepter"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Critical",
+    "Sustain",
+    "Shield"
+  ],
+  "tips": [
+    "The shield from Overheal provides extra survivability",
+    "Great for ADCs who need sustain and damage",
+    "Build this when you need to survive burst damage",
+    "The lifesteal allows you to heal from minions between fights",
+    "Consider building this against poke compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

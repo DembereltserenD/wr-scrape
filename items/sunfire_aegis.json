@@ -1,0 +1,47 @@
+{
+  "name": "Sunfire Aegis",
+  "stats": {
+    "armor": {
+      "value": 45,
+      "type": "flat"
+    },
+    "health": {
+      "value": 350,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 45,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 3200,
+  "passive": "Immolate: Deal magic damage to nearby enemies. Damaging champions or epic monsters with this effect grants a stack for 5 seconds (max 6 stacks). Each stack increases damage by 12%.",
+  "active": "",
+  "description": "Item that provides Armor, Health, Magic Resist, Ability Haste. Passive effect: Deal magic damage to nearby enemies. Damaging champions or epic monsters with this effect grants a stack for 5 seconds (max 6 stacks). Each stack increases damage by 12%.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Bami's Cinder",
+    "Chain Vest"
+  ],
+  "tags": [
+    "Armor",
+    "Health",
+    "Magic Resist",
+    "Tank",
+    "AOE"
+  ],
+  "tips": [
+    "Perfect for tanks who want to deal consistent AOE damage",
+    "The immolate effect helps with waveclear and jungle clear",
+    "Stack the effect in extended fights for maximum damage",
+    "Great for champions who can stay in the middle of fights",
+    "Consider building this when you need to apply constant pressure"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

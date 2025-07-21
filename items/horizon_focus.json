@@ -1,0 +1,41 @@
+{
+  "name": "Horizon Focus",
+  "stats": {
+    "ability_power": {
+      "value": 85,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Hypershot: Damaging a champion with a non-targeted ability at over 750 range or slowing or immobilizing them reveals them and increases your damage to them by 10% for 6 seconds.",
+  "active": "",
+  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Damaging a champion with a non-targeted ability at over 750 range or slowing or immobilizing them reveals them and increases your damage to them by 10% for 6 seconds.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Blasting Wand",
+    "Fiendish Codex"
+  ],
+  "tags": [
+    "Magic",
+    "CDR",
+    "Damage Amplification"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Perfect for champions who rely heavily on abilities",
+    "The cooldown reduction/ability haste maximizes spell uptime"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

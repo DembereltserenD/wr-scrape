@@ -1,0 +1,278 @@
+{
+  "champion": {
+    "id": "50-vukong",
+    "name": "Wukong",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter / Tank</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607550606_monkeyking_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607550606_monkeyking_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 64.0,
+      "per_level": 4.57
+    },
+    "health": {
+      "base": 690.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 12.0,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 345.0,
+      "per_level": 41.0
+    },
+    "mana_regeneration": {
+      "base": 15.0,
+      "per_level": 0.92
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 40.0,
+      "per_level": 4.36
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "STONE SKIN",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) STONE SKIN\n                                Gains a stack of Stone Skin whenever Wukong damages enemy champions, stacking up to 3 time(s). Each stack grants him 10 Armor  and heals him for 0.35% of his max Health  per second ().",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-12/1607551383_wukong-passive.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) GOLDEN STAFF",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) GOLDEN STAFF\n 8/7.5/7/6.5s   30 \n                                \n                                \n                                Passive: Enhances Golden Staff's empowering effects on attacks every 10.5/9/7.5/6 seconds, increasing bonus damage by 50%. Champion takedowns reduce the cooldown of this ability's passive by 2 seconds getting a kill refreshes it.Active: Empowers the next attack to deal 83 bonus physical damage (60/90/120/150 + 35/40/45/50%% ). Wukong and his clones' attacks reduce Golden Staff's cooldown by 0.5 second(s).After casting this ability, Wukong's next attack gains bonus range.",
+      "damage": [
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-12/1607551428_wukong-q.png",
+      "notes": [
+        "range"
+      ]
+    },
+    "w": {
+      "name": "(W) WARRIOR TRICKSTER",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) WARRIOR TRICKSTER\n 14/13.5/13/12.5s   55/60/65/70 \n                                \n                                \n                                Becomes invisible for 1 second(s) and dashes forward, leaving behind a clone for 3/3.5/4/4.5 seconds at his original position.The clone moves in the direction of the left joystick when the ability is cast, automatically attacking nearby enemies and mimicking Wukong's Golden Staff, Nimbus Strike, and Cyclone. The clone deals 20/30/40/50% of Wukong's damage.The clone takes 50% more damage and does not gain the empowering effects of Golden Staff's passive when it mimics the ability.",
+      "damage": [
+        14,
+        13
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-12/1607551436_wukong-w.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) NIMBUS STRIKE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) NIMBUS STRIKE\n 8s   40 \n                                \n                                \n                                Moves toward a target while sending clones to 2 additional enemies nearby, dealing 70 physical damage (70/110/150/190  + 80% bonus ) to each enemy.After hitting the targeted enemy, Wukong gains 25/35/45/55% Attack Speed for 4 second(s).",
+      "damage": [
+        70,
+        110,
+        150,
+        190
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-12/1607551436_wukong-e.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) CYCLONE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) CYCLONE\n 80/70/60s   100 \n                                \n                                \n                                Extends his staff and spins to gain 20% Movement Speed, dealing physical damage equal to 141 (220% ) + 10/14/18% of enemies max health over 2 seconds. Enemies that are hit for the first time are knocked up.Clone can be recast once within 8 seconds.",
+      "damage": [
+        80,
+        70,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-12/1607551413_wukong-r.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Ruby Crystal"
+    ],
+    "core_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Black Cleaver"
+    ],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Stoneplate Enchant"
+    ],
+    "situational_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Sundered Sky",
+      "Sterak's Gage",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Protobelt Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Divine Sunderer",
+          "Plated Steelcaps",
+          "Black Cleaver"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Jungle": {
+        "starting_items": [],
+        "core_items": [
+          "Sterak's Gage",
+          "Gluttonous Greaves",
+          "Trinity Force"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "core_items_detailed": [
+      {
+        "name": "Divine Sunderer",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Divine Sunderer",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Black Cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black Cleaver",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Domination",
+      "keystone": "Electrocute",
+      "runes": [
+        "Sudden Impact",
+        "Zombie Ward"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Second Wind",
+        "Overgrowth"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: WUKONG Build Guide A A NERFED 180 17 197 119 825 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift WUKONG , role - Fighter / Tank",
+    "Use the guidelines to take your WUKONG Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron WUKONG Build items and runes The information below will help you get familiar with the game on the Solo Baron Line WUKONG",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "35%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

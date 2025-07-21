@@ -1,0 +1,277 @@
+{
+  "champion": {
+    "id": "282-irelia",
+    "name": "Irelia",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin / Fighter</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-06/1622543256_irelia_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-06/1622543256_irelia_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 5.0
+    },
+    "health": {
+      "base": 690.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 1.0
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.015
+    },
+    "mana": {
+      "base": 345.0,
+      "per_level": 33.0
+    },
+    "mana_regeneration": {
+      "base": 18.0,
+      "per_level": 0.71
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 46.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "IONIAN FERVOR",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) IONIAN FERVOR\n                                Hitting enemies with abilities grant 3-17% () bonus Attack Speed for 6 seconds, stacking up to 4 timesAt max stacks, attacks deal an additional 25 magic damage (25~150 () + 30% bonus ) on hit.Attacking enemy champions refreshes the duration.An ability grants multiple stacks upon hitting multiple champions.",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-06/1622543007_irelia_passive.png",
+      "notes": [
+        "duration"
+      ]
+    },
+    "q": {
+      "name": "(Q) BLADESURGE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BLADESURGE\n 9/8/7/6s   20 \n                                \n                                \n                                Dashes through an enemy, dealing 48 physical damage (10/40/70/100 + 65% ) and healing herself for 9 (16/20/24/28% ).Bladesurge's cooldown is refreshed if the target was Marked or dies to Bladesurge.When aimed, Bladesurge will prioritize targets it will reset on.Deals 150% damage to minions.",
+      "damage": [
+        9,
+        8,
+        7,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-06/1622542997_ireliaq.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) DEFIANT DANCE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) DEFIANT DANCE\n 14/13/12/11s   75/80/85/90 \n                                \n                                \n                                Hold: Defends with her blades for up to 1.5 seconds, taking 50% (60 + 7% ) reduced damage.Release: Whips the blades forward, dealing 49 physical damage (20/35/50/65 + 50%  + 40% ), increased by up to 100% with charge time.Cannot be interrupted.",
+      "damage": [
+        14,
+        13,
+        12,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-06/1622543054_ireliaw.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) FLAWLESS DUET",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) FLAWLESS DUET\n 12/11/10/9s   50 \n                                \n                                \n                                Send a blade to target location.May be recast within 3 seconds to send another blade.The blades converge upon reaching their destination, dealing 80 magic damage (80/130/180/230 + 80% ), stunning for 1 second, and Marking enemy champions and large monsters hit for 5 seconds.",
+      "damage": [
+        12,
+        11,
+        10,
+        9
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-06/1622543075_ireliae.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) VANGUARD'S EDGE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) VANGUARD'S EDGE\n 70/65/60s   100 \n                                \n                                \n                                Fires a storm of blades that deals 125 magic damage (125/250/375 + 70% ) and Marks enemy champions for 5 seconds.The blades explode into a wall for 3 seconds upon hitting an enemy champion. The bladewall deals 100 magic damage (100/225/350 + 70% ) and slows by 90% for 1 seconds.",
+      "damage": [
+        70,
+        65,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-06/1622543108_ireliar.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [
+      "Divine Sunderer",
+      "Gluttonous Greaves",
+      "Blade Of The Ruined King"
+    ],
+    "boots": [
+      "Gluttonous Greaves",
+      "Mercury's Treads",
+      "Teleport Enchant"
+    ],
+    "situational_items": [
+      "Divine Sunderer",
+      "Gluttonous Greaves",
+      "Blade Of The Ruined King",
+      "Mercury's Treads",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Divine Sunderer",
+      "Gluttonous Greaves",
+      "Blade Of The Ruined King",
+      "Wit's End",
+      "Sterak's Gage",
+      "Chempunk Chainsword"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Divine Sunderer",
+          "Gluttonous Greaves",
+          "Blade Of The Ruined King"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Jungle": {
+        "starting_items": [],
+        "core_items": [
+          "Trinity Force",
+          "Gluttonous Greaves",
+          "Blade Of The Ruined King"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "core_items_detailed": [
+      {
+        "name": "Divine Sunderer",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Divine Sunderer",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Blade Of The Ruined King",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Blade Of The Ruined King",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Tenacity",
+        "Coup de Grace"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating",
+        "Overgrowth"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: IRELIA Build Guide SP SP BUFFED 174 14 188 90 366 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift IRELIA , role - Assassin / Fighter",
+    "Use the guidelines to take your IRELIA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron IRELIA Build items and runes The information below will help you get familiar with the game on the Solo Baron Line IRELIA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "35%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

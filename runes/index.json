@@ -1,0 +1,119 @@
+{
+  "total_runes": 19,
+  "runes": {
+    "Conqueror": {
+      "file": "conqueror.json",
+      "tree": "Precision",
+      "type": "Keystone",
+      "tier": "S"
+    },
+    "Triumph": {
+      "file": "triumph.json",
+      "tree": "Precision",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Legend: Alacrity": {
+      "file": "legend_alacrity.json",
+      "tree": "Precision",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Electrocute": {
+      "file": "electrocute.json",
+      "tree": "Domination",
+      "type": "Keystone",
+      "tier": "A"
+    },
+    "Cheap Shot": {
+      "file": "cheap_shot.json",
+      "tree": "Domination",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Sudden Impact": {
+      "file": "sudden_impact.json",
+      "tree": "Domination",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Coup de Grace": {
+      "file": "coup_de_grace.json",
+      "tree": "Precision",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Aftershock": {
+      "file": "aftershock.json",
+      "tree": "Resolve",
+      "type": "Keystone",
+      "tier": "A"
+    },
+    "Font of Life": {
+      "file": "font_of_life.json",
+      "tree": "Resolve",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Legend: Bloodline": {
+      "file": "legend_bloodline.json",
+      "tree": "Precision",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Overgrowth": {
+      "file": "overgrowth.json",
+      "tree": "Resolve",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Lethal Tempo": {
+      "file": "lethal_tempo.json",
+      "tree": "Precision",
+      "type": "Keystone",
+      "tier": "S"
+    },
+    "Fleet Footwork": {
+      "file": "fleet_footwork.json",
+      "tree": "Precision",
+      "type": "Keystone",
+      "tier": "A"
+    },
+    "Revitalize": {
+      "file": "revitalize.json",
+      "tree": "Resolve",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Zombie Ward": {
+      "file": "zombie_ward.json",
+      "tree": "Domination",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Last Stand": {
+      "file": "last_stand.json",
+      "tree": "Precision",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Hextech Flashtraption": {
+      "file": "hextech_flashtraption.json",
+      "tree": "Inspiration",
+      "type": "Primary",
+      "tier": "B"
+    },
+    "Shield Bash": {
+      "file": "shield_bash.json",
+      "tree": "Resolve",
+      "type": "Primary",
+      "tier": "A"
+    },
+    "Cut Down": {
+      "file": "cut_down.json",
+      "tree": "Precision",
+      "type": "Primary",
+      "tier": "A"
+    }
+  }
+}

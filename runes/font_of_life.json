@@ -1,0 +1,11 @@
+{
+  "name": "Font of Life",
+  "tree": "Resolve",
+  "type": "Primary",
+  "description": "Impairing the movement of an enemy champion marks them for 4 seconds. Ally champions who attack marked enemies heal themselves.",
+  "stats": {
+    "mark_duration": "4 seconds",
+    "ally_healing": "5-35 based on level"
+  },
+  "tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Cosmic Drive",
+  "stats": {
+    "ability_power": {
+      "value": 75,
+      "type": "flat"
+    },
+    "health": {
+      "value": 200,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 15,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 30,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Spelldance: Dealing ability damage to champions grants 20% Movement Speed for 2 seconds",
+  "active": "abilities and empowered attacks grant 30 +70% Ability Haste as Movement Speed after dealing damage to an enemy champion. This Movement Speed decays over 2 seconds.Each source has an individual 1s cooldown for triggering Spellweaving.Only Haste from items contributes to Spellweaving's movement speed. 2800\n\n\nCosmic Drive TIPS: This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control.",
+  "description": "AP item that provides mobility and survivability. The movement speed passive helps mages kite enemies and reposition in team fights.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Fiendish Codex",
+    "Kindlegem"
+  ],
+  "tags": [
+    "Magic",
+    "Movement",
+    "Health"
+  ],
+  "tips": [
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights",
+    "Helps with both engaging and disengaging from unfavorable situations",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Legend: Alacrity",
+  "tree": "Precision",
+  "type": "Primary",
+  "description": "Gain Attack Speed for each Legend stack (max 10 stacks). Earn progress toward Legend stacks for every champion takedown, epic monster takedown, and minion kill.",
+  "stats": {
+    "attack_speed_per_stack": "1.5%",
+    "max_attack_speed": "15%",
+    "stacks_needed": "10"
+  },
+  "tier": "A"
+}

@@ -1,0 +1,282 @@
+{
+  "champion": {
+    "id": "15-jax",
+    "name": "Jax",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2023-10/1698181008_jax_0_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2023-10/1698181008_jax_0_11zon.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 4.57
+    },
+    "health": {
+      "base": 690.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 12.0,
+      "per_level": 0.81
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.01
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.93
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 46.0,
+      "per_level": 3.92
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "RELENTLESS ASSAULT",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) RELENTLESS ASSAULT\n                                Attacks against champions and minions grant 5-19% Attack Speed for 3 seconds. (Max 5 stacks.)",
+      "damage": [
+        5
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2024-10/1730237958_jax_relentless_assault.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) LEAP STRIKE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) LEAP STRIKE\n 7,5/7/6,5/6s   65 \n                                \n                                \n                                Leaps to target unit, dealing 70 physical damage (70/125/180/235 + 100% bonus ) if it is an enemy. Can be cast to wards.",
+      "damage": [
+        5,
+        7,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2024-10/1730238025_jax_leap_strike.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) EMPOWER",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) EMPOWER\n 6/5/4/3s   30 \n                                \n                                \n                                Empowers the next attack or Leap Strike to deal an additional 55 magic damage (55/100/145/190 + 60% ).Damage to monsters: 175%",
+      "damage": [
+        6,
+        5,
+        4,
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-10/1730238102_jax_empower.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) COUNTER STRIKE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) COUNTER STRIKE\n 12.5/11/9.5/8s   60/70/80/90 \n                                \n                                \n                                Enters a defensive stance that lasts up to 2 second(s), dodging all incoming attacks and abilities with on-hit effects and taking 25% reduced area damage from champions. After this duration, nearby enemies are stunned for 1 second(s) and take 35 magic damage (35/75/115/155 + 3% target’s max Health + 70% ). Each attack dodged increases this damage by 20% (up to 100%).Re-cast: Ends the defensive stance early to damage and stun nearby enemies immediately.",
+      "damage": [
+        5,
+        11,
+        9
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-10/1730238096_jax_counter_strike.webp",
+      "notes": [
+        "duration, nearby enemies are stunned for 1 second(s) and take 35 magic damage (35/75/115/155 + 3% target’s max Health + 70% )"
+      ]
+    },
+    "r": {
+      "name": "(R) GRANDMASTER'S MIGHT",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) GRANDMASTER'S MIGHT\n 55s   100 \n                                \n                                \n                                Passive: Deals an additional 60 magic damage (60/110/160 + 70% ) with every 3 consecutive basic attacks he launches within 3s.Active: Swings his stave, dealing 150 magic damage (150/250/350 + 100%  )  to nearby enemies. When hitting only one enemy champion, gains 30 Armor and Magic Resist (30/50/70+ 40% bonus ) equal to 60% of that Armor. If he hits more than one champion, he gains bonus 15 Armor and Magic Resist (15/20/25 + 10% bonus ) equals to 60% of that Armor for 8s per additional champion hit.During this time, his size increases by 10%, and he deals additional magic damage with every second attack.Damage to monsters: 110%.",
+      "damage": [
+        60,
+        110,
+        160
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-10/1730238110_jax_grandmaster-at-arms.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Ruby Crystal"
+    ],
+    "core_items": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Sundered Sky"
+    ],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Teleport Enchant"
+    ],
+    "situational_items": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Sundered Sky",
+      "Mercury's Treads",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Sundered Sky",
+      "Riftmaker",
+      "Sterak's Gage",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Trinity Force",
+          "Plated Steelcaps",
+          "Sundered Sky"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Jungle": {
+        "starting_items": [],
+        "core_items": [
+          "Trinity Force",
+          "Mercury's Treads",
+          "Blade Of The Ruined King"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "core_items_detailed": [
+      {
+        "name": "Trinity Force",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Trinity Force",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Sundered Sky",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sundered Sky",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Alacrity",
+        "Legend: Tenacity",
+        "Coup de Grace"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Second Wind",
+        "Overgrowth"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: JAX Build Guide SP S BUFFED 255 15 270 149 647 11 Jul 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift JAX , role - Fighter",
+    "Use the guidelines to take your JAX Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron JAX Build items and runes The information below will help you get familiar with the game on the Solo Baron Line JAX",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "70%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

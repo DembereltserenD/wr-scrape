@@ -1,0 +1,50 @@
+{
+  "name": "Nashor's Tooth",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 50,
+      "type": "percentage"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "attack_damage": {
+      "value": 30,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Icathian Bite: Basic attacks deal bonus magic damage based on AP.",
+  "active": "",
+  "description": "Item that provides Ability Power, Attack Speed, Ability Haste, Attack Damage, Ability Haste. Passive effect: Basic attacks deal bonus magic damage based on AP.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Stinger",
+    "Blasting Wand"
+  ],
+  "tags": [
+    "Magic",
+    "Attack Speed",
+    "CDR",
+    "On-Hit"
+  ],
+  "tips": [
+    "Perfect for AP champions who auto-attack frequently",
+    "Great on champions like Diana, Kayle, or Teemo",
+    "The on-hit damage scales with your AP",
+    "Helps with taking objectives and split pushing",
+    "Consider building this on hybrid damage champions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

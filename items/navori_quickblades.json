@@ -1,0 +1,46 @@
+{
+  "name": "Navori Quickblades",
+  "stats": {
+    "attack_damage": {
+      "value": 60,
+      "type": "flat"
+    },
+    "critical_chance": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "cooldown_reduction": {
+      "value": 30,
+      "type": "percentage"
+    },
+    "attack_speed": {
+      "value": 15,
+      "type": "percentage"
+    }
+  },
+  "cost": 3400,
+  "passive": "Transcendence: Your attacks reduce your non-ultimate ability cooldowns by 20% of their remaining cooldown (per critical strike).",
+  "active": "",
+  "description": "Item that provides Attack Damage, Ability Haste, Attack Speed. Passive effect: Your attacks reduce your non-ultimate ability cooldowns by 20% of their remaining cooldown (per critical strike).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "B.F. Sword",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Critical",
+    "CDR"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Excellent for champions who rely on basic attacks",
+    "Helps with last hitting and taking objectives faster"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

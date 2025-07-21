@@ -1,0 +1,428 @@
+{
+  "champion": {
+    "id": "398-syndra",
+    "name": "Syndra",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2023-11/1701013295_f_j1x5nxoaadt6e_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2023-11/1701013295_f_j1x5nxoaadt6e_11zon.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 54.0,
+      "per_level": 3.0
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.65
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 380.0,
+      "per_level": 50.0
+    },
+    "mana_regeneration": {
+      "base": 10.0,
+      "per_level": 1.0
+    },
+    "movement_speed": {
+      "base": 360.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 34.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "TRANSCENDENT",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) TRANSCENDENT\n                                Every instance of ability damage dealt to an enemy champion grants 1 Splinters of Wrath and restores 13 mana (). Syndra gains 4 (gain 60 Splinters in total upon level 15) Splinters of Wrath every time she levels up an ability. Up to 120 Splinters can be collected.Transcendent: Empowers a basic ability after collecting 40, 60, and 80 Splinters of Wrath.Empowers Unleashed Power after collecting 100 Splinters of Wrath.Transcendence: Gains 12%  after collecting 120 Splinters of Wrath.",
+      "damage": [
+        1
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254271_syndra_transcendent.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) DARK SPHERE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) DARK SPHERE\n 7/6.5/6/5.5s   50/55/60/65 \n                                \n                                \n                                Conjures a Dark Sphere, dealing 70 magic damage (70/115/160/205 + 65% ) to enemies. The Sphere remains for 6 seconds and can be manipulated by Syndra's other abilities.Transcendent: Stores a charge of Dark Sphere every 7 seconds, up to a maximum of 2.This ability can be cast while moving.",
+      "damage": [
+        7,
+        6
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254276_syndra_dark_sphere.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) FORCE OF WILL",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) FORCE OF WILL\n 12/11/10/9s   70/80/90/100 \n                                \n                                \n                                Grabs the nearest Dark Sphere and hur's it at a target location, dealing 60 magic damage (60/100/140/180 + 45% ) to enemies within the area and slowing them by 20/25/30/35% for 1.5 seconds.If there isn't any Dark Sphere nearby, Syndra generates one and hur's it at the target location. Damage from the Sphere is reduced to 80%.Transcendent: This ability deals an additional 12% true damage (12 + 2% ).",
+      "damage": [
+        12,
+        11,
+        10,
+        9
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705602372_syndra_force_of_will_2.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) SCATTER THE WEAK",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) SCATTER THE WEAK\n 17s   50 \n                                \n                                \n                                Projects a wave of force in a cone, knocking back enemies and Dark Spheres and dealing 70 magic damage (70/110/150/190 + 35% ).Dark Spheres that are knocked back stun and knock back enemies hit along the way for 1.25 seconds, dealing 70 magic damage (70/110/150/190 + 35% ).Transcendent: Increases the angle of the wave of force's cone by 50% and its radius to 720.Enemies can only take damage and be knocked back from this ability once per cast.",
+      "damage": [
+        70,
+        110,
+        150,
+        190
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254309_syndra_scatter_the_weak.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) UNLEASHED POWER",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) UNLEASHED POWER\n 80/70/60s   100 \n                                \n                                \n                                Manipulates the 3 Dark Spheres orbiting her plus up to 4 more nearby, launching them at an enemy champion. Each Sphere deals 60 magic damage (60/110/160 + 15% ).Transcendent: Increases cast range by 100. This ability executes enemies below 10% Health. If this ability kills an enemy champion, the Dark Spheres will detonate where they were killed and deal 60 magic damage (60/110/160 + 15% ) to nearby enemy champions.",
+      "damage": [
+        80,
+        70,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254339_syndra_unleashed_power.webp",
+      "notes": [
+        "range by 100"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Stasis Enchant",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen"
+    ],
+    "example_build": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen",
+      "Horizon Focus"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Amplifying Tome",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amplifying Tome",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Infinity Orb",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "active": "",
+        "description": "Details for Infinity Orb",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      },
+      {
+        "name": "Crown Of The Shattered Queen",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Crown Of The Shattered Queen",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Infinity Orb",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "active": "",
+        "description": "Details for Infinity Orb",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      },
+      {
+        "name": "Crown Of The Shattered Queen",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Crown Of The Shattered Queen",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Horizon Focus",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Horizon Focus",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": []
+    },
+    "secondary": {
+      "tree": "Domination",
+      "runes": [
+        "Cheap Shot",
+        "Sudden Impact"
+      ],
+      "runes_detailed": [
+        {
+          "name": "Cheap Shot",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Cheap Shot",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "name": "Sudden Impact",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Sudden Impact",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: SYNDRA Build Guide A ADJUSTED 44 4 48 42 082 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift SYNDRA , role - Mage",
+    "Use the guidelines to take your SYNDRA Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid SYNDRA Build items and runes The information below will help you get familiar with the game on the Mid Line SYNDRA",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

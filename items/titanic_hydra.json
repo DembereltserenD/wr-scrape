@@ -1,0 +1,38 @@
+{
+  "name": "Titanic Hydra",
+  "stats": {
+    "attack_damage": {
+      "value": 30,
+      "type": "flat"
+    },
+    "health": {
+      "value": 500,
+      "type": "flat"
+    }
+  },
+  "cost": 3300,
+  "passive": "Cleave: Basic attacks deal bonus physical damage to your target and nearby enemies based on your bonus Health.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Health. Passive effect: Basic attacks deal bonus physical damage to your target and nearby enemies based on your bonus Health.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Tiamat",
+    "Giant's Belt"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "AOE"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

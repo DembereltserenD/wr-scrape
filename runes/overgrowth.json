@@ -1,0 +1,12 @@
+{
+  "name": "Overgrowth",
+  "tree": "Resolve",
+  "type": "Primary",
+  "description": "Gain bonus health for every 8 nearby enemy minions and monsters that die. At 120 minions, gain an additional 3.5% maximum health.",
+  "stats": {
+    "health_per_8_minions": "3 health",
+    "bonus_at_120": "3.5% max health",
+    "minions_needed": "120"
+  },
+  "tier": "A"
+}

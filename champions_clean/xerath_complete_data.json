@@ -1,0 +1,220 @@
+{
+  "champion": {
+    "id": "412-thresh",
+    "name": "Xerath",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-10/1665261525_xerath_0_64_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-10/1665261525_xerath_0_64_11zon.webp"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "MANA SURGE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) MANA SURGE\n                                Xerath's basic attacks periodically restore Mana.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261546_mana_surge.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) ARCANOPULSE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) ARCANOPULSE\nFires a long-range beam of energy, dealing magic damage to all targets hit.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261570_arcanopulse.webp",
+      "notes": [
+        "range beam of energy, dealing magic damage to all targets hit"
+      ]
+    },
+    "w": {
+      "name": "(W) EYE OF DESTRUCTION",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) EYE OF DESTRUCTION\nCalls down a barrage of arcane energy, slowing and dealing magic damage to all enemies in an area. Targets in the middle receive additional damage and a stronger slow.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261581_eye_of_destruction.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) SHOCKING ORB",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) SHOCKING ORB\nDeals magic damage to an enemy and stuns them.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261600_shocking_orb.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) RITE OF THE ARCANE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) RITE OF THE ARCANE\nXerath immobilizes himself and gains numerous long-range barrages.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261667_rite_of_the_arcane.webp",
+      "notes": [
+        "range barrages"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [],
+    "core_items": [
+      "Xerath",
+      "Arcanopulse",
+      "Eye Of Destruction",
+      "Shocking Orb",
+      "Rite Of The Arcane",
+      "Archangels-staff"
+    ],
+    "boots": [
+      "Gluttonous-greaves",
+      "Ionian-boots-of-lucidity",
+      "Mercurys-treads",
+      "Boots-of-dynamism",
+      "Berserkers-greaves"
+    ],
+    "situational_items": [
+      "Maw-of-malmortius",
+      "Chempunk-chainsword",
+      "Randuins-omen",
+      "Thornmail",
+      "Amaranths-twinguard"
+    ],
+    "example_build": [],
+    "enchants": [
+      "Quicksilver-enchant",
+      "Teleport-enchant",
+      "Gargoyle-enchant",
+      "Glorious-enchant",
+      "Locket-enchant",
+      "Protobelt-enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "core_items_detailed": [
+      {
+        "name": "Xerath",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Xerath",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Arcanopulse",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Arcanopulse",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Eye Of Destruction",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Eye Of Destruction",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Shocking Orb",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Shocking Orb",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Rite Of The Arcane",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Rite Of The Arcane",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Archangels-staff",
+        "stats": {
+          "ability_power": {
+            "value": 80,
+            "type": "flat"
+          }
+        },
+        "cost": 3000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Archangels-staff",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": []
+    },
+    "secondary": {
+      "tree": "",
+      "runes": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Teleport Enchant",
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for XERATH: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\"> <meta property=\"og:url\" content=\"https://wr-meta",
+    "Tips Con Game Plan Power Spikes XERATH Build items and runes The information below will help you get familiar with the game on the  Line XERATH",
+    "TIPS --> XERATH Tips <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "Strategy and Tactics <div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta",
+    "TIPS --> Wild Rift XERATH Ability and Tips <img class=\"xfieldimage lazy-loaded pasiv-img\" data-src=\"/uploads/posts/2022-10/1665261546_mana_surge"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

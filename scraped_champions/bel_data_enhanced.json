@@ -1,0 +1,169 @@
+{
+  "champion": {
+    "id": "337-annie",
+    "name": "Bel",
+    "title": "'VETH - Pro Build Guide (Items",
+    "role": "<b>Fighter</b>",
+    "lanes": [
+      "Jungle",
+      "Support"
+    ],
+    "difficulty": "Low",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-07/1656625075_belveth_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-07/1656625075_belveth_0-min.jpg"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "DEATH IN LAVENDER",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) DEATH IN LAVENDER\n                                Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions. She also gains temporary bonus attack speed after using an ability.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625128_bel27veth_death_in_lavender.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) VOID SURGE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) VOID SURGE\nBel'Veth dashes in a chosen direction and damages all enemies she passes through.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625130_belveth_void_surge.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) ABOVE AND BELOW",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) ABOVE AND BELOW\nBel'Veth slams her tail to the ground, damaging, knocking up, and slowing her enemies.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625103_bel27veth_above_and_below.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) ROYAL MAELSTROM",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) ROYAL MAELSTROM\nBel'Veth roots herself in place, channeling a storm of slashes around her that targets the lowest-health enemy and grants her lifesteal and damage reduction.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625129_bel27veth_royal_maelstrom.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) ENDLESS BANQUET",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) ENDLESS BANQUET\nBel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
+      "damage": [],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625152_belveth_endless_banquet.webp",
+      "notes": [
+        "duration, as well as the power to summon Void remora",
+        "range, attack speed, and out-of-combat move speed"
+      ]
+    }
+  },
+  "builds": {
+    "core_items": [
+      "Bloodthirster"
+    ],
+    "starting_items": [],
+    "boots": [
+      "Boots"
+    ],
+    "situational": [],
+    "core_items_detailed": [
+      {
+        "name": "Bloodthirster",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Bloodthirster",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots",
+        "category": "boots",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [],
+      "keystone_detailed": {
+        "tree": "Resolve",
+        "type": "Keystone",
+        "description": "You and your nearby ally gain a shield when either of you would take damage from an enemy champion.",
+        "stats": {
+          "shield": "50-130 based on level",
+          "cooldown": "70-40s based on level"
+        },
+        "cooldown": "70-40s",
+        "tier": "S"
+      },
+      "runes_detailed": []
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [],
+      "runes_detailed": []
+    }
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    "Strategy for BEL'VETH: Build Items, Runes and Spells, Abilities, Skills Order, Counters, Tips, Combos and much more\">\n<meta name=\"keywords\" content=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n<meta property=\"og:site_name\" content=\"WR-META - Wild Rift Tutorials, Builds and Guides, Tier Lists\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:title\" content=\"BEL&#039;VETH\">\n<meta property=\"og:url\" content=\"https://wr-meta.",
+    "Tips</span>\n<span>Con</span>\n<span>Game Plan</span>\n<span>Power Spikes</span>\n\n</div>\n<!-- BUILD 1 -->\n<div class=\"tabs-b4\">\n<div class=\"row justify-content-center mb-4\">\n<div class=\"col-md-12 text-center\">\n<h2><i class=\"demo-icon \"></i> BEL&#039;VETH Build items and runes</h2>\n<p class=\"w-95 lg-w-100 mt-30px\">The information below will help you get familiar with the game on the  Line BEL&#039;VETH.",
+    "TIPS -->\n<div class=\"tabs-b4 nolazy\">\n<div class=\"row justify-content-center mb-4\">\n<div class=\"col-md-12 text-center\">\n<h2><i class=\"demo-icon \"></i> BEL&#039;VETH Tips</h2>\n</div>\n</div>\n\n<div class=\"error2 brand\" style=\"background:linear-gradient(rgb(23 28 56 / 90%), rgb(23 28 56 / 95%), rgb(23 28 56 / 90%)), url(https://wr-meta.",
+    "never be sated by only one world as she turns her hungry eyes toward the Void's old masters.",
+    "user/membership?u=86210996\"><i style=\"color:#2bff65\" class=\"fas fa-tachometer-alt\"></i></a></li>\n</ul>\n\n                <div class=\"btn-search2 anim js-search\"><span class=\"fas fa-search\"></span></div>\n                <div class=\"btn-login js-login\"><span class=\"fas fa-user-alt anim\"></span></div>\n                \n                <div class=\"btn-menu hidden\"><span class=\"fas fa-bars\"></span></div>\n                <!--noindex-->\n\n\n\n<div class=\"login-box not-logged\">\n    <form method=\"post\" class=\"fx-row\">\n        <div class=\"login-left\">\n            <div class=\"login-avatar\"><span class=\"far fa-user\"></span></div>\n        </div>\n        <div class=\"login-right fx-1\">\n            <div class=\"login-header\">\n                <div class=\"login-title\">Authorization</div>\n            </div>\n            <div class=\"login-input\"><input type=\"text\" name=\"login_name\" id=\"login_name\" placeholder=\"Username\" /></div>\n            <div class=\"login-input\"><input type=\"password\" name=\"login_password\" id=\"login_password\" placeholder=\"Password\" /></div>\n            <div class=\"login-check\">\n                <label for=\"login_not_save\">\n                    <input type=\"checkbox\" name=\"login_not_save\" id=\"login_not_save\" value=\"1\" />\n                    <span>Remember me</span>\n                </label>\n            </div>\n            <div class=\"login-btn\"><button onclick=\"submit();\" type=\"submit\" title=\"Вход\">Sign in</button></div>\n            <input name=\"login\" type=\"hidden\" id=\"login\" value=\"submit\" />\n            <div class=\"login-btm fx-row\">\n                <a href=\"/?do=register\" class=\"log-register\">Create an account</a>\n                <a href=\"https://wr-meta."
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "50%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1f",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

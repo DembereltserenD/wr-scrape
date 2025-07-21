@@ -1,0 +1,38 @@
+{
+  "name": "Sterak's Gage",
+  "stats": {
+    "attack_damage": {
+      "value": 50,
+      "type": "flat"
+    },
+    "health": {
+      "value": 400,
+      "type": "flat"
+    }
+  },
+  "cost": 3100,
+  "passive": "The Claws that Catch: Gain bonus Attack Damage based on bonus Health. Lifeline: If you would take damage that reduces you below 30% Health, gain a shield for 8 seconds (60 second cooldown).",
+  "active": "",
+  "description": "Item that provides Attack Damage, Health. Passive effect: Gain bonus Attack Damage based on bonus Health. Lifeline: If you would take damage that reduces you below 30% Health, gain a shield for 8 seconds (60 second cooldown).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Phage",
+    "Pickaxe"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "Shield"
+  ],
+  "tips": [
+    "The shield scales with your bonus health - build health items",
+    "Great for surviving burst damage in team fights",
+    "Perfect for bruisers and juggernauts",
+    "The AD scales with your base AD, benefiting Trinity Force users",
+    "Consider building this when you need to frontline for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

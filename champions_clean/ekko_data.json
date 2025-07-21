@@ -1,0 +1,225 @@
+{
+  "champion": {
+    "id": "328-ekko",
+    "name": "Ekko",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin / Mage</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-05/1651947805_ekko_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-05/1651947805_ekko_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.85
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.015
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 32.0,
+      "per_level": 1.14
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 40.0,
+      "per_level": 4.0
+    },
+    "magic_resistance": {
+      "base": 43.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "Z-DRIVE RESONANCE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) Z-DRIVE RESONANCE\n                                Every third attack or damaging ability against the same target deals an additional 30 magic damage (30 + 70%  ).If the target was a champion, Ekko gains 40% (  ) Move Speed for 2.5 seconds.Deals 120% damage to monsters.Cannot affect the same target for 5 seconds.",
+      "damage": [
+        30
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2023-03/1677951873_z-drive_resonance.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) TIMEWINDER",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) TIMEWINDER\n 8/7.5/7/6.5s   50/60/70/80 \n                                \n                                \n                                Throws a temporal device, dealing 90 magic damage (90/110/130/150 + 30% ). On hitting a champion or the distance limit, it expands ito a field that slows by 30/40/50/60%. The device then returns to Ekko, dealing 70 magic damage (70/105/140/175 + 60% ).Deals 115% bonus damage to monsters.",
+      "damage": [
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2023-03/1677951958_timewinder.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) PARALLEL CONVERGENCE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) PARALLEL CONVERGENCE\n 20/18/16/14s   35/40/45/50 \n                                \n                                \n                                Passive: Attacks against Low Health targets deal an additional 2% missing Health magic damage (2 + 0.015% ).Active: Launches a chronosphere that last 1.5 seconds slowing by 40%. If Ekko enters the sphere it detonates, stunning for 2.25 seconds and granting Ekko a shield that absorbs 70 damage (70/100/130/160 + 150% ) for 2 seconds.",
+      "damage": [
+        20,
+        18,
+        16,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2023-03/1677951981_parallel_convergence.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) PHASE DIVE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) PHASE DIVE\n 9/8.5/8/7.5s   45/50/55/60 \n                                \n                                \n                                Dashes in a target direction. Ekko's next attack within 3 seconds gains 250 range and causes Ekko to blink to his target and deal an additional 60 magic damage (60/90/120/150 + 40% ).",
+      "damage": [
+        9,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2023-03/1677952023_phase_dive.webp",
+      "notes": [
+        "range and causes Ekko to blink to his target and deal an additional 60 magic damage (60/90/120/150 + 40% )"
+      ]
+    },
+    "r": {
+      "name": "(R) CHRONOBREAK",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) CHRONOBREAK\n 80/60/40s  \n                                \n                                \n                                Becomes untargetable and returns to his position 3.5 seconds ago and heals for 150 (150/200/250 + 50%  ), increased by 3% per 1% of health lost within 3.5 seconds.Upon arrival, Ekko deals 200 magic damage (200/350/500 + 150% ) to enemies.",
+      "damage": [
+        80,
+        60,
+        40
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2023-03/1677952056_chronobreak.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Nashor's Tooth",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Protobelt Enchant",
+      "Stasis Enchant",
+      "Rabadon's Deathcap"
+    ],
+    "example_build": [
+      "Nashor's Tooth",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Rabadon's Deathcap",
+      "Lich Bane",
+      "Crown Of The Shattered Queen"
+    ],
+    "enchants": [
+      "Protobelt Enchant",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [
+      {
+        "lane": "Baron Lane",
+        "core_items": [
+          "Nashor's Tooth"
+        ],
+        "description": "Alternative build for Baron Lane"
+      },
+      {
+        "lane": "Jungle",
+        "core_items": [
+          "Nashor's Tooth"
+        ],
+        "description": "Alternative build for Jungle"
+      }
+    ],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Fleet Footwork",
+      "runes": [
+        "Legend: Bloodline",
+        "Coup de Grace"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: EKKO Build Guide A A NERFED 114 33 147 65 504 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift EKKO , role - Assassin / Mage",
+    "Use the guidelines to take your EKKO Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid EKKO Build items and runes The information below will help you get familiar with the game on the Mid Line EKKO",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "2%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "ing",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

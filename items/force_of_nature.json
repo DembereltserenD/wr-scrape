@@ -1,0 +1,42 @@
+{
+  "name": "Force Of Nature",
+  "stats": {
+    "health": {
+      "value": 350,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 70,
+      "type": "flat"
+    },
+    "movement_speed": {
+      "value": 5,
+      "type": "percentage"
+    }
+  },
+  "cost": 2900,
+  "passive": "Dissipate: Taking magic damage grants 6 Movement Speed and 8 Magic Resist for 5 seconds, stacking up to 5 times.",
+  "active": "",
+  "description": "Item that provides Health, Magic Resist, Movement Speed. Passive effect: Taking magic damage grants 6 Movement Speed and 8 Magic Resist for 5 seconds, stacking up to 5 times.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Negatron Cloak",
+    "Giant's Belt"
+  ],
+  "tags": [
+    "Health",
+    "Magic Resist",
+    "Movement",
+    "Tank"
+  ],
+  "tips": [
+    "The movement speed helps with roaming and map presence",
+    "Great for champions who need to reposition frequently in fights",
+    "Helps with both engaging and disengaging from unfavorable situations",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

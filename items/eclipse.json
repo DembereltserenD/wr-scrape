@@ -1,0 +1,46 @@
+{
+  "name": "Eclipse",
+  "stats": {
+    "attack_damage": {
+      "value": 55,
+      "type": "flat"
+    },
+    "lethality": {
+      "value": 12,
+      "type": "flat"
+    },
+    "omnivamp": {
+      "value": 8,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3100,
+  "passive": "Ever Rising Moon: Hitting a champion with 2 separate attacks or abilities within 1.5 seconds deals bonus damage and grants a shield.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Ability Haste. Passive effect: Hitting a champion with 2 separate attacks or abilities within 1.5 seconds deals bonus damage and grants a shield.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Serrated Dirk",
+    "Long Sword"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Lethality",
+    "Sustain"
+  ],
+  "tips": [
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses",
+    "Great for assassins looking to eliminate priority targets",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

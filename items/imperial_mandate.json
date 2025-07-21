@@ -1,0 +1,51 @@
+{
+  "name": "Imperial Mandate",
+  "stats": {
+    "ability_power": {
+      "value": 55,
+      "type": "flat"
+    },
+    "health": {
+      "value": 200,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "mana_regeneration": {
+      "value": 125,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 2300,
+  "passive": "Coordinated Fire: Abilities that slow or immobilize a champion mark them. Ally damage detonates the mark, dealing bonus damage and granting both of you Movement Speed.",
+  "active": "",
+  "description": "Item that provides Ability Power, Health, Ability Haste, Ability Haste. Passive effect: Abilities that slow or immobilize a champion mark them. Ally damage detonates the mark, dealing bonus damage and granting both of you Movement Speed.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Bandleglass Mirror",
+    "Kindlegem"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "CDR",
+    "Support",
+    "Mark"
+  ],
+  "tips": [
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions",
+    "The resistances help you survive longer in team fights",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

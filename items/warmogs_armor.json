@@ -1,0 +1,46 @@
+{
+  "name": "Warmog's Armor",
+  "stats": {
+    "health": {
+      "value": 800,
+      "type": "flat"
+    },
+    "health_regeneration": {
+      "value": 200,
+      "type": "percentage"
+    },
+    "cooldown_reduction": {
+      "value": 10,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Warmog's Heart: If you have at least 1100 bonus Health, restore 3% maximum Health per second if you haven't taken damage in the last 6 seconds.",
+  "active": "",
+  "description": "Item that provides Health, Ability Haste, Ability Haste. Passive effect: If you have at least 1100 bonus Health, restore 3% maximum Health per second if you haven't taken damage in the last 6 seconds.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Giant's Belt",
+    "Kindlegem"
+  ],
+  "tags": [
+    "Health",
+    "Health Regen",
+    "CDR",
+    "Tank"
+  ],
+  "tips": [
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer",
+    "Great for champions who take extended trades",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

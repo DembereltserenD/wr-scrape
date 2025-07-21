@@ -1,0 +1,11 @@
+{
+  "name": "Shield Bash",
+  "tree": "Resolve",
+  "type": "Primary",
+  "description": "While shielded, gain bonus Armor and Magic Resistance. Your next basic attack against a champion deals bonus adaptive damage.",
+  "stats": {
+    "armor_mr_bonus": "1-10 based on shield strength",
+    "damage": "5-30 based on shield strength"
+  },
+  "tier": "A"
+}

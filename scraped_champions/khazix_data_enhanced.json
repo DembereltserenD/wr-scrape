@@ -1,0 +1,398 @@
+{
+  "champion": {
+    "id": "253-kha-zix",
+    "name": "Kha'Zix",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin</b>",
+    "lanes": [
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-04/1619807483_4_26_21_patch22b_khazixsplash-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-04/1619807483_4_26_21_patch22b_khazixsplash-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 54.0,
+      "per_level": 4.57
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 7.5,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.15
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.9
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 37.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 43.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "UNSEEN THREAT",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) UNSEEN THREAT\n                                Enhances next attack against enemy champion to deal an additional 18 magic damage (10 (+8 ) + 50% bonus ) and slow by 25% for 2 seconds.Unseen Threat is refreshed when the enemy team loses sight of Kha'Zix.Isolated Radius: 300Cooldown: 5s",
+      "damage": [
+        18
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-04/1619807472_khazix_p.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) TASTE THEIR FEAR",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) TASTE THEIR FEAR\n 5/4.5/4/3.5s   20 \n                                \n                                \n                                Slashes with his claws, dealing 65 physical damage (65/100/135/170 + 130% bonus ). If the target is isolated, the damage is increased by 100%.Units without allied units or structures nearby are isolated.Evolve-Reaper Claws: Attacks and Taste Their Fear gain 50 range and 40% of Taste Their Fear's cooldown is refunded against isolated target.",
+      "damage": [
+        5,
+        4
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-04/1619807481_khazixq.png",
+      "notes": [
+        "range and 40% of Taste Their Fear's cooldown is refunded against isolated target"
+      ]
+    },
+    "w": {
+      "name": "(W) VOID SPIKE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) VOID SPIKE\n 9s   55/60/65/70 \n                                \n                                \n                                Fires spikes that deal 80 physical damage (80/120/160/200 + 100% bonus ). Heals himself for 40 (40/75/110/145 + 50% ) if he is within the explosion.Evolve-Spike Racks: Fires two additional spikes and slows enemies by 60% for 2 seconds.",
+      "damage": [
+        55,
+        60,
+        65,
+        70
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-04/1619807524_khazixw.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) LEAP",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) LEAP\n 18/16/14/12s   50 \n                                \n                                \n                                Leaps to target area, dealing 65 physical damage (65/110/155/200 + 20% bonus ).Evolve-Wings: Gain 250 range on Leap. Leap's cooldown is reset on champion takedowns.",
+      "damage": [
+        18,
+        16,
+        14,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2021-04/1619807592_khazixe.png",
+      "notes": [
+        "range on Leap"
+      ]
+    },
+    "r": {
+      "name": "(R) VOID ASSAULT",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) VOID ASSAULT\n 70/60/50s   100 \n                                \n                                \n                                Passive: Each rank in Void Assault allows Kha'Zix to evolve one of his abilities.Active: Becomes Invisible and gain 40% Movement Speed for 1.25 seconds. Void Assault can be cast again within 10 seconds.Evolve-Adaptive Cloaking: Invisibility duration is increased to 2 seconds and can be cast up to three times.",
+      "damage": [
+        70,
+        60,
+        50
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-04/1619807557_khazixr.png",
+      "notes": [
+        "duration is increased to 2 seconds and can be cast up to three times"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Gluttonous Greaves",
+      "Boots Of Dynamism"
+    ],
+    "situational_items": [
+      "Youmuu's Ghostblade",
+      "Gluttonous Greaves",
+      "Eclipse",
+      "Stasis Enchant",
+      "Protobelt Enchant"
+    ],
+    "example_build": [
+      "Youmuu's Ghostblade",
+      "Sterak's Gage",
+      "Gluttonous Greaves",
+      "Eclipse",
+      "Duskblade Of Draktharr",
+      "Serylda’s Grudge"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Stasis Enchant",
+      "Protobelt Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Dynamism",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Dynamism",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Youmuu's Ghostblade",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Youmuu's Ghostblade",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Eclipse",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Eclipse",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Protobelt Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Protobelt Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Youmuu's Ghostblade",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Youmuu's Ghostblade",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Sterak's Gage",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sterak's Gage",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Gluttonous Greaves",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Gluttonous Greaves",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Eclipse",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Eclipse",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Duskblade Of Draktharr",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Duskblade Of Draktharr",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Serylda’s Grudge",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Serylda’s Grudge",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Domination",
+      "keystone": "Electrocute",
+      "runes": [
+        "Sudden Impact"
+      ],
+      "keystone_detailed": {
+        "name": "Electrocute",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Electrocute",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Sudden Impact",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Sudden Impact",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [
+        "Legend: Bloodline"
+      ],
+      "runes_detailed": [
+        {
+          "name": "Legend: Bloodline",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Bloodline",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: KHA'ZIX Build Guide S BUFFED 174 15 189 93 184 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift KHA'ZIX , role - Assassin",
+    "Use the guidelines to take your KHA'ZIX Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Jungle Path Jungle KHA'ZIX Build items and runes The information below will help you get familiar with the game on the Jungle Line KHA'ZIX",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "20%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22b",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

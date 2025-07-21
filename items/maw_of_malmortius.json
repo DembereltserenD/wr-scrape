@@ -1,0 +1,47 @@
+{
+  "name": "Maw of Malmortius",
+  "stats": {
+    "attack_damage": {
+      "value": 50,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 50,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 15,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 2900,
+  "passive": "Lifeline: If you would take magic damage that would reduce you below 30% Health, gain a magic damage shield and bonus Attack Damage for 5 seconds (90 second cooldown).",
+  "active": "",
+  "description": "Item that provides Attack Damage, Magic Resist, Ability Haste, Ability Haste. Passive effect: If you would take magic damage that would reduce you below 30% Health, gain a magic damage shield and bonus Attack Damage for 5 seconds (90 second cooldown).. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Hexdrinker",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Magic Resist",
+    "CDR",
+    "Shield"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

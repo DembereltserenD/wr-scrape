@@ -1,0 +1,213 @@
+{
+  "champion": {
+    "id": "7-master-yi",
+    "name": "Master Yi",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Assassin / Fighter</b>",
+    "lanes": [
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607436712_masteryi_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607436712_masteryi_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 54.0,
+      "per_level": 2.0
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 9.0,
+      "per_level": 0.7
+    },
+    "attack_speed": {
+      "base": 0.8,
+      "per_level": 0.015
+    },
+    "mana": {
+      "base": 345.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.7
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 40.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "DOUBLE STRIKE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) DOUBLE STRIKE\n                                Every 4th consecutive attack strikes twice for 78 physical damage (150% ).",
+      "damage": [
+        78
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606360930_masteryi_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) ALPHA STRIKE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) ALPHA STRIKE\n 16/15/14/13s   55/60/65/70 \n                                \n                                \n                                Becomes untargetable and strikes up to 4 enemies for 62 physical damage (30/70/110/150 + 60% ). If there are no other targets Master Yi will strike a previous target for 25% damage.Attacks reduce the cooldown of Alpha Strike by 1 second.Deals 95/125/155/185 bonus damage to monsters.Can critically strike, dealing 60% bonus damage.",
+      "damage": [
+        16,
+        15,
+        14,
+        13
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606360861_masteryi_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) MEDITATE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) MEDITATE\n 25s   50 \n                                \n                                \n                                Channels for up to 4 seconds, gaining 55/60/65/70% damage reduction and healing for 40 (40/60/80/100 + 25% ) per second. During the first 0.5s of channeling, damage reduction is increased to 90%. Damage reduction effect during the first 0.5s of channeling will continue after the channeling is interrupted.The lower Master Yi's Health is, the more he heals for, up to 100% of his Health.",
+      "damage": [
+        55,
+        60,
+        65,
+        70
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606360908_masteryi_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) WUJU STYLE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) WUJU STYLE\n 17/16/15/14s  \n                                \n                                \n                                Passive: Gains 5 physical damage (8% ) while Wuju style is off cooldown.Active: Attacks deal 40 bonus true damage (40/45/50/55 + 25 bonus ) for 5 seconds.Active true damage vs structures:  33%.",
+      "damage": [
+        17,
+        16,
+        15,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606360934_masteryi_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) HIGHLANDER",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) HIGHLANDER\n 70/65/60s   100 \n                                \n                                \n                                Passive: Takedowns reduces Meditate's cooldown by 90% and Master Yi's other basic ability cooldown by 70%.Active: Becomes hasted by 35/45/55%, immune to slows for 7seconds, and gains 30/50/70% Attack Speed. Takedowns extend the duration by 7 seconds.",
+      "damage": [
+        70,
+        65,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606360960_masteryi_4.jpg",
+      "notes": [
+        "duration by 7 seconds"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Berserker's Greaves",
+      "Gluttonous Greaves",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Blade Of The Ruined King",
+      "Berserker's Greaves",
+      "Wit's End",
+      "Gluttonous Greaves"
+    ],
+    "example_build": [
+      "Blade Of The Ruined King",
+      "Berserker's Greaves",
+      "Wit's End",
+      "Terminus",
+      "Sterak's Gage",
+      "Guardian Angel"
+    ],
+    "enchants": [
+      "Berserker's Greaves",
+      "Gluttonous Greaves",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Lethal Tempo",
+      "runes": [
+        "Triumph",
+        "Legend: Alacrity"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Overgrowth"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: MASTER YI Build Guide A BUFFED 304 57 361 149 397 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift MASTER YI , role - Assassin / Fighter",
+    "Use the guidelines to take your MASTER YI Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Jungle Path Jungle MASTER YI Build items and runes The information below will help you get familiar with the game on the Jungle Line MASTER YI",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "35%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

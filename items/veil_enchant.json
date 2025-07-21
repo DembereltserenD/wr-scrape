@@ -1,0 +1,30 @@
+{
+  "name": "Veil Enchant",
+  "stats": {
+    "magic_resist": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 500,
+  "passive": "Veil: Gain a spell shield that blocks the next enemy ability every 40 seconds.",
+  "active": "): Remove disables and crowd control effects from a target allied champion. If the ally is not affected by any such effects, they gain a 3-second spell shield that blocks the next hostile ability instead. (60s Cooldown) 500\n\n\nVeil Enchant TIPS: This enchant instantly removes all crowd control effects from an ally or, if none are present, grants them a spell shield that blocks the next hostile ability.  — Perfect for supports and tanks looking to safeguard key teammates at clutch moments.",
+  "description": "Boot enchantment that provides 15 Magic Resist and additional effects.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Magic Resist",
+    "Spell Shield",
+    "Enchant"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy magic damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,490 @@
+{
+  "champion": {
+    "id": "26-gragas",
+    "name": "Gragas",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Tank</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle",
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "S",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437809_gragas_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437809_gragas_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 70.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 720.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 15.0,
+      "per_level": 0.93
+    },
+    "movement_speed": {
+      "base": 340.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 46.0,
+      "per_level": 4.3
+    },
+    "magic_resistance": {
+      "base": 38.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "HAPPY HOUR",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) HAPPY HOUR\n                                Casting an ability restores 55 Health (8.5% ). (7 second cooldown)",
+      "damage": [
+        55
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391706_gragas_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BARREL ROLL",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BARREL ROLL\n 9.5/8.5/7.5/6.5s   95/85/75/65 \n                                \n                                \n                                Rolls a cask to target location that explodes upon re-casting or after 3 seconds. Enemies hit take 65 magic damage (65/120/175/230 + 70% ) and are slowed by 30/35/40/45% for 2 seconds.The cask reveals the area it deals 50% damage to minions.The damage and slow amount increase over the first 1.5 seconds, by up to 150%.",
+      "damage": [
+        5,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391687_gragas_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) DRUNKEN RAGE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) DRUNKEN RAGE\n 5s   20 \n                                \n                                \n                                Guzzles down artisanal brew, reducing damage taken by 11% (11/13/15/17% + 0.04% ) for 2.5 seconds.Maximum monster damage: 400.The next attack within 5 seconds after drinking is empowered to splash nearby enemies for bonus magic damage equal to 50 (50/80/110/140 + 90% ) plus 7% of their max Health.",
+      "damage": [
+        11,
+        13,
+        15,
+        17
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391731_gragas_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) BODY SLAM",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) BODY SLAM\n 15/14/13/12s   50 \n                                \n                                \n                                Charges forward, colliding with the first enemy hit to deal 70 magic damage (70/135/200/265 + 70% ) to nearby enemies. Enemies hit are also bumped backwards, stunning them for 1s.Body Slam's cooldown is reduced by 3s if it successfully collides with an enemy.Will always have a minimum cooldown of 1.25s.",
+      "damage": [
+        15,
+        14,
+        13,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391750_gragas_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) EXPLOSIVE CASK",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) EXPLOSIVE CASK\n 90/75/60s   100 \n                                \n                                \n                                Hurls a potent cask that explodes when it lands, dealing 200 magic damage (200/300/400 + 70% ) and knocking enemies away from the explosion's center.The cask has a fixed travel time. (8 frames)",
+      "damage": [
+        90,
+        75,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391690_gragas_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle",
+      "Support"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [
+      "Luden's Echo"
+    ],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Protobelt Enchant",
+      "Stasis Enchant",
+      "Rabadon's Deathcap"
+    ],
+    "example_build": [
+      "Luden's Echo",
+      "Boots Of Mana",
+      "Infinity Orb",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen",
+      "Lich Bane"
+    ],
+    "enchants": [
+      "Protobelt Enchant",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Luden's Echo"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Jungle": {
+        "starting_items": [],
+        "core_items": [
+          "Rod Of Ages",
+          "Plated Steelcaps",
+          "Psychic Projector"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Support": {
+        "starting_items": [],
+        "core_items": [
+          "Lich Bane"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "starting_items_detailed": [
+      {
+        "name": "Amplifying Tome",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amplifying Tome",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "core_items_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Infinity Orb",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "active": "",
+        "description": "Details for Infinity Orb",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "name": "Protobelt Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Protobelt Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Luden's Echo",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Luden's Echo",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Mana",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Mana",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Infinity Orb",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          },
+          "critical_strike": {
+            "value": 25,
+            "type": "percentage"
+          }
+        },
+        "cost": 3400,
+        "passive": "Increases critical strike damage by 10%",
+        "active": "",
+        "description": "Details for Infinity Orb",
+        "category": "legendary",
+        "tier": "S"
+      },
+      {
+        "stats": {
+          "ability_power": {
+            "value": 100,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "Overkill: Increases Ability Power by 20-45% based on level",
+        "description": "This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The 'Overkill' effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+        "category": "legendary",
+        "tier": "S",
+        "image": "rabadon_deathcap.png"
+      },
+      {
+        "name": "Crown Of The Shattered Queen",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Crown Of The Shattered Queen",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Lich Bane",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Lich Bane",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Domination",
+      "keystone": "Electrocute",
+      "runes": [
+        "Sudden Impact"
+      ],
+      "keystone_detailed": {
+        "name": "Electrocute",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Electrocute",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Sudden Impact",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Sudden Impact",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Second Wind",
+        "Bone Plating"
+      ],
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, heal over time based on missing health.",
+          "stats": {
+            "healing": "4 + 2.5% missing health over 10s"
+          },
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: GRAGAS Build Guide B B A B NERFED 106 9 115 70 528 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift GRAGAS , role - Mage / Tank",
+    "Use the guidelines to take your GRAGAS Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid GRAGAS Build items and runes The information below will help you get familiar with the game on the Mid Line GRAGAS",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

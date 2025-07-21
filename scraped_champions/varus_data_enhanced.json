@@ -1,0 +1,423 @@
+{
+  "champion": {
+    "id": "25-varus",
+    "name": "Varus",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Marksman</b>",
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437768_varus_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437768_varus_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.6
+    },
+    "health": {
+      "base": 570.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.57
+    },
+    "attack_speed": {
+      "base": 0.81,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 33.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.5
+    },
+    "movement_speed": {
+      "base": 335.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 35.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 30.0,
+      "per_level": 1.4
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "LIVING VENGEANCE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) LIVING VENGEANCE\n                                Gains 60% Attack Speed for 5/6/7/8s on a champion kill or assist, 30% on non-champion kills.",
+      "damage": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391405_varus_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) PIERCING ARROW",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) PIERCING ARROW\n 15/14/13/12s   75 \n                                \n                                \n                                Hold: Draws the bow, gradually increasing the range and damage for the next shot. Movement Speed is slowed by 20% while preparing to shoot.Release: Fires the arrow, dealing 93 to 139 physical damage (20/70/120/170 + 125%  to 30/105/180/255 + 187.5% ), reduced by 15% per enemy hit (minimum 33%).Piercing Arrow's cooldown is reduced by 4 seconds if the arrow detonates Blight stacks on at least one enemy champion.Piercing Arrow fails if not released after 4 seconds, but will refund 50% of its Mana cost.",
+      "damage": [
+        15,
+        14,
+        13,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391477_varus_1.jpg",
+      "notes": [
+        "range and damage for the next shot"
+      ]
+    },
+    "w": {
+      "name": "(W) BLIGHTED QUIVER",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) BLIGHTED QUIVER\n 22/20/18/16s  \n                                \n                                \n                                Passive: Attacks deal 12 bonus magic damage (12/16/20/24 + 20% ) and apply Blight for 6 seconds (stacks 3 times). Varus's other abilities detonate Blight, dealing magic damage equal to 5% (5/5.5/6/6.5 + 1% ) of the target's max Health per stack.Active: Doubles the bonus on hit damage from Blighted Quiver's passive for 6 seconds. The next Piercing Arrow deals bonus magic damage equal to 8% to 16% () of the target's missing Health, increase by 0% - 100% (based on Piercing Arrow's channel time).",
+      "damage": [
+        22,
+        20,
+        18,
+        16
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391451_varus_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) HAIL OF ARROWS",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) HAIL OF ARROWS\n 13/12/11/10s   80 \n                                \n                                \n                                Fires a hail of arrows that deals 70 physical damage (70/115/160/205 + 90% bonus ) and desecrates the ground for 4 seconds. Desecrated ground slows enemies by 25% and applies 40% Grievous Wounds.Grievous Wounds reduces the effectiveness of Healing and Regeneration effects.",
+      "damage": [
+        13,
+        12,
+        11,
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391470_varus_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) CHAIN OF CORRUPTION",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) CHAIN OF CORRUPTION\n 65/55/45s   100 \n                                \n                                \n                                Flings out a tendril of corruption that deals 150 magic damage (150/250/350 + 85% ) and roots the first enemy champion hit for 2 seconds.The corruption then spreads toward nearby enemy champions, also immobilizing them on contact. Immobilized units gain 3 Blight stacks over the next 3 seconds.",
+      "damage": [
+        65,
+        55,
+        45
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606391456_varus_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Dragon Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Dynamism",
+      "Quicksilver Enchant"
+    ],
+    "situational_items": [
+      "Essence Reaver",
+      "Duskblade Of Draktharr",
+      "Stasis Enchant",
+      "The Collector"
+    ],
+    "example_build": [
+      "Essence Reaver",
+      "Boots Of Dynamism",
+      "Duskblade Of Draktharr",
+      "The Collector",
+      "Serylda’s Grudge",
+      "Serylda's Grudge"
+    ],
+    "enchants": [
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "name": "Boots Of Dynamism",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Dynamism",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Quicksilver Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Quicksilver Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Essence Reaver",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Essence Reaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Duskblade Of Draktharr",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Duskblade Of Draktharr",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Stasis Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stasis Enchant",
+        "category": "enchant",
+        "tier": "A"
+      },
+      {
+        "name": "The Collector",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for The Collector",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Essence Reaver",
+        "stats": {
+          "attack_damage": {
+            "value": 70,
+            "type": "flat"
+          }
+        },
+        "cost": 3400,
+        "passive": "",
+        "active": "",
+        "description": "Details for Essence Reaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Boots Of Dynamism",
+        "stats": {
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Boots Of Dynamism",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Duskblade Of Draktharr",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Duskblade Of Draktharr",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "The Collector",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for The Collector",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Serylda’s Grudge",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Serylda’s Grudge",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Serylda's Grudge",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Serylda's Grudge",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Fleet Footwork",
+      "runes": [
+        "Legend: Alacrity",
+        "Legend: Bloodline",
+        "Coup de Grace"
+      ],
+      "keystone_detailed": {
+        "name": "Fleet Footwork",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Fleet Footwork",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": [
+        {
+          "name": "Legend: Alacrity",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Alacrity",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "name": "Legend: Bloodline",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Legend: Bloodline",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        },
+        {
+          "name": "Coup de Grace",
+          "tree": "Unknown",
+          "type": "Primary",
+          "description": "Rune effect for Coup de Grace",
+          "stats": {},
+          "cooldown": "",
+          "tier": "A"
+        }
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Bone Plating"
+      ],
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Teleport"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: VARUS Build Guide S S BUFFED 170 15 185 166 937 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift VARUS , role - Mage / Marksman",
+    "Use the guidelines to take your VARUS Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Adc VARUS Build items and runes The information below will help you get familiar with the game on the Adc Line VARUS",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "10%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

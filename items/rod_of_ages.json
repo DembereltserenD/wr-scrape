@@ -1,0 +1,41 @@
+{
+  "name": "Rod of Ages",
+  "stats": {
+    "ability_power": {
+      "value": 60,
+      "type": "flat"
+    },
+    "health": {
+      "value": 300,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 300,
+      "type": "flat"
+    }
+  },
+  "cost": 2600,
+  "passive": "Timeless: This item gains 20 Health, 10 Mana, and 4 Ability Power every 60 seconds, up to 10 times total. Upon reaching max stacks, gain Eternity passive.",
+  "active": "",
+  "description": "Item that provides Ability Power, Health. Passive effect: This item gains 20 Health, 10 Mana, and 4 Ability Power every 60 seconds, up to 10 times total. Upon reaching max stacks, gain Eternity passive.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Catalyst of Aeons"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "Mana",
+    "Scaling"
+  ],
+  "tips": [
+    "Perfect for champions with high mana consumption",
+    "Helps sustain your presence in lane without frequent recalls",
+    "The mana pool allows for extended ability usage in fights",
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

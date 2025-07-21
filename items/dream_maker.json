@@ -1,0 +1,43 @@
+{
+  "name": "Dream Maker",
+  "stats": {
+    "ability_power": {
+      "value": 40,
+      "type": "flat"
+    },
+    "health": {
+      "value": 200,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 10,
+      "type": "percentage"
+    }
+  },
+  "cost": 2200,
+  "passive": "Renew: Healing or shielding an ally grants them 8% Movement Speed for 2 seconds and marks them. Your next ability against an enemy will consume the mark to deal bonus magic damage.",
+  "active": "heals or shields blows both Dream Bubbles to them, empowering hem for 3 seconds.The two bubbles grant their nest hit 15-90 bonus outgoing magic damage () and a 15-30% Movement Speed bonus for 3 seconds. 500\n\n\nDream Maker TIPS: This boot enchant generates two “dream bubbles” at regular intervals. When you heal or shield an ally, both bubbles burst on them, empowering their next hit with bonus magic damage and granting a temporary movement speed boost.  — Perfect for enchanter supports who want to both protect their team and empower their carries with extra damage and mobility at critical moments.",
+  "description": "Item that provides Ability Power, Health, Ability Haste. Passive effect: Healing or shielding an ally grants them 8% Movement Speed for 2 seconds and marks them. Your next ability against an enemy will consume the mark to deal bonus magic damage.. Active effect: This boot enchant generates two “dream bubbles” at regular intervals. When you heal or shield an ally, both bubbles burst on them, empowering their next hit with bonus magic damage and granting a temporary movement speed boost.  — Perfect for enchanter supports who want to both protect their team and empower their carries with extra damage and mobility at critical moments.. Perfect for frontline champions who need to absorb damage.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Soulstealer"
+  ],
+  "tags": [
+    "Magic",
+    "Health",
+    "CDR",
+    "Support",
+    "Heal",
+    "Mark"
+  ],
+  "tips": [
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions",
+    "The resistances help you survive longer in team fights",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Legend: Tenacity",
+  "tree": "Precision",
+  "type": "Primary",
+  "description": "Gain Tenacity for each Legend stack (max 10 stacks). Earn progress toward Legend stacks for every champion takedown, epic monster takedown, and minion kill.",
+  "stats": {
+    "tenacity_per_stack": "2.5%",
+    "max_tenacity": "25%",
+    "stacks_needed": "10"
+  },
+  "tier": "A"
+}

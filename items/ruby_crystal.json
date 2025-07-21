@@ -1,0 +1,28 @@
+{
+  "name": "Ruby Crystal",
+  "stats": {
+    "health": {
+      "value": 150,
+      "type": "flat"
+    }
+  },
+  "cost": 400,
+  "passive": "",
+  "active": "",
+  "description": "Basic health component. Used to build into many tank and bruiser items. Provides early game survivability.",
+  "category": "component",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Health"
+  ],
+  "tips": [
+    "Provides excellent sustain in lane and during fights",
+    "The healing/lifesteal helps you stay in fights longer",
+    "Great for champions who take extended trades",
+    "Excellent for frontline champions who need to absorb damage",
+    "Build this when facing heavy mixed damage compositions"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

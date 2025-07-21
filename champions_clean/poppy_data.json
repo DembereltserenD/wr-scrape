@@ -1,0 +1,260 @@
+{
+  "champion": {
+    "id": "384-poppy",
+    "name": "Poppy",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Tank</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle",
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-10/1665249622_poppy_0_1_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-10/1665249622_poppy_0_1_11zon.webp"
+  },
+  "stats": {},
+  "abilities": {
+    "passive": {
+      "name": "IRON AMBASSADOR",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) IRON AMBASSADOR\n                                Every 12 seconds (), Poppy's next attack throws her buckler, gaining 350 Attack Range and dealing 20 bonus magic damage ().The buckler ricochets off the target, landing nearby for 4 seconds. Poppy can pick it up to gain a shield that absorbs 86 damage (13% of max Health ) () for 3 second(s).If the buckler kills the target or if the target dies before being hit, it automatically returns to Poppy.",
+      "damage": [
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665249833_iron_ambassador.webp",
+      "notes": [
+        "Range and dealing 20 bonus magic damage ()"
+      ]
+    },
+    "q": {
+      "name": "(Q) HAMMER SHOCK",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) HAMMER SHOCK\n 7/6/5/4s   30 \n                                \n                                \n                                Poppy smashes the ground, dealing 50 (50/70/90/110 + 90% bonus ) plus 9% of the target's max Health as physical damage and making the ground unstable.The unstable area slows enemies by 25/30/35/40% and enemies and erupts after 1 seconds, dealing 50 (50/70/90/110 + 90% bonus ) plus 9% of the target's max Health as physical damage again.Poppy's percent health damage is capped against monsters at 40/100/160/220 damage per hit.",
+      "damage": [
+        7,
+        6,
+        5,
+        4
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665249868_hammer_shock.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) STEADFAST PRESENCE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) STEADFAST PRESENCE\n 19/16.5/14/11.5s   40 \n                                \n                                \n                                Passive: Gains 12% Armor  and 12% Magic Resist . This bonus doubles when Poppy is below 40% Health.Active: Gains 40% Movement Speed and projects a field around her for 2 seconds that stops enemy dashes. Enemies who are stopped by the field take 95 magic damage (95/140/185/230 + 70% ) and are grounded and slowed by 25% for 2 second(s).",
+      "damage": [
+        19,
+        16
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665249860_steadfast_presence.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) HEROIC CHARGE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) HEROIC CHARGE\n 13/12/11/10s   60 \n                                \n                                \n                                Tackles an enemy, dealing 75 physical damage (75/100/125/150 + 50% bonus ) and carrying them forward.If Poppy tackles them into terrain, the target is stunned for 1.7/1.8/1.9/2 seconds and takes an additional 75 physical damage (75/100/125/150 + 50% bonus ).",
+      "damage": [
+        13,
+        12,
+        11,
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665249890_heroic_charge.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) KEEPER'S VERDICT",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) KEEPER'S VERDICT\n 90/80/70s   100 \n                                \n                                \n                                Hold: Charges her hammer for up to 4 seconds, slowing herself by 15%.Release: Smashes the ground, creating a shockwave that deals 200 physical damage (200/300/400 + 90% bonus ) to the first enemy champion hit and nearby enemies, knocks them back toward their Nexus, and makes them untargetable while they fly. The range and knock back distance increase with charge duration.An uncharged smash deals 100 physical damage (100/150/200 + 45% bonus ) and knocks enemies airborne for 1 seconds.",
+      "damage": [
+        90,
+        80,
+        70
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665249917_keeper27s_verdict.webp",
+      "notes": [
+        "duration",
+        "range and knock back distance increase with charge duration"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle",
+      "Support"
+    ],
+    "starting_items": [
+      "Shimmering Spark"
+    ],
+    "core_items": [
+      "Heartsteel",
+      "Plated Steelcaps",
+      "Sunfire Aegis"
+    ],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Stoneplate Enchant"
+    ],
+    "situational_items": [
+      "Heartsteel",
+      "Plated Steelcaps",
+      "Sunfire Aegis",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Heartsteel",
+      "Plated Steelcaps",
+      "Sunfire Aegis",
+      "Titanic Hydra",
+      "Amaranth's Twinguard",
+      "Thornmail"
+    ],
+    "enchants": [],
+    "alternative_builds": [],
+    "lane_specific": {
+      "Baron Lane": {
+        "starting_items": [],
+        "core_items": [
+          "Heartsteel",
+          "Plated Steelcaps",
+          "Sunfire Aegis"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      },
+      "Jungle": {
+        "starting_items": [],
+        "core_items": [
+          "Trinity Force",
+          "Mercury's Treads",
+          "Sundered Sky"
+        ],
+        "boots": [],
+        "situational_items": [],
+        "example_build": [],
+        "enchants": []
+      }
+    },
+    "core_items_detailed": [
+      {
+        "name": "Heartsteel",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Heartsteel",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Sunfire Aegis",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sunfire Aegis",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Tenacity",
+        "Coup de Grace"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Demolish",
+        "Second Wind"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: POPPY Build Guide S A ADJUSTED 43 17 60 20 852 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift POPPY , role - Tank",
+    "Use the guidelines to take your POPPY Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron POPPY Build items and runes The information below will help you get familiar with the game on the Solo Baron Line POPPY",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "30%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

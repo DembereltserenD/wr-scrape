@@ -1,0 +1,214 @@
+{
+  "champion": {
+    "id": "14-graves",
+    "name": "Graves",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter / Marksman</b>",
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607437158_graves_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607437158_graves_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 66.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 660.0,
+      "per_level": 128.0
+    },
+    "health_regeneration": {
+      "base": 11.0,
+      "per_level": 0.93
+    },
+    "attack_speed": {
+      "base": 1.03,
+      "per_level": 0.02
+    },
+    "mana": {
+      "base": 390.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.93
+    },
+    "movement_speed": {
+      "base": 350.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 35.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 40.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "NEW DESTINY",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) NEW DESTINY\n                                Graves' shotgun has some unique properties:Double Barrel: Graves must reload when he runs out of ammo. Attack speed reduces reload time slightly, but reduces time between attacks dramatically.12 Gauge: Attacks fire 4 bullets. Units hit take 72%  () + 24% () for additional bullets. Critical strikes fire 6 bullets and increase each bullet's damage by 50%. Structures only take 75% damage.Buckshot: Bullets cannot pass through enemy units. Non-champions struck by multiple bullets are knocked back slightly.",
+      "damage": [
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606377168_graves_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) END OF THE LINE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) END OF THE LINE\n 10/9/8/7s   65/70/75/80 \n                                \n                                \n                                Fires a powder round that deals 70 physical damage (70/90/110/130 + 80% bonus ) and then detonates after 1.5s to deal an additional 80 physical damage (80/130/180/230 +  80/110/140/170% bonus ).Detonates in 0.25s if the round hits terrain.Deals 110% damage against monsters.",
+      "damage": [
+        10,
+        9,
+        8,
+        7
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606377104_graves_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) SMOKE SCREEN",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) SMOKE SCREEN\n 20/18/16/14s   75/80/85/90 \n                                \n                                \n                                Throws a canister that creates a cloud of smoke for 4 seconds. Enemies within the smoke cannot see outside of it.Enemies caught in the initial impact take 60 magic damage (60/125/190/255 + 60% ) and are slowed by 50% for 0.5 seconds.",
+      "damage": [
+        20,
+        18,
+        16,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606377133_graves_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) QUICKDRAW",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) QUICKDRAW\n 16/15/14/13s   40 \n                                \n                                \n                                Dashes in a direction, reloading one shell and granting True Grit for 4 seconds. True Grit grants 13/18/23/28 Armor (stacks 6times) and refreshes when damaging non-minions.Dashing towards an enemy champion grants 2 stacks of True Grit. Each bullet hit on an attack reduces Quickdraws cooldown by 0.5 seconds.",
+      "damage": [
+        16,
+        15,
+        14,
+        13
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606377157_graves_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) COLLATERAL DAMAGE",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) COLLATERAL DAMAGE\n 75/60/45s   100 \n                                \n                                \n                                Fires and explosive shell that deals 300 physical damage (300/450/600 + 150% bonus ) and knocks Graves back from recoil. The shell explodes upon hitting an enemy champion or reaching the end of its range, dealing 200 physical damage (200/320/440 + 120% bonus ) in a cone.Enemies damaged by the shell's initial impact do not take damage from the explosive cone.",
+      "damage": [
+        75,
+        60,
+        45
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606377226_graves_4.jpg",
+      "notes": [
+        "range, dealing 200 physical damage (200/320/440 + 120% bonus ) in a cone"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane",
+      "Jungle"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Gluttonous Greaves"
+    ],
+    "situational_items": [
+      "Bloodthirster",
+      "Gluttonous Greaves",
+      "Infinity Edge",
+      "Protobelt Enchant",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Bloodthirster",
+      "Gluttonous Greaves",
+      "Infinity Edge",
+      "Black Cleaver",
+      "Mortal Reminder",
+      "Immortal Shieldbow"
+    ],
+    "enchants": [
+      "Gluttonous Greaves",
+      "Protobelt Enchant",
+      "Stasis Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Alacrity",
+        "Coup de Grace"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Overgrowth"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: GRAVES Build Guide A BUFFED 96 6 102 68 378 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift GRAVES , role - Fighter / Marksman",
+    "Use the guidelines to take your GRAVES Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Jungle Path Jungle GRAVES Build items and runes The information below will help you get familiar with the game on the Jungle Line GRAVES",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "10%",
+    "pick_rate": "5%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

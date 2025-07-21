@@ -1,0 +1,215 @@
+{
+  "champion": {
+    "id": "396-swain",
+    "name": "Swain",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Tank</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2023-05/1683044495_evzpe-ywaaardfd_11zon.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2023-05/1683044495_evzpe-ywaaardfd_11zon.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.0
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 1.0
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.01
+    },
+    "mana": {
+      "base": 460.0,
+      "per_level": 30.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 1.0
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 37.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "RAVENOUS FLOCK",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) RAVENOUS FLOCK\n                                Swain collect Soul Fragments when Vision of Empire and Nevermove hit enemy champion, and also when they die.Soul Fragments heal for 3% health () and provide 16 maximum health.",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253717_ravenous_flock.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) DEATH'S HAND",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) DEATH'S HAND\n 6/5/4/3s   50 \n                                \n                                \n                                Swain extends his demonic arm to launch eldritch bots at enemies, dealing 55 magic damage (55/90/125/160 + 32% ) to enemies within range.Each bolt after the first deals 10 magic damage (10/20/30/40 + 12% ) (up to 110 damage).",
+      "damage": [
+        6,
+        5,
+        4,
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253759_death27s_hand.webp",
+      "notes": [
+        "range"
+      ]
+    },
+    "w": {
+      "name": "(W) VISION OF EMPIRE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) VISION OF EMPIRE\n 21/20/19/18s   65 \n                                \n                                \n                                Swain summons a demonic eye that explodes after a short delay, dealing 80 magic damage (80/130/180/230 + 55% ), slowing by 30/40/50/60% for 2.5 seconds and revealing targets hit for 4 seconds. If Vision of Empire damages an immobilized champion it will critically strike  for 50% damage.Champions hit will give 1 soul fragment(s).",
+      "damage": [
+        21,
+        20,
+        19,
+        18
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253725_vision_of_empire.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) NEVERMOVE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) NEVERMOVE\n 10s   60 \n                                \n                                \n                                Swain launches a demonic wave that deals 35 magic damage (35/85/135/185 + 25% ) to enemies along the way, then turns back after reaching the furthest distance, dealing 35 magic damage (35/50/65/80 + 25% ) to the area and rooting enemies within the area for 1.5 seconds.Recast: Swain pulls the rooted champions to himself and collects 1 Soul Fragment from targets.",
+      "damage": [
+        35,
+        85,
+        135,
+        185
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253741_nevermove.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) DEMONIC ASCENSION",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) DEMONIC ASCENSION\n 75/65/55s   100 \n                                \n                                \n                                Swain frees the demon, dealing 20 magic damage (15/35/55 + 20% ) per second to enemies within his range and restoring 20 health (20/30/40 + 20% ) to himself.Recast: Can be cast again  after 2 seconds of Demonic Ascension, dealing damage and slowing enemies.Non-champion units will restore 10% health.Demon Ascension is controlled by Demon Energy, which depletes over time, and can be recharged indefinitely by draining enemy Champions,  Champion takedowns fully restore Demon Energy.",
+      "damage": [
+        75,
+        65,
+        55
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253842_demonic_ascension.webp",
+      "notes": [
+        "range and restoring 20 health (20/30/40 + 20% ) to himself"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana",
+      "Mercury's Treads",
+      "Glp-800"
+    ],
+    "situational_items": [
+      "Rod Of Ages",
+      "Boots Of Mana",
+      "Riftmaker",
+      "Mercury's Treads",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Rod Of Ages",
+      "Boots Of Mana",
+      "Riftmaker",
+      "Rylai's Crystal Scepter",
+      "Psychic Projector",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [
+      "Stasis Enchant",
+      "Glp-800"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [
+        "Legend: Tenacity"
+      ]
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Demolish",
+        "Bone Plating"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: SWAIN Build Guide A B NERFED 100 8 108 75 289 2 Jul 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift SWAIN , role - Mage / Tank",
+    "Use the guidelines to take your SWAIN Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Mid SWAIN Build items and runes The information below will help you get familiar with the game on the Mid Line SWAIN",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "55%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

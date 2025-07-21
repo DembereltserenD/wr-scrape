@@ -1,0 +1,211 @@
+{
+  "champion": {
+    "id": "59-teemo",
+    "name": "Teemo",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Marksman</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-01/1611455640_lr7xdzd0tbk-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-01/1611455640_lr7xdzd0tbk-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 52.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 630.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.19
+    },
+    "mana": {
+      "base": 345.0,
+      "per_level": 41.0
+    },
+    "mana_regeneration": {
+      "base": 18.0,
+      "per_level": 0.71
+    },
+    "movement_speed": {
+      "base": 355.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 34.0,
+      "per_level": 4.5
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "TOXIC SHOT",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) TOXIC SHOT\n                                Attacks deal 10 bonus magic damage ((8 +  × 2) + 20% ) on impact and an additional 10 magic damage ((8 +  × 2) + 9% ) each second for 4 seconds.",
+      "damage": [
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1611281586_teemo-e-min.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) BLINDING DART",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BLINDING DART\n 8s   75/80/85/90 \n                                \n                                \n                                Deals 60 magic damage (60/110/160/210 + 55% ) and blinds the target for 1.25/1.5/1.75/2 seconds.Attacks from blinded enemies will miss their target, dealing no damage and failing to apply on-hit effects.Range: 5.5.",
+      "damage": [
+        75,
+        80,
+        85,
+        90
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609859629_teemo-q-min.png",
+      "notes": [
+        "Range: 5"
+      ]
+    },
+    "w": {
+      "name": "(W) MOVE QUICK",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) MOVE QUICK\n 17/16/15/14s   40 \n                                \n                                \n                                Passive: Grants 15/20/25/30% Movement Speed if an enemy champion or structure has not damaged Teemo within the last 5 seconds.Active: Rolls a short distance forward and sprints (30/40/50/60% Movement Speed) for 3 seconds During this time, Move Quick's bonus is doubled and cannot be removed by damage.",
+      "damage": [
+        17,
+        16,
+        15,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609859638_teemo-w-min.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) GUERILLA WARFARE",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) GUERILLA WARFARE\n 25/23/21/19s   60 \n                                \n                                \n                                After a delay, become Camouflaged. Moving outside of brush for more than 3/3.5/4/4.5 seconds ends this effect.Camouflage: Hide from champions by keeping them out of Teemo's detection radius. Enemy turrets reveal camouflaged units near them. Attacks and offensive abilities end Camouflage early.After exiting Camouflage, gain 30/40/50/60% Attack Speed for 3/4/5/6 seconds.",
+      "damage": [
+        25,
+        23,
+        21,
+        19
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1611281623_teemo-passive-min.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) NOXIOUS TRAP",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) NOXIOUS TRAP\n 1s   75 \n                                \n                                \n                                Place a mushroom trap that detonates when an enemy steps on it, dealing 125 magic damage (125/175/225 + 30% ) over 3 seconds and slowing by 30/40/50% for 3 seconds.Traps last for 2 minutes.",
+      "damage": [
+        125,
+        175,
+        225
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609859619_teemo-r-min.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Amplifying Tome"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana"
+    ],
+    "situational_items": [
+      "Nashor's Tooth",
+      "Boots Of Mana",
+      "Liandry's Torment",
+      "Stasis Enchant",
+      "Repulsor Enchant",
+      "Rabadon's Deathcap"
+    ],
+    "example_build": [
+      "Nashor's Tooth",
+      "Boots Of Mana",
+      "Liandry's Torment",
+      "Rabadon's Deathcap",
+      "Riftmaker",
+      "Crown Of The Shattered Queen"
+    ],
+    "enchants": [
+      "Stasis Enchant",
+      "Repulsor Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Domination",
+      "keystone": "Electrocute",
+      "runes": [
+        "Sudden Impact"
+      ]
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [
+        "Legend: Alacrity"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: TEEMO Build Guide A B ADJUSTED 223 35 258 101 100 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift TEEMO , role - Mage / Marksman",
+    "Use the guidelines to take your TEEMO Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron TEEMO Build items and runes The information below will help you get familiar with the game on the Solo Baron Line TEEMO",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "30%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "6.1",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

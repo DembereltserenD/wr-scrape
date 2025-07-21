@@ -1,0 +1,46 @@
+{
+  "name": "Staff of Flowing Water",
+  "stats": {
+    "ability_power": {
+      "value": 50,
+      "type": "flat"
+    },
+    "mana_regeneration": {
+      "value": 125,
+      "type": "percentage"
+    },
+    "cooldown_reduction": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 2300,
+  "passive": "Rapids: Healing or shielding an ally grants both of you 25 Ability Power and 15% Movement Speed for 4 seconds.",
+  "active": "ly support their team, such as Soraka, Nami, or Lulu.",
+  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Healing or shielding an ally grants both of you 25 Ability Power and 15% Movement Speed for 4 seconds.. Active effect: ly support their team, such as Soraka, Nami, or Lulu.. Excellent for supporting allies and enhancing team capabilities.",
+  "category": "legendary",
+  "tier": "B",
+  "build_path": [
+    "Fiendish Codex",
+    "Forbidden Idol"
+  ],
+  "tags": [
+    "Magic",
+    "CDR",
+    "Support",
+    "Buff"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

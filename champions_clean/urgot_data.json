@@ -1,0 +1,213 @@
+{
+  "champion": {
+    "id": "406-urgot",
+    "name": "Urgot",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter / Tank</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2023-03/1678405460_urgot_originalcentered.webp",
+    "splash_art": "https://wr-meta.com/uploads/posts/2023-03/1678405460_urgot_originalcentered.webp"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 58.0,
+      "per_level": 3.5
+    },
+    "health": {
+      "base": 660.0,
+      "per_level": 136.0
+    },
+    "health_regeneration": {
+      "base": 10.0,
+      "per_level": 0.86
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.01
+    },
+    "mana": {
+      "base": 380.0,
+      "per_level": 50.0
+    },
+    "mana_regeneration": {
+      "base": 12.0,
+      "per_level": 0.86
+    },
+    "movement_speed": {
+      "base": 340.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 46.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 40.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "ECHOING FLAMES",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) ECHOING FLAMES\n                                Urgot's attacks and Purge periodically trigger blasts from his leg cannons, dealing 29 (50/65/80/95% ) + 3/4/5/6% (increase at level 1/5/9/13) of the target's max health as physical damage. (15/8/4/2s () cooldown per leg).Deals 100 () max damage against monsters.",
+      "damage": [
+        50,
+        65,
+        80,
+        95
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259437_echoing_flames.webp",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) CORROSIVE CHARGE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) CORROSIVE CHARGE\n 9.5/9/8.5/8s   70 \n                                \n                                \n                                Fires an explosive charge that deals 110 physical damage (25/85/145/205 + 70% ) and slows by 45/50/55/60% for 1.25 seconds.",
+      "damage": [
+        5,
+        9,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259445_corrosive_charge.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) PURGE",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) PURGE\n 12/8/4/0.5s   30/20/10/0 \n                                \n                                \n                                Shoots the nearest enemy rapidly for 4 seconds, dealing 18 physical damage (6 + 20/25/30/35% ) and applying on-hits at 70% effectiveness. During this time Urgot's Movement Speed is reduced by 125/110/95/80 and he gains 40% Slow Resist.Dealing a minimum of 50 damage to minions and monsters, prioritizes the champion hit most recently by Urgot's abilities. At max rank, Purge gains infinite duration.Re-cast: Ends Purge.",
+      "damage": [
+        12,
+        8,
+        4,
+        0
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259545_purge.webp",
+      "notes": [
+        "duration"
+      ]
+    },
+    "e": {
+      "name": "(E) DISDAIN",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) DISDAIN\n 14/13/12/11s   60/70/80/90 \n                                \n                                \n                                Gain a shield that absorbs 70 damage (70/100/130/160 + 150%  + 15% bonus ) for 4 seconds and charges forward, dealing 90 physical damage (90/130/170/210 + 100% bonus ) and stunning them for 1.5 seconds. Flings the first enemy champion over him and knock non-champions aside.",
+      "damage": [
+        14,
+        13,
+        12,
+        11
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259510_disdain.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) FEAR BEYOND DEATH",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) FEAR BEYOND DEATH\n 60/55/50s  \n                                \n                                \n                                Fires a chem-drill that deals 100 physical damage (100/225/350 + 70% bonus ) to the fist champion hit and impales them for 4 seconds, slowing them by up to 75% based on their missing health.Re-cast: If the impaled target falls below 25% Health, Urgot channels for 1.5 seconds while he reels in and executes them. Upon an execution, nearby enemies are feared for 1.5 seconds.Fear Beyond Death is automatically re-cast if the enemy is below the threshold at the end of the duration.",
+      "damage": [
+        60,
+        55,
+        50
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259545_fear_beyond_death.webp",
+      "notes": [
+        "duration"
+      ]
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Stoneplate Enchant",
+      "Teleport Enchant"
+    ],
+    "situational_items": [
+      "Black Cleaver",
+      "Plated Steelcaps",
+      "Heartsteel",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Black Cleaver",
+      "Plated Steelcaps",
+      "Heartsteel",
+      "Titanic Hydra",
+      "Sterak's Gage",
+      "Amaranth's Twinguard"
+    ],
+    "enchants": [],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Bone Plating"
+      ]
+    },
+    "secondary": {
+      "tree": "Precision",
+      "runes": [
+        "Legend: Tenacity"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: URGOT Build Guide B BUFFED 67 6 73 53 019 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift URGOT , role - Fighter / Tank",
+    "Use the guidelines to take your URGOT Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron URGOT Build items and runes The information below will help you get familiar with the game on the Solo Baron Line URGOT",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "70%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

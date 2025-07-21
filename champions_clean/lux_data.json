@@ -1,0 +1,207 @@
+{
+  "champion": {
+    "id": "30-lux",
+    "name": "Lux",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2020-12/1607438067_lux_skin01-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2020-12/1607438067_lux_skin01-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 52.0,
+      "per_level": 3.64
+    },
+    "health": {
+      "base": 600.0,
+      "per_level": 120.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.57
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 480.0,
+      "per_level": 49.0
+    },
+    "mana_regeneration": {
+      "base": 9.0,
+      "per_level": 1.14
+    },
+    "movement_speed": {
+      "base": 360.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 34.0,
+      "per_level": 5.0
+    },
+    "magic_resistance": {
+      "base": 36.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "ILLUMINATION",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) ILLUMINATION\n                                Damaging abilities afflict enemies with Illumination for 5 seconds. Lux's next attack or damaging ability against that target empowers Illumination, dealing 25.5 magic damage ((18 +  × 7.5) + 25% ).",
+      "damage": [
+        5
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606427232_lux_0.jpg",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) LIGHT BINDING",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) LIGHT BINDING\n 9s   45/50/55/60 \n                                \n                                \n                                Cast out a ball of light that roots 2 enemies for 2 seconds and deals 60 magic damage (60/120/180/240 + 70% ) to both targets.Damage to minions and small monsters: 90%.",
+      "damage": [
+        45,
+        50,
+        55,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606427294_lux_1.jpg",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) PRISMATIC BARRIER",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) PRISMATIC BARRIER\n 12/11/10/9s   60 \n                                \n                                \n                                Throws Lux's wand in a direction, shielding allied champions it passes through from 25 damage (25/50/75/100  + 18% ) for 3 seconds.After reaching its apex it returns to Lux, shielding allied champions for an additional 40 damage (40/70/100/130 + 28% ).",
+      "damage": [
+        12,
+        11,
+        10,
+        9
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606427329_lux_2.jpg",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) LUCENT SINGULARITY",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) LUCENT SINGULARITY\n 9.5/9/8.5/8s   70/80/90/100 \n                                \n                                \n                                Creates a zone of light that slows nearby enemies by 30/35/40/45%. After 5 seconds the zone detonates, dealing 60 magic damage (65/130/195/260 + 55% ).Re-cast: Detonate the zone.",
+      "damage": [
+        5,
+        9,
+        8
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606427343_lux_3.jpg",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) FINAL SPARK",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) FINAL SPARK\n 55/45/40s   100 \n                                \n                                \n                                Fires a beam of light dealing 300 magic damage (300/400/500 + 75% ) to all enemies in a line.Final Spark ignites and refreshes Illumination.",
+      "damage": [
+        55,
+        45,
+        40
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606427249_lux_4.jpg",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [
+      "Relic Shield"
+    ],
+    "core_items": [],
+    "boots": [
+      "Boots Of Mana",
+      "Glp-800"
+    ],
+    "situational_items": [
+      "Bulwark Of The Mountain",
+      "Boots Of Mana",
+      "Luden's Echo",
+      "Stasis Enchant"
+    ],
+    "example_build": [
+      "Bulwark Of The Mountain",
+      "Boots Of Mana",
+      "Luden's Echo",
+      "Infinity Orb",
+      "Rabadon's Deathcap",
+      "Crown Of The Shattered Queen"
+    ],
+    "enchants": [
+      "Stasis Enchant",
+      "Glp-800"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Bone Plating"
+      ]
+    },
+    "secondary": {
+      "tree": "Domination",
+      "runes": [
+        "Cheap Shot"
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: LUX Build Guide S S ADJUSTED 174 18 192 139 580 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift LUX , role - Mage / Support",
+    "Use the guidelines to take your LUX Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Support LUX Build items and runes The information below will help you get familiar with the game on the Support Line LUX",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "45%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

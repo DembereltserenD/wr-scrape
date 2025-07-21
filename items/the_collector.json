@@ -1,0 +1,47 @@
+{
+  "name": "The Collector",
+  "stats": {
+    "attack_damage": {
+      "value": 55,
+      "type": "flat"
+    },
+    "critical_chance": {
+      "value": 20,
+      "type": "percentage"
+    },
+    "lethality": {
+      "value": 12,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Death and Taxes: If you deal damage that would leave an enemy champion below 5% Health, execute them. Champion takedowns grant 25 bonus gold.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Armor. Passive effect: If you deal damage that would leave an enemy champion below 5% Health, execute them. Champion takedowns grant 25 bonus gold.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "B.F. Sword",
+    "Serrated Dirk"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Critical",
+    "Lethality",
+    "Execute"
+  ],
+  "tips": [
+    "Excellent against targets building resistances",
+    "The penetration helps maintain damage relevance as the game progresses",
+    "Great for assassins looking to eliminate priority targets",
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

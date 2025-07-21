@@ -1,0 +1,13 @@
+{
+  "name": "Lethal Tempo",
+  "tree": "Precision",
+  "type": "Keystone",
+  "description": "Attacking an enemy champion grants Attack Speed for 6 seconds, stacking up to 6 times. At maximum stacks, gain additional Attack Speed and your Attack Speed cap is increased.",
+  "stats": {
+    "attack_speed_per_stack": "13%",
+    "max_stacks": "6",
+    "bonus_at_max": "50% Attack Speed",
+    "duration": "6 seconds"
+  },
+  "tier": "S"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Last Stand",
+  "tree": "Precision",
+  "type": "Primary",
+  "description": "Deal 5% to 11% increased damage based on your missing health.",
+  "stats": {
+    "min_damage_increase": "5%",
+    "max_damage_increase": "11%",
+    "scaling": "Based on missing health"
+  },
+  "tier": "A"
+}

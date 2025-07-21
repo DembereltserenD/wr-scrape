@@ -1,0 +1,11 @@
+{
+  "name": "Sudden Impact",
+  "tree": "Domination",
+  "type": "Primary",
+  "description": "After using a dash, leap, blink, teleport, or when leaving stealth, deal bonus magic damage for your next ability.",
+  "stats": {
+    "magic_damage": "10-45 based on level",
+    "duration": "5 seconds"
+  },
+  "tier": "A"
+}

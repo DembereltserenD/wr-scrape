@@ -1,0 +1,51 @@
+{
+  "name": "Black Cleaver",
+  "stats": {
+    "attack_damage": {
+      "value": 40,
+      "type": "flat"
+    },
+    "health": {
+      "value": 400,
+      "type": "flat"
+    },
+    "cooldown_reduction": {
+      "value": 25,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    },
+    "movement_speed": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3100,
+  "passive": "Carve: Dealing physical damage to an enemy champion applies a stack for 6 seconds (max 6 stacks). Each stack reduces the target's Armor by 5%.",
+  "active": "",
+  "description": "Item that provides Attack Damage, Health, Ability Haste, Ability Haste, Movement Speed. Passive effect: Dealing physical damage to an enemy champion applies a stack for 6 seconds (max 6 stacks). Each stack reduces the target's Armor by 5%.. Great for champions looking to maximize their damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Phage",
+    "Caulfield's Warhammer"
+  ],
+  "tags": [
+    "Damage",
+    "Physical",
+    "Health",
+    "CDR",
+    "Armor Reduction"
+  ],
+  "tips": [
+    "Great against teams with multiple tanks or bruisers",
+    "The armor shred benefits your entire team's physical damage",
+    "Stack the effect quickly with multi-hit abilities",
+    "Perfect for bruisers who deal sustained physical damage",
+    "Synergizes well with other armor penetration items"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Electrocute",
+  "tree": "Domination",
+  "type": "Keystone",
+  "description": "Hitting an enemy champion with 3 separate attacks or abilities within 3 seconds deals bonus adaptive damage.",
+  "stats": {
+    "damage": "30-184 based on level",
+    "scaling": "40% bonus AD + 25% AP",
+    "cooldown": "25-20s based on level"
+  },
+  "tier": "A"
+}

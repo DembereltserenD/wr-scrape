@@ -1,0 +1,43 @@
+{
+  "name": "Soulstealer",
+  "stats": {
+    "ability_power": {
+      "value": 20,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 75,
+      "type": "flat"
+    },
+    "gold_generation": {
+      "value": 3,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 400,
+  "passive": "Tribute: Damaging an enemy champion with an ability grants 20 gold and restores mana to your most mana-hungry nearby ally (10 second cooldown per target).",
+  "active": "",
+  "description": "Item that provides Ability Power, Ability Haste. Passive effect: Damaging an enemy champion with an ability grants 20 gold and restores mana to your most mana-hungry nearby ally (10 second cooldown per target).. Excellent for supporting allies and enhancing team capabilities.",
+  "category": "legendary",
+  "tier": "C",
+  "build_path": [],
+  "tags": [
+    "Magic",
+    "Mana",
+    "Support",
+    "Gold Generation"
+  ],
+  "tips": [
+    "Perfect for enhancing your team's capabilities",
+    "Helps protect and empower your carries",
+    "The active/passive effect can turn the tide of team fights",
+    "Perfect for champions with high mana consumption",
+    "Helps sustain your presence in lane without frequent recalls"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

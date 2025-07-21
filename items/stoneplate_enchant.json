@@ -1,0 +1,35 @@
+{
+  "name": "Stoneplate Enchant",
+  "stats": {
+    "armor": {
+      "value": 15,
+      "type": "flat"
+    },
+    "magic_resist": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 500,
+  "passive": "",
+  "active": "Stoneplate: Gain 40% damage reduction but deal 60% less damage for 2.5 seconds (90 second cooldown).",
+  "description": "Boot enchantment that provides resistances and an active that grants massive damage reduction at the cost of damage output.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [],
+  "tags": [
+    "Armor",
+    "Magic Resist",
+    "Damage Reduction",
+    "Enchant"
+  ],
+  "tips": [
+    "Great for champions who want to maximize their damage output",
+    "Synergizes well with other damage items for burst potential",
+    "Consider building this when ahead to snowball your advantage",
+    "Provides unique utility that can change fight dynamics",
+    "The active/passive effect creates opportunities for your team"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

@@ -1,0 +1,208 @@
+{
+  "champion": {
+    "id": "56-lulu",
+    "name": "Lulu",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Mage / Support</b>",
+    "lanes": [
+      "Support"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2021-01/1610655539_gqnem144zm0-1-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2021-01/1610655539_gqnem144zm0-1-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 46.0,
+      "per_level": 2.71
+    },
+    "health": {
+      "base": 600.0,
+      "per_level": 104.0
+    },
+    "health_regeneration": {
+      "base": 8.0,
+      "per_level": 0.71
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.0
+    },
+    "mana": {
+      "base": 480.0,
+      "per_level": 57.0
+    },
+    "mana_regeneration": {
+      "base": 21.0,
+      "per_level": 0.93
+    },
+    "movement_speed": {
+      "base": 345.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 40.0,
+      "per_level": 4.36
+    },
+    "magic_resistance": {
+      "base": 35.0,
+      "per_level": 1.2
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "PIX, FAERIE COMPANION",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) PIX, FAERIE COMPANION\n                                Pix fires a barrage of 3 bolts that deal a total of 15 magic damage (15 (+6 ) + 15% ) at whatever Lulu attacks. These bolts can be blocked by other units.Pix can attach to other champions by casting some of Lulu's abilities, revealing them if they are an enemy or aiding their attacks instead of Lulu's if they are an ally.",
+      "damage": [
+        3
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609850918_lulu-passive-min.png",
+      "notes": []
+    },
+    "q": {
+      "name": "(Q) GLITTERLANCE",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) GLITTERLANCE\n 7s   50/55/60/65 \n                                \n                                \n                                Lulu and Pix each fire a piercing bolt that deals 50 magic damage (50/85/120/155 + 30% ) to the first enemy hit and 70% damage to additional enemies. Enemies hit are slowed by 80%, decaying over the next 2 seconds.",
+      "damage": [
+        50,
+        55,
+        60,
+        65
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609850940_lulu-q-min.png",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) WHIMSY",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) WHIMSY\n 17/16/15/14s   65 \n                                \n                                \n                                Pix creates a faerie ring, attaching to the first champion that enters for 5 seconds and casting an additional effect on them.On Allies: Grants 20% Movement Speed (20 + 5% ) and 25/30/35/40% Attack Speed for 3.5/4/4.5/5 seconds.On Enemies: Polymorphs the enemy for 1/1.25/1.5/1.75 seconds, disabling them from attacking or casting abilities and reducing their base Movement Speed to 60.Pix's ring will prioritize polymorphing enemies over speeding up allies.",
+      "damage": [
+        17,
+        16,
+        15,
+        14
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609850902_lulu-w-min.png",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) HELP, PIX!",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) HELP, PIX!\n 10s   60/70/80/90 \n                                \n                                \n                                Attaches Pix to target enemy or ally champion for 5 seconds.On Allies: Grants a shield that absorbs 60 damage (60/100/140/180 + 60% ) for 2.5 seconds.On Enemies: Deals 80 magic damage (80/120/160/200 + 40% ).",
+      "damage": [
+        60,
+        70,
+        80,
+        90
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609850958_lulu-e-min.png",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) WILD GROWTH",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) WILD GROWTH\n 80/70/60s   100 \n                                \n                                \n                                Enlarges an ally champion, knocking nearby enemies into the air for 0.75 seconds. For the next 7 seconds, the ally champion grants 250 bonus Health (250/400/550 + 50% ) and slow nearby enemies by 30%.Activating a skill by touch applies it to Lulu.",
+      "damage": [
+        80,
+        70,
+        60
+      ],
+      "scaling": "",
+      "damage_type": "Mixed",
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609850905_lulu-r-min.png",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Support"
+    ],
+    "starting_items": [
+      "Relic Shield"
+    ],
+    "core_items": [],
+    "boots": [
+      "Ionian Boots Of Lucidity",
+      "Boots Of Mana",
+      "Locket Enchant"
+    ],
+    "situational_items": [
+      "Bulwark Of The Mountain",
+      "Ionian Boots Of Lucidity",
+      "Ardent Censer",
+      "Boots Of Mana"
+    ],
+    "example_build": [
+      "Bulwark Of The Mountain",
+      "Ionian Boots Of Lucidity",
+      "Ardent Censer",
+      "Staff Of Flowing Water",
+      "Imperial Mandate",
+      "Crown Of The Shattered Queen"
+    ],
+    "enchants": [
+      "Veil Enchant"
+    ],
+    "alternative_builds": [],
+    "lane_specific": {}
+  },
+  "runes": {
+    "primary": {
+      "tree": "Resolve",
+      "keystone": "Guardian",
+      "runes": [
+        "Font of Life",
+        "Bone Plating",
+        "Revitalize"
+      ]
+    },
+    "secondary": {
+      "tree": "",
+      "runes": []
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: LULU Build Guide S NERFED 150 10 160 67 009 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift LULU , role - Mage / Support",
+    "Use the guidelines to take your LULU Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Support LULU Build items and runes The information below will help you get familiar with the game on the Support Line LULU",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "10%",
+    "pick_rate": "10%",
+    "ban_rate": "Low",
+    "patch": "22itempreviewarticle",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}

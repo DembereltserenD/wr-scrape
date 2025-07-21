@@ -1,0 +1,42 @@
+{
+  "name": "Luden's Echo",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "mana": {
+      "value": 600,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
+    }
+  },
+  "cost": 3200,
+  "passive": "Echo: Damaging an enemy with an ability hurls an orb at them that deals magic damage. This effect has a cooldown per target.",
+  "active": "ability or empowered attack deals 110 (+ 10% AP) bonus magic damage to your target and up to 3 nearby enemies. 3000\n\n\nLuden's Echo TIPS: This item is perfect for mages who need to increase their damage and mobility on the battlefield. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Discordic Echo\" effect builds Discord while moving and casting abilities, and upon reaching 100 Discord, your next damaging active ability or empowered attack deals bonus magic damage to your target and up to three nearby enemies. This makes the item a great choice for mages who want to deal damage to multiple targets and control the battlefield effectively.",
+  "description": "Item that provides Ability Power, Ability Haste. Passive effect: Damaging an enemy with an ability hurls an orb at them that deals magic damage. This effect has a cooldown per target.. Active effect: This item is perfect for mages who need to increase their damage and mobility on the battlefield. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Discordic Echo\" effect builds Discord while moving and casting abilities, and upon reaching 100 Discord, your next damaging active ability or empowered attack deals bonus magic damage to your target and up to three nearby enemies. This makes the item a great choice for mages who want to deal damage to multiple targets and control the battlefield effectively.. A versatile item that can benefit many champion types.",
+  "category": "legendary",
+  "tier": "A",
+  "build_path": [
+    "Lost Chapter",
+    "Blasting Wand"
+  ],
+  "tags": [
+    "Magic",
+    "Mana",
+    "Ability Haste",
+    "Echo"
+  ],
+  "tips": [
+    "Great for mages who want to burst and poke",
+    "The movement speed helps with kiting and positioning",
+    "The echo effect helps with waveclear and AOE damage",
+    "Perfect for champions with long-range abilities",
+    "Consider building this as a first item on burst mages"
+  ],
+  "build_components": {},
+  "builds_into": []
+}

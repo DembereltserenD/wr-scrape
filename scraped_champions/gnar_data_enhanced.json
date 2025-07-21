@@ -1,0 +1,433 @@
+{
+  "champion": {
+    "id": "343-gnar",
+    "name": "Gnar",
+    "title": "- Pro Build Guide (Items",
+    "role": "<b>Fighter</b>",
+    "lanes": [
+      "Baron Lane"
+    ],
+    "difficulty": "High",
+    "tier": "A",
+    "image": "https://wr-meta.com/uploads/posts/2022-07/1656885099_gnar_0-min.jpg",
+    "splash_art": "https://wr-meta.com/uploads/posts/2022-07/1656885099_gnar_0-min.jpg"
+  },
+  "stats": {
+    "attack_damage": {
+      "base": 62.0,
+      "per_level": 3.5
+    },
+    "health": {
+      "base": 600.0,
+      "per_level": 88.0
+    },
+    "health_regeneration": {
+      "base": 6.0,
+      "per_level": 1.0
+    },
+    "attack_speed": {
+      "base": 0.75,
+      "per_level": 0.05
+    },
+    "mana": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "mana_regeneration": {
+      "base": 0.0,
+      "per_level": 0.0
+    },
+    "movement_speed": {
+      "base": 335.0,
+      "per_level": 0.0
+    },
+    "armor": {
+      "base": 43.0,
+      "per_level": 3.5
+    },
+    "magic_resistance": {
+      "base": 32.0,
+      "per_level": 2.0
+    },
+    "critical_strike": {
+      "base": 175.0,
+      "per_level": 0.0
+    }
+  },
+  "abilities": {
+    "passive": {
+      "name": "RAGE GENE",
+      "key": "P",
+      "type": "Passive",
+      "description": "(PASSIVE) RAGE GENE\n                                Dealing or taking damage generates Rage.At max Rage, Gnar's abilities will change, and his next ability transforms him into Mega Gnar for 15 second(s).Mini Gnar: Gains 0 Movement Speed (max 20; ), 0 Attack Range (max 150; ), and 0% Attack Speed (max 90%; ).Mega Gnar: Gains 100 Health (max 850; ), 4 Armor (max 55; ), 4 Magic Resist (max 65; ), and 8 Attack Damage (max 50; ).When dealing or taking damage as Mini Gnar, gains 3 Rage (increases at level 1/5/10) for the next 2 second(s). Attacking enemy champions generates 2 Rage, and attacking non-champions generates 1 Rage (increases at level 1/5/10).At max Rage, Gnar automatically transforms after 4 seconds if he does not use an ability.Rage decays after 13 seconds if Gnar has not dealt or taken damage during this time.Gnar cannot generate Rage for 15 seconds after he transforms back from Mini Gnar or Mega Gnar.Mini Gnar and Mega Gnar share all ability cooldowns except Hyper's.",
+      "damage": [
+        1,
+        5,
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Magic",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656885096_rage_gene.webp",
+      "notes": [
+        "Range (max 150; ), and 0% Attack Speed (max 90%; )"
+      ]
+    },
+    "q": {
+      "name": "(Q) BOOMERANG THROW / BOULDER TOSS",
+      "key": "Q",
+      "type": "Active",
+      "description": "(Q) BOOMERANG THROW / BOULDER TOSS\n 16/14/12/10s  \n                                \n                                \n                                Mini Gnar: Throws a boomerang that deals 83 physical damage (5/55/105/155 + 125% ) and slows enemies by 20/25/30/35% for 2 second(s). The boomerang returns to Gnar after hitting the target, dealing 50% damage to subsequent enemies. Each enemy can only be hit once. Catching the boomerang reduces its cooldown by 40%.Mega Gnar: Throws a boulder, dealing 127 physical damage (40/95/150/205 + 140% ) and slowing the target hit and nearby enemies by 35/40/45/50% for 2 second(s). Picking up the boulder within 5 second(s) reduces its cooldown by 70%.The boomerang generates 1 Rage when it hits a champion and 1 Rage when it hits a non-champion. Only the first hit on each target generates Rage.",
+      "damage": [
+        16,
+        14,
+        12,
+        10
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656885129_boomerang_throw.webp",
+      "notes": []
+    },
+    "w": {
+      "name": "(W) HYPER / WALLOP",
+      "key": "W",
+      "type": "Active",
+      "description": "(W) HYPER / WALLOP\n 20/19/18/17s  \n                                \n                                \n                                Mini Gnar (Passive): Every third attack or ability on the same enemy deals an additional 10 (10/20/30/40 + 100% ) plus 6/8/10/12% of the target's max Health as magic damage and grants 20% Movement Speed (based on GNAR!'s level) that decays over 3 second(s).Mini Gnar (Active): Gains 35/40/45/50% Attack Speed for 6 second(s).Mega Gnar: Smashes down on the area in front of him, dealing 107 physical damage (45/85/125/165 + 100% ) in an area and stunning for 1.25 second(s).Gains Hyper's passive Movement Speed bonus upon leaving Mega Gnar form.Mini Gnar (Passive): deals upto 300 damage to monsters.",
+      "damage": [
+        20,
+        19,
+        18,
+        17
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656885152_hyper.webp",
+      "notes": []
+    },
+    "e": {
+      "name": "(E) HOP / CRUNCH",
+      "key": "E",
+      "type": "Active",
+      "description": "(E) HOP / CRUNCH\n 21/18/15/12s  \n                                \n                                \n                                Mini Gnar: Leaps to a location. If Gnar lands on a unit, he will bounce off it, traveling further in the same direction. Deals 86 physical damage (50/95/140/185 + 6% of his max Health ) and briefly slows the unit landed on by 80% if they are an enemy.Mega Gnar: Leaps to a location, dealing 116 physical damage (80/125/170/215 + 6% of his max Health ) to nearby enemies on landing. Enemies Gnar lands directly on top of are slowed briefly by 80%.If casting Hop transforms Gnar into Mega Gnar, Mega Gnar will also bounce off the unit he lands on and travel further.",
+      "damage": [
+        21,
+        18,
+        15,
+        12
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656885511_hop.webp",
+      "notes": []
+    },
+    "r": {
+      "name": "(R) GNAR!",
+      "key": "R",
+      "type": "Ultimate",
+      "description": "(R) GNAR!\n 60/45/30s  \n                                \n                                \n                                Mini Gnar (Passive): Hyper's Movement Speed bonus is increased to 35/50/65%.Mega Gnar: Knocks back enemies around him, dealing 200 physical damage (200/300/400 + 50% bonus  + 100% ) and slowing them by 45% for 1.25/1.5/1.75 second(s).GNAR!'s damage to enemies knocked back into a wall increases by 50%, dealing 300/450/600 physical damage and stunning them instead of slowing.",
+      "damage": [
+        60,
+        45,
+        30
+      ],
+      "scaling": "",
+      "damage_type": "Physical",
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656885557_gnar21.webp",
+      "notes": []
+    }
+  },
+  "builds": {
+    "lanes": [
+      "Baron Lane"
+    ],
+    "starting_items": [
+      "Long Sword"
+    ],
+    "core_items": [],
+    "boots": [
+      "Plated Steelcaps",
+      "Mercury's Treads",
+      "Stoneplate Enchant"
+    ],
+    "situational_items": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Mercury's Treads"
+    ],
+    "example_build": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Sterak's Gage",
+      "Amaranth's Twinguard",
+      "Thornmail"
+    ],
+    "enchants": [],
+    "alternative_builds": [],
+    "lane_specific": {},
+    "starting_items_detailed": [
+      {
+        "name": "Long Sword",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Long Sword",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ],
+    "boots_detailed": [
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%",
+        "description": "Magic resistance boots that also provide tenacity, reducing the duration of crowd control effects. Essential against heavy AP or CC compositions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Stoneplate Enchant",
+        "stats": {},
+        "cost": 500,
+        "passive": "",
+        "active": "",
+        "description": "Details for Stoneplate Enchant",
+        "category": "enchant",
+        "tier": "A"
+      }
+    ],
+    "situational_items_detailed": [
+      {
+        "name": "Trinity Force",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Trinity Force",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Black Cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black Cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "magic_resistance": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1100,
+        "passive": "Reduces duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%",
+        "description": "Magic resistance boots that also provide tenacity, reducing the duration of crowd control effects. Essential against heavy AP or CC compositions.",
+        "category": "boots",
+        "tier": "A"
+      }
+    ],
+    "example_build_detailed": [
+      {
+        "name": "Trinity Force",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Trinity Force",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "stats": {
+          "armor": {
+            "value": 25,
+            "type": "flat"
+          },
+          "movement_speed": {
+            "value": 45,
+            "type": "flat"
+          }
+        },
+        "cost": 1000,
+        "passive": "Reduces damage from attacks by 15%",
+        "description": "Defensive boots that reduce physical damage from basic attacks. Essential against heavy AD compositions or when facing strong auto-attack based champions.",
+        "category": "boots",
+        "tier": "A"
+      },
+      {
+        "name": "Black Cleaver",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Black Cleaver",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Sterak's Gage",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Sterak's Gage",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Amaranth's Twinguard",
+        "stats": {},
+        "cost": 1000,
+        "passive": "",
+        "active": "",
+        "description": "Details for Amaranth's Twinguard",
+        "category": "legendary",
+        "tier": "A"
+      },
+      {
+        "name": "Thornmail",
+        "stats": {
+          "armor": {
+            "value": 60,
+            "type": "flat"
+          },
+          "health": {
+            "value": 350,
+            "type": "flat"
+          }
+        },
+        "cost": 2700,
+        "passive": "",
+        "active": "",
+        "description": "Details for Thornmail",
+        "category": "legendary",
+        "tier": "A"
+      }
+    ]
+  },
+  "runes": {
+    "primary": {
+      "tree": "Precision",
+      "keystone": "Conqueror",
+      "runes": [],
+      "keystone_detailed": {
+        "name": "Conqueror",
+        "tree": "Unknown",
+        "type": "Primary",
+        "description": "Rune effect for Conqueror",
+        "stats": {},
+        "cooldown": "",
+        "tier": "A"
+      },
+      "runes_detailed": []
+    },
+    "secondary": {
+      "tree": "Resolve",
+      "runes": [
+        "Second Wind",
+        "Bone Plating"
+      ],
+      "runes_detailed": [
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, heal over time based on missing health.",
+          "stats": {
+            "healing": "4 + 2.5% missing health over 10s"
+          },
+          "tier": "A"
+        },
+        {
+          "tree": "Resolve",
+          "type": "Primary",
+          "description": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal reduced damage.",
+          "stats": {
+            "damage_reduction": "30-60 based on level",
+            "duration": "1.5s",
+            "cooldown": "45s"
+          },
+          "tier": "A"
+        }
+      ]
+    },
+    "stat_shards": []
+  },
+  "summoner_spells": [
+    "Flash",
+    "Ignite"
+  ],
+  "counters": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tips": [
+    ", Combos and much more\"> wr meta Tier Lists Champions Assassins Fighters Mages Marksmans Supports Tanks Equipment Authorization Remember me Sign in Create an account Restore password Sign in with Wild Rift: GNAR Build Guide A NERFED 25 8 33 19 059 30 Jun 2025 Damage Toughness Utility Difficulty League of Legends: Wild Rift GNAR , role - Fighter",
+    "Use the guidelines to take your GNAR Wild Rift champion play style to the next level",
+    "Study in detail the build of items, runes, spells, skills that need to be developed in the first place",
+    "Con Game Plan Power Spikes Solo Baron GNAR Build items and runes The information below will help you get familiar with the game on the Solo Baron Line GNAR",
+    "We have prepared a items builds, runes, summoner spells and ability order for a comfortable game"
+  ],
+  "meta": {
+    "tier": "A",
+    "win_rate": "125%",
+    "pick_rate": "125%",
+    "ban_rate": "Low",
+    "patch": "3",
+    "last_updated": "2025-07-02",
+    "views": "8"
+  }
+}
