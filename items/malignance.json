@@ -5,12 +5,8 @@
       "value": 80,
       "type": "flat"
     },
-    "health": {
-      "value": 600,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 25,
+    "magic_penetration": {
+      "value": 7,
       "type": "percentage"
     },
     "ability_haste": {
@@ -18,29 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 2800,
-  "passive": "Haunt: Damaging an enemy champion with your Ultimate ability deals bonus magic damage and burns the ground beneath them for 4 seconds.",
-  "active": "",
-  "description": "Item that provides Ability Power, Health, Ability Haste, Ability Haste. Passive effect: Damaging an enemy champion with your Ultimate ability deals bonus magic damage and burns the ground beneath them for 4 seconds.. Perfect for frontline champions who need to absorb damage.",
+  "cost": 3000,
+  "passive": "Ing magic damage equal to 60 plus 5% AP per second and reducing their Magic Resist by 10 . Burn radius increases with damage, reaching maximum radius at 800 damage. 3000 Malignance TIPS: This item is perfect for champions who focus on their ultimate abilities and want to maximize their effectiveness in fights. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Scorn\" effect reduces the cooldown of your ultimate ability, enhancing its efficiency and uptime. The \"Hatefog\" effect deals magic damage to enemies in the area after using your ultimate, creating a scorched earth effect. Enemies within this area take damage and have their magic resistance reduced, making this item ideal for champions who want to weaken their opponents and increase their damage. It’s especially useful against enemies with high magic resistance.",
+  "active": "S to ability power, magic penetration, maximum mana, and ability haste. The \"Scorn\" effect reduces the cooldown of your ultimate ability, enhancing its efficiency and uptime. The \"Hatefog\" effect deals magic damage to enemies in the area after using your ultimate, creating a scorched earth effect. Enemies within this area take damage and have their magic resistance reduced, making this item ideal for champions who want to weaken their opponents and increase their damage. It’s especially useful against enemies with high magic resistance.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Kindlegem",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "Health",
-    "CDR",
-    "Ultimate Enhancement"
-  ],
   "tips": [
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer",
-    "Great for champions who take extended trades",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "MalignanceAn item made for Ultimate-centric playstyles +80 Ability Power +7% Magic Penetration +400 Max Mana +20 Ability HasteScorn: Your Ultimate abilities gain 20 Ability Haste.Hatefog: Damaging a champion with your Ultimate burns the ground beneath them for 3 second(s), dealing magic damage equal to 60 plus 5% AP per second and reducing their Magic Resist by 10.",
+    "Burn radius increases with damage, reaching maximum radius at 800 damage.",
+    "3000\n\n\nThis item is perfect for champions who focus on their ultimate abilities and want to maximize their effectiveness in fights.",
+    "It provides bonuses to ability power, magic penetration, maximum mana, and ability haste.",
+    "The \"Scorn\" effect reduces the cooldown of your ultimate ability, enhancing its efficiency and uptime."
+  ]
 }

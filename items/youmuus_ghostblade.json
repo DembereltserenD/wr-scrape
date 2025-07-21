@@ -5,10 +5,6 @@
       "value": 55,
       "type": "flat"
     },
-    "lethality": {
-      "value": 18,
-      "type": "flat"
-    },
     "armor": {
       "value": 15,
       "type": "flat"
@@ -22,29 +18,17 @@
       "type": "flat"
     }
   },
-  "cost": 2900,
-  "passive": "Wraith Step: Gain 20% Movement Speed out of combat.",
-  "active": "Wraith Step: Gain 20% Movement Speed and ghosting for 6 seconds (45 second cooldown).",
-  "description": "Item that provides Attack Damage, Armor, Attack Speed, Ability Haste. Passive effect: Gain 20% Movement Speed out of combat.. Active effect: Gain 20% Movement Speed and ghosting for 6 seconds (45 second cooldown).. Great for champions looking to maximize their damage output.",
+  "cost": 3200,
+  "passive": "Wraith Step: Gain 20% Movement Speed for 6 seconds (45 second cooldown).",
+  "active": "Wraith Step: Gain 20% Movement Speed for 6 seconds (45 second cooldown).",
+  "description": ":",
   "category": "legendary",
-  "tier": "A",
-  "build_path": [
-    "Serrated Dirk",
-    "Caulfield's Warhammer"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Lethality",
-    "Movement"
-  ],
+  "tier": "S",
   "tips": [
-    "Excellent against targets building resistances",
-    "The penetration helps maintain damage relevance as the game progresses",
-    "Great for assassins looking to eliminate priority targets",
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Youmuu's GhostbladeIncreases Movement Speed +55 Attack Damage +15 Ability HasteSlice:  +15 Armor Penetration.Momentum: Moving builds Momentum, granting up to 50 Move Speed and 3-6 at 100 stacks.",
+    "() Attacks removes all Momentum, but Armor Penetration will last for 3 seconds after.",
+    "Stacks decay when movement is impaired.Haste: Attacking with max Momentum grants 25% Attack Speed for 4 seconds.",
+    "3200\n\n\nThis item is perfect for assassins and champions who need to get in and out of fights quickly.",
+    "It provides bonuses to attack damage and ability haste, along with armor penetration, helping you deal more damage to enemies."
+  ]
 }

@@ -1,46 +1,22 @@
 {
   "name": "Warmog's Armor",
   "stats": {
-    "health": {
-      "value": 800,
-      "type": "flat"
-    },
-    "health_regeneration": {
-      "value": 200,
-      "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 10,
-      "type": "percentage"
-    },
     "ability_haste": {
       "value": 10,
       "type": "flat"
     }
   },
-  "cost": 3000,
-  "passive": "Warmog's Heart: If you have at least 1100 bonus Health, restore 3% maximum Health per second if you haven't taken damage in the last 6 seconds.",
+  "cost": 2850,
+  "passive": "Warmog's Heart: Regenerate 2.5% of maximum health per second if damage hasn't been taken within 6 seconds.",
   "active": "",
-  "description": "Item that provides Health, Ability Haste, Ability Haste. Passive effect: If you have at least 1100 bonus Health, restore 3% maximum Health per second if you haven't taken damage in the last 6 seconds.. Perfect for frontline champions who need to absorb damage.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Giant's Belt",
-    "Kindlegem"
-  ],
-  "tags": [
-    "Health",
-    "Health Regen",
-    "CDR",
-    "Tank"
-  ],
   "tips": [
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer",
-    "Great for champions who take extended trades",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Warmog's ArmorOut of combat Heath Regen +700 Max Health +200% Health Regen +10 Ability HasteWarmog's Heart: If you have at least 950 bonus Health, restore 4.5% Health per second if you haven't taken damage within the last 6 seconds.",
+    "2850\n\n\nThis item grants a massive boost to health and greatly enhances out-of-combat regeneration, restoring 4.5% of your maximum health per second if you haven’t taken damage for 6 seconds.",
+    "It also provides ability haste, allowing you to use your skills more often.",
+    "This makes it an excellent late-game choice when you need high survivability and sustained healing, especially against teams and champions that deal damage over time, like Singed or Swain.",
+    "It pairs exceptionally well with Spirit Visage: the healing amplification and increased regeneration from Spirit Visage stack with Warmog’s out-of-combat life regen, giving you an enormous health pool and unmatched sustain both in fights and while recovering between engagements."
+  ]
 }

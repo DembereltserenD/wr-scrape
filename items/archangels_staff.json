@@ -2,15 +2,11 @@
   "name": "Archangel's Staff",
   "stats": {
     "ability_power": {
-      "value": 80,
+      "value": 35,
       "type": "flat"
     },
-    "mana": {
-      "value": 650,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 25,
+    "magic_penetration": {
+      "value": 7,
       "type": "percentage"
     },
     "ability_haste": {
@@ -18,28 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 3200,
-  "passive": "Awe: Gain Ability Power equal to 1% maximum Mana. Refund 25% of Mana spent.",
-  "active": "",
-  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Gain Ability Power equal to 1% maximum Mana. Refund 25% of Mana spent.. A versatile item that can benefit many champion types.",
+  "cost": 2950,
+  "passive": "Awe: Grants Ability Power equal to.",
+  "active": "S to ability power, magic penetration, maximum mana, and ability haste, helping you deal damage and use your abilities frequently. The \"Awe\" effect increases your ability power based on your maximum mana and refunds a portion of mana spent, helping you sustain in fights. The \"Mana Charge\" effect increases your maximum mana every time you spend mana, eventually transforming the item into Seraph's Embrace, giving you additional bonuses. This item is ideal for champions who want to scale well into the late game with a large amount of AP and mana.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Tear of the Goddess",
-    "Lost Chapter"
-  ],
-  "tags": [
-    "Magic",
-    "Mana",
-    "CDR"
-  ],
   "tips": [
-    "Perfect for champions with high mana consumption",
-    "Helps sustain your presence in lane without frequent recalls",
-    "The mana pool allows for extended ability usage in fights",
-    "Perfect for champions who rely heavily on abilities",
-    "The cooldown reduction/ability haste maximizes spell uptime"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Archangel's StaffConverts Mana to Ability Power +35 Ability Power +7% Magic Penetration +500 Max Mana +20 Ability HasteAwe: Grants Ability Power equal to 1% max Mana and refunds 25%  of all Mana spent.Mana Charge: Increases max Mana by 15 every time Mana is spent.",
+    "Caps at 700 bonus Mana, transforming Archangel's Staff into Seraph's Embrace.",
+    "Triggers up to 3 times every 12 seconds.",
+    "You may only carry one Tear of the Goddess item at a time.",
+    "2950\n\n\nThis item is perfect for mages who rely on a large mana pool and need a significant boost to their ability power."
+  ]
 }

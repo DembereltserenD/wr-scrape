@@ -2,40 +2,29 @@
   "name": "Morellonomicon",
   "stats": {
     "ability_power": {
-      "value": 80,
+      "value": 70,
       "type": "flat"
     },
-    "health": {
-      "value": 300,
-      "type": "flat"
+    "magic_penetration": {
+      "value": 7,
+      "type": "percentage"
     },
     "ability_haste": {
       "value": 20,
       "type": "flat"
     }
   },
-  "cost": 3000,
-  "passive": "Cursed: Magic damage inflicts Grievous Wounds on enemies below 50% Health for 3 seconds.",
+  "cost": 2500,
+  "passive": "Cursed Strike: Magic damage applies 40% Grievous Wounds to enemy champions for 3 seconds.",
   "active": "",
-  "description": "Item that provides Ability Power, Health, Ability Haste. Passive effect: Magic damage inflicts Grievous Wounds on enemies below 50% Health for 3 seconds.. Perfect for frontline champions who need to absorb damage.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Oblivion Orb",
-    "Giant's Belt"
-  ],
-  "tags": [
-    "Magic",
-    "Health",
-    "Grievous Wounds"
-  ],
   "tips": [
-    "Essential against teams with healing or lifesteal",
-    "Applies Grievous Wounds to reduce enemy healing",
-    "Great for dealing with champions like Soraka, Dr. Mundo, or Vladimir",
-    "The health provides some survivability for mages",
-    "Consider building this when facing multiple healing sources"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "MorellonomiconMagic damage reduces enemy healing +150 Max Health +70 Ability Power +7% Magic Penetration +20 Ability HasteAffliction: Dealing magic damage to enemy champions inflicts 50% Grievous Wounds for 3 seconds.Grievous Wounds reduces the effectiveness of Healing and Regeneration effects.",
+    "2500\n\n\nThis item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies.",
+    "It provides bonuses to maximum health, ability power, magic penetration, and ability haste.",
+    "The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds.",
+    "This item is especially useful against champions who rely on healing, such as Soraka, Dr."
+  ]
 }

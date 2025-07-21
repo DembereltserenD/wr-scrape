@@ -1,28 +1,11 @@
 {
   "name": "Ruby Crystal",
-  "stats": {
-    "health": {
-      "value": 150,
-      "type": "flat"
-    }
-  },
-  "cost": 400,
-  "passive": "",
+  "stats": {},
+  "cost": 500,
+  "passive": "Wild Rift\" class=\"xfieldimage lazy-loaded itemimage\" data-src=\"/uploads/posts/2021-03/1616984790_1028.png\" src=\"data:image/gif;base64,R0lGODlheAB4AIAAAP///wAAACH5BAEAAAEALAAAAAB4AHgAAAKQjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusraelIAADs=\"/> Ruby Crystal Ruby Crystal +150 Max Health 500.",
   "active": "",
-  "description": "Basic health component. Used to build into many tank and bruiser items. Provides early game survivability.",
-  "category": "component",
-  "tier": "A",
-  "build_path": [],
-  "tags": [
-    "Health"
-  ],
-  "tips": [
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer",
-    "Great for champions who take extended trades",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "description": "",
+  "category": "basic",
+  "tier": "B",
+  "tips": []
 }

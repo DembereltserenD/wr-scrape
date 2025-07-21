@@ -2,46 +2,25 @@
   "name": "Iceborn Gauntlet",
   "stats": {
     "armor": {
-      "value": 65,
+      "value": 50,
       "type": "flat"
-    },
-    "mana": {
-      "value": 500,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 30,
       "type": "flat"
     }
   },
-  "cost": 2600,
-  "passive": "Spellblade: After using an ability, your next attack creates an icy zone that slows enemies by 30% for 2 seconds (1.5 second cooldown).",
-  "active": "",
-  "description": "Item that provides Armor, Ability Haste, Ability Haste. Passive effect: After using an ability, your next attack creates an icy zone that slows enemies by 30% for 2 seconds (1.5 second cooldown).. Perfect for frontline champions who need to absorb damage.",
+  "cost": 3100,
+  "passive": "",
+  "active": "Iceborn: After using an ability, your next basic attack creates a frost field for 2 seconds that slows enemies by 30%. (5s Cooldown)",
+  "description": ":",
   "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Sheen",
-    "Glacial Shroud"
-  ],
-  "tags": [
-    "Armor",
-    "Mana",
-    "CDR",
-    "Slow",
-    "Spellblade"
-  ],
+  "tier": "S",
   "tips": [
-    "Perfect for champions with high mana consumption",
-    "Helps sustain your presence in lane without frequent recalls",
-    "The mana pool allows for extended ability usage in fights",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy physical damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Iceborn GauntletAttacks create a slowing field +250 Max Health +50 Armor +250 Max Mana +30 Ability HasteSpellblade: Using an ability causes your next attack within 10 seconds to deal bonus physical damage equal to (100% base AD  + 25% Bonus Armor ) in an area.",
+    "It also creates an icy field for 2 seconds that slows enemies inside by 30%.",
+    "Armor increases the size of the icy field.",
+    "(1.5s Cooldown)Damage is reduced vs structures.",
+    "3100\n\n\nThis item greatly boosts your health, armor, mana, and ability haste, making you much tankier."
+  ]
 }

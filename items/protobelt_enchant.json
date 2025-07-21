@@ -1,29 +1,22 @@
 {
   "name": "Protobelt Enchant",
   "stats": {
-    "ability_power": {
-      "value": 10,
-      "type": "flat"
+    "movement_speed": {
+      "value": 20,
+      "type": "percentage"
     }
   },
   "cost": 500,
   "passive": "",
-  "active": "Fire Bolt: Dash forward and unleash a cone of missiles that deal magic damage (40 second cooldown).",
-  "description": "Item that provides Ability Power. Active effect: Dash forward and unleash a cone of missiles that deal magic damage (40 second cooldown).. A versatile item that can benefit many champion types.",
-  "category": "legendary",
+  "active": "Supersonic: Dash forward and unleash a cone of missiles that deal 70 magic damage and reduce target's Magic Resistance by 15% for 3 seconds. After cast, gain 20% Movement Speed that decays over 3 seconds (50 second cooldown).",
+  "description": ":",
+  "category": "basic",
   "tier": "B",
-  "build_path": [],
-  "tags": [
-    "Magic",
-    "Dash",
-    "AOE",
-    "Enchant"
-  ],
   "tips": [
-    "Perfect for champions who rely heavily on abilities",
-    "The cooldown reduction/ability haste maximizes spell uptime",
-    "Synergizes well with champions who have low cooldowns"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Protobelt EnchantSmall dashProtobelt (Active): Dash forward and unleash a cone of missiles that deal 70 magic damage.",
+    "and reducing the target's Magic Resistance by 15% for 3s.",
+    "After cast, gain 20% Movement Speed thatdecays over 3s.",
+    "(50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.",
+    "500\n\n\nThis enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance."
+  ]
 }

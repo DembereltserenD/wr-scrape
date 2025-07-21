@@ -1,38 +1,15 @@
 {
   "name": "Titanic Hydra",
-  "stats": {
-    "attack_damage": {
-      "value": 30,
-      "type": "flat"
-    },
-    "health": {
-      "value": 500,
-      "type": "flat"
-    }
-  },
-  "cost": 3300,
-  "passive": "Cleave: Basic attacks deal bonus physical damage to your target and nearby enemies based on your bonus Health.",
+  "stats": {},
+  "cost": 3000,
+  "passive": "Cleave: Basic attacks deal bonus physical damage to the target and physical damage to enemies behind the target based on your bonus health.",
   "active": "",
-  "description": "Item that provides Attack Damage, Health. Passive effect: Basic attacks deal bonus physical damage to your target and nearby enemies based on your bonus Health.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Tiamat",
-    "Giant's Belt"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "AOE"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Titanic HydraAttacks deal bonus damage in a area +450 Max HealthColossus: Gain AD equal to 15 + 2.5% bonus.Cleave: Every 1.75 second(s), your next attack deals bonus physical damage equal to 25 + 3% bonus (also applies to turrets), creating a shockwave that deals physical damage equal to 80 + 10% bonus to enemies behind the target.",
+    "Ranged champions deal 75% of the damage.",
+    "3000\n\n\nle targets."
+  ]
 }

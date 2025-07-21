@@ -2,16 +2,8 @@
   "name": "Ardent Censer",
   "stats": {
     "ability_power": {
-      "value": 60,
+      "value": 35,
       "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 10,
-      "type": "percentage"
-    },
-    "mana_regeneration": {
-      "value": 125,
-      "type": "percentage"
     },
     "attack_speed": {
       "value": 40,
@@ -22,29 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 2300,
-  "passive": "Sanctify: Healing or shielding another ally enhances you and them with 10-30% Attack Speed and 20 magic damage on-hit for 6 seconds.",
-  "active": "",
-  "description": "Item that provides Ability Power, Ability Haste, Attack Speed, Ability Haste. Passive effect: Healing or shielding another ally enhances you and them with 10-30% Attack Speed and 20 magic damage on-hit for 6 seconds.. Excellent for supporting allies and enhancing team capabilities.",
+  "cost": 2800,
+  "passive": "",
+  "active": "Frenzy: Healing or shielding an ally grants them 25% Attack Speed and 20 magic damage on-hit for 6 seconds.",
+  "description": ":",
   "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Forbidden Idol",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "CDR",
-    "Support",
-    "Buff"
-  ],
+  "tier": "A",
   "tips": [
-    "Provides unique utility that can change fight dynamics",
-    "The active/passive effect creates opportunities for your team",
-    "Great for creating picks or saving teammates",
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Ardent CenserIncreases allies Attack Speed +250 Max Health +35 Ability Power +20 Ability Haste +8% Heal and Shield StrengthArdent:  +5% Move Speed.Censer: When you heal or shield, an allied champion other than yourself, they gain 15-40% Attack Speed and their attacks deal 16-30 bonus magic damage.",
+    "for 6 seconds.",
+    "This damage can Critically Strike.",
+    "2800\n\n\nThis item enhances your heals and shields, granting shielded allies increased attack speed and bonus magic damage on their attacks for a short duration.",
+    "Perfect for enchanter supports who want to protect and empower their carries when it matters most."
+  ]
 }

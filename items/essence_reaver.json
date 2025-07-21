@@ -2,50 +2,33 @@
   "name": "Essence Reaver",
   "stats": {
     "attack_damage": {
-      "value": 55,
+      "value": 35,
       "type": "flat"
     },
-    "critical_chance": {
-      "value": 20,
+    "critical_strike": {
+      "value": 25,
       "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
-    },
-    "ability_haste": {
-      "value": 20,
-      "type": "flat"
     },
     "movement_speed": {
       "value": 40,
       "type": "flat"
+    },
+    "ability_haste": {
+      "value": 20,
+      "type": "flat"
     }
   },
   "cost": 3000,
-  "passive": "Essence Flare: After using an ability, your next attack deals bonus damage and restores mana.",
+  "passive": "Spellblade: After using an ability, your next basic attack within 10 seconds deals bonus physical damage equal to 100% base AD + 40% bonus AD (1.5 second cooldown).",
   "active": "",
-  "description": "Item that provides Attack Damage, Ability Haste, Ability Haste, Movement Speed. Passive effect: After using an ability, your next attack deals bonus damage and restores mana.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "B.F. Sword",
-    "Caulfield's Warhammer"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Critical",
-    "CDR",
-    "Mana"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Essence ReaverAttacks grant Mana Regen, and damage amplification +35 Attack Damage +25% Critical Rate +20 Ability HasteSpellblade: Casting an ability generates a Spellblade charge (max 3 charges) that lasts up to 10 second(s).",
+    "Hitting an enemy with an attack consumes a charge, dealing 90 bonusas physical damage and granting 40 Movement Speed for 2 second(s).",
+    "This bonus damage can Critically Strike.",
+    "Each ability generates only one charge per 2 second(s).Mana Siphon: Attacks restore 3% missingMana on-hit.",
+    "3000\n\n\nThis item is perfect for hybrid auto‑attack champions who need mana sustain and enhanced damage after casting abilities."
+  ]
 }

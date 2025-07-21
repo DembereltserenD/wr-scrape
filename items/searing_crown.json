@@ -1,42 +1,22 @@
 {
   "name": "Searing Crown",
   "stats": {
-    "ability_power": {
-      "value": 90,
-      "type": "flat"
-    },
-    "health": {
-      "value": 300,
-      "type": "flat"
-    },
     "armor": {
       "value": 50,
       "type": "flat"
     }
   },
-  "cost": 3000,
-  "passive": "Immolate: Deal magic damage to nearby enemies every second. Enemy champions take 50% increased damage from this effect.",
-  "active": "",
-  "description": "Item that provides Ability Power, Health, Armor. Passive effect: Deal magic damage to nearby enemies every second. Enemy champions take 50% increased damage from this effect.. Perfect for frontline champions who need to absorb damage.",
+  "cost": 2700,
+  "passive": "Fiery Touch: After dealing damage with an attack or ability, burn target for 3 seconds, dealing.",
+  "active": "Rs). Deals 150% damage to minions and monsters. Maximum 125 damage to monsters. 2700 Searing Crown TIPS: This item is perfect for champions who want to combine high survivability with bonus health-percentage damage. It provides a substantial boost to health and armor, and its “Fiery Touch” passive burns targets on hit with attacks or abilities, dealing magic damage equal to a percentage of their maximum health. This makes it effective against tanks and high-health champions, while also speeding up waveclear and jungle clear. Ideal for tanks and bruisers who want to leave a mark in fights while staying durable.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Bami's Cinder",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "Health",
-    "AOE",
-    "DOT"
-  ],
   "tips": [
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer",
-    "Great for champions who take extended trades",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy physical damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Searing CrownAttacks and damaging abilities burn enemies +300 Max Health +50 ArmorFiery Touch: After dealing damage with an attack or ability, burn target for 3 seconds, dealing 1.4% of the target’s maximum health as magic damage per second (damage reduced to 0.8% for ranged users).Deals 150% damage to minions and monsters.Maximum 125 damage to monsters.",
+    "2700\n\n\nThis item is perfect for champions who want to combine high survivability with bonus health-percentage damage.",
+    "It provides a substantial boost to health and armor, and its “Fiery Touch” passive burns targets on hit with attacks or abilities, dealing magic damage equal to a percentage of their maximum health.",
+    "This makes it effective against tanks and high-health champions, while also speeding up waveclear and jungle clear.",
+    "Ideal for tanks and bruisers who want to leave a mark in fights while staying durable."
+  ]
 }

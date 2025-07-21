@@ -1,31 +1,17 @@
 {
   "name": "Glorious Enchant",
-  "stats": {
-    "cooldown_reduction": {
-      "value": 10,
-      "type": "percentage"
-    }
-  },
+  "stats": {},
   "cost": 500,
   "passive": "",
-  "active": "Glory: Gain 30% Movement Speed for 3 seconds. If used while near an ally champion, you and the nearest ally champion gain the effect (90 second cooldown).",
-  "description": "Item that provides Ability Haste. Active effect: Gain 30% Movement Speed for 3 seconds. If used while near an ally champion, you and the nearest ally champion gain the effect (90 second cooldown).. Excellent for supporting allies and enhancing team capabilities.",
-  "category": "legendary",
+  "active": "Glory: Grants 30% Movement Speed and 20% Attack Speed for 3 seconds (60 second cooldown).",
+  "description": ":",
+  "category": "basic",
   "tier": "B",
-  "build_path": [],
-  "tags": [
-    "CDR",
-    "Movement",
-    "Support",
-    "Enchant"
-  ],
   "tips": [
-    "Perfect for enhancing your team's capabilities",
-    "Helps protect and empower your carries",
-    "The active/passive effect can turn the tide of team fights",
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Glorious EnchantIncreases Movement SpeedGlory (Active): Gain +30% Move Speed.",
+    "After 4s or when near an enemy champion, emit a shockwave that slows enemy champions hit by 60% for 2s.",
+    "Also gain 20% Tenacity an 20% slow Resist for 4s.",
+    "(45s Cooldown) 500\n\n\nThis boot enchant grants a hefty boost in movement speed, then emits a shockwave that significantly slows nearby enemies and briefly increases your tenacity and slow resistance.",
+    "Perfect for initiators and tanks to engage swiftly and hold the frontline."
+  ]
 }

@@ -2,45 +2,28 @@
   "name": "Navori Quickblades",
   "stats": {
     "attack_damage": {
-      "value": 60,
+      "value": 40,
       "type": "flat"
-    },
-    "critical_chance": {
-      "value": 20,
-      "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 30,
-      "type": "percentage"
     },
     "attack_speed": {
       "value": 15,
       "type": "percentage"
+    },
+    "critical_strike": {
+      "value": 25,
+      "type": "percentage"
     }
   },
-  "cost": 3400,
-  "passive": "Transcendence: Your attacks reduce your non-ultimate ability cooldowns by 20% of their remaining cooldown (per critical strike).",
+  "cost": 3000,
+  "passive": "Transcendence: Basic attacks reduce your basic abilities' remaining cooldowns by 20% of your critical strike chance.",
   "active": "",
-  "description": "Item that provides Attack Damage, Ability Haste, Attack Speed. Passive effect: Your attacks reduce your non-ultimate ability cooldowns by 20% of their remaining cooldown (per critical strike).. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "B.F. Sword",
-    "Caulfield's Warhammer"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Critical",
-    "CDR"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "Excellent for champions who rely on basic attacks",
-    "Helps with last hitting and taking objectives faster"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Navori QuickbladesAbilities grant damage amplification and cooldown reduction +40 Attack Damage +25% Critical Rate +15% Attack SpeedDeft Strikes: Critical Attacks reduce your non-ultimate ability cooldowns by 15% of their remaining cooldown.Impermanence: Your abilities deal up to 12% increased damage based on.",
+    "3000\n\n\nThis item is perfect for auto‑attackers who aim to amplify their ability damage and reduce cooldowns.",
+    "Critical strikes accelerate your non‑ultimate abilities, while your skills hit harder based on your crit chance.",
+    "— A top pick for marksmen and assassins who weave auto‑attacks with spells to swiftly eliminate targets and maintain combat momentum."
+  ]
 }

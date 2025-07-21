@@ -5,16 +5,8 @@
       "value": 80,
       "type": "flat"
     },
-    "mana": {
-      "value": 250,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 10,
-      "type": "percentage"
-    },
-    "movement_speed": {
-      "value": 5,
+    "magic_penetration": {
+      "value": 7,
       "type": "percentage"
     },
     "ability_haste": {
@@ -22,30 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 3200,
-  "passive": "Spellblade: After using an ability, your next attack deals bonus magic damage (1.5 second cooldown).",
+  "cost": 2950,
+  "passive": "Spellblade: After using an ability, your next basic attack within 10 seconds deals bonus magic damage equal to 75% base AD + 50% AP (1.5 second cooldown).",
   "active": "",
-  "description": "Item that provides Ability Power, Ability Haste, Movement Speed, Ability Haste. Passive effect: After using an ability, your next attack deals bonus magic damage (1.5 second cooldown).. A versatile item that can benefit many champion types.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Sheen",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "Mana",
-    "CDR",
-    "Movement",
-    "On-Hit"
-  ],
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "Perfect for champions with high mana consumption",
-    "Helps sustain your presence in lane without frequent recalls"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Lich BaneAttacks deal bonus damage aster ability casts +80 Ability Power +7% Magic Penetration +10 Ability HasteBane:  +5% Move Speed.Spellblade: Using an ability causes the next attack used within 10 seconds to deal bonus magic damage equal to 75% base AD  + 50% AP .",
+    "(1.5s Cooldown) Damage is reduced vs structures.",
+    "2950\n\n\nThis item is perfect for mages and champions who deal both magic and physical damage.",
+    "It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage.",
+    "The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies."
+  ]
 }

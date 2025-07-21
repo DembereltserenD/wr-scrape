@@ -1,29 +1,17 @@
 {
   "name": "Locket Enchant",
-  "stats": {
-    "magic_resistance": {
-      "value": 8,
-      "type": "flat"
-    }
-  },
+  "stats": {},
   "cost": 500,
   "passive": "",
-  "active": "Shield nearby allies for 2.5 seconds, absorbing up to 150 damage",
-  "description": "Boot enchant that provides team protection. Essential for supports who want to shield their team during team fights.",
-  "category": "enchant",
-  "tier": "A",
-  "build_path": [],
-  "recipe_cost": 500,
-  "tags": [
-    "Active"
-  ],
+  "active": "Devotion: Grants a shield to nearby allies that absorbs damage. Shield strength scales with champion level (60 second cooldown).",
+  "description": ":",
+  "category": "basic",
+  "tier": "B",
   "tips": [
-    "Perfect for enhancing your team's capabilities",
-    "Helps protect and empower your carries",
-    "The active/passive effect can turn the tide of team fights",
-    "Provides unique utility that can change fight dynamics",
-    "The active/passive effect creates opportunities for your team"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Locket EnchantArea of effect magic shieldLocket (Active):  Grants a shield to yourself and nearby allied champions that each absorbs 60-330 damage for 2.5 seconds.",
+    "(60s cooldown)This effect is reduced by 50% if the target has been affected by another Locket in the last 20 seconds.",
+    "500\n\n\nThis enchant grants a magic shield to you and nearby allies, absorbing damage for a brief duration.",
+    "The shield is ideal in large teamfights, providing extra protection and opportunities for counterplay.",
+    "Perfect for tanks who frequently stand in the thick of battle and want to safeguard their team during critical moments."
+  ]
 }

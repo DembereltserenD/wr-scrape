@@ -1,0 +1,30 @@
+{
+  "name": "Yordle Runaan's Hurricane",
+  "stats": {
+    "ability_power": {
+      "value": 30,
+      "type": "flat"
+    },
+    "attack_damage": {
+      "value": 15,
+      "type": "flat"
+    },
+    "attack_speed": {
+      "value": 35,
+      "type": "percentage"
+    }
+  },
+  "cost": 3000,
+  "passive": "Wind's Fury: Basic attacks fire bolts at up to 2 nearby enemies, each dealing physical damage equal to 40% AD.",
+  "active": "",
+  "description": ":",
+  "category": "legendary",
+  "tier": "A",
+  "tips": [
+    "Yordle Runaan's HurricaneRanged Attacks hit 3 targets +35% Attack SpeedWind’s Favor: Gain 15 Attack Damage or 30 Ability Power(Adaptive).Wind's Fury: Attacks strike 2 additional nearby enemies, each dealing 55%.",
+    "These strikes can Critically Strike and trigger on-hit effects.Wind Blade: Attacks deal 15 bonus physical damage on-hit against targets.Razorwind: Every 2 attacks, your next attack fires 1 additional bolts at targets, each dealing 10% as physical damage and applying on-hit effects.This item cannot only be used by melee champions.",
+    "3000\n\n\nle targets at once while augmenting each strike with bonus magic or physical damage.",
+    "As you stack its passive, your auto‑attacks unleash extra bolts that spread your on‑hit effects to nearby foes.",
+    "— Perfect for marksmen and auto‑attack bruisers who need sustained multi‑target damage and want to fully leverage their on‑hit abilities."
+  ]
+}

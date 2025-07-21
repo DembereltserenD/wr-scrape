@@ -2,45 +2,29 @@
   "name": "Manamune",
   "stats": {
     "attack_damage": {
-      "value": 35,
+      "value": 25,
       "type": "flat"
     },
     "mana": {
-      "value": 860,
+      "value": 2700,
       "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 15,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 20,
       "type": "flat"
     }
   },
-  "cost": 2900,
-  "passive": "Awe: Gain bonus Attack Damage equal to 2% maximum Mana. Shock: Basic attacks and abilities that hit champions consume 3% current Mana to deal bonus physical damage.",
-  "active": "",
-  "description": "Item that provides Attack Damage, Ability Haste, Ability Haste. Passive effect: Gain bonus Attack Damage equal to 2% maximum Mana. Shock: Basic attacks and abilities that hit champions consume 3% current Mana to deal bonus physical damage.. Great for champions looking to maximize their damage output.",
+  "cost": 2700,
+  "passive": "Attack Damage equal to 1.5% of max Mana and refunds 15% of all Mana spent. Mana Charge: Increases max Mana by 15 every attack or when Mana is spent. Caps at 700 , bonus Mana, transforming Manamune into Muramana. Triggers up to 3 times every 12 seconds. You may only carry one Tear of the Goddess item at a time. 2700 Manamune TIPS: This item is perfect for AD champions who rely on mana and abilities to deal damage. It provides bonuses to attack damage, maximum mana, and ability haste, allowing you to use your abilities effectively. The \"Mana Charge\" effect increases your mana with each attack or mana usage, which significantly boosts your damage once the item is completed. After reaching the maximum bonus mana, the item transforms into Muramana, greatly enhancing your attacks. It’s an excellent choice for champions who use mana to activate their abilities, such as Ezreal or Twitch.",
+  "active": "S to attack damage, maximum mana, and ability haste, allowing you to use your abilities effectively. The \"Mana Charge\" effect increases your mana with each attack or mana usage, which significantly boosts your damage once the item is completed. After reaching the maximum bonus mana, the item transforms into Muramana, greatly enhancing your attacks. It’s an excellent choice for champions who use mana to activate their abilities, such as Ezreal or Twitch.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Tear of the Goddess",
-    "Pickaxe"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Mana",
-    "CDR"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "Perfect for champions with high mana consumption",
-    "Helps sustain your presence in lane without frequent recalls"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "ManamuneConverts Mana to Attack Damage +25 Attack Damage +300 Max Mana +20 Ability HasteAwe: Grants Attack Damage equal to 1.5%  of max Mana and refunds 15%  of all Mana spent.Mana Charge: Increases max Mana by 15 every attack or when Mana is spent.",
+    "Caps at 700, bonus Mana, transforming Manamune into Muramana.",
+    "Triggers up to 3 times every 12 seconds.",
+    "You may only carry one Tear of the Goddess item at a time.",
+    "2700\n\n\nThis item is perfect for AD champions who rely on mana and abilities to deal damage."
+  ]
 }

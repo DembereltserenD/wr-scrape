@@ -2,15 +2,11 @@
   "name": "Seraph's Embrace",
   "stats": {
     "ability_power": {
-      "value": 80,
+      "value": 35,
       "type": "flat"
     },
-    "mana": {
-      "value": 860,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 25,
+    "magic_penetration": {
+      "value": 7,
       "type": "percentage"
     },
     "ability_haste": {
@@ -18,28 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 3200,
-  "passive": "Awe: Gain Ability Power equal to 1% maximum Mana. Lifeline: Upon taking damage that would reduce Health below 30%, gain a shield based on current Mana (120 second cooldown).",
-  "active": "",
-  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Gain Ability Power equal to 1% maximum Mana. Lifeline: Upon taking damage that would reduce Health below 30%, gain a shield based on current Mana (120 second cooldown).. Excellent for supporting allies and enhancing team capabilities.",
+  "cost": 2950,
+  "passive": "Awe: Grants Ability Power equal to.",
+  "active": "S to ability power, magic penetration, maximum mana, and ability haste, helping you deal damage and use your abilities effectively. The \"Awe\" effect increases your ability power based on your maximum mana and refunds a portion of mana spent, allowing you to stay in fights longer. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that helps you survive the initial burst damage and prolong your presence in the fight. This item is ideal for champions who want to scale well into the late game with a large amount of AP and mana, while also gaining extra survivability. (90s Cooldown)",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Archangel's Staff"
-  ],
-  "tags": [
-    "Magic",
-    "Mana",
-    "CDR",
-    "Shield"
-  ],
   "tips": [
-    "Perfect for enhancing your team's capabilities",
-    "Helps protect and empower your carries",
-    "The active/passive effect can turn the tide of team fights",
-    "Perfect for champions with high mana consumption",
-    "Helps sustain your presence in lane without frequent recalls"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Seraph's EmbraceConverts Mana to Ability Power +35 Ability Power +7% Magic Penetration +1200 Max Mana +20 Ability HasteAwe: Grants Ability Power equal to 3% max Mana and refunds 25%  of all Mana spent.Lifeline: Damage that puts you under 35%  Health consumes 15% of your current Mana to grant a shield, equal to that amount +100 for 2 seconds.",
+    "(90s cooldown).",
+    "2950\n\n\nThis item is perfect for mages who need a large mana pool and survivability in team fights.",
+    "It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping you deal damage and use your abilities effectively.",
+    "The \"Awe\" effect increases your ability power based on your maximum mana and refunds a portion of mana spent, allowing you to stay in fights longer."
+  ]
 }

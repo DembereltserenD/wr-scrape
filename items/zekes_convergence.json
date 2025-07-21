@@ -1,43 +1,26 @@
 {
   "name": "Zeke's Convergence",
   "stats": {
-    "health": {
-      "value": 250,
-      "type": "flat"
-    },
     "armor": {
-      "value": 30,
+      "value": 40,
       "type": "flat"
-    },
-    "mana": {
-      "value": 250,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 10,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 15,
       "type": "flat"
     }
   },
-  "cost": 2400,
-  "passive": "",
-  "active": "Conduit: Bind to an ally. When you cast your ultimate, you and your ally gain 20% attack speed for 8 seconds",
-  "description": "Support item that provides defensive stats and a powerful active that enhances both you and your ADC. Great for engaging supports who want to boost their carry's damage.",
+  "cost": 2700,
+  "passive": "Harbinger: Casting your ultimate surrounds you with a blizzard and ignites a nearby ally's attacks for 10 seconds.",
+  "active": "Ing your ultimate surrounds you with a blizzard and ignites a nearby ally's attacks for 10 seconds. Your blizzard deals a maximum of 480–900 damage , slows enemies by 25% and leaves a trail behind you. Allied champions on the trail gain 55 bonus Movement Speed for 1 second. (30s Cooldown) 2700 Zeke's Convergence TIPS: This item is perfect for tanky support champions who initiate fights and provide frontline crowd control. It grants armor, health, mana, and ability haste. When you cast your ultimate, an icy blizzard surrounds you, dealing damage and slowing enemies, while leaving a trail that grants bonus movement speed to allies. During the effect, the attacks of a nearby marked ally deal additional magic damage, giving your team a powerful advantage in teamfights.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [],
-  "recipe_cost": 800,
-  "tags": [],
   "tips": [
-    "Bind to your strongest carry for maximum effect",
-    "Use your ultimate at the start of team fights to activate the effect",
-    "Great for supports who want to amplify their ADC's damage",
-    "The stats provide a good mix of offense and defense",
-    "Consider building this when your team has a fed carry"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Zeke's ConvergenceBoosts allies Attack Damage +40 Armor +350 Max Health +150 Max Mana +15 Ability HasteHarbinger: Casting your ultimate surrounds you with a blizzard and ignites a nearby ally's attacks for 10 seconds.",
+    "Your blizzard deals a maximum of 480–900 damage, slows enemies by 25% and leaves a trail behind you.",
+    "Allied champions on the trail gain 55 bonus Movement Speed for 1 second.",
+    "(30s Cooldown) 2700\n\n\nThis item is perfect for tanky support champions who initiate fights and provide frontline crowd control.",
+    "It grants armor, health, mana, and ability haste."
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "name": "Yorlde Liandry's Torment",
+  "stats": {
+    "ability_power": {
+      "value": 75,
+      "type": "flat"
+    },
+    "magic_penetration": {
+      "value": 7,
+      "type": "percentage"
+    }
+  },
+  "cost": 3000,
+  "passive": "Torment: Dealing ability damage burns enemies for magic damage over 3 seconds. Against movement-impaired units, deal double damage.",
+  "active": "",
+  "description": ":",
+  "category": "legendary",
+  "tier": "A",
+  "tips": [
+    "Yorlde Liandry's TormentAbilities deal bonus damage +250 Max Health +75 Ability Power +7% Magic PenetrationTorment: Damaging abilities or empowered attacks deal 0.6-2% () of the target's max Health as bonus magic damage over 3 seconds.Infernal Agony: Every 4 seconds, Torment detonates, dealing true damage equal to 40 plus 5% to the target.",
+    "3000\n\n\nThis item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish.",
+    "Periodically, the torment detonates for a burst of true damage to finish off weakened foes.",
+    "— Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage."
+  ]
+}

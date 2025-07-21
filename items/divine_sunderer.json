@@ -2,47 +2,25 @@
   "name": "Divine Sunderer",
   "stats": {
     "attack_damage": {
-      "value": 40,
+      "value": 25,
       "type": "flat"
-    },
-    "health": {
-      "value": 400,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 25,
       "type": "flat"
     }
   },
-  "cost": 3300,
-  "passive": "Spellblade: After using an ability, your next attack deals bonus damage based on target's max Health and heals you.",
-  "active": "ly use their abilities and auto-attacks to deal damage, such as fighters. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve survivability and increase damage. The \"Spellblade\" effect allows you to deal bonus physical damage based on the target’s maximum health after using an ability, and also heal when attacking enemy champions. This item helps you deal damage and sustain in fights, making it especially useful for extended engagements.",
-  "description": "Item that provides Attack Damage, Health, Ability Haste, Ability Haste. Passive effect: After using an ability, your next attack deals bonus damage based on target's max Health and heals you.. Active effect: ly use their abilities and auto-attacks to deal damage, such as fighters. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve survivability and increase damage. The \"Spellblade\" effect allows you to deal bonus physical damage based on the target’s maximum health after using an ability, and also heal when attacking enemy champions. This item helps you deal damage and sustain in fights, making it especially useful for extended engagements.. Great for champions looking to maximize their damage output.",
+  "cost": 3400,
+  "passive": "",
+  "active": "Spellblade: After using an ability, your next basic attack within 10 seconds deals bonus physical damage and heals you (1.5 second cooldown).",
+  "description": ":",
   "category": "legendary",
-  "tier": "A",
-  "build_path": [
-    "Sheen",
-    "Phage"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "CDR",
-    "Healing",
-    "Spellblade"
-  ],
+  "tier": "S",
   "tips": [
-    "Perfect for enhancing your team's capabilities",
-    "Helps protect and empower your carries",
-    "The active/passive effect can turn the tide of team fights",
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Divine SundererAnti-Health attacks +425 Max Health +25 Attack Damage +25 Ability HasteSpellblade: After using an ability, your next basic attack within 10 seconds deals (10% melee / 7% ranged) of target’s maximum health as bonus physical damage on-hit, with a minimum damage equal to 125% base AD and a maximum damage against monsters equal to 225% base AD.If the target is a champion, heal for (6% melee / 2.5% ranged) of the target's maximum health and a minimum heal equal to (90% melee / 50% ranged) base AD (1.5 second cooldown, begins after using the empowered attack).Limitations: Limited to 1 sheen item.",
+    "3400\n\n\nThis item is perfect for champions who actively use their abilities and auto-attacks to deal damage, such as fighters.",
+    "It provides bonuses to maximum health, attack damage, and ability haste, helping to improve survivability and increase damage.",
+    "The \"Spellblade\" effect allows you to deal bonus physical damage based on the target’s maximum health after using an ability, and also heal when attacking enemy champions.",
+    "This item helps you deal damage and sustain in fights, making it especially useful for extended engagements."
+  ]
 }

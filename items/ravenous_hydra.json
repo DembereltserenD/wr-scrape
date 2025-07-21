@@ -2,42 +2,21 @@
   "name": "Ravenous Hydra",
   "stats": {
     "attack_damage": {
-      "value": 65,
+      "value": 14,
       "type": "flat"
-    },
-    "omnivamp": {
-      "value": 12,
-      "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
     }
   },
-  "cost": 3300,
-  "passive": "Cleave: Attacks deal physical damage to other enemies near the target. Active: Deal damage to nearby enemies (10 second cooldown).",
-  "active": "):  When activated, your attcks over the 9s deal physical damage equal to 14 AD as splash damage to nearby enemies. Melee attacks deal splash damage in a bigger area than ranged attacks. (30s Cooldown) 500\n\n\nRavenous Hydra TIPS: This enchant turns your boots into a deadly whirlwind: after activation, your attacks briefly explode, dealing physical damage to nearby enemies. Melee hits cover a larger area, but ranged champions benefit too.  — Perfect for bruisers and tanks who want to make every strike an AOE threat in skirmishes.",
-  "description": "Item that provides Attack Damage, Ability Haste. Passive effect: Attacks deal physical damage to other enemies near the target. Active: Deal damage to nearby enemies (10 second cooldown).. Active effect: When activated, your attcks over the 9s deal physical damage equal to 14 AD as splash damage to nearby enemies. Melee attacks deal splash damage in a bigger area than ranged attacks. (30s Cooldown) 500\n\n\nRavenous Hydra TIPS: This enchant turns your boots into a deadly whirlwind: after activation, your attacks briefly explode, dealing physical damage to nearby enemies. Melee hits cover a larger area, but ranged champions benefit too.  — Perfect for bruisers and tanks who want to make every strike an AOE threat in skirmishes.. Great for champions looking to maximize their damage output.",
-  "category": "legendary",
-  "tier": "A",
-  "build_path": [
-    "Tiamat",
-    "B.F. Sword"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Omnivamp",
-    "CDR",
-    "AOE"
-  ],
+  "cost": 500,
+  "passive": "Cleave: Basic attacks deal physical damage to enemies behind the target equal to 60% AD.",
+  "active": "",
+  "description": ":",
+  "category": "basic",
+  "tier": "B",
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Ravenous HydraAttacks deal bonus damage in a areaRavenous Crescent (Active):  When activated, your attcks over the 9s deal physical damage equal to 14 AD as splash damage to nearby enemies.",
+    "Melee attacks deal splash damage in a bigger area than ranged attacks.",
+    "(30s Cooldown) 500\n\n\nThis enchant turns your boots into a deadly whirlwind: after activation, your attacks briefly explode, dealing physical damage to nearby enemies.",
+    "Melee hits cover a larger area, but ranged champions benefit too.",
+    "— Perfect for bruisers and tanks who want to make every strike an AOE threat in skirmishes."
+  ]
 }

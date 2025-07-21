@@ -2,43 +2,33 @@
   "name": "Terminus",
   "stats": {
     "attack_damage": {
-      "value": 40,
+      "value": 35,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 8,
       "type": "flat"
     },
     "attack_speed": {
       "value": 30,
       "type": "percentage"
     },
-    "armor": {
-      "value": 8,
-      "type": "flat"
+    "magic_penetration": {
+      "value": 11,
+      "type": "percentage"
     }
   },
-  "cost": 3000,
-  "passive": "Juxtaposition: Attacks alternate between dealing bonus magic damage and bonus true damage. Champion takedowns grant 25 Attack Damage and 25% Attack Speed for 60 seconds.",
-  "active": "",
-  "description": "Item that provides Attack Damage, Attack Speed, Armor. Passive effect: Attacks alternate between dealing bonus magic damage and bonus true damage. Champion takedowns grant 25 Attack Damage and 25% Attack Speed for 60 seconds.. Great for champions looking to maximize their damage output.",
+  "cost": 3400,
+  "passive": "Shadow: Attacks deal.",
+  "active": "S to attack damage and attack speed, and adds bonus magic damage to your auto-attacks. The \"Juxtaposition\" effect alternates between Light and Dark on-hits, granting you bonuses to resistances or penetration depending on which effect is triggered. Light attacks grant armor and magic resist, while Dark attacks grant armor and magic penetration. This item is especially useful for champions who auto-attack frequently and can take advantage of the stacking resistances and penetration effects.",
+  "description": ":",
   "category": "legendary",
   "tier": "S",
-  "build_path": [
-    "Recurve Bow",
-    "Pickaxe"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Attack Speed",
-    "On-Hit",
-    "True Damage",
-    "Magic Damage"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "TerminusIncreases Armor Pen, Megic Pen, Armor, and Magic Resist +35 Attack Damage +30% Attack SpeedShadow: Attacks deal 35 bonus magic damage on-hit.Juxtaposition: Alternate between Light and Dark on-hits when attacking.",
+    "Light attacks grant 5-8 Armor and Magic Resist for 5 seconds on hit.",
+    "Dark attacks grant 11% Armor Penetration and 11% Magic Penetration for 5 seconds on hit.",
+    "Each on-hit effect stacks up to 3 times.",
+    "The upper limit of armor and magic penetration rates is 40% when equipped with Terminus."
+  ]
 }

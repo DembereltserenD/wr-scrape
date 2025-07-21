@@ -1,44 +1,24 @@
 {
   "name": "Spectral Sickle",
   "stats": {
-    "attack_damage": {
-      "value": 20,
-      "type": "flat"
-    },
-    "health": {
-      "value": 75,
-      "type": "flat"
-    },
-    "gold_generation": {
-      "value": 3,
-      "type": "flat"
-    },
     "ability_power": {
       "value": 20,
       "type": "flat"
+    },
+    "attack_damage": {
+      "value": 10,
+      "type": "flat"
+    },
+    "health": {
+      "value": 80,
+      "type": "flat"
     }
   },
-  "cost": 400,
-  "passive": "Tribute: Damaging an enemy champion by attack or ability grants 20 gold and heals your most wounded nearby ally (10 second cooldown per target). Killing a minion charges this item.",
+  "cost": 750,
+  "passive": "Tribute: Damaging abilities and basic attacks against champions grant 20 gold. This effect has a per-target cooldown.",
   "active": "",
-  "description": "Item that provides Attack Damage, Health, Ability Power. Passive effect: Damaging an enemy champion by attack or ability grants 20 gold and heals your most wounded nearby ally (10 second cooldown per target). Killing a minion charges this item.. Great for champions looking to maximize their damage output.",
-  "category": "legendary",
-  "tier": "C",
-  "build_path": [],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "Support",
-    "Gold Generation"
-  ],
-  "tips": [
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions",
-    "The resistances help you survive longer in team fights",
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "description": "les of this item within the party, only one of them can take effect at any given time.",
+  "category": "basic",
+  "tier": "B",
+  "tips": []
 }

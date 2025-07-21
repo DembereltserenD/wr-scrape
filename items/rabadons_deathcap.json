@@ -2,31 +2,25 @@
   "name": "Rabadon's Deathcap",
   "stats": {
     "ability_power": {
-      "value": 120,
+      "value": 100,
       "type": "flat"
+    },
+    "magic_penetration": {
+      "value": 7,
+      "type": "percentage"
     }
   },
-  "cost": 3600,
-  "passive": "Magical Opus: Increases Ability Power by 40%.",
+  "cost": 3400,
+  "passive": "Overkill: Increases Ability Power by 20-45%.",
   "active": "",
-  "description": "High-tier AP item providing massive Ability Power. The Magical Opus passive amplifies all your AP by 40%, making it the ultimate damage multiplier for mages. Best built when you already have some AP items to maximize the percentage bonus.",
+  "description": ":",
   "category": "legendary",
   "tier": "S",
-  "build_path": [
-    "Needlessly Large Rod",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "Ability Power"
-  ],
   "tips": [
-    "Build after other AP items to maximize the 40% bonus effect",
-    "The passive applies to ALL ability power, including from other items and runes",
-    "Essential for burst mages and late-game scaling champions",
-    "Expensive but provides the highest AP scaling in the game",
-    "Great on champions like Orianna, Syndra, and Brand who scale well with AP"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Rabadon's DeathcapBoosts Ability Power +100 Ability Power +7% Magic PenetrationOverkill: Increases Ability Power by 20-45%.",
+    "3400\n\n\nThis item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output.",
+    "It provides a huge bonus to ability power and magic penetration.",
+    "The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks.",
+    "This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage."
+  ]
 }

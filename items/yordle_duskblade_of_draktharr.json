@@ -1,0 +1,34 @@
+{
+  "name": "Yordle Duskblade of Draktharr",
+  "stats": {
+    "attack_damage": {
+      "value": 50,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 18,
+      "type": "flat"
+    },
+    "movement_speed": {
+      "value": 60,
+      "type": "percentage"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 3000,
+  "passive": "Nightstalker: After takedown, become invisible for 1.5 seconds (90 second cooldown). Your next attack deals 99 (+30% bonus AD) bonus physical damage.",
+  "active": "Nightstalker: After takedown, become invisible for 1.5 seconds (90 second cooldown). Your next attack deals 99 (+30% bonus AD) bonus physical damage.",
+  "description": ":",
+  "category": "legendary",
+  "tier": "A",
+  "tips": [
+    "Yordle Duskblade of DraktharrAttacks deal bonus damage +50 Attack Damage +10 Ability HasteRazor:  +18 Armor Penetration.Nightstalker: The first attack against a champion deals 60-160 bonus physical damage and slows them by 99% for 0.35s (10s cooldown).",
+    "Champion takedowns refresh cooldown duration.Nightfall: Become invisible for 1s upon getting a kill.",
+    "While invisible, gain 60% Movement Speed.",
+    "(5s cooldown) 3000\n\n\nThis item is best purchased on AD assassins who can attack quickly and decisively after being spotted.",
+    "The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen."
+  ]
+}

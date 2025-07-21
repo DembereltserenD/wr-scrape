@@ -2,46 +2,27 @@
   "name": "The Collector",
   "stats": {
     "attack_damage": {
-      "value": 55,
-      "type": "flat"
-    },
-    "critical_chance": {
-      "value": 20,
-      "type": "percentage"
-    },
-    "lethality": {
-      "value": 12,
+      "value": 45,
       "type": "flat"
     },
     "armor": {
       "value": 10,
       "type": "flat"
+    },
+    "critical_strike": {
+      "value": 25,
+      "type": "percentage"
     }
   },
-  "cost": 3000,
-  "passive": "Death and Taxes: If you deal damage that would leave an enemy champion below 5% Health, execute them. Champion takedowns grant 25 bonus gold.",
+  "cost": 2900,
+  "passive": "Death and Taxes: Enemies below 5% health are executed. Champion takedowns grant 25 bonus gold.",
   "active": "",
-  "description": "Item that provides Attack Damage, Armor. Passive effect: If you deal damage that would leave an enemy champion below 5% Health, execute them. Champion takedowns grant 25 bonus gold.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "B.F. Sword",
-    "Serrated Dirk"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Critical",
-    "Lethality",
-    "Execute"
-  ],
   "tips": [
-    "Excellent against targets building resistances",
-    "The penetration helps maintain damage relevance as the game progresses",
-    "Great for assassins looking to eliminate priority targets",
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "The CollectorExecute low health champions +45 Attack Damage +25% Critical RateKiller:  +10 Armor Penetration.Death and Taxes: Dealing damage that would leave an enemy champion below (4% + 2% Critical Rate) of their max Health executes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants 25 bonus gold.Limited to 1 The Collector.",
+    "2900\n\n\nThis item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.",
+    "— Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+  ]
 }

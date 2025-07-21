@@ -1,28 +1,26 @@
 {
-  "name": "Boots-of-mana",
+  "name": "Boots of Mana",
   "stats": {
-    "movement_speed": {
-      "value": 45,
+    "ability_power": {
+      "value": 55,
       "type": "flat"
+    },
+    "magic_penetration": {
+      "value": 8,
+      "type": "percentage"
     }
   },
-  "cost": 1000,
-  "passive": "",
-  "active": "",
-  "description": "Movement speed boots that provide additional defensive or offensive benefits. Essential for mobility and positioning in Wild Rift.",
+  "cost": 1400,
+  "passive": "18 bonus physical damage to minions. 1400 Boots of Mana TIPS: These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements. — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+  "active": "Abilities deal 18 bonus physical damage to minions. 1400 Boots of Mana TIPS: These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements. — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+  "description": ":",
   "category": "boots",
   "tier": "A",
-  "build_path": [],
-  "tags": [
-    "Movement"
-  ],
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "The movement speed helps with map rotations and positioning",
-    "Consider these boots when facing teams with heavy mixed"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration +55 Ability Power +150% Mana Regeneration +45 Move Speed.Magic Break:  +8% Magic Penetration.Equilibrium: Champions without Mana gain 75% bonus health Regen.Big Bully: Attacks and active abilities deal 18 bonus physical damage to minions.",
+    "1400\n\n\nThese boots boost your ability power, mana regeneration, and movement speed.",
+    "The “Magic Break” passive grants extra magic penetration for more potent spells against resistances.",
+    "“Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities.",
+    "The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements."
+  ]
 }

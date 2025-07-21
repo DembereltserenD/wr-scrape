@@ -1,42 +1,11 @@
 {
   "name": "Shimmering Spark",
-  "stats": {
-    "ability_power": {
-      "value": 60,
-      "type": "flat"
-    },
-    "attack_speed": {
-      "value": 30,
-      "type": "percentage"
-    },
-    "movement_speed": {
-      "value": 7,
-      "type": "percentage"
-    }
-  },
-  "cost": 2800,
-  "passive": "Energized: Moving and attacking builds Energy. At 100 stacks, your next attack deals bonus magic damage and grants Movement Speed.",
+  "stats": {},
+  "cost": 500,
+  "passive": "S 5-10 magic damage per second to nearby enemies. 500.",
   "active": "",
-  "description": "Item that provides Ability Power, Attack Speed, Movement Speed. Passive effect: Moving and attacking builds Energy. At 100 stacks, your next attack deals bonus magic damage and grants Movement Speed.. A versatile item that can benefit many champion types.",
-  "category": "legendary",
+  "description": "",
+  "category": "basic",
   "tier": "B",
-  "build_path": [
-    "Blasting Wand",
-    "Dagger"
-  ],
-  "tags": [
-    "Magic",
-    "Attack Speed",
-    "Movement",
-    "On-Hit"
-  ],
-  "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "Excellent for champions who rely on basic attacks",
-    "Helps with last hitting and taking objectives faster"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "tips": []
 }

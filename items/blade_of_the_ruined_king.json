@@ -1,38 +1,26 @@
 {
-  "name": "Blade Of The Ruined King",
+  "name": "Blade of the Ruined King",
   "stats": {
     "attack_damage": {
-      "value": 40,
+      "value": 25,
       "type": "flat"
     },
     "attack_speed": {
-      "value": 25,
-      "type": "percentage"
-    },
-    "life_steal": {
-      "value": 8,
+      "value": 35,
       "type": "percentage"
     }
   },
-  "cost": 3200,
-  "passive": "Attacks deal 8% of the target's current health as bonus physical damage (max 60 vs monsters)",
-  "active": "Steals 25% of target's movement speed for 3 seconds (90s cooldown)",
-  "description": "Excellent against high-health targets. Provides sustain, attack speed, and mobility. The current health damage makes it effective against tanks.",
+  "cost": 3000,
+  "passive": "Drain: Basic attacks deal 8% of target's current health as bonus physical damage on-hit.",
+  "active": "",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [],
-  "recipe_cost": 1000,
-  "tags": [
-    "Damage",
-    "Physical"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Blade of the Ruined KingAttacks deal bonus damage +25 Attack Damage +35% Attack SpeedThirst:+10% Physical Vamp.Ruined Strikes: Attacks deal bonus physical damage equal to 6% of the enemy's current Health on-hit.",
+    "(Melee attacks deal 9%).",
+    "Minion damage: 15.",
+    "Max damage vs monsters: 60.Drain: Hitting a champion with 3 attacks or abilities deals 30-100 bonus magic damage and steals 25% of their Move Speed for 2 seconds.",
+    "(60s Cooldown) 3000\n\n\nThis item is a great source of sustain with its lifesteal, but it is mostly picked for its ability to cut through tanks or champions who heavily stack health, like Dr."
+  ]
 }

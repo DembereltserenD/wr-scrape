@@ -1,0 +1,26 @@
+{
+  "name": "Yordle Harmonic Echo",
+  "stats": {
+    "ability_power": {
+      "value": 40,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 2600,
+  "passive": "Echo: Damaging an enemy with an ability hurls an orb at them that deals magic damage to the first enemy hit.",
+  "active": "",
+  "description": ":",
+  "category": "legendary",
+  "tier": "A",
+  "tips": [
+    "Yordle Harmonic EchoAbilities grant healing effects +100 Max Health +40 Ability Power +300 Max Mana +10 Ability Haste +8% Heal and Shield StrengthHarmonic Echo: Moving and casting abilities builds Harmony.",
+    "At 100 Harmony your next healing or shielding ability on an ally restores Health equal to 100 + 10% AP  to them.",
+    "If the target has less than 30% Health, heal effectiveness is increased to 150% of the original.Dancing Notes: After Harmonic Echo is applied to the main target, it bounces to a nearby allied champion, healing them for 50% of Harmonic Echo's effect.",
+    "Harmonic Echo also revitalizes the main target, restoring 2% of their max Health per second over 3 seconds.",
+    "2600\n\n\nThis item is designed for supports who want to maximize their healing impact."
+  ]
+}

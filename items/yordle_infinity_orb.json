@@ -1,0 +1,25 @@
+{
+  "name": "Yordle Infinity Orb",
+  "stats": {
+    "ability_power": {
+      "value": 80,
+      "type": "flat"
+    },
+    "magic_penetration": {
+      "value": 7,
+      "type": "percentage"
+    }
+  },
+  "cost": 2900,
+  "passive": "Bonus damage +80 Ability Power +7% Magic Penetration Destiny: +5% Move Speed. Balanced: +15 Magic Penetration. Inevitable Demise: Abilities and empowered attacks Critically Strike for 20% bonus damage against enemies below 35% Health . Thunderfall: When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealing magic damage equal to 50-85 ( ) plus 20% to nearby enemies. 2900 Yordle Infinity Orb TIPS: This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+  "active": "",
+  "description": ":",
+  "category": "legendary",
+  "tier": "A",
+  "tips": [
+    "Yordle Infinity OrbAbilities deal bonus damage +80 Ability Power +7% Magic PenetrationDestiny:  +5% Move Speed.Balanced:  +15 Magic Penetration.Inevitable Demise: Abilities and empowered attacks Critically Strike for 20% bonus damage against enemies below 35% Health.Thunderfall: When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealing magic damage equal to 50-85 () plus 20% to nearby enemies.",
+    "2900\n\n\nThis item is ideal for mages and assassins looking to boost execution damage and mobility.",
+    "It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers.",
+    "Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights."
+  ]
+}

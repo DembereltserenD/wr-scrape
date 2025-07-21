@@ -1,41 +1,21 @@
 {
   "name": "Gluttonous Greaves",
   "stats": {
-    "movement_speed": {
-      "value": 45,
-      "type": "flat"
-    },
-    "omnivamp": {
-      "value": 8,
-      "type": "percentage"
-    },
     "attack_damage": {
       "value": 35,
       "type": "flat"
     }
   },
-  "cost": 1000,
-  "passive": "Feast: Gain permanent Health for each enemy champion takedown, up to 100 bonus Health.",
-  "active": "",
-  "description": "Boots that provide Movement Speed, Attack Damage. Passive effect: Gain permanent Health for each enemy champion takedown, up to 100 bonus Health.. Great for champions looking to maximize their damage output.",
-  "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Boots"
-  ],
-  "tags": [
-    "Movement",
-    "Omnivamp",
-    "Scaling",
-    "Boots"
-  ],
+  "cost": 1400,
+  "passive": "The “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks.",
+  "active": "S to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks.",
+  "description": ":",
+  "category": "boots",
+  "tier": "A",
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Gluttonous GreavesAttack Damage, Omnivamp +35 Attack Damage +45 Move Speed.Conversion: +7% Omnivamp.",
+    "1400\n\n\nThese boots are perfect for champions who rely on auto-attacks and need constant sustain.",
+    "They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer.",
+    "Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks."
+  ]
 }

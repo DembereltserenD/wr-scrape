@@ -5,12 +5,8 @@
       "value": 80,
       "type": "flat"
     },
-    "health": {
-      "value": 300,
-      "type": "flat"
-    },
-    "omnivamp": {
-      "value": 15,
+    "magic_penetration": {
+      "value": 7,
       "type": "percentage"
     },
     "ability_haste": {
@@ -18,29 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 3200,
-  "passive": "Void Corruption: For each second in combat with champions, deal 3% increased damage, stacking up to 5 times. While this effect is at max stacks, convert 100% of the bonus damage to true damage.",
+  "cost": 3300,
+  "passive": "Void Corruption: For each second in combat with enemy champions, deal 3% increased damage, stacking up to 5 times. When fully stacked, convert 100% of the bonus damage to true damage.",
   "active": "",
-  "description": "Item that provides Ability Power, Health, Ability Haste. Passive effect: For each second in combat with champions, deal 3% increased damage, stacking up to 5 times. While this effect is at max stacks, convert 100% of the bonus damage to true damage.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
-  "tier": "A",
-  "build_path": [
-    "Hextech Alternator",
-    "Vampiric Scepter"
-  ],
-  "tags": [
-    "Magic",
-    "Health",
-    "Omnivamp",
-    "True Damage"
-  ],
+  "tier": "S",
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "RiftmakerRamping Damage +150 Max Health +80 Ability Power +7% Magic Penetration +15 Ability HasteAssimilation: +11% Omnivamp.Void Corruption: When in combat with champions, gain 1 stack(s) of Corruption every 1 second(s).",
+    "Each stack increases the damage you deal by 2.5%, up to 3 stacks.",
+    "At maximum stacks, the additional damage provided by Corruption becomes true damage.",
+    "3300\n\n\nThis item is perfect for mages and champions who need to increase damage over time while fighting.",
+    "It provides bonuses to maximum health, ability power, magic penetration, and ability haste."
+  ]
 }

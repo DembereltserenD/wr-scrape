@@ -1,38 +1,17 @@
 {
   "name": "Sterak's Gage",
-  "stats": {
-    "attack_damage": {
-      "value": 50,
-      "type": "flat"
-    },
-    "health": {
-      "value": 400,
-      "type": "flat"
-    }
-  },
-  "cost": 3100,
-  "passive": "The Claws that Catch: Gain bonus Attack Damage based on bonus Health. Lifeline: If you would take damage that reduces you below 30% Health, gain a shield for 8 seconds (60 second cooldown).",
+  "stats": {},
+  "cost": 3200,
+  "passive": "Lifeline: When taking damage that would reduce you below 30% health, gain a shield equal to 75% of bonus health for 4 seconds (60 second cooldown).",
   "active": "",
-  "description": "Item that provides Attack Damage, Health. Passive effect: Gain bonus Attack Damage based on bonus Health. Lifeline: If you would take damage that reduces you below 30% Health, gain a shield for 8 seconds (60 second cooldown).. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
-  "tier": "A",
-  "build_path": [
-    "Phage",
-    "Pickaxe"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "Shield"
-  ],
+  "tier": "S",
   "tips": [
-    "The shield scales with your bonus health - build health items",
-    "Great for surviving burst damage in team fights",
-    "Perfect for bruisers and juggernauts",
-    "The AD scales with your base AD, benefiting Trinity Force users",
-    "Consider building this when you need to frontline for your team"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Sterak's GageTaking damage triggers a shield +400 Max HealthHeavy Handed: +50% base Attack Damage as bonus Attack Damage.Lifeline: Damage that puts you under 35% Health grants a shield that equal to 75% of your bonus health that decays over 3 seconds (90s Cooldown).Sterak's Fury: Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants 30% Tenacity for 4 seconds.",
+    "3200\n\n\nThis item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions.",
+    "It provides bonuses to maximum health, attack damage, and helps increase your survivability.",
+    "The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits.",
+    "\"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies."
+  ]
 }

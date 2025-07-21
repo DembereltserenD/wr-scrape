@@ -2,11 +2,7 @@
   "name": "Sundered Sky",
   "stats": {
     "attack_damage": {
-      "value": 50,
-      "type": "flat"
-    },
-    "health": {
-      "value": 300,
+      "value": 40,
       "type": "flat"
     },
     "ability_haste": {
@@ -14,31 +10,17 @@
       "type": "flat"
     }
   },
-  "cost": 3100,
-  "passive": "Lightshield Strike: After using an ability, your next attack deals bonus physical damage based on target's missing Health and heals you (1.5 second cooldown).",
-  "active": "",
-  "description": "Item that provides Attack Damage, Health, Ability Haste. Passive effect: After using an ability, your next attack deals bonus physical damage based on target's missing Health and heals you (1.5 second cooldown).. Great for champions looking to maximize their damage output.",
+  "cost": 3000,
+  "passive": "Lightshield Strike: The first attack against an enemy champion deals.",
+  "active": "S to maximum health, attack damage, and ability haste, helping to improve both survivability and damage output. The \"Lightshield Strike\" effect causes your first attack against an enemy champion to critically strike, dealing 160% damage and restoring health based on your base attack damage and a percentage of your missing health. This makes the item a great choice for AD bruisers who engage in fights and require both extra damage and sustain. (6s Cooldown)",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Phage",
-    "Caulfield's Warhammer"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "Ability Haste",
-    "Healing",
-    "Spellblade"
-  ],
   "tips": [
-    "Perfect for enhancing your team's capabilities",
-    "Helps protect and empower your carries",
-    "The active/passive effect can turn the tide of team fights",
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Sundered SkyPeriodically empowers attacks +300 Max Health +40 Attack Damage +15 Ability HasteLightshield Strike: The first attack against an enemy champion deals Critically Strikes (6s cooldown per target), dealing 160% damage  and restores Health (equal to 125% base Attack Damage + 5% of missing Health to you.",
+    "3000\n\n\nThis item is perfect for AD bruisers who deal physical damage and need sustain during fights.",
+    "It provides bonuses to maximum health, attack damage, and ability haste, helping to improve both survivability and damage output.",
+    "The \"Lightshield Strike\" effect causes your first attack against an enemy champion to critically strike, dealing 160% damage and restoring health based on your base attack damage and a percentage of your missing health.",
+    "This makes the item a great choice for AD bruisers who engage in fights and require both extra damage and sustain."
+  ]
 }

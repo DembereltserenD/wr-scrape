@@ -1,28 +1,25 @@
 {
-  "name": "Boots-of-dynamism",
+  "name": "Boots of Dynamism",
   "stats": {
-    "movement_speed": {
-      "value": 45,
+    "attack_damage": {
+      "value": 30,
+      "type": "flat"
+    },
+    "armor": {
+      "value": 10,
       "type": "flat"
     }
   },
-  "cost": 1000,
-  "passive": "",
-  "active": "",
-  "description": "Movement speed boots that provide additional defensive or offensive benefits. Essential for mobility and positioning in Wild Rift.",
+  "cost": 1400,
+  "passive": "The “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks.",
+  "active": "S to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks.",
+  "description": ":",
   "category": "boots",
   "tier": "A",
-  "build_path": [],
-  "tags": [
-    "Movement"
-  ],
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "The movement speed helps with map rotations and positioning",
-    "Consider these boots when facing teams with heavy mixed"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Boots of DynamismAttack Damage, Armor Penetration +30 Attack Damage +45 Move Speed.Strike:  +10 Armor Penetration.",
+    "1400\n\n\nThese boots are perfect for champions who rely on physical damage and need extra mobility to roam the map quickly.",
+    "They grant bonuses to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets.",
+    "Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks."
+  ]
 }

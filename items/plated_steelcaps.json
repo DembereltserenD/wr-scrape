@@ -2,36 +2,20 @@
   "name": "Plated Steelcaps",
   "stats": {
     "armor": {
-      "value": 25,
-      "type": "flat"
-    },
-    "movement_speed": {
-      "value": 45,
+      "value": 35,
       "type": "flat"
     }
   },
-  "cost": 1100,
-  "passive": "Steel: Reduces damage from basic attacks by 12%.",
+  "cost": 1350,
+  "passive": "Physical Damage +150 Max Health +100% Health Regen +35 Armor +45 Move Speed. Block: Reduces physical damage taken from champions by 7-10% ( ). 1350 Plated Steelcaps TIPS: These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions. — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
   "active": "",
-  "description": "Item that provides Armor, Movement Speed. Passive effect: Reduces damage from basic attacks by 12%.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Boots"
-  ],
-  "tags": [
-    "Armor",
-    "Movement",
-    "Damage Reduction",
-    "Boots"
-  ],
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Plated SteelcapsReduces Physical Damage +150 Max Health +100% Health Regen +35 Armor +45 Move Speed.Block: Reduces physical damage taken from champions by 7-10% ().",
+    "1350\n\n\nThese boots provide solid protection against physical damage, boosting your durability and movement speed.",
+    "The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.",
+    "— The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+  ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Yordle Sunfire Aegis",
+  "stats": {
+    "ability_haste": {
+      "value": 15,
+      "type": "flat"
+    }
+  },
+  "cost": 2900,
+  "passive": "Immolate: Deal magic damage per second to nearby enemies. Damage increases by 50% per second over 3 seconds when in combat with enemy champions.",
+  "active": "",
+  "description": ":",
+  "category": "legendary",
+  "tier": "A",
+  "tips": [
+    "Yordle Sunfire AegisBurns nearby emenies +500 Max Health +15 Ability HasteImmolate: While in combat, deal magic damage equal to 16-25 plus 0.8% bonus HP  per second to nearby enemies.",
+    "Damaging champions or epic monsters with Immolate increases its damage by 11% for 5s, stacking up to 4 times.Flametouch: At max Immolate stacks, attacks burn enemies around you for 50% of Immolate's damage over 3 seconds.Flametouch: At max Immolate stacks leave behind a burning trail that deals magic damage equal to 7-10 plus 0.3% bonus HP  per second for up to 5 seconds.",
+    "Immolate and Firepath deal 130% damage against monsters and 175-250% damage () against minions.",
+    "2900\n\n\nThis item provides a massive health boost and ability haste, turning you into a relentless inferno.",
+    "While in combat, you emit burning flames that deal continuous magic damage to nearby enemies and intensify when you strike champions or epic monsters."
+  ]
+}

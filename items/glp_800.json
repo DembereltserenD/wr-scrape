@@ -1,0 +1,16 @@
+{
+  "name": "GLP-800",
+  "stats": {},
+  "cost": 500,
+  "passive": "Ing magic damage equal to 40–75 plus 20% AP . (30s Cooldown) Enemies hit are slowed by 90% , decaying to 30% plus 0.035% AP over 2s. 500 GLP-800 TIPS: This enchant fires icy bolts that explode on first contact, dealing magic damage and heavily slowing the target before the slow decays. Ideal for mages and supports who need to peel and control enemy mobility.",
+  "active": "): Fire a spray of icy bolts that explode on first enemy hit, dealing magic damage equal to 40–75 plus 20% AP . (30s Cooldown) Enemies hit are slowed by 90% , decaying to 30% plus 0.035% AP over 2s. 500 GLP-800 TIPS: This enchant fires icy bolts that explode on first contact, dealing magic damage and heavily slowing the target before the slow decays. Ideal for mages and supports who need to peel and control enemy mobility.",
+  "description": ":",
+  "category": "basic",
+  "tier": "B",
+  "tips": [
+    "GLP-800Damage and slows targets on hitFrost Bolt (Active): Fire a spray of icy bolts that explode on first enemy hit, dealing magic damage equal to 40–75 plus 20% AP.",
+    "(30s Cooldown)Enemies hit are slowed by 90%, decaying to 30% plus 0.035% AP over 2s.",
+    "500\n\n\nThis enchant fires icy bolts that explode on first contact, dealing magic damage and heavily slowing the target before the slow decays.",
+    "Ideal for mages and supports who need to peel and control enemy mobility."
+  ]
+}

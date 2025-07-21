@@ -1,37 +1,20 @@
 {
   "name": "Mercury's Treads",
   "stats": {
-    "magic_resist": {
-      "value": 25,
-      "type": "flat"
-    },
-    "movement_speed": {
-      "value": 45,
+    "magic_resistance": {
+      "value": 35,
       "type": "flat"
     }
   },
-  "cost": 1100,
-  "passive": "Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%.",
+  "cost": 1350,
+  "passive": "Dissolve: Reduces.",
   "active": "",
-  "description": "Boots that provide Magic Resist, Movement Speed. Passive effect: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, and immobilizes by 30%.. Perfect for frontline champions who need to absorb damage.",
-  "category": "legendary",
+  "description": ":",
+  "category": "boots",
   "tier": "A",
-  "build_path": [
-    "Boots"
-  ],
-  "tags": [
-    "Magic Resist",
-    "Movement",
-    "Tenacity",
-    "Boots"
-  ],
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy magic damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Mercury's TreadsReduces Magic Damage +200 Max Health +100% Health Regen +35 Magic Resistance +45 Move Speed.Dissolve: Reduces magic damage taken from champions by 7-12% ().",
+    "1350\n\n\nThese boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.",
+    "— The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+  ]
 }

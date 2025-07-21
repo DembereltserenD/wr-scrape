@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-07-21 19:00:08",
+  "failed_items": [],
+  "item_scrape_stats": {
+    "success": 0,
+    "failed": 0,
+    "cached": 0
+  },
+  "champion_enhancement_failures": [],
+  "summary": {
+    "total_failed_items": 0,
+    "total_successful_items": 0,
+    "total_cached_items": 0,
+    "champion_failures": 0,
+    "overall_success_rate": "0/0 (0%)"
+  }
+}

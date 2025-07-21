@@ -5,47 +5,24 @@
       "value": 40,
       "type": "flat"
     },
-    "health": {
-      "value": 400,
+    "movement_speed": {
+      "value": 20,
       "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 25,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 20,
       "type": "flat"
-    },
-    "movement_speed": {
-      "value": 20,
-      "type": "flat"
     }
   },
-  "cost": 3100,
-  "passive": "Carve: Dealing physical damage to an enemy champion applies a stack for 6 seconds (max 6 stacks). Each stack reduces the target's Armor by 5%.",
+  "cost": 3000,
+  "passive": "Carve: Dealing physical damage to an enemy champion applies a stack for 6 seconds (max 6 stacks). Each stack reduces the target's Armor by 4%.",
   "active": "",
-  "description": "Item that provides Attack Damage, Health, Ability Haste, Ability Haste, Movement Speed. Passive effect: Dealing physical damage to an enemy champion applies a stack for 6 seconds (max 6 stacks). Each stack reduces the target's Armor by 5%.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Phage",
-    "Caulfield's Warhammer"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "CDR",
-    "Armor Reduction"
-  ],
   "tips": [
-    "Great against teams with multiple tanks or bruisers",
-    "The armor shred benefits your entire team's physical damage",
-    "Stack the effect quickly with multi-hit abilities",
-    "Perfect for bruisers who deal sustained physical damage",
-    "Synergizes well with other armor penetration items"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Black CleaverPhysical Damage reduces Armor +400 Max Health +40 Attack Damage +20 Ability HasteSunder: Dealing physical damage to a champion reduces their Armor by 6% for 6 seconds, stacking 4 times for 24% reduction.Rage: Gain 20 Movement Speed when you deal physical damage, and gain 40 Move Speed when moving toward enemy champions with 4 Sunder stacks.",
+    "Ranged champions gain halved values.",
+    "3000\n\n\nle stacks of the item’s passive, reducing the enemy's armor and increasing the overall damage dealt."
+  ]
 }

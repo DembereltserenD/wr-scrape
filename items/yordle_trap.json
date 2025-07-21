@@ -1,46 +1,30 @@
 {
   "name": "Yordle Trap",
   "stats": {
-    "ability_power": {
-      "value": 80,
-      "type": "flat"
-    },
-    "health": {
-      "value": 350,
-      "type": "flat"
-    },
     "armor": {
       "value": 40,
       "type": "flat"
+    },
+    "movement_speed": {
+      "value": 30,
+      "type": "percentage"
     },
     "ability_haste": {
       "value": 15,
       "type": "flat"
     }
   },
-  "cost": 2800,
-  "passive": "Explosive Entrance: Immobilizing an enemy champion creates an explosion around them after 2 seconds, dealing magic damage to nearby enemies.",
-  "active": "",
-  "description": "Item that provides Ability Power, Health, Armor, Ability Haste. Passive effect: Immobilizing an enemy champion creates an explosion around them after 2 seconds, dealing magic damage to nearby enemies.. Perfect for frontline champions who need to absorb damage.",
+  "cost": 2500,
+  "passive": "Catcher: After applying crowd control effects that displace the enemy, gain.",
+  "active": "Displacement crowd control to initiate or protect their team. It provides a large boost to health, armor, and ability haste. The “Catcher” passive triggers when you apply displacement effects: you gain bonus movement speed and mark the target, reducing their armor and magic resistance. If the marked target dies under this effect, you and nearby allies receive bonus gold, helping to accelerate your team’s economic advantage.",
+  "description": ":",
   "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Blasting Wand",
-    "Giant's Belt"
-  ],
-  "tags": [
-    "Magic",
-    "Health",
-    "AOE",
-    "CC"
-  ],
+  "tier": "A",
   "tips": [
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer",
-    "Great for champions who take extended trades",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy physical damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Yordle TrapRecommended for champions that apply displacement crowd control effects +350 Max Health +40 Armor +15 Ability HasteCatcher: After applying crowd control effects that displace the enemy, gain 30% Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic Resistance by 5-12 for 5 seconds.",
+    "If the target dies while they are marked, their death grants 200-300 bonus gold () that will be evenly shared among you and nearby allies.",
+    "The bonus gold can only be obtained once every 10 seconds.",
+    "2500\n\n\nThis item is perfect for tanky support champions who frequently use displacement crowd control to initiate or protect their team.",
+    "It provides a large boost to health, armor, and ability haste."
+  ]
 }

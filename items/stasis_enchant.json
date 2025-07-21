@@ -1,29 +1,15 @@
 {
   "name": "Stasis Enchant",
-  "stats": {
-    "armor": {
-      "value": 15,
-      "type": "flat"
-    }
-  },
-  "cost": 500,
+  "stats": {},
+  "cost": 1000,
   "passive": "",
-  "active": "Stasis: Become untargetable and invulnerable for 2.5 seconds, but unable to move, attack, cast abilities, or use items (120 second cooldown).",
-  "description": "Item that provides Armor. Active effect: Become untargetable and invulnerable for 2.5 seconds, but unable to move, attack, cast abilities, or use items (120 second cooldown).. Perfect for frontline champions who need to absorb damage.",
-  "category": "legendary",
+  "active": "Stasis: Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items (120 second cooldown).",
+  "description": ":",
+  "category": "enchant",
   "tier": "A",
-  "build_path": [],
-  "tags": [
-    "Armor",
-    "Stasis",
-    "Defensive",
-    "Enchant"
-  ],
   "tips": [
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy physical damage compositions",
-    "The resistances help you survive longer in team fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Stasis EnchantTurn invulnerableStasis (Active): Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items.",
+    "(120s Cooldown) 1000\n\n\nThis Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use.",
+    "Perfect for surviving critical moments against assassins and high burst damage."
+  ]
 }

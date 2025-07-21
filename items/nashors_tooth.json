@@ -2,20 +2,16 @@
   "name": "Nashor's Tooth",
   "stats": {
     "ability_power": {
-      "value": 80,
+      "value": 60,
       "type": "flat"
-    },
-    "attack_speed": {
-      "value": 50,
-      "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
     },
     "attack_damage": {
       "value": 30,
       "type": "flat"
+    },
+    "attack_speed": {
+      "value": 45,
+      "type": "percentage"
     },
     "ability_haste": {
       "value": 20,
@@ -23,28 +19,16 @@
     }
   },
   "cost": 3000,
-  "passive": "Icathian Bite: Basic attacks deal bonus magic damage based on AP.",
+  "passive": "Icathian Bite: Basic attacks deal bonus magic damage equal to 15 (+20% AP).",
   "active": "",
-  "description": "Item that provides Ability Power, Attack Speed, Ability Haste, Attack Damage, Ability Haste. Passive effect: Basic attacks deal bonus magic damage based on AP.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Stinger",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "Attack Speed",
-    "CDR",
-    "On-Hit"
-  ],
   "tips": [
-    "Perfect for AP champions who auto-attack frequently",
-    "Great on champions like Diana, Kayle, or Teemo",
-    "The on-hit damage scales with your AP",
-    "Helps with taking objectives and split pushing",
-    "Consider building this on hybrid damage champions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Nashor's ToothAttacks deal bonus damage +45% Attack Speed +20 Ability HasteMagic Fang: Obtain 30 Attack Damage or 60 Ability Power (Adaptive).Gnaw: Attacks deal adaptive damage (15 + 20% bonus+ 30% bonus) on hit.",
+    "3000\n\n\nThis item is perfect for champions who blend auto-attacks with magic damage.",
+    "It provides a hefty boost to attack speed and reduces ability cooldowns, allowing you to cast spells more frequently in fights.",
+    "The “Magic Fang” passive adapts to your build by granting either bonus attack damage or ability power, adding flexibility.",
+    "With each auto-attack, “Gnaw” deals adaptive magic damage on hit, making it especially effective against tanky targets and for wearing down opponents over time."
+  ]
 }

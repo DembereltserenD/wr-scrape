@@ -1,0 +1,34 @@
+{
+  "name": "Bulwark of the Mountain",
+  "stats": {
+    "ability_power": {
+      "value": 4,
+      "type": "flat"
+    },
+    "attack_damage": {
+      "value": 2,
+      "type": "flat"
+    },
+    "health": {
+      "value": 25,
+      "type": "flat"
+    },
+    "ability_haste": {
+      "value": 10,
+      "type": "flat"
+    }
+  },
+  "cost": 175,
+  "passive": "25 Health , 2 Attack Damage , or 4 Ability Power (Adaptive). Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom. 0 Bulwark of the Mountain TIPS: This item is designed for support players and grants passive gold income every 60 seconds along with Soulforce stacks that boost your health, attack damage, or ability power. At 10 stacks, you gain a significant adaptive stat bonus. While it reduces gold from killing minions and monsters, it accelerates your team’s economic pace. An additional effect deals extra damage to revealed Sight Wards, making it easier to clear vision and maintain map control.",
+  "active": "",
+  "description": ":",
+  "category": "basic",
+  "tier": "B",
+  "tips": [
+    "Bulwark of the MountainKill minions to earn bonus gold +175 Max Health +10 Ability HasteEvery 60 seconds, gains 75 gold and 1 stacks of soulforce (up to 10 stacks).",
+    "Each stack of soulforce grants 25 Health, 2 Attack Damage, or 4 Ability Power (Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.",
+    "0\n\n\nThis item is designed for support players and grants passive gold income every 60 seconds along with Soulforce stacks that boost your health, attack damage, or ability power.",
+    "At 10 stacks, you gain a significant adaptive stat bonus.",
+    "While it reduces gold from killing minions and monsters, it accelerates your team’s economic pace."
+  ]
+}

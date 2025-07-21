@@ -1,20 +1,16 @@
 {
   "name": "Black Mist Scythe",
   "stats": {
+    "ability_power": {
+      "value": 28,
+      "type": "flat"
+    },
     "attack_damage": {
-      "value": 20,
+      "value": 14,
       "type": "flat"
     },
     "health": {
-      "value": 75,
-      "type": "flat"
-    },
-    "gold_generation": {
-      "value": 3,
-      "type": "flat"
-    },
-    "ability_power": {
-      "value": 28,
+      "value": 25,
       "type": "flat"
     },
     "ability_haste": {
@@ -22,28 +18,17 @@
       "type": "flat"
     }
   },
-  "cost": 400,
-  "passive": "Tribute: Damaging an enemy champion by attack or ability grants 20 gold and executes minions below 50% Health (10 second cooldown per target).",
+  "cost": 0,
+  "passive": "Tribute: Damaging abilities and basic attacks against champions grant 20 gold and heal you. This effect has a per-target cooldown.",
   "active": "",
-  "description": "Item that provides Attack Damage, Health, Ability Power, Ability Haste. Passive effect: Damaging an enemy champion by attack or ability grants 20 gold and executes minions below 50% Health (10 second cooldown per target).. Great for champions looking to maximize their damage output.",
-  "category": "legendary",
-  "tier": "C",
-  "build_path": [],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Health",
-    "Support",
-    "Gold Generation",
-    "Execute"
-  ],
+  "description": ":",
+  "category": "basic",
+  "tier": "B",
   "tips": [
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions",
-    "The resistances help you survive longer in team fights",
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Black Mist ScytheAttack champions and structures to gain bonus gold +10 Ability HasteVersatile: Gain 14 Attack Damage or 28 Ability Power (Adaptive).Every 60 seconds, gains 75 gold and 1 stacks of soulforce (up to 10 stacks).",
+    "Each stack of soulforce grants 25 Health, 2 Attack Damage, or 4 Ability Power (Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.",
+    "0\n\n\nThis item is designed for support players, granting passive bonuses to gold and stats.",
+    "It reduces your gold from killing minions and monsters but provides 75 gold and 1 Soulforce stack every 60 seconds.",
+    "Each Soulforce stack adaptively grants health, attack damage, or ability power, and at 10 stacks you gain a significant bonus to one of these stats."
+  ]
 }

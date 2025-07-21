@@ -2,37 +2,23 @@
   "name": "Infinity Edge",
   "stats": {
     "attack_damage": {
-      "value": 70,
+      "value": 60,
       "type": "flat"
     },
-    "critical_chance": {
+    "critical_strike": {
       "value": 25,
       "type": "percentage"
     }
   },
   "cost": 3400,
-  "passive": "Perfection: If you have at least 60% Critical Strike Chance, gain 35% Critical Strike Damage.",
+  "passive": "Critical Edge: Increases critical strike damage by 35%.",
   "active": "",
-  "description": "Critical strike item providing massive Attack Damage and Critical Strike Chance. The Perfection passive significantly amplifies critical strike damage when you reach the 60% threshold, making it essential for crit-based marksmen and the cornerstone of most ADC builds.",
+  "description": ":",
   "category": "legendary",
   "tier": "S",
-  "build_path": [
-    "B.F. Sword",
-    "Pickaxe",
-    "Cloak of Agility"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Critical"
-  ],
   "tips": [
-    "Build other crit items first to reach 60% crit chance for maximum effectiveness",
-    "The passive bonus is huge - prioritize reaching the 60% threshold",
-    "Core item for most ADC champions like Jinx, Caitlyn, and Ashe",
-    "Pairs well with other crit items like Phantom Dancer and Runaan's Hurricane",
-    "The 35% crit damage bonus applies to all critical strikes, not just from this item"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Infinity EdgeIncreases Critical Strike Damage +60 Attack Damage +25% Critical RateInfinity: Critical Strikes deal 205% damage instead of 175%.Limit Break: When your totalgain from items exceeds 100%, every 1% excessgrants 0.6 bonus Critical Damage.",
+    "3400\n\n\nThis item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.",
+    "— Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds."
+  ]
 }

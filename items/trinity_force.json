@@ -2,19 +2,11 @@
   "name": "Trinity Force",
   "stats": {
     "attack_damage": {
-      "value": 25,
-      "type": "flat"
-    },
-    "health": {
-      "value": 200,
+      "value": 30,
       "type": "flat"
     },
     "attack_speed": {
-      "value": 35,
-      "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 20,
+      "value": 30,
       "type": "percentage"
     },
     "ability_haste": {
@@ -23,28 +15,16 @@
     }
   },
   "cost": 3333,
-  "passive": "Spellblade: After using an ability, your next basic attack deals bonus physical damage equal to 200% base AD (1.5s cooldown). Threefold Strike: Attacks grant 20 Movement Speed for 3 seconds, stacking up to 8 times",
+  "passive": "Spellblade: After using an ability, your next attack within 10 seconds deals 200% base AD as bonus damage (1.5s cooldown).",
   "active": "",
-  "description": "Versatile bruiser item that enhances ability-based champions. Provides a mix of offensive and defensive stats with strong synergy for spell-weaving fighters.",
-  "category": "mythic",
+  "description": ":",
+  "category": "legendary",
   "tier": "S",
-  "build_path": [
-    "Sheen",
-    "Phage",
-    "Stinger"
-  ],
-  "tags": [
-    "Damage",
-    "Health",
-    "Spellblade"
-  ],
   "tips": [
-    "Perfect for champions who weave abilities between auto attacks like Jax, Irelia, or Camille",
-    "The movement speed stacks help with kiting and chasing enemies",
-    "Spellblade proc scales with base AD, not bonus AD - great early-mid game",
-    "Great on bruisers who need both damage and survivability",
-    "Use abilities frequently to maximize the Spellblade damage"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Trinity ForceWell-Rounded +250 Max Health +30 Attack Damage +30% Attack Speed +25 Ability HasteFervor:  +5% Move Speed.Spellblade: Using an ability causes the next attack used within 10 seconds to deal bonus physical damage equal to 200% base AD(1.5s Cooldown).",
+    "Damage is reduced vs structures.Valor: Attacks grant 20 Move Speed and kills grant 60 Move Speed for 2 seconds.",
+    "Bonuses do not stack.",
+    "Ranged champions gain halved values.",
+    "3333\n\n\nThis item is perfect for champions who frequently use both abilities and auto-attacks in combat."
+  ]
 }

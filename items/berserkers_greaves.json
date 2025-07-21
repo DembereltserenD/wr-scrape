@@ -1,14 +1,6 @@
 {
   "name": "Berserker's Greaves",
   "stats": {
-    "attack_speed": {
-      "value": 35,
-      "type": "percentage"
-    },
-    "movement_speed": {
-      "value": 45,
-      "type": "flat"
-    },
     "attack_damage": {
       "value": 20,
       "type": "flat"
@@ -16,29 +8,21 @@
     "health": {
       "value": 8,
       "type": "flat"
+    },
+    "attack_speed": {
+      "value": 35,
+      "type": "percentage"
     }
   },
-  "cost": 1000,
-  "passive": "",
+  "cost": 1400,
+  "passive": "Blessed Blade: Reduces Attacks restore 8 Health on hit.",
   "active": "",
-  "description": "Provides 35% Attack Speed, 45 Movement Speed and enhanced movement.",
-  "category": "legendary",
+  "description": ":",
+  "category": "boots",
   "tier": "A",
-  "build_path": [
-    "Boots"
-  ],
-  "tags": [
-    "Attack Speed",
-    "Movement",
-    "Boots"
-  ],
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Berserker's GreavesAttack Speed +20 Attack Damage +35% Attack Speed +45 Move Speed.Blessed Blade: Reduces Attacks restore 8 Health on hit.",
+    "1400\n\n\nThese boots grant a significant boost to attack speed and movement speed, while empowering your basic attacks with on‑hit life steal.",
+    "— A great pick for marksmen and auto‑attack bruisers who need mobility, rapid attack cadence, and constant sustain in fights."
+  ]
 }

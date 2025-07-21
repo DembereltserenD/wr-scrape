@@ -2,50 +2,25 @@
   "name": "Imperial Mandate",
   "stats": {
     "ability_power": {
-      "value": 55,
+      "value": 40,
       "type": "flat"
-    },
-    "health": {
-      "value": 200,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
-    },
-    "mana_regeneration": {
-      "value": 125,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 20,
       "type": "flat"
     }
   },
-  "cost": 2300,
-  "passive": "Coordinated Fire: Abilities that slow or immobilize a champion mark them. Ally damage detonates the mark, dealing bonus damage and granting both of you Movement Speed.",
-  "active": "",
-  "description": "Item that provides Ability Power, Health, Ability Haste, Ability Haste. Passive effect: Abilities that slow or immobilize a champion mark them. Ally damage detonates the mark, dealing bonus damage and granting both of you Movement Speed.. Perfect for frontline champions who need to absorb damage.",
+  "cost": 2500,
+  "passive": "",
+  "active": "Coordinated Fire: Abilities that slow or immobilize enemy champions mark them for 4 seconds. Ally damage detonates the mark, dealing bonus magic damage and granting both allies Movement Speed (6 second cooldown per target).",
+  "description": ":",
   "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Bandleglass Mirror",
-    "Kindlegem"
-  ],
-  "tags": [
-    "Magic",
-    "Health",
-    "CDR",
-    "Support",
-    "Mark"
-  ],
+  "tier": "A",
   "tips": [
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy mixed damage compositions",
-    "The resistances help you survive longer in team fights",
-    "Provides unique utility that can change fight dynamics",
-    "The active/passive effect creates opportunities for your team"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Imperial MandateCrowd control grants additional ally damage +200 Max Health +40 Ability Power +20 Ability HasteCoordinated Fire: Abilities that Slow or Immobilize a champion deal 47-75 bonus magic damage and marks them for 4 seconds (6 seconds cooldown per enemy champion).",
+    "Allied champion damage detonates the mark, dealing an additional 94-150 magic damage (based on ally level) and granting you both 20% Move Speed, for 2 seconds.",
+    "2500\n\n\nThis item is perfect for support champions who have abilities that slow or immobilize enemies, allowing you to activate effects for your team.",
+    "It provides bonuses to maximum health, ability power, and ability haste, helping you deal damage while also enhancing teamwork with your allies.",
+    "The \"Coordinated Fire\" effect activates when you slow or immobilize an enemy, dealing bonus magic damage and marking them for 4 seconds."
+  ]
 }

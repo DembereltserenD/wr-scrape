@@ -1,43 +1,26 @@
 {
   "name": "Wit's End",
   "stats": {
-    "attack_damage": {
-      "value": 40,
+    "magic_resistance": {
+      "value": 45,
       "type": "flat"
     },
     "attack_speed": {
-      "value": 40,
+      "value": 45,
       "type": "percentage"
-    },
-    "magic_resist": {
-      "value": 50,
-      "type": "flat"
     }
   },
-  "cost": 2900,
-  "passive": "Fray: Basic attacks deal bonus magic damage and steal Magic Resist from the target for 5 seconds, stacking up to 5 times.",
+  "cost": 2800,
+  "passive": "Fray: Basic attacks deal bonus magic damage and steal 5 Magic Resistance from the target for 5 seconds, stacking up to 5 times.",
   "active": "",
-  "description": "Item that provides Attack Damage, Attack Speed, Magic Resist. Passive effect: Basic attacks deal bonus magic damage and steal Magic Resist from the target for 5 seconds, stacking up to 5 times.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Recurve Bow",
-    "Negatron Cloak"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Attack Speed",
-    "Magic Resist",
-    "On-Hit"
-  ],
   "tips": [
-    "The movement speed helps with roaming and map presence",
-    "Great for champions who need to reposition frequently in fights",
-    "Helps with both engaging and disengaging from unfavorable situations",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy magic damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Wit's EndBasic Attack deals Bonus Damage +45% Attack Speed +45 Magic ResistanceAt Wit's End: Basic attacks deal 10-55 bonus magic damage.",
+    "While below 50%Health, dealing damage to an enemy champion heals you for (Melee 100%/Range 33%) of this effect's post-mitigation damage.",
+    "2800\n\n\nThis item is perfect for champions who want to deal sustained damage and have some defensive stats against magic damage threats.",
+    "It provides bonuses to attack speed and magic resistance, as well as adding magic damage to your auto-attacks, making it effective against magic-based threats.",
+    "The \"While below 50% Health\" effect heals you when dealing damage to an enemy champion, increasing survivability in fights."
+  ]
 }

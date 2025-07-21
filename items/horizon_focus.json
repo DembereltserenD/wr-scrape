@@ -2,11 +2,11 @@
   "name": "Horizon Focus",
   "stats": {
     "ability_power": {
-      "value": 85,
+      "value": 90,
       "type": "flat"
     },
-    "cooldown_reduction": {
-      "value": 25,
+    "magic_penetration": {
+      "value": 7,
       "type": "percentage"
     },
     "ability_haste": {
@@ -14,28 +14,17 @@
       "type": "flat"
     }
   },
-  "cost": 3000,
-  "passive": "Hypershot: Damaging a champion with a non-targeted ability at over 750 range or slowing or immobilizing them reveals them and increases your damage to them by 10% for 6 seconds.",
+  "cost": 3100,
+  "passive": "Hypershot: Damaging a champion with an ability at over 750 range or immobilizing them increases your damage dealt to them by 10% for 6 seconds.",
   "active": "",
-  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Damaging a champion with a non-targeted ability at over 750 range or slowing or immobilizing them reveals them and increases your damage to them by 10% for 6 seconds.. Great for champions looking to maximize their damage output.",
+  "description": ":",
   "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Blasting Wand",
-    "Fiendish Codex"
-  ],
-  "tags": [
-    "Magic",
-    "CDR",
-    "Damage Amplification"
-  ],
+  "tier": "S",
   "tips": [
-    "Great for champions who want to maximize their damage output",
-    "Synergizes well with other damage items for burst potential",
-    "Consider building this when ahead to snowball your advantage",
-    "Perfect for champions who rely heavily on abilities",
-    "The cooldown reduction/ability haste maximizes spell uptime"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Horizon FocusDeals bonus damage to marked targets +90 Ability Power +7% Magic Penetration +20 Ability HasteHypershot: Damaging an enemy champion with an ability from 600 units away reveals them for 8 seconds and increases damage dealt to them by 12%.Focus: When Hypershot is triggered, it reveals all enemy champions within 1,200 units of the target for 3s.",
+    "(12s Cooldown) 3100\n\n\nThis item is perfect for mages who rely on long-range damage and want to increase their damage to enemies from a distance.",
+    "It provides bonuses to ability power, magic penetration, and ability haste, helping you deal more damage and use your abilities more quickly.",
+    "The \"Hypershot\" effect increases damage to enemies you damage from over 600 units away, while also revealing them for 8 seconds, giving you an advantage in combat.",
+    "This item allows you to deal more damage from longer ranges or against immobilized enemies."
+  ]
 }

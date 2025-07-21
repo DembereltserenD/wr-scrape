@@ -2,45 +2,25 @@
   "name": "Staff of Flowing Water",
   "stats": {
     "ability_power": {
-      "value": 50,
+      "value": 45,
       "type": "flat"
-    },
-    "mana_regeneration": {
-      "value": 125,
-      "type": "percentage"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "percentage"
     },
     "ability_haste": {
       "value": 10,
       "type": "flat"
     }
   },
-  "cost": 2300,
-  "passive": "Rapids: Healing or shielding an ally grants both of you 25 Ability Power and 15% Movement Speed for 4 seconds.",
-  "active": "ly support their team, such as Soraka, Nami, or Lulu.",
-  "description": "Item that provides Ability Power, Ability Haste, Ability Haste. Passive effect: Healing or shielding an ally grants both of you 25 Ability Power and 15% Movement Speed for 4 seconds.. Active effect: ly support their team, such as Soraka, Nami, or Lulu.. Excellent for supporting allies and enhancing team capabilities.",
+  "cost": 2500,
+  "passive": "",
+  "active": "Rapids: Healing or shielding an ally grants both of you 35 Ability Power and 15% Movement Speed for 3 seconds.",
+  "description": ":",
   "category": "legendary",
-  "tier": "B",
-  "build_path": [
-    "Fiendish Codex",
-    "Forbidden Idol"
-  ],
-  "tags": [
-    "Magic",
-    "CDR",
-    "Support",
-    "Buff"
-  ],
+  "tier": "A",
   "tips": [
-    "Perfect for enhancing your team's capabilities",
-    "Helps protect and empower your carries",
-    "The active/passive effect can turn the tide of team fights",
-    "Provides unique utility that can change fight dynamics",
-    "The active/passive effect creates opportunities for your team"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Staff of Flowing WaterEnhance allies Ability Power and Ability Haste +100 Max Health +45 Ability Power +350 Max Mana +10 Ability Haste +8% Heal and Shield StrengthRapids: Healing or shielding an ally grants you both +10  Ability Haste and 20-40  (based on target's level) Ability Power for 6 seconds.",
+    "2500\n\n\nThis item is perfect for champions who rely on healing or shielding abilities to support their team.",
+    "It provides bonuses to maximum health, ability power, maximum mana, ability haste, and amplifies healing and shielding effects.",
+    "The \"Rapids\" effect activates when you heal or shield an ally, granting both you and your ally bonuses to ability haste and ability power for 6 seconds.",
+    "This item is especially useful for champions who actively support their team, such as Soraka, Nami, or Lulu."
+  ]
 }
