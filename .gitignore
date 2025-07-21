@@ -54,3 +54,5 @@ yarn-error.log*
 .env
 .coverage
 htmlcov/"node_modules/" 
+"node_modules/" 
+"__pycache__/" 
