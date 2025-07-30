@@ -77,7 +77,11 @@
     "armor": "Armor",
     "magic_resistance": "Magic Resistance",
     "critical_strike": "Critical Strike",
-    "per_level": "per level"
+    "per_level": "per level",
+    "damage": "Damage",
+    "toughness": "Toughness",
+    "utility": "Utility",
+    "difficulty": "Difficulty"
   },
   "abilities": {
     "title": "Abilities",

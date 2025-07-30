@@ -70,29 +70,41 @@ export class ChampionDataLoader {
    * Transform scraped champion data to our expected format
    */
   private static transformChampionData(
-    scrapedData: ScrapedChampionData
+    scrapedData: ScrapedChampionData,
   ): ChampionData {
     const championName = scrapedData.name || "Unknown";
     const championId = championName.toLowerCase().replace(/[^a-z0-9]/g, "_");
+
+    // Create URL-friendly slug
+    const championSlug = championName
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "_")
+      .replace(/^_+|_+$/g, "");
 
     // Get the first build for default data
     const firstBuild = scrapedData.builds?.[0] || {};
 
     return {
       champion: {
-        id: championId,
+        id: championSlug, // Use URL-friendly slug as ID
         name: championName,
         title: championName, // Using name as title for now
         role: scrapedData.roles?.[0] || "Unknown",
         lanes: scrapedData.lanes || [],
         difficulty: this.mapDifficultyToString(
-          scrapedData.stats?.difficulty || 50
+          scrapedData.stats?.difficulty || 50,
         ),
         tier: this.mapTierToString(scrapedData.tier || 3),
         image: scrapedData.image || "",
         splash_art: scrapedData.image || "",
       },
       stats: {
+        // Map the actual stats from the JSON data
+        damage: { base: scrapedData.stats?.damage || 0, per_level: 0 },
+        toughness: { base: scrapedData.stats?.toughness || 0, per_level: 0 },
+        utility: { base: scrapedData.stats?.utility || 0, per_level: 0 },
+        difficulty: { base: scrapedData.stats?.difficulty || 0, per_level: 0 },
+        // Keep space for base_stats that will be added later
         attack_damage: { base: 0, per_level: 0 },
         health: { base: 0, per_level: 0 },
         health_regeneration: { base: 0, per_level: 0 },
@@ -106,19 +118,19 @@ export class ChampionDataLoader {
       },
       abilities: {
         passive: this.transformAbility(
-          scrapedData.abilities?.find((a) => a.key === "P")
+          scrapedData.abilities?.find((a) => a.key === "P"),
         ),
         q: this.transformAbility(
-          scrapedData.abilities?.find((a) => a.key === "Q")
+          scrapedData.abilities?.find((a) => a.key === "Q"),
         ),
         w: this.transformAbility(
-          scrapedData.abilities?.find((a) => a.key === "W")
+          scrapedData.abilities?.find((a) => a.key === "W"),
         ),
         e: this.transformAbility(
-          scrapedData.abilities?.find((a) => a.key === "E")
+          scrapedData.abilities?.find((a) => a.key === "E"),
         ),
         r: this.transformAbility(
-          scrapedData.abilities?.find((a) => a.key === "R")
+          scrapedData.abilities?.find((a) => a.key === "R"),
         ),
       },
       builds: {
@@ -129,11 +141,11 @@ export class ChampionDataLoader {
         boots: [],
         situational_items:
           firstBuild.situational_items?.flatMap(
-            (cat: any) => cat.items?.map((item: any) => item.name) || []
+            (cat: any) => cat.items?.map((item: any) => item.name) || [],
           ) || [],
         situational:
           firstBuild.situational_items?.flatMap(
-            (cat: any) => cat.items?.map((item: any) => item.name) || []
+            (cat: any) => cat.items?.map((item: any) => item.name) || [],
           ) || [],
         example_build:
           firstBuild.example_build?.map((item: any) => item.name) || [],
@@ -201,8 +213,8 @@ export class ChampionDataLoader {
         abilityData.key === "P"
           ? ("Passive" as const)
           : abilityData.key === "R"
-          ? ("Ultimate" as const)
-          : ("Active" as const),
+            ? ("Ultimate" as const)
+            : ("Active" as const),
       description: abilityData.description || "",
       damage: [],
       scaling: "",
@@ -261,6 +273,33 @@ export class ChampionDataLoader {
   }
 
   /**
+   * Load champion by slug (URL-friendly identifier)
+   */
+  static loadChampionBySlug(slug: string): ChampionData | null {
+    try {
+      const files = this.getChampionFiles();
+
+      for (const file of files) {
+        const championData = this.loadChampion(file);
+        if (championData && championData.champion.id === slug) {
+          return championData;
+        }
+      }
+
+      // If no exact match found, try to find by filename (fallback)
+      const possibleFilename = `${slug}.json`;
+      if (files.includes(possibleFilename)) {
+        return this.loadChampion(possibleFilename);
+      }
+
+      return null;
+    } catch (error) {
+      console.error(`Error loading champion by slug ${slug}:`, error);
+      return null;
+    }
+  }
+
+  /**
    * Load all champions data
    */
   static loadAllChampions(): ChampionData[] {
@@ -294,7 +333,7 @@ export class ChampionDataLoader {
 
         if (!isValid) {
           console.warn(
-            `Filtering out invalid champion: ${basic?.name || "unknown"}`
+            `Filtering out invalid champion: ${basic?.name || "unknown"}`,
           );
           console.warn(`Missing fields:`, {
             id: !basic.id,
@@ -311,7 +350,7 @@ export class ChampionDataLoader {
       });
 
       console.log(
-        `Loaded ${validChampions.length} valid champions out of ${champions.length} total`
+        `Loaded ${validChampions.length} valid champions out of ${champions.length} total`,
       );
       return validChampions;
     } catch (error) {
@@ -327,7 +366,7 @@ export class ChampionDataLoader {
     const allChampions = this.loadAllChampions();
     return allChampions.filter(
       (champion) =>
-        champion.champion?.tier?.toLowerCase() === tier.toLowerCase()
+        champion.champion?.tier?.toLowerCase() === tier.toLowerCase(),
     );
   }
 
@@ -337,7 +376,7 @@ export class ChampionDataLoader {
   static loadChampionsByRole(role: string): ChampionData[] {
     const allChampions = this.loadAllChampions();
     return allChampions.filter((champion) =>
-      champion.champion?.role?.toLowerCase().includes(role.toLowerCase())
+      champion.champion?.role?.toLowerCase().includes(role.toLowerCase()),
     );
   }
 
@@ -351,7 +390,7 @@ export class ChampionDataLoader {
     return allChampions.filter(
       (champion) =>
         champion.champion?.name?.toLowerCase().includes(lowerQuery) ||
-        champion.champion?.role?.toLowerCase().includes(lowerQuery)
+        champion.champion?.role?.toLowerCase().includes(lowerQuery),
     );
   }
 }
@@ -412,7 +451,7 @@ export class ItemDataLoader {
   static loadItemsByCategory(category: string): Item[] {
     const allItems = this.loadAllItems();
     return allItems.filter(
-      (item) => item.category.toLowerCase() === category.toLowerCase()
+      (item) => item.category.toLowerCase() === category.toLowerCase(),
     );
   }
 
@@ -422,7 +461,7 @@ export class ItemDataLoader {
   static loadItemsByTier(tier: string): Item[] {
     const allItems = this.loadAllItems();
     return allItems.filter(
-      (item) => item.tier.toLowerCase() === tier.toLowerCase()
+      (item) => item.tier.toLowerCase() === tier.toLowerCase(),
     );
   }
 
@@ -436,7 +475,7 @@ export class ItemDataLoader {
     return allItems.filter(
       (item) =>
         item.name.toLowerCase().includes(lowerQuery) ||
-        item.tags?.some((tag) => tag.toLowerCase().includes(lowerQuery))
+        item.tags?.some((tag) => tag.toLowerCase().includes(lowerQuery)),
     );
   }
 }

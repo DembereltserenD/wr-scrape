@@ -77,7 +77,11 @@
     "armor": "Хуяг",
     "magic_resistance": "Ид шидийн эсэргүүцэл",
     "critical_strike": "Чухал цохилт",
-    "per_level": "түвшин тутамд"
+    "per_level": "түвшин тутамд",
+    "damage": "Хохирол",
+    "toughness": "Бат бөх байдал",
+    "utility": "Ашиглалт",
+    "difficulty": "Хүндрэл"
   },
   "abilities": {
     "title": "Чадварууд",
