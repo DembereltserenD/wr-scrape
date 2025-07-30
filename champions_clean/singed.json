@@ -1,0 +1,693 @@
+{
+  "name": "SINGED",
+  "roles": [
+    "Mage",
+    "Tank"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675036112_1644097381_singed_33_11zon.webp",
+  "tier": 1,
+  "balance_status": "ADJUSTED",
+  "stats": {
+    "damage": 66,
+    "toughness": 100,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429171_singed_0.jpg",
+      "alt_text": "NOXIOUS SLIPSTREAM",
+      "key": "P",
+      "description": "(PASSIVE)NOXIOUS SLIPSTREAMDraft off of nearby champions, gaining20% bonus Movement Speedfor 2 seconds.Each champion has a 10 second cooldown.",
+      "name": "NOXIOUS SLIPSTREAMD"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429215_singed_1.jpg",
+      "alt_text": "POISON TRAIL",
+      "key": "Q",
+      "description": "(Q)POISON TRAIL1s12Toggle:Lay a poisonous trail that deals25 magic damage(25/35/45/55 +30%) per second.",
+      "name": "POISON TRAIL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429144_singed_2.jpg",
+      "alt_text": "MEGA ADHESIVE",
+      "key": "W",
+      "description": "(W)MEGA ADHESIVE11s60/70/80/90Tosses an adhesive that sticks to the ground for 3 seconds at the target area. The adhesive explodes on landing, dealing50 magic damage(50/ 70/90/110 +25%) andslowing by 35/40/45/50%. Enemies in the area are alsogroundedand cannot use movement abilities.If the target isFlunginto the adhesive, they are alsorooted.",
+      "name": "MEGA ADHESIVE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429168_singed_3.jpg",
+      "alt_text": "FLING",
+      "key": "E",
+      "description": "(E)FLING12s80/95/110/125Raises his shield and dashes toward the target,knocking asideenemies in his way. If he hits the target, he flings them behind him, dealingmagic damageequal to60(60/80/100/120 +50%) plus5/6/7/8%of the target'smax Health.If the target is flung intoMega Adhesive, they are alsorootedfor 1.25/1.5/1.75/2 secondsDeals a maximum of 500 damage against non-champions.",
+      "name": "FLING"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429218_singed_4.jpg",
+      "alt_text": "INSANITY POTION",
+      "key": "R",
+      "description": "(R)INSANITY POTION70/65/60s100Drinks a potent brew of chemicals, gaining buffs and granting 30% of the buffs to the nearest allied champion for 20 seconds.- IncreasesAbility Power,Armor,Magic ResistandMovement Speedby 40/70/100.- Grants 15/20/25Health RegenandMana Regen.Magic damagedealt while the potion is active applies40% Grievous Woundsfor 1 second.",
+      "name": "INSANITY POTION"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Baron",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390582_shimmering-spark.webp",
+          "alt": "Wild Rift Items: Shimmering Spark",
+          "name": "Shimmering Spark",
+          "description": "Shimmering SparkBurns nearby enemies+50 Max HealthImmolate:Deals5-10 magic damageper second to nearby enemies.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389203_searing-crown.webp",
+          "alt": "Wild Rift Items: Searing Crown",
+          "name": "Searing Crown",
+          "description": "Searing CrownAttacks and damaging abilities burn enemies+300 Max Health+50 ArmorFiery Touch:After dealing damage with an attack or ability, burn target for 3 seconds, dealing1.4%of the target’smaximum healthasmagic damageper second (damage reduced to0.8%for ranged users).Deals 150% damage to minions and monsters.Maximum 125 damage to monsters.2700Searing Crown TIPS:This item is perfect for champions who want to combine high survivability with bonus health-percentage damage. It provides a substantial boost to health and armor, and its “Fiery Touch” passive burns targets on hit with attacks or abilities, dealing magic damage equal to a percentage of their maximum health. This makes it effective against tanks and high-health champions, while also speeding up waveclear and jungle clear. Ideal for tanks and bruisers who want to leave a mark in fights while staying durable.",
+          "cost": 2700
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389203_searing-crown.webp",
+          "alt": "Wild Rift Items: Searing Crown",
+          "name": "Searing Crown",
+          "description": "Searing CrownAttacks and damaging abilities burn enemies+300 Max Health+50 ArmorFiery Touch:After dealing damage with an attack or ability, burn target for 3 seconds, dealing1.4%of the target’smaximum healthasmagic damageper second (damage reduced to0.8%for ranged users).Deals 150% damage to minions and monsters.Maximum 125 damage to monsters.2700Searing Crown TIPS:This item is perfect for champions who want to combine high survivability with bonus health-percentage damage. It provides a substantial boost to health and armor, and its “Fiery Touch” passive burns targets on hit with attacks or abilities, dealing magic damage equal to a percentage of their maximum health. This makes it effective against tanks and high-health champions, while also speeding up waveclear and jungle clear. Ideal for tanks and bruisers who want to leave a mark in fights while staying durable.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+          "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+          "name": "Yorlde Liandry's Torment",
+          "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+          "alt": "Wild Rift Items: Riftmaker",
+          "name": "Riftmaker",
+          "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+          "alt": "Wild Rift Items: Amaranth's Twinguard",
+          "name": "Amaranth's Twinguard",
+          "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+          "cost": 3100
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Dealing ability damage grants movement speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388596_cosmic-drive.webp",
+              "alt": "Wild Rift Items: Cosmic Drive",
+              "name": "Cosmic Drive",
+              "description": "Cosmic DriveDealing ability damage grants movement speed+75 Ability Power+7% Magic Penetration+30 Ability HasteHyperdrive:+5% Move Speed.Spellweaving:Active abilities andempowered attacksgrant30+70% Ability HasteasMovement Speedafter dealing damage to an enemy champion. ThisMovement Speeddecays over 2 seconds.Each source has an individual 1s cooldown for triggering Spellweaving.Only Haste from items contributes to Spellweaving's movement speed.2800Cosmic Drive TIPS:This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Cosmic Drive— This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control."
+        },
+        {
+          "purpose": "Stacking Magic Resist and Move Speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389153_force-of-nature.webp",
+              "alt": "Wild Rift Items: Force of Nature",
+              "name": "Force of Nature",
+              "description": "Force of NatureStacking Magic Resist and Move Speed+350 Max Health+55 Magic ResistanceStorm:+5% Move Speed.Absorb:Taking ability damage from enemy champions grants 1 stack(s) of Steadfast for 7 seconds, max 4 stacks. Receiving damage from an enemy Champion will refresh the duration of the stacks. At maximum stacks, gain10% Movement Speedand reduce all incoming magic damage by 25%.2750Force of Nature TIPS:This item provides a substantial boost to health and magic resistance, and its “Absorb” passive stacks up when you take ability damage from enemy champions, reducing all incoming magic damage and granting bonus movement speed at max stacks. It’s perfect for tanks who need to withstand teams heavy in magic damage and maintain mobility to be in the right position during fights. Pick this up when the enemy team builds magic damage (e.g., Syndra, Brand) and you need extra movement speed to initiate effectively or escape dangerous situations.",
+              "cost": 2750
+            }
+          ],
+          "tips": "Force of Nature— This item provides a substantial boost to health and magic resistance, and its “Absorb” passive stacks up when you take ability damage from enemy champions, reducing all incoming magic damage and granting bonus movement speed at max stacks. It’s perfect for tanks who need to withstand teams heavy in magic damage and maintain mobility to be in the right position during fights. Pick this up when the enemy team builds magic damage (e.g., Syndra, Brand) and you need extra movement speed to initiate effectively or escape dangerous situations."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Crown of the Shattered Queen— This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+            "alt": "Wild Rift Precision Runes: Giant Slayer",
+            "name": "Giant Slayer",
+            "description": "Deals more damage to an enemy champions the more bonus Health they have."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392264_legend-tenacity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Tenacity",
+            "name": "Legend: Tenacity",
+            "description": "Gains Tenacity and Slow Resist."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729570_8230.webp",
+          "alt": "Wild Rift Keystone Runes: Phase Rush",
+          "name": "Phase Rush",
+          "description": "Hitting the enemy champion(s) with basic attacks or abilities multiple times grants Movement Speed and Ability Haste."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Heal after taking damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+              "alt": "Second Wind",
+              "name": "Second Wind",
+              "description": "Second WindHeal after taking damageGain5 Healthevery 5 seconds.After taking damage from an enemy champion,regenerate 6 + (2% of your missing health)over the next 5 seconds. This effect is doubled for melee champions."
+            }
+          ],
+          "tips": "Second Wind— The rune restores health every 5 seconds and significantly boosts regeneration after taking damage from an enemy champion. This rune is especially useful for champions who are often in the thick of the fight, such as tanks or fighters, as it helps sustain health during battles. The effect is doubled for melee champions, making it even more effective in extended fights, improving survivability."
+        },
+        {
+          "purpose": "Armor and Magic Resistance, Tenacity",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+              "alt": "Perseverance",
+              "name": "Perseverance",
+              "description": "PerseveranceArmor and Magic Resistance, TenacityGain10% Tenacity. When immobilized, gain 16-30ArmorandMagic Resistance() for 1.5 seconds. Refresh duration time when immobilized multiple times."
+            }
+          ],
+          "tips": "Perseverance— The rune increases your tenacity by 10%. When immobilized, it grants you bonus armor and magic resistance for a short period. The effect refreshes if you are immobilized multiple times, making the rune especially useful for champions who often find themselves under crowd control. It is ideal for tanks and fighters, enhancing their survivability in fights when they are subjected to multiple crowd control effects."
+        },
+        {
+          "purpose": "Dash",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392930_nimbus-cloak.webp",
+              "alt": "Nimbus Cloak",
+              "name": "Nimbus Cloak",
+              "description": "Nimbus CloakMovement SpeedAfter casting a Summoner Spell, gain10% - 40% movement bonusfor 3 seconds. The speedup effectiveness depends onthe Summoner Spell's cooldown."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392779_hextech-flashtraption.webp",
+              "alt": "Hextech Flashtraption",
+              "name": "Hextech Flashtraption",
+              "description": "Hextech FlashtraptionDashReplaces this item with Hexflash while Flash is still on cooldown. You can blink to a new location after channeling for 2s. When channeled for less than 1s, you will dash the distance as if you channeled for 1s.Cooldown:25s"
+            }
+          ],
+          "tips": "Hextech Flashtraption— The rune replaces your Flash with Hexflash while Flash is on cooldown. After channeling for 2 seconds, you can blink to a new location. If the channel is less than 1 second, you will dash the distance as if you had channeled for 1 second. This allows for quick repositioning, even when Flash is not available. It is useful for champions who need mobility and maneuverability, especially when Flash is on cooldown."
+        }
+      ]
+    },
+    {
+      "lane": "Mid",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+            "alt": "Wild Rift Precision Runes: Giant Slayer",
+            "name": "Giant Slayer",
+            "description": "Deals more damage to an enemy champions the more bonus Health they have."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392264_legend-tenacity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Tenacity",
+            "name": "Legend: Tenacity",
+            "description": "Gains Tenacity and Slow Resist."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729570_8230.webp",
+          "alt": "Wild Rift Keystone Runes: Phase Rush",
+          "name": "Phase Rush",
+          "description": "Hitting the enemy champion(s) with basic attacks or abilities multiple times grants Movement Speed and Ability Haste."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Heal after taking damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+              "alt": "Second Wind",
+              "name": "Second Wind",
+              "description": "Second WindHeal after taking damageGain5 Healthevery 5 seconds.After taking damage from an enemy champion,regenerate 6 + (2% of your missing health)over the next 5 seconds. This effect is doubled for melee champions."
+            }
+          ],
+          "tips": "Second Wind— The rune restores health every 5 seconds and significantly boosts regeneration after taking damage from an enemy champion. This rune is especially useful for champions who are often in the thick of the fight, such as tanks or fighters, as it helps sustain health during battles. The effect is doubled for melee champions, making it even more effective in extended fights, improving survivability."
+        },
+        {
+          "purpose": "Armor and Magic Resistance, Tenacity",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+              "alt": "Perseverance",
+              "name": "Perseverance",
+              "description": "PerseveranceArmor and Magic Resistance, TenacityGain10% Tenacity. When immobilized, gain 16-30ArmorandMagic Resistance() for 1.5 seconds. Refresh duration time when immobilized multiple times."
+            }
+          ],
+          "tips": "Perseverance— The rune increases your tenacity by 10%. When immobilized, it grants you bonus armor and magic resistance for a short period. The effect refreshes if you are immobilized multiple times, making the rune especially useful for champions who often find themselves under crowd control. It is ideal for tanks and fighters, enhancing their survivability in fights when they are subjected to multiple crowd control effects."
+        },
+        {
+          "purpose": "Dash",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392930_nimbus-cloak.webp",
+              "alt": "Nimbus Cloak",
+              "name": "Nimbus Cloak",
+              "description": "Nimbus CloakMovement SpeedAfter casting a Summoner Spell, gain10% - 40% movement bonusfor 3 seconds. The speedup effectiveness depends onthe Summoner Spell's cooldown."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392779_hextech-flashtraption.webp",
+              "alt": "Hextech Flashtraption",
+              "name": "Hextech Flashtraption",
+              "description": "Hextech FlashtraptionDashReplaces this item with Hexflash while Flash is still on cooldown. You can blink to a new location after channeling for 2s. When channeled for less than 1s, you will dash the distance as if you channeled for 1s.Cooldown:25s"
+            }
+          ],
+          "tips": "Hextech Flashtraption— The rune replaces your Flash with Hexflash while Flash is on cooldown. After channeling for 2 seconds, you can blink to a new location. If the channel is less than 1 second, you will dash the distance as if you had channeled for 1 second. This allows for quick repositioning, even when Flash is not available. It is useful for champions who need mobility and maneuverability, especially when Flash is on cooldown."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "610 → 690."
+            },
+            {
+              "stat": "Health per level",
+              "change": "105 → 112."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "40 → 46."
+            },
+            {
+              "stat": "Base Magic Resist",
+              "change": "38 → 32."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        },
+        {
+          "ability": "(E) FLING",
+          "changes": [
+            {
+              "type": "Remove",
+              "description": "Uninterruptive dash towards his target."
+            },
+            {
+              "type": "Adjust",
+              "description": "Lower the speed of dash."
+            },
+            {
+              "type": "Remove",
+              "description": "Cooldown returned for Fling missing the target due to death/Zhongya’s Hourglass/being untargetable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rework",
+      "date": "19 DEC 2024",
+      "patch": "5.3C",
+      "changes": [
+        {
+          "ability": "(PASSIVE) NOXIOUS SLIPSTREAM",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Add a new shield effect performance when granted with movement speed bonus."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) POISON TRAIL",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Add a new potion bottle effect performance on Singed while activating Poison Trail."
+            },
+            {
+              "stat": "Base damage",
+              "change": "30/40/50/60 → 25/35/45/55."
+            },
+            {
+              "stat": "Ability Power",
+              "change": "35% → 30%."
+            }
+          ]
+        },
+        {
+          "ability": "(W) MEGA ADHESIVE",
+          "changes": [
+            {
+              "type": "New",
+              "description": "The adhesive explodes on landing, dealing (50/70/90/110 + 25%Ability Power) magic damage to targets in the area."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "13/12/11/10s → 11s."
+            },
+            {
+              "stat": "Base damage",
+              "change": "60/90/120/150 → 50/70/90/110."
+            },
+            {
+              "stat": "Ability Power",
+              "change": "35% → 25%."
+            }
+          ]
+        },
+        {
+          "ability": "(E) FLING",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Raises his shield and dashes toward the target. If he hits the target, he flings them behind him, and enemies will be knocked aside in his way."
+            },
+            {
+              "type": "New",
+              "description": "Dealing up to 500 damage to non-champion targets."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "10s → 12s."
+            },
+            {
+              "stat": "Ability Power",
+              "change": "75% → 50%."
+            },
+            {
+              "stat": "Target's Max Health",
+              "change": "6/7/8/% → 5/6/7/8%."
+            },
+            {
+              "stat": "Range",
+              "change": "400 → 300."
+            }
+          ]
+        },
+        {
+          "ability": "(R) INSANITY POTION",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Drinks a potent brew of chemicals, gaining buffs and granting 30% of the buffs to the nearest allied champion."
+            },
+            {
+              "type": "New",
+              "description": "While the potion is active, it applies 40% Grievous Wounds."
+            },
+            {
+              "type": "New",
+              "description": "Add a new halo effect under Singed while the potion is active."
+            },
+            {
+              "stat": "Attributes boosted",
+              "change": "40/70/100 → 30/55/80."
+            },
+            {
+              "stat": "Health and mana regeneration",
+              "change": "6/13/20 → 15/20/25."
+            },
+            {
+              "stat": "Duration",
+              "change": "18s → 20s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "13 JUL 2022",
+      "patch": "3.3",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base health",
+              "change": "650 → 610."
+            }
+          ]
+        },
+        {
+          "ability": "(R) INSANITY POTION",
+          "changes": [
+            {
+              "stat": "Duration",
+              "change": "25s → 18s."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

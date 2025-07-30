@@ -1,0 +1,65 @@
+{
+  "name": "REK'SAI",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665251101_reksai_10_4_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251191_fury_of_the_xer27sai.webp",
+      "alt_text": "FURY OF THE XER'SAI",
+      "key": "P",
+      "description": "(PASSIVE)FURY OF THE XER'SAIRek'sai generates Fury by Attack and hitting with basic abilities. She consumes this Fury while Burrowed to restore health.",
+      "name": "FURY OF THE XER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251144_queen27s_wrath.webp",
+      "alt_text": "QUEEN'S WRATH / PREY SEEKER",
+      "key": "Q",
+      "description": "(Q)QUEEN'S WRATH / PREY SEEKERRek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies. While Burrowed, Rek'Sai launches a burst of void-charged earth that deals Physical Damage and reveals enemies hit.",
+      "name": "QUEEN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251193_burrow.webp",
+      "alt_text": "BURROW / UN-BURROW",
+      "key": "W",
+      "description": "(W)BURROW / UN-BURROWRek'Sai burrows into the ground, gaining new abilities and increased Move Speed. Her vision range is reduced and she cannot use basic attacks. While Burrowed, Rek'Sai may cast Un-burrow to knock up and damage nearby enemies.",
+      "name": "BURROW / UN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251230_furious_bite.webp",
+      "alt_text": "FURIOUS BITE / TUNNEL",
+      "key": "E",
+      "description": "(E)FURIOUS BITE / TUNNELRek'Sai bites her target, dealing double and True Damage if she has max Fury. While Burrowed, Rek'Sai creates a re-usable, long lasting tunnel. Enemies can destroy it by standing on top of either entrance.",
+      "name": "FURIOUS BITE / TUNNELR"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251239_void_rush.webp",
+      "alt_text": "VOID RUSH",
+      "key": "R",
+      "description": "(R)VOID RUSHRek'sai passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their missing health.",
+      "name": "VOID RUSHR"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

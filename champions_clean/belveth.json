@@ -1,0 +1,65 @@
+{
+  "name": "BEL'VETH",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656625262_belveth-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625128_bel27veth_death_in_lavender.webp",
+      "alt_text": "DEATH IN LAVENDER",
+      "key": "P",
+      "description": "(PASSIVE)DEATH IN LAVENDERBel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions. She also gains temporary bonus attack speed after using an ability.",
+      "name": "DEATH IN LAVENDERB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625130_belveth_void_surge.webp",
+      "alt_text": "VOID SURGE",
+      "key": "Q",
+      "description": "(Q)VOID SURGEBel'Veth dashes in a chosen direction and damages all enemies she passes through.",
+      "name": "VOID SURGEB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625103_bel27veth_above_and_below.webp",
+      "alt_text": "ABOVE AND BELOW",
+      "key": "W",
+      "description": "(W)ABOVE AND BELOWBel'Veth slams her tail to the ground, damaging, knocking up, and slowing her enemies.",
+      "name": "ABOVE AND BELOWB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625129_bel27veth_royal_maelstrom.webp",
+      "alt_text": "ROYAL MAELSTROM",
+      "key": "E",
+      "description": "(E)ROYAL MAELSTROMBel'Veth roots herself in place, channeling a storm of slashes around her that targets the lowest-health enemy and grants her lifesteal and damage reduction.",
+      "name": "ROYAL MAELSTROMB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656625152_belveth_endless_banquet.webp",
+      "alt_text": "ENDLESS BANQUET",
+      "key": "R",
+      "description": "(R)ENDLESS BANQUETBel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
+      "name": "ENDLESS BANQUETB"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

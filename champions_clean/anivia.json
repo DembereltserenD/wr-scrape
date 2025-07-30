@@ -1,0 +1,64 @@
+{
+  "name": "ANIVIA",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-06/1656622602_aniv1ia_0-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656622705_rebirth.webp",
+      "alt_text": "REBIRTH",
+      "key": "P",
+      "description": "(PASSIVE)REBIRTHUpon taking fatal damage, Anivia reverts to an egg and is reborn with full health.",
+      "name": "REBIRTHU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656622777_flash_frost.webp",
+      "alt_text": "FLASH FROST",
+      "key": "Q",
+      "description": "(Q)FLASH FROSTAnivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path. When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.",
+      "name": "FLASH FROSTA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656622753_crystallize.webp",
+      "alt_text": "CRYSTALLIZE",
+      "key": "W",
+      "description": "(W)CRYSTALLIZEAnivia condenses the moisture in the air into an impassable wall of ice to block all movement. The wall only lasts a short duration before it melts.",
+      "name": "CRYSTALLIZEA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656622805_frostbite.webp",
+      "alt_text": "FROSTBITE",
+      "key": "E",
+      "description": "(E)FROSTBITEWith a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing damage. If the target was recently hit by Flash Frost or damaged by a fully formed Glacial Storm, the damage they take is doubled.",
+      "name": "FROSTBITEW"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656622827_glacial_storm.webp",
+      "alt_text": "GLACIAL STORM",
+      "key": "R",
+      "description": "(R)GLACIAL STORMAnivia summons a driving rain of ice and hail to damage her enemies and slow their advance.",
+      "name": "GLACIAL STORMA"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

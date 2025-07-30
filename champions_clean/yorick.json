@@ -1,0 +1,65 @@
+{
+  "name": "YORICK",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665261743_yorick_10_19_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261825_shepherd_of_souls.webp",
+      "alt_text": "SHEPHERD OF SOULS",
+      "key": "P",
+      "description": "(PASSIVE)SHEPHERD OF SOULSThe Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies.",
+      "name": "SHEPHERD OF SOULST"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261793_last_rites.webp",
+      "alt_text": "LAST RITES",
+      "key": "Q",
+      "description": "(Q)LAST RITESYorick deals bonus damage on his next attack and heals himself. If the target dies a grave will be dug.",
+      "name": "LAST RITESY"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261808_dark_procession.webp",
+      "alt_text": "DARK PROCESSION",
+      "key": "W",
+      "description": "(W)DARK PROCESSIONYorick summons a destructible wall at target location that will block enemy movement.",
+      "name": "DARK PROCESSIONY"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261858_mourning_mist.webp",
+      "alt_text": "MOURNING MIST",
+      "key": "E",
+      "description": "(E)MOURNING MISTYorick throws a globule of Black Mist that damages, slows and marks enemies.",
+      "name": "MOURNING MISTY"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261828_eulogy_of_the_isles.webp",
+      "alt_text": "EULOGY OF THE ISLES",
+      "key": "R",
+      "description": "(R)EULOGY OF THE ISLESYorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
+      "name": "EULOGY OF THE ISLESY"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

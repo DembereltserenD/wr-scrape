@@ -1,0 +1,64 @@
+{
+  "name": "AZIR",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656624190_azir_10-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624021_shurima27s_legacy.webp",
+      "alt_text": "SHURIMA'S LEGACY",
+      "key": "P",
+      "description": "(PASSIVE)SHURIMA'S LEGACYAzir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
+      "name": "SHURIMA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624113_conquering_sands.webp",
+      "alt_text": "CONQUERING SANDS",
+      "key": "Q",
+      "description": "(Q)CONQUERING SANDSAzir sends all Sand Soldiers towards a location. Sand Soldiers deal magic damage to enemies they pass through and apply a slow for 1 second.",
+      "name": "CONQUERING SANDSA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624119_arise21.webp",
+      "alt_text": "ARISE!",
+      "key": "W",
+      "description": "(W)ARISE!Azir summons a Sand Soldier to attack nearby targets for him, replacing his basic attack against targets within the soldier's range. Their attacks deal magic damage to enemies in a line. Arise! also passively grants attack speed to Azir and his Sand Soldiers.",
+      "name": "ARISE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624160_shifting_sands.webp",
+      "alt_text": "SHIFTING SANDS",
+      "key": "E",
+      "description": "(E)SHIFTING SANDSAzir shields himself briefly and dashes to one of his Sand Soldiers, damaging enemies. If he hits an enemy champion, he instantly readies a new Sand Soldier for deployment and halts his dash.",
+      "name": "SHIFTING SANDSA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624138_emperor27s_divide.webp",
+      "alt_text": "EMPEROR'S DIVIDE",
+      "key": "R",
+      "description": "(R)EMPEROR'S DIVIDEAzir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
+      "name": "EMPEROR"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

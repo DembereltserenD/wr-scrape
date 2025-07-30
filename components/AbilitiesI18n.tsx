@@ -68,11 +68,11 @@ const AbilitiesI18n: React.FC<AbilitiesProps> = ({ abilities }) => {
                     )}
                   </p>
                   <p className="text-gray-700 mb-3">{ability.description}</p>
-                  
+
                   {ability.damage && ability.damage.length > 0 && (
                     <div className="mb-2">
                       <span className="font-medium text-red-600">
-                        {t('abilities.damage')}: 
+                        {t('abilities.damage')}:
                       </span>
                       <span className="ml-1">{ability.damage.join(' / ')}</span>
                       {ability.scaling && (
@@ -82,16 +82,9 @@ const AbilitiesI18n: React.FC<AbilitiesProps> = ({ abilities }) => {
                       )}
                     </div>
                   )}
-                  
-                  {ability.cooldown && (
-                    <div className="mb-2">
-                      <span className="font-medium text-blue-600">
-                        {t('abilities.cooldown')}: 
-                      </span>
-                      <span className="ml-1">{ability.cooldown}s</span>
-                    </div>
-                  )}
-                  
+
+
+
                   {ability.notes && ability.notes.length > 0 && (
                     <div className="mt-3">
                       <h5 className="font-medium text-gray-700 mb-1">

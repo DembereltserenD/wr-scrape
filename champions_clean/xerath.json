@@ -1,0 +1,64 @@
+{
+  "name": "XERATH",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665261525_xerath_10_18_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261546_mana_surge.webp",
+      "alt_text": "MANA SURGE",
+      "key": "P",
+      "description": "(PASSIVE)MANA SURGEXerath's basic attacks periodically restore Mana.",
+      "name": "MANA SURGEX"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261570_arcanopulse.webp",
+      "alt_text": "ARCANOPULSE",
+      "key": "Q",
+      "description": "(Q)ARCANOPULSEFires a long-range beam of energy, dealing magic damage to all targets hit.",
+      "name": "ARCANOPULSEF"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261581_eye_of_destruction.webp",
+      "alt_text": "EYE OF DESTRUCTION",
+      "key": "W",
+      "description": "(W)EYE OF DESTRUCTIONCalls down a barrage of arcane energy, slowing and dealing magic damage to all enemies in an area. Targets in the middle receive additional damage and a stronger slow.",
+      "name": "EYE OF DESTRUCTIONC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261600_shocking_orb.webp",
+      "alt_text": "SHOCKING ORB",
+      "key": "E",
+      "description": "(E)SHOCKING ORBDeals magic damage to an enemy and stuns them.",
+      "name": "SHOCKING ORBD"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665261667_rite_of_the_arcane.webp",
+      "alt_text": "RITE OF THE ARCANE",
+      "key": "R",
+      "description": "(R)RITE OF THE ARCANEXerath immobilizes himself and gains numerous long-range barrages.",
+      "name": "RITE OF THE ARCANEX"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

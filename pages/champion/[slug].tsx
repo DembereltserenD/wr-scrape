@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
-import { useTranslation, getStaticTranslations } from '../../utils/i18n';
+import { useLanguage, Locale } from '../../contexts/LanguageContext';
 import { ChampionData } from '../../types/champion';
+import { getStaticTranslations } from '../../utils/i18n';
+import StaticLanguageWrapper from '../../components/StaticLanguageWrapper';
 import ChampionStatsI18n from '../../components/ChampionStatsI18n';
 import AbilitiesI18n from '../../components/AbilitiesI18n';
 import BuildGuideI18n from '../../components/BuildGuideI18n';
@@ -12,11 +14,21 @@ import LanguageSwitcher from '../../components/LanguageSwitcher';
 interface ChampionPageProps {
   championData: ChampionData;
   translations: any;
+  locale: Locale;
 }
 
-const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations }) => {
-  const { t, locale } = useTranslation();
+const ChampionPageContent: React.FC<ChampionPageProps> = ({ championData, translations, locale }) => {
   const router = useRouter();
+
+  // Use static translations for SSG
+  const t = (key: string) => {
+    const keys = key.split('.');
+    let value = translations;
+    for (const k of keys) {
+      value = value?.[k];
+    }
+    return value || key;
+  };
 
   if (router.isFallback) {
     return (
@@ -53,7 +65,7 @@ const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations 
   return (
     <>
       <Head>
-        <title>{championData.champion.name} - {t('champion.title')} - Wild Rift</title>
+        <title>{`${championData.champion.name} - ${t('champion.title')} - Wild Rift`}</title>
         <meta name="description" content={`${t('champion.title')} ${championData.champion.name} ${t('navigation.guides')}`} />
         <meta property="og:title" content={`${championData.champion.name} - ${t('champion.title')}`} />
         <meta property="og:description" content={`${t('champion.title')} ${championData.champion.name} ${t('navigation.guides')}`} />
@@ -70,7 +82,15 @@ const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations 
                 <span className="text-gray-500">|</span>
                 <span className="text-gray-600">{t('navigation.champions')}</span>
               </div>
-              <LanguageSwitcher />
+              <div className="flex items-center space-x-2">
+                <span className="text-sm text-gray-600">{locale === 'mn' ? 'Монгол' : 'English'}</span>
+                <a
+                  href={locale === 'mn' ? '/en/champion/aatrox' : '/mn/champion/aatrox'}
+                  className="text-blue-600 hover:text-blue-800 text-sm"
+                >
+                  {locale === 'mn' ? 'English' : 'Монгол'}
+                </a>
+              </div>
             </div>
           </div>
         </nav>
@@ -79,8 +99,8 @@ const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations 
         <div className="bg-gradient-to-r from-red-600 to-red-800 text-white">
           <div className="container mx-auto px-4 py-12">
             <div className="flex items-center space-x-6">
-              <img 
-                src={championData.champion.image} 
+              <img
+                src={championData.champion.image}
                 alt={championData.champion.name}
                 className="w-24 h-24 rounded-full border-4 border-white shadow-lg"
               />
@@ -115,7 +135,7 @@ const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations 
             {/* Sidebar */}
             <div className="space-y-8">
               <BuildGuideI18n builds={championData.builds} runes={championData.runes} />
-              
+
               {/* Meta Info */}
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-bold mb-4 text-gray-800">
@@ -165,7 +185,7 @@ const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations 
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const champions = ['aatrox'];
-  
+
   const paths = [];
   for (const champion of champions) {
     paths.push({ params: { slug: champion }, locale: 'mn' });
@@ -310,6 +330,14 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
       translations,
     },
   };
+};
+
+const ChampionPage: React.FC<ChampionPageProps> = ({ championData, translations, locale }) => {
+  return (
+    <StaticLanguageWrapper locale={locale}>
+      <ChampionPageContent championData={championData} translations={translations} locale={locale} />
+    </StaticLanguageWrapper>
+  );
 };
 
 export default ChampionPage;

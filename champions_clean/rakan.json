@@ -1,0 +1,476 @@
+{
+  "name": "RAKAN",
+  "roles": [
+    "Support",
+    "Tank"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675035749_1644098405_rakan_53_11zon.webp",
+  "tier": 1,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 33,
+    "toughness": 66,
+    "utility": 100,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612226404_rakan_p.png",
+      "alt_text": "FEY FEATHERS",
+      "key": "P",
+      "description": "(PASSIVE)FEY FEATHERSEvery 35~14s (), gains a31 health shield(31 (+16) +80%). Attacks and abilities on enemy champions reduce this cooldown by 1s.Lover's Leap:Xayahand Rakan can join each other's recall. Both will reach the Summoning Platform at the time of which the initiator's recall ends.",
+      "name": "FEY FEATHERSE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612226508_rakanq.png",
+      "alt_text": "GLEAMING QUILL",
+      "key": "Q",
+      "description": "(Q)GLEAMING QUILL10/9/8/7s60Flings a magical feather that deals90 magic damage(90/150/210/270 +60%) to the first enemy hit.If the feather hits a champion or epic monster, Rakanrestores 56 health(50 + 6 +70%) to himself and nearby allies after 3s or when he touches an ally.Range:800",
+      "name": "GLEAMING QUILL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612226530_rakanw.png",
+      "alt_text": "GRAND ENTRANCE",
+      "key": "W",
+      "description": "(W)GRAND ENTRANCE16/14/12/10s50/60/70/80Dashes to a location. Upon arrival Rakan leaps into the air, dealing80 magic damage(80/145/210/275 +55%) and knocking up enemies for 1s.",
+      "name": "GRAND ENTRANCE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612226522_rakane.png",
+      "alt_text": "BATTLE DANCE",
+      "key": "E",
+      "description": "(E)BATTLE DANCE18/16/14/12s60/70/80/90Flies to an allied champion, granting them ashieldthat absorbs50 damage(50/80/110/140 +65%) for 3s.When cast onXayah, the shield amount is increased by 125% and the cooldown is reduced.Can be re-cast for free within 5s.",
+      "name": "BATTLE DANCE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612226596_rakanr.png",
+      "alt_text": "THE QUICKNESS",
+      "key": "R",
+      "description": "(R)THE QUICKNESS80/70/60s100Gains60% Movement Speedfor 4 seconds. Touching enemies deals100 magic damage(100/200/300 +50%) and charms them for 1/1.25/1.5s. This may only occur once per unit. The first champion charmed grants Rakan75%decayingMovement Speed.",
+      "name": "THE QUICKNESS"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Support",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390612_relic-shield.webp",
+          "alt": "Wild Rift Items: Relic Shield",
+          "name": "Relic Shield",
+          "description": "Relic ShieldKill minions to earn bonus gold+100 Max HealthThis item is for support players. When equipped, it will reduce the gold you receive from killing minions and monsters. If there are multiples of this item within the party, only one of them can take effect at any given time.Spoils of War:Gains 1 charge(s) every 30 seconds (up to 3 times). Attacking enemy minions consumes 1 charge(s) and executes minions whose Health are below 65%, granting your teammates the entire bounty, while granting you65 bonus goldand restoring yourHealth by 15-65.While you will not participate in the resulting minion bounty sharing, you will personally receive gold equal to 50% of the bounty. Your share of the bounty from the minion kill will be entirely given to nearby teammates.Also reduces monster bounties by 50%.Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.Quest:Earn750 goldwith this item to transform it intoBulwark of the Mountain.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389518_bulwark-of-the-mountain.webp",
+          "alt": "Wild Rift Items: Bulwark of the Mountain",
+          "name": "Bulwark of the Mountain",
+          "description": "Bulwark of the MountainKill minions to earn bonus gold+175 Max Health+10 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Bulwark of the Mountain TIPS:This item is designed for support players and grants passive gold income every 60 seconds along with Soulforce stacks that boost your health, attack damage, or ability power. At 10 stacks, you gain a significant adaptive stat bonus. While it reduces gold from killing minions and monsters, it accelerates your team’s economic pace. An additional effect deals extra damage to revealed Sight Wards, making it easier to clear vision and maintain map control.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388613_imperial-mandate.webp",
+          "alt": "Wild Rift Items: Imperial Mandate",
+          "name": "Imperial Mandate",
+          "description": "Imperial MandateCrowd control grants additional ally damage+200 Max Health+40 Ability Power+20 Ability HasteCoordinated Fire:Abilities that Slow or Immobilize a champion deal47-75 bonus magic damageand marks them for 4 seconds (6 seconds cooldown per enemy champion). Allied champion damage detonates the mark, dealing an additional94-150 magic damage(based on ally level) and granting you both20% Move Speed, for 2 seconds.2500Imperial Mandate TIPS:This item is perfect for support champions who have abilities that slow or immobilize enemies, allowing you to activate effects for your team. It provides bonuses to maximum health, ability power, and ability haste, helping you deal damage while also enhancing teamwork with your allies. The \"Coordinated Fire\" effect activates when you slow or immobilize an enemy, dealing bonus magic damage and marking them for 4 seconds. When an allied champion damages the marked target, it detonates the mark, dealing additional magic damage and granting both you and your ally 20% bonus movement speed for 2 seconds. This item is especially useful for champions with crowd control abilities.",
+          "cost": 2500
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389704_protobelt-enchant.webp",
+          "alt": "Wild Rift Items: Protobelt Enchant",
+          "name": "Protobelt Enchant",
+          "description": "Protobelt EnchantSmall dashProtobelt (Active):Dash forward and unleash a cone of missiles that deal70 magic damage.and reducing the target'sMagic Resistance by 15%for 3s. After cast, gain20% Movement Speedthatdecays over 3s. (50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.500Protobelt Enchant TIPS:This enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance. After casting, you gain a temporary movement speed boost for continued pursuit or escape.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389518_bulwark-of-the-mountain.webp",
+          "alt": "Wild Rift Items: Bulwark of the Mountain",
+          "name": "Bulwark of the Mountain",
+          "description": "Bulwark of the MountainKill minions to earn bonus gold+175 Max Health+10 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Bulwark of the Mountain TIPS:This item is designed for support players and grants passive gold income every 60 seconds along with Soulforce stacks that boost your health, attack damage, or ability power. At 10 stacks, you gain a significant adaptive stat bonus. While it reduces gold from killing minions and monsters, it accelerates your team’s economic pace. An additional effect deals extra damage to revealed Sight Wards, making it easier to clear vision and maintain map control.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388613_imperial-mandate.webp",
+          "alt": "Wild Rift Items: Imperial Mandate",
+          "name": "Imperial Mandate",
+          "description": "Imperial MandateCrowd control grants additional ally damage+200 Max Health+40 Ability Power+20 Ability HasteCoordinated Fire:Abilities that Slow or Immobilize a champion deal47-75 bonus magic damageand marks them for 4 seconds (6 seconds cooldown per enemy champion). Allied champion damage detonates the mark, dealing an additional94-150 magic damage(based on ally level) and granting you both20% Move Speed, for 2 seconds.2500Imperial Mandate TIPS:This item is perfect for support champions who have abilities that slow or immobilize enemies, allowing you to activate effects for your team. It provides bonuses to maximum health, ability power, and ability haste, helping you deal damage while also enhancing teamwork with your allies. The \"Coordinated Fire\" effect activates when you slow or immobilize an enemy, dealing bonus magic damage and marking them for 4 seconds. When an allied champion damages the marked target, it detonates the mark, dealing additional magic damage and granting both you and your ally 20% bonus movement speed for 2 seconds. This item is especially useful for champions with crowd control abilities.",
+          "cost": 2500
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389063_zekes-convergence.webp",
+          "alt": "Wild Rift Items: Zeke's Convergence",
+          "name": "Zeke's Convergence",
+          "description": "Zeke's ConvergenceBoosts allies Attack Damage+40 Armor+350 Max Health+150 Max Mana+15 Ability HasteHarbinger:Casting your ultimate surrounds you with a blizzard and ignites a nearby ally's attacks for 10 seconds. Your blizzard deals a maximum of480–900 damage,slows enemies by 25%and leaves a trail behind you. Allied champions on the trail gain55 bonus Movement Speedfor 1 second. (30s Cooldown)2700Zeke's Convergence TIPS:This item is perfect for tanky support champions who initiate fights and provide frontline crowd control. It grants armor, health, mana, and ability haste. When you cast your ultimate, an icy blizzard surrounds you, dealing damage and slowing enemies, while leaving a trail that grants bonus movement speed to allies. During the effect, the attacks of a nearby marked ally deal additional magic damage, giving your team a powerful advantage in teamfights.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389247_yordle-redeeming.webp",
+          "alt": "Wild Rift Items: Yordle Redeeming",
+          "name": "Yordle Redeeming",
+          "description": "Yordle RedeemingHeal nearby allies periodically+400 Max Health+300 Max Mana+20 Ability HasteEternity:RestoreManaequal to15%of the damage taken from champions. When consuming Mana,restore Healthequal to20%of Mana consumed. Capped at15 Healthper cast.Salvation:Every 8 seconds,restore(40 +7% bonus) Health to all allied champions within 350 units.2600Yordle Redeeming TIPS:This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes.",
+          "cost": 2600
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389141_protectors-vow.webp",
+          "alt": "Wild Rift Items: Protector's Vow",
+          "name": "Protector's Vow",
+          "description": "Protector's VowProtects allies+400 Max Health+40 Armor+10 Ability Haste+5% Heal and Shield StrengthProtector:Raise your Guard when next to an allied champion. If you or your ally take damage from a champion, monster, or turret, both of you receive a125(125 +30% bonus health)shieldfor 1.5 seconds. (20s Cooldown).2700Protector's Vow TIPS:This item is perfect for tanky support champions who stand beside their allies and protect them in fights. It grants a large boost to health, armor, ability haste, and enhances healing and shield strength. The “Protector” passive activates when you are near an ally: if either of you takes damage, both receive a shield based on your bonus health, helping you survive critical moments and continue safeguarding your team.",
+          "cost": 2700
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389141_protectors-vow.webp",
+              "alt": "Wild Rift Items: Protector's Vow",
+              "name": "Protector's Vow",
+              "description": "Protector's VowProtects allies+400 Max Health+40 Armor+10 Ability Haste+5% Heal and Shield StrengthProtector:Raise your Guard when next to an allied champion. If you or your ally take damage from a champion, monster, or turret, both of you receive a125(125 +30% bonus health)shieldfor 1.5 seconds. (20s Cooldown).2700Protector's Vow TIPS:This item is perfect for tanky support champions who stand beside their allies and protect them in fights. It grants a large boost to health, armor, ability haste, and enhances healing and shield strength. The “Protector” passive activates when you are near an ally: if either of you takes damage, both receive a shield based on your bonus health, helping you survive critical moments and continue safeguarding your team.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Reflects damage and reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389141_protectors-vow.webp",
+              "alt": "Wild Rift Items: Protector's Vow",
+              "name": "Protector's Vow",
+              "description": "Protector's VowProtects allies+400 Max Health+40 Armor+10 Ability Haste+5% Heal and Shield StrengthProtector:Raise your Guard when next to an allied champion. If you or your ally take damage from a champion, monster, or turret, both of you receive a125(125 +30% bonus health)shieldfor 1.5 seconds. (20s Cooldown).2700Protector's Vow TIPS:This item is perfect for tanky support champions who stand beside their allies and protect them in fights. It grants a large boost to health, armor, ability haste, and enhances healing and shield strength. The “Protector” passive activates when you are near an ally: if either of you takes damage, both receive a shield based on your bonus health, helping you survive critical moments and continue safeguarding your team.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+              "alt": "Wild Rift Items: Thornmail",
+              "name": "Thornmail",
+              "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Thornmail— This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage."
+        },
+        {
+          "purpose": "Reduces all nearby enemies Attack Speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389141_protectors-vow.webp",
+              "alt": "Wild Rift Items: Protector's Vow",
+              "name": "Protector's Vow",
+              "description": "Protector's VowProtects allies+400 Max Health+40 Armor+10 Ability Haste+5% Heal and Shield StrengthProtector:Raise your Guard when next to an allied champion. If you or your ally take damage from a champion, monster, or turret, both of you receive a125(125 +30% bonus health)shieldfor 1.5 seconds. (20s Cooldown).2700Protector's Vow TIPS:This item is perfect for tanky support champions who stand beside their allies and protect them in fights. It grants a large boost to health, armor, ability haste, and enhances healing and shield strength. The “Protector” passive activates when you are near an ally: if either of you takes damage, both receive a shield based on your bonus health, helping you survive critical moments and continue safeguarding your team.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389159_frozen-heart.webp",
+              "alt": "Wild Rift Items: Frozen Heart",
+              "name": "Frozen Heart",
+              "description": "Frozen HeartReduces all nearby enemies Attack Speed+80 Armor+200 Max Mana+25 Ability HasteWinter's Caress:Basic attacks andmagic damagecaused by you or inflicted upon you and nearby allies, will apply stacks ofChillto the enemy champion for 3 seconds. Each stack ofChillslows enemyattack speed by 9%, up to a maximum of 4 stacks or36% attack speed reduction. Each individual ability has a 3 seconds cooldown on applyingChillstacks.2700Frozen Heart TIPS:This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Frozen Heart— This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389141_protectors-vow.webp",
+              "alt": "Wild Rift Items: Protector's Vow",
+              "name": "Protector's Vow",
+              "description": "Protector's VowProtects allies+400 Max Health+40 Armor+10 Ability Haste+5% Heal and Shield StrengthProtector:Raise your Guard when next to an allied champion. If you or your ally take damage from a champion, monster, or turret, both of you receive a125(125 +30% bonus health)shieldfor 1.5 seconds. (20s Cooldown).2700Protector's Vow TIPS:This item is perfect for tanky support champions who stand beside their allies and protect them in fights. It grants a large boost to health, armor, ability haste, and enhances healing and shield strength. The “Protector” passive activates when you are near an ally: if either of you takes damage, both receive a shield based on your bonus health, helping you survive critical moments and continue safeguarding your team.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695008_heal.webp",
+          "alt": "Heal Wild Rift",
+          "name": "Heal",
+          "description": "HealRestore 110 Health(110–400) to you and the most wounded nearby ally champion, and grants both of you30% bonus Movement Speedfor 2 second(s).Healing is halved for champions recently affected by Heal.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753391561_sudden-impact.webp",
+            "alt": "Wild Rift Domination Runes: Sudden Impact",
+            "name": "Sudden Impact",
+            "description": "After dashing or exiting invisibility/stealth, your next damaging attack or ability deals true damage on hit."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753391621_cheap-shot.webp",
+            "alt": "Wild Rift Domination Runes: Cheap Shot",
+            "name": "Cheap Shot",
+            "description": "Deals true damage to enemy champions when their movement is impaired."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753391605_eyeball-collector.webp",
+            "alt": "Wild Rift Domination Runes: Eyeball Collector",
+            "name": "Eyeball Collector",
+            "description": "Gains Adaptive Force after champion takedowns."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729550_8112.webp",
+          "alt": "Wild Rift Keystone Runes: Electrocute",
+          "name": "Electrocute",
+          "description": "Hitting a champion with successive attacks or abilities deals bonus adaptive damage."
+        }
+      },
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "570 → 630."
+            },
+            {
+              "stat": "Health per level",
+              "change": "105 → 112."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "43 → 49."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.2 → 1.6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "02 AUG 2023",
+      "patch": "4.3A",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base health",
+              "change": "570 → 540."
+            }
+          ]
+        },
+        {
+          "ability": "(E) BATTLE DANCE",
+          "changes": [
+            {
+              "stat": "Base shield",
+              "change": "45/80/115/150 → 35/70/105/140."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "19 APR 2023",
+      "patch": "4.1B",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Attack Damage",
+              "change": "64 → 58."
+            }
+          ]
+        },
+        {
+          "ability": "(W) GRAND ENTRANCE",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "18/16/14/12s → 18/17/16/15s."
+            },
+            {
+              "stat": "Damage",
+              "change": "70/140/210/280 + 70% Ability Power → 70/135/200/265 + 55% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(E) BATTLE DANCE",
+          "changes": [
+            {
+              "stat": "Shield Ability Power ratio",
+              "change": "80% → 65%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "01 FEB 2023",
+      "patch": "4.0A",
+      "changes": [
+        {
+          "ability": "(W) GRAND ENTRANCE",
+          "changes": [
+            {
+              "stat": "Base damage",
+              "change": "80/150/220/290 → 70/140/210/280."
+            }
+          ]
+        },
+        {
+          "ability": "(E) BATTLE DANCE",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "18/16/14/12s → 20/18/16/14s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 DEC 2022",
+      "patch": "3.5B",
+      "changes": [
+        {
+          "ability": "(R) THE QUICKNESS",
+          "changes": [
+            {
+              "stat": "Increased Movement speed when hitting an enemy",
+              "change": "100% → 75%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "16 NOV 2022",
+      "patch": "3.5",
+      "changes": [
+        {
+          "ability": "(Q) GLEAMING QUILL",
+          "changes": [
+            {
+              "stat": "Range",
+              "change": "700/800/900/1000 → 800."
+            },
+            {
+              "stat": "Base damage",
+              "change": "70/130/190/250 → 80/140/200/260."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "01 SEP 2021",
+      "patch": "2.4b",
+      "changes": [
+        {
+          "ability": "(E) BATTLE DANCE",
+          "changes": [
+            {
+              "stat": "Bonus shield amount when cast on Xayah",
+              "change": "200% → 125%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

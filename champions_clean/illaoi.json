@@ -1,0 +1,65 @@
+{
+  "name": "ILLAOI",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656968442_658901-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656968553_prophet_of_an_elder_god.webp",
+      "alt_text": "PROPHET OF AN ELDER GOD",
+      "key": "P",
+      "description": "(PASSIVE)PROPHET OF AN ELDER GODIllaoi and the Vessels she creates spawn Tentacles on nearby impassible terrain. Tentacles swing at spirits, Vessels, and victims of Illaoi's Harsh lesson. Tentacles deal physical damage to enemies hit, and will heal Illaoi if they damage a champion.",
+      "name": "PROPHET OF AN ELDER GODI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656968532_tentacle_smash.webp",
+      "alt_text": "TENTACLE SMASH",
+      "key": "Q",
+      "description": "(Q)TENTACLE SMASHIncreases the damage dealt by Tentacles. When activated, Illaoi smashes down a Tentacle that deals physical damage.",
+      "name": "TENTACLE SMASHI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656968578_harsh_lesson.webp",
+      "alt_text": "HARSH LESSON",
+      "key": "W",
+      "description": "(W)HARSH LESSONIllaoi leaps to her target, dealing physical damage and causing nearby Tentacles to also swing at the target.",
+      "name": "HARSH LESSONI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656968634_test_of_spirit.webp",
+      "alt_text": "TEST OF SPIRIT",
+      "key": "E",
+      "description": "(E)TEST OF SPIRITIllaoi rips the spirit from a foe's body, forcing it to stand before her. Spirits echo a percentage of the damage they take to the original target. If killed, or if the target gets too far from the spirit, the target will become a Vessel and begin spawning Tentacles.",
+      "name": "TEST OF SPIRITI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656968596_leap_of_faith.webp",
+      "alt_text": "LEAP OF FAITH",
+      "key": "R",
+      "description": "(R)LEAP OF FAITHIllaoi smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.",
+      "name": "LEAP OF FAITHI"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

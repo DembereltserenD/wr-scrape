@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-07-21 19:00:08",
+  "timestamp": "2025-07-27 20:10:56",
   "failed_items": [],
   "item_scrape_stats": {
-    "success": 0,
+    "success": 12,
     "failed": 0,
-    "cached": 0
+    "cached": 7
   },
   "champion_enhancement_failures": [],
   "summary": {
     "total_failed_items": 0,
-    "total_successful_items": 0,
-    "total_cached_items": 0,
+    "total_successful_items": 12,
+    "total_cached_items": 7,
     "champion_failures": 0,
-    "overall_success_rate": "0/0 (0%)"
+    "overall_success_rate": "12/12 (100.0%)"
   }
 }

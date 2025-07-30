@@ -1,0 +1,65 @@
+{
+  "name": "NAAFIRI",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-08/1691603896_naafiri_11zon-1.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-08/1691603090_naafiri-we-are-more.webp",
+      "alt_text": "WE ARE MORE",
+      "key": "P",
+      "description": "(PASSIVE)WE ARE MORENaafiri spawns packmates that attack the targets of her attacks and abilities.",
+      "name": "WE ARE MOREN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-08/1691603033_naafiri_darkin_daggers.webp",
+      "alt_text": "DARKIN DAGGERS",
+      "key": "Q",
+      "description": "(Q)DARKIN DAGGERSNaafiri hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding. Packmates leap to attack champions hit by this skill.",
+      "name": "DARKIN DAGGERSN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-08/1691603075_naafiri_hounds27_pursuit.webp",
+      "alt_text": "HOUNDS' PURSUIT",
+      "key": "W",
+      "description": "(W)HOUNDS' PURSUITNaafiri and her packmates dash at an enemy, colliding with the first champion hit and dealing damage.",
+      "name": "HOUNDS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-08/1691603083_naafiri_eviscerate.webp",
+      "alt_text": "EVISCERATE",
+      "key": "E",
+      "description": "(E)EVISCERATENaafiri dashes and damages enemies in an area around her, recalling her packmates and fully healing them.",
+      "name": "EVISCERATEN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-08/1691603101_naafiri_the_call_of_the_pack.webp",
+      "alt_text": "THE CALL OF THE PACK",
+      "key": "R",
+      "description": "(R)THE CALL OF THE PACKNaafiri empowers her pack and spawns additional packmates, instantly receiving a burst of speed and vision and gaining a shield the first time she hits another champion. After killing another champion for the first time, all effects are refreshed.",
+      "name": "THE CALL OF THE PACKN"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

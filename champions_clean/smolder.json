@@ -1,0 +1,62 @@
+{
+  "name": "SMOLDER",
+  "roles": [],
+  "image": "https://wr-meta.com/uploads/posts/2024-02/1706881983_smolder1_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-02/1706881809_smolder_dragon_practice.webp",
+      "alt_text": "DRAGON PRACTICE",
+      "key": "P",
+      "description": "(PASSIVE)DRAGON PRACTICEHitting champions with Abilities and killing enemies with Super Scorcher Breath grants a stack of Dragon Practice. Stacks increase the damage of Smolders basic Abilities.",
+      "name": "DRAGON PRACTICEH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-02/1706881722_smolder_super_scorcher_breath.webp",
+      "alt_text": "SUPER SCORCHER BREATH",
+      "key": "Q",
+      "description": "(Q)SUPER SCORCHER BREATHSmolder breathes fire on an enemy. As he gains more stacks, this ability becomes more powerful.",
+      "name": "SUPER SCORCHER BREATHS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-02/1706881823_smolder_achooo21.webp",
+      "alt_text": "ACHOOO!",
+      "key": "W",
+      "description": "(W)ACHOOO!Smolder lets out an adorable flaming sneeze that explodes when hitting enemy champions.",
+      "name": "ACHOOO"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-02/1706881803_smolder_flap2c_flap.webp",
+      "alt_text": "FLAP&#44; FLAP&#44; FLAP",
+      "key": "E",
+      "description": "(E)FLAP, FLAP, FLAPSmolder takes flight ignoring terrain and attacking the lowest health enemy.",
+      "name": "FLAP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-02/1706881856_smolder_mmooommmm21.webp",
+      "alt_text": "MMOOOMMMM!",
+      "key": "R",
+      "description": "(R)MMOOOMMMM!Smolder calls his mom to breath fire from above, dealing extra damage and slowing enemies in the center of her fire.",
+      "name": "MMOOOMMMM"
+    }
+  ],
+  "lanes": [
+    "Dragon"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

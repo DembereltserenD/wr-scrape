@@ -14,11 +14,42 @@
   },
   "navigation": {
     "home": "Нүүр",
+    "champion": "Баатар",
     "champions": "Баатрууд",
     "guides": "Заавар",
-    "tier_list": "Зэрэглэлийн жагсаалт",
-    "items": "Зүйлс",
-    "runes": "Рунууд"
+    "tier_list": "Зэрэглэлийн Жагсаалт",
+    "tierList": "Зэрэглэлийн Жагсаалт",
+    "items": "Эд зүйлс",
+    "runes": "Рунууд",
+    "comment": "Сэтгэгдэл"
+  },
+  "hero": {
+    "title": "Wild Rift Home",
+    "description": "Монголын хамгийн шилдэг Wild Rift гарын авлага",
+    "viewChampions": "Баатруулыг Харах",
+    "tierList": "Зэрэглэлийн Жагсаалт"
+  },
+  "sections": {
+    "champions": "Баатрууд",
+    "items": "Эд зүйлс",
+    "runes": "Рунууд",
+    "details": "Дэлгэрэнгүй",
+    "viewAll": "Бүх Баатрыг Харах",
+    "patch": "Patch 6.2b"
+  },
+  "tier_roles": {
+    "strongest": "Хамгийн хүчтэй",
+    "strong": "Хүчтэй",
+    "good": "Сайн",
+    "average": "Дундаж",
+    "weak": "Сул"
+  },
+  "footer": {
+    "copyright": "© 2024 Wild Rift Guide. Бүх эрх хуулиар хамгаалагдсан.",
+    "disclaimer": "Энэ төсөл нь Riot Games-тэй албан ёсны холбоогүй юм.",
+    "navigation_title": "Навигаци",
+    "info_title": "Мэдээлэл",
+    "made_with_love": "Wild Rift тоглогчдод зориулан ❤️-ээр хийсэн"
   },
   "champion": {
     "title": "Баатар",
@@ -149,5 +180,24 @@
     "B": "Б",
     "C": "В",
     "D": "Г"
+  },
+  "game_terms": {
+    "HP": "HP",
+    "AP": "AP",
+    "AD": "AD",
+    "AS": "AS",
+    "Crit": "Crit",
+    "Armor": "Armor",
+    "MR": "MR",
+    "Mana": "Mana",
+    "AH": "AH",
+    "MS": "MS",
+    "Life Steal": "Life Steal",
+    "Omnivamp": "Omnivamp",
+    "True Damage": "True Damage",
+    "Stack": "Stack",
+    "Cooldown": "Cooldown",
+    "DPS": "DPS",
+    "CC": "CC"
   }
 }

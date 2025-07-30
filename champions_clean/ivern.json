@@ -1,0 +1,64 @@
+{
+  "name": "IVERN",
+  "roles": [
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656969054_ivern_10-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656969095_friend_of_the_forest.webp",
+      "alt_text": "FRIEND OF THE FOREST",
+      "key": "P",
+      "description": "(PASSIVE)FRIEND OF THE FORESTIvern cannot attack or be attacked by non-epic monsters. Ivern can create magical groves on jungle camps which grow over time. When the grove is fully grown, Ivern may free the monsters to receive gold and experience. After level 5 Ivern can share jungle buffs with allies.",
+      "name": "FRIEND OF THE FORESTI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656969117_rootcaller.webp",
+      "alt_text": "ROOTCALLER",
+      "key": "Q",
+      "description": "(Q)ROOTCALLERIvern conjures a vine, dealing damage and rooting enemy targets hit. Ivern's allies can dash to the rooted target.",
+      "name": "ROOTCALLERI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656969148_brushmaker.webp",
+      "alt_text": "BRUSHMAKER",
+      "key": "W",
+      "description": "(W)BRUSHMAKERIn brush, Ivern's attacks deal bonus magic damage. Ivern can activate this ability to create a patch of brush.",
+      "name": "BRUSHMAKERI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656969216_triggerseed.webp",
+      "alt_text": "TRIGGERSEED",
+      "key": "E",
+      "description": "(E)TRIGGERSEEDIvern places a shield on an ally which explodes after a short duration slowing and damaging enemies.",
+      "name": "TRIGGERSEEDI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656969146_daisy21.webp",
+      "alt_text": "DAISY!",
+      "key": "R",
+      "description": "(R)DAISY!Ivern summons his Sentinel friend Daisy to fight with him. Daisy will send out a shockwave if she attacks the same champion three times in a row.",
+      "name": "DAISY"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

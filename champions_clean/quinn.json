@@ -1,0 +1,62 @@
+{
+  "name": "QUINN",
+  "roles": [],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665250791_quinn_10_1_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250861_harrier.webp",
+      "alt_text": "HARRIER",
+      "key": "P",
+      "description": "(PASSIVE)HARRIERValor, Quinn's Demacian eagle, periodically marks enemies as Vulnerable. Quinn's first basic attack against Vulnerable targets will deal bonus physical damage.",
+      "name": "HARRIERV"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250857_blinding_assault.webp",
+      "alt_text": "BLINDING ASSAULT",
+      "key": "Q",
+      "description": "(Q)BLINDING ASSAULTQuinn calls Valor to mark an enemy and hinder its vision before damaging all enemies in the immediate area.",
+      "name": "BLINDING ASSAULTQ"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250878_heightened_senses.webp",
+      "alt_text": "HEIGHTENED SENSES",
+      "key": "W",
+      "description": "(W)HEIGHTENED SENSESPassively grants Quinn Attack Speed and Move Speed after she attacks a Vulnerable target. Activate to have Valor reveal a large area nearby.",
+      "name": "HEIGHTENED SENSESP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250884_vault.webp",
+      "alt_text": "VAULT",
+      "key": "E",
+      "description": "(E)VAULTQuinn dashes to an enemy, dealing physical damage and slowing the target's Move Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target.",
+      "name": "VAULTQ"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250886_behind_enemy_lines.webp",
+      "alt_text": "BEHIND ENEMY LINES",
+      "key": "R",
+      "description": "(R)BEHIND ENEMY LINESQuinn and Valor team up to fly around at great speed. Ending the ability casts Skystrike, which deals damage to nearby enemies and marks champions as Vulnerable.",
+      "name": "BEHIND ENEMY LINESQ"
+    }
+  ],
+  "lanes": [
+    "Dragon"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

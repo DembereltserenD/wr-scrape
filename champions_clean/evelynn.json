@@ -1,0 +1,583 @@
+{
+  "name": "EVELYNN",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675025879_1644095513_evelynn_10_11zon.webp",
+  "tier": 1,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 66,
+    "toughness": 66,
+    "utility": 66,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-02/1677372680_demon_shade.webp",
+      "alt_text": "DEMON SHADE",
+      "key": "P",
+      "description": "(PASSIVE)DEMON SHADEEnterDemon Shadeafter not attacking or casting for 4 seconds. Taking damage from enemy champions or turrets putsDemon Shadeon a 1.5 seconds cooldown.In Demon Shade, Evelynn regenerates17 Health(17 (+2) +7.5%) every second when she is below320 Health(+70). After level 5,Demon Shadegrants herCamouflage.",
+      "name": "DEMON SHADEE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-02/1677372783_hate_spike_2.webp",
+      "alt_text": "HATE SPIKE",
+      "key": "Q",
+      "description": "(Q)HATE SPIKE4s30/35/40/45Unleashes two lines of spikes, dealing40 magic damage(40/45/50/55 +50%) each to all enemies struck. Can re-cast within 4 seconds.Deals 35/40/45/50% damage to minions.",
+      "name": "HATE SPIKE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-02/1677372788_allure.webp",
+      "alt_text": "ALLURE",
+      "key": "W",
+      "description": "(W)ALLURE14/13/12 /11s70/80/90/100Curses target for 5 seconds. Evelynn's next attack or ability will expunge theCurseandslowthem by 65% for 1/1.25/1.5/1.75s.If the Curse lasts at least 2.5 seconds, expunging itcharmsthe target for 1/1.25/1.5/1.75s. If the target is a champion, shreds their Magic Resist by 20/24/28/32% for 4s. If the target is a monster, deals additional300 magic damage(300/350/400/450 +60%).CastingAlluredoes not remove Evelynn fromDemon Shade.",
+      "name": "ALLURE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-02/1677372788_whiplash.webp",
+      "alt_text": "WHIPLASH",
+      "key": "E",
+      "description": "(E)WHIPLASH8s45/50/55/60Whips a target with Lashers, applyingon-hit effectsand dealing magic damage equal to55/75/95/115 plus 2%(2% +1%) of theirmax Health.Then, gain30% Movement Speedfor 2 seconds.EnteringDemon Shadeenhances the next cast to pull Evelynn to there target, dealing increasedmagic damageequal to80/110/140/170 plus 4%(4% +1.5%) of their max Health to all enemies in the way.",
+      "name": "WHIPLASH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606364183_evelynn_4.jpg",
+      "alt_text": "LAST CARESS",
+      "key": "R",
+      "description": "(R)LAST CARESS90/75/60s100Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.Deals150 magic damage(150/260/370 +75%), increased to 230% to enemies below 35% Health.",
+      "name": "LAST CARESS"
+    }
+  ],
+  "lanes": [
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Jungle",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390572_amplifying-tome.webp",
+          "alt": "Wild Rift Items: Amplifying Tome",
+          "name": "Amplifying Tome",
+          "description": "Amplifying Tome+25 Ability Power500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+          "alt": "Wild Rift Items: Lich Bane",
+          "name": "Lich Bane",
+          "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+          "cost": 2950
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+          "alt": "Wild Rift Items: Lich Bane",
+          "name": "Lich Bane",
+          "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+          "cost": 2950
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+          "alt": "Wild Rift Items: Yordle Infinity Orb",
+          "name": "Yordle Infinity Orb",
+          "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+          "cost": 2900
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+          "alt": "Wild Rift Items: Crown of the Shattered Queen",
+          "name": "Crown of the Shattered Queen",
+          "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388545_soulstealer.webp",
+          "alt": "Wild Rift Items: Soulstealer",
+          "name": "Soulstealer",
+          "description": "SoulstealerTakedown increase Movement speed an reduce cooldowns+150 Max Health+65 Ability Power+7% Magic Penetration+20 Ability HasteSoul Hunt:+15% Magic Penetration.Wandering Soul:Every time you take down an enemy champion within 3 seconds of damaging them, your ability cooldowns are reduced by 25%. You steal 10% of theirbase Movement Speedfor 10 seconds and50%of theirAbility Hasteuntil they respawn. Ability Haste stolen this way stacks.3000Soulstealer TIPS:This item is perfect for champions who frequently secure kills or assists and want to increase their mobility and ability uptime. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Wandering Soul\" effect reduces your ability cooldowns by 25% after taking down an enemy champion, and you steal 10% of their base movement speed and 50% of their ability haste until they respawn. The stolen ability haste stacks, making it especially useful for champions who are often involved in kills and want to improve their stats by taking down enemies.",
+          "cost": 3000
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Reduce physical damage and deals magic damage back",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388545_soulstealer.webp",
+              "alt": "Wild Rift Items: Soulstealer",
+              "name": "Soulstealer",
+              "description": "SoulstealerTakedown increase Movement speed an reduce cooldowns+150 Max Health+65 Ability Power+7% Magic Penetration+20 Ability HasteSoul Hunt:+15% Magic Penetration.Wandering Soul:Every time you take down an enemy champion within 3 seconds of damaging them, your ability cooldowns are reduced by 25%. You steal 10% of theirbase Movement Speedfor 10 seconds and50%of theirAbility Hasteuntil they respawn. Ability Haste stolen this way stacks.3000Soulstealer TIPS:This item is perfect for champions who frequently secure kills or assists and want to increase their mobility and ability uptime. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Wandering Soul\" effect reduces your ability cooldowns by 25% after taking down an enemy champion, and you steal 10% of their base movement speed and 50% of their ability haste until they respawn. The stolen ability haste stacks, making it especially useful for champions who are often involved in kills and want to improve their stats by taking down enemies.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388587_crystalline-reflector.webp",
+              "alt": "Wild Rift Items: Crystalline Reflector",
+              "name": "Crystalline Reflector",
+              "description": "Crystalline ReflectorReduce physical damage and deals magic damage back+200 Max Health+45 Armor+60 Ability Power+7% Magic PenetrationMirroed Force:Each ability cast grants a mirror shard that lasts 3 second(s). The shardblocks 8-25incomingphysical damagefrom enemy champions and dealsmagic damageequal to10+3% AP+1% bonus Healthto them. Shard durations do not stack.3000Crystalline Reflector TIPS:This item is perfect for mage assassins who need to enhance their survivability against champions dealing physical damage. It provides bonuses to maximum health, armor, ability power, and magic penetration, making it valuable for both defense and damage. The \"Mirrored Force\" effect creates a mirror shard with each ability cast, blocking incoming physical damage from enemy champions and reflecting it as magic damage back to the attacker. This item is ideal for champions facing physical attackers and wanting to increase their survivability while dealing damage in return.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Crystalline Reflector— This item is perfect for mage assassins who need to enhance their survivability against champions dealing physical damage. It provides bonuses to maximum health, armor, ability power, and magic penetration, making it valuable for both defense and damage. The \"Mirrored Force\" effect creates a mirror shard with each ability cast, blocking incoming physical damage from enemy champions and reflecting it as magic damage back to the attacker. This item is ideal for champions facing physical attackers and wanting to increase their survivability while dealing damage in return."
+        },
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388545_soulstealer.webp",
+              "alt": "Wild Rift Items: Soulstealer",
+              "name": "Soulstealer",
+              "description": "SoulstealerTakedown increase Movement speed an reduce cooldowns+150 Max Health+65 Ability Power+7% Magic Penetration+20 Ability HasteSoul Hunt:+15% Magic Penetration.Wandering Soul:Every time you take down an enemy champion within 3 seconds of damaging them, your ability cooldowns are reduced by 25%. You steal 10% of theirbase Movement Speedfor 10 seconds and50%of theirAbility Hasteuntil they respawn. Ability Haste stolen this way stacks.3000Soulstealer TIPS:This item is perfect for champions who frequently secure kills or assists and want to increase their mobility and ability uptime. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Wandering Soul\" effect reduces your ability cooldowns by 25% after taking down an enemy champion, and you steal 10% of their base movement speed and 50% of their ability haste until they respawn. The stolen ability haste stacks, making it especially useful for champions who are often involved in kills and want to improve their stats by taking down enemies.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388545_soulstealer.webp",
+              "alt": "Wild Rift Items: Soulstealer",
+              "name": "Soulstealer",
+              "description": "SoulstealerTakedown increase Movement speed an reduce cooldowns+150 Max Health+65 Ability Power+7% Magic Penetration+20 Ability HasteSoul Hunt:+15% Magic Penetration.Wandering Soul:Every time you take down an enemy champion within 3 seconds of damaging them, your ability cooldowns are reduced by 25%. You steal 10% of theirbase Movement Speedfor 10 seconds and50%of theirAbility Hasteuntil they respawn. Ability Haste stolen this way stacks.3000Soulstealer TIPS:This item is perfect for champions who frequently secure kills or assists and want to increase their mobility and ability uptime. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Wandering Soul\" effect reduces your ability cooldowns by 25% after taking down an enemy champion, and you steal 10% of their base movement speed and 50% of their ability haste until they respawn. The stolen ability haste stacks, making it especially useful for champions who are often involved in kills and want to improve their stats by taking down enemies.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Ramping Damage",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388545_soulstealer.webp",
+              "alt": "Wild Rift Items: Soulstealer",
+              "name": "Soulstealer",
+              "description": "SoulstealerTakedown increase Movement speed an reduce cooldowns+150 Max Health+65 Ability Power+7% Magic Penetration+20 Ability HasteSoul Hunt:+15% Magic Penetration.Wandering Soul:Every time you take down an enemy champion within 3 seconds of damaging them, your ability cooldowns are reduced by 25%. You steal 10% of theirbase Movement Speedfor 10 seconds and50%of theirAbility Hasteuntil they respawn. Ability Haste stolen this way stacks.3000Soulstealer TIPS:This item is perfect for champions who frequently secure kills or assists and want to increase their mobility and ability uptime. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Wandering Soul\" effect reduces your ability cooldowns by 25% after taking down an enemy champion, and you steal 10% of their base movement speed and 50% of their ability haste until they respawn. The stolen ability haste stacks, making it especially useful for champions who are often involved in kills and want to improve their stats by taking down enemies.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+              "alt": "Wild Rift Items: Riftmaker",
+              "name": "Riftmaker",
+              "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+              "cost": 3300
+            }
+          ],
+          "tips": "Riftmaker— This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695616_smite.webp",
+          "alt": "Smite Wild Rift",
+          "name": "Smite",
+          "description": "SmiteDeal600 true damageto monsters, epic monsters or enemy minions. Smiting a monsterrestore 127 Health(70 + 10%). Smite upgrades toChilling Smiteafter 3 uses.Jungle Expertise:Earn 20% bonus gold and 20% bonus XP from  monsters kills, but temporarily earn 60% less gold and XP from minions kills.Deal 15% more  attack damage and 30% more ability damage against monsters.Restore 40 Healthover 5 seconds after dealing damage to monsters.Restore 4 Manaevery second while in the jungle or river.From 7:30 onward, monster kills will no longer grant bonus gold.At 2:00, the attack damage bonus against monsters will start to decay.At 5:00, it will be removed.Gains one charge every 45 seconds, up to a max of 2.Cooldown:10s",
+          "cooldown": 10
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695722_chilling-smite.png",
+          "alt": "Сhilling Smite Wild Rift",
+          "name": "Сhilling Smite",
+          "description": "Сhilling SmiteDeal800 true damageto a large or epic monster or minion. Smiting monstersrestore 152 Health(70 + 10%).Against champions: Deal70 true damage(38 to 184) ato enemy Champions and steals 25% of theirMovement Speedfor 2 seconds.Cooldown:10s",
+          "cooldown": 10
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753391561_sudden-impact.webp",
+            "alt": "Wild Rift Domination Runes: Sudden Impact",
+            "name": "Sudden Impact",
+            "description": "After dashing or exiting invisibility/stealth, your next damaging attack or ability deals true damage on hit."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753391560_empowered-attack.webp",
+            "alt": "Wild Rift Domination Runes: Empowered Attack",
+            "name": "Empowered Attack",
+            "description": "Empowers the next attack, causing it to deal bonus damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753391605_eyeball-collector.webp",
+            "alt": "Wild Rift Domination Runes: Eyeball Collector",
+            "name": "Eyeball Collector",
+            "description": "Gains Adaptive Force after champion takedowns."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+            "alt": "Wild Rift Precision Runes: Giant Slayer",
+            "name": "Giant Slayer",
+            "description": "Deals more damage to an enemy champions the more bonus Health they have."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729700_8369.webp",
+          "alt": "Wild Rift Keystone Runes: First Strike",
+          "name": "First Strike",
+          "description": "Obtains gold and bonus damage when initiate deals damage."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Increase damage taken",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753391560_empowered-attack.webp",
+              "alt": "Empowered Attack",
+              "name": "Empowered Attack",
+              "description": "Empowered AttackBonus DamageEvery 8 seconds, the next attack will be empowered, dealing 35-50 bonus adaptive damage () to anemy champions."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753391577_mark-of-the-weak.webp",
+              "alt": "Mark of the Weak",
+              "name": "Mark of the Weak",
+              "description": "Mark of the WeakIncrease damage takenUsing abilities to deal damage to enemy champions will mark them as weak, increasing damage taken by them by 4-7% (). The mark disappears after they take ability damage 3 times, or after 7s have passed.Cooldown:15s"
+            }
+          ],
+          "tips": "Mark of the Weak— The rune activates when you deal damage to an enemy with abilities, marking them as weak, which increases the damage they take. This rune is especially useful for champions like Lissandra and Ziggs, who frequently deal damage through abilities. It helps amplify the overall damage to the enemy, making it a great choice for boosting magical attacks and applying effective pressure in team fights."
+        },
+        {
+          "purpose": "Increasing AD/AP",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+              "alt": "Gathering Storm",
+              "name": "Gathering Storm",
+              "description": "Gathering StormIncreasing AD/APEvery 3 minutes, gain increasingAdaptiveor. Totaling:2/5/9/14or4/10/18/28based on game time."
+            }
+          ],
+          "tips": "Gathering Storm— The rune increases your adaptive strength (AD or AP) every 3 minutes, stacking bonuses as the game progresses. It is perfect for champions who need scaling power throughout the game, such as mages and damage-focused champions. The rune allows for significant damage growth in the late game, making it a great choice for champions who can build up their power over time and use it to secure victories in critical fights."
+        },
+        {
+          "purpose": "Burst Damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729700_8369.webp",
+              "alt": "First Strike",
+              "name": "First Strike",
+              "description": "First StrikeBonus Gold, Bonus Damage0.25s after engaging an enemy champion in combat, dealing damage to them grants10 goldand a First Strike effect that lasts 3s to you, allowing you to deal8% bonus true damageto the enemy champion. Once the effect has ended, gaingoldaccording to the bonus damage dealt (melee: 100% /ranged: 85%) during the effect.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729550_8112.webp",
+              "alt": "Electrocute",
+              "name": "Electrocute",
+              "description": "ElectrocuteBurst DamageWithin 3 seconds, hit the same enemy champion with 3 basick attacks or abilities to cause additional adaptive damage to the target.Damage value: 40-194 () +40% extra+25%Cooldown:20-13s ()"
+            }
+          ],
+          "tips": "Electrocute— The rune is perfect for champions who actively use basic attacks and abilities to control enemies. It is especially effective on high-mobility champions like Zed or Tristana, as it allows dealing additional damage with frequent attacks. The rune is actively used in the early game for quickly eliminating enemy champions who can't adapt to the aggression. Keep in mind that it is important to hit the target within a short interval for maximum effect."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "570 → 600."
+            },
+            {
+              "stat": "Health per level",
+              "change": "115 → 128."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "4.3 → 5."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "01 AUG 2024",
+      "patch": "5.2A",
+      "changes": [
+        {
+          "ability": "(E) WHIPLASH",
+          "changes": [
+            {
+              "stat": "Damage",
+              "change": "55/75/95/115 + (3 + 1.5% Ability Power)% target's Maximum Health → 55/75/95/115 + (2 + 1% Ability Power)% target's Maximum Health."
+            },
+            {
+              "stat": "Empowered damage",
+              "change": "75/110/145/180 + (5 + 2% Ability Power)% target's Maximum Health → 80/110/140/170 + (4 + 1.5% Ability Power)% target's Maximum Health."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "28 SEP 2022",
+      "patch": "3.4A",
+      "changes": [
+        {
+          "ability": "(Q) HATE SPIKE",
+          "changes": [
+            {
+              "stat": "Ability Power ratio",
+              "change": "45% → 40%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "08 JUN 2022",
+      "patch": "3.2B",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base movement speed",
+              "change": "345 → 335."
+            },
+            {
+              "stat": "Base health",
+              "change": "650 → 570."
+            },
+            {
+              "stat": "Health per level",
+              "change": "105 → 115."
+            },
+            {
+              "stat": "Health at level 15",
+              "change": "2120 → 2180."
+            }
+          ]
+        },
+        {
+          "ability": "(W) ALLURE",
+          "changes": [
+            {
+              "stat": "Slow/Charm duration",
+              "change": "1.25/1.5/1.75/2s → 1/1.25/1.5/1.75s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 JUL 2021",
+      "patch": "2.3С",
+      "changes": [
+        {
+          "ability": "(PASSIVE) DEMON SHADE",
+          "changes": [
+            {
+              "stat": "Heal",
+              "change": "10% AP per second → 7.5% AP per second."
+            }
+          ]
+        },
+        {
+          "ability": "(R) LAST CARESS",
+          "changes": [
+            {
+              "stat": "Damage AP ratio against low health champions",
+              "change": "250% → 230%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "16 JUN 2021",
+      "patch": "2.3A",
+      "changes": [
+        {
+          "ability": "(R) LAST CARESS",
+          "changes": [
+            {
+              "type": "NEW",
+              "description": "250% execute damage now only applies to champions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "12 MAY 2021",
+      "patch": "2.2C",
+      "changes": [
+        {
+          "ability": "(Q) HATE SPIKE",
+          "changes": [
+            {
+              "stat": "Damage",
+              "change": "45/50/55/60 → 40/45/50/55."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "28 APR 2021",
+      "patch": "2.2B",
+      "changes": [
+        {
+          "ability": "(R) LAST CARESS",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "100/80/60s → 120/95/70s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "19 JAN 2021",
+      "patch": "2.0A",
+      "changes": [
+        {
+          "ability": "(Q) HATE SPIKE",
+          "changes": [
+            {
+              "stat": "AP ratio",
+              "change": "0,5 → 0,45."
+            },
+            {
+              "stat": "Mana",
+              "change": "25/30/35/40 → 30/35/40/45."
+            },
+            {
+              "stat": "Damage to minions",
+              "change": "100% at all ranks → 35/40/45/50%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "06 DEC 2020",
+      "patch": "1.1",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Mana regen",
+              "change": "18 → 15."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

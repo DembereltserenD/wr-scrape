@@ -20,10 +20,7 @@
   "description": "Delays damage taken. This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you. Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
   "category": "legendary",
   "tier": "S",
-  "build_path": [
-    "Caulfield's Warhammer",
-    "Chain Vest"
-  ],
+  "build_path": ["Caulfield's Warhammer", "Chain Vest"],
   "tags": [
     "Damage",
     "Physical",
@@ -31,14 +28,5 @@
     "Ability Haste",
     "Damage Conversion",
     "Sustain"
-  ],
-  "tips": [
-    "Excellent for sustained fights and team battles",
-    "The damage delay can save you from burst combos",
-    "Takedowns cleanse remaining damage - great for multi-kills",
-    "Provides both armor and magic resist for mixed damage",
-    "Perfect for bruisers and fighters who stay in extended fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+  ]
 }

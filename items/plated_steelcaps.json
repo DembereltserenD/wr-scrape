@@ -17,5 +17,10 @@
     "1350\n\n\nThese boots provide solid protection against physical damage, boosting your durability and movement speed.",
     "The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.",
     "— The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
-  ]
+  ],
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "boots",
+  "extracted_at": "2025-07-27T20:57:05.806387",
+  "last_updated": "2025-07-27T20:57:05.813401"
 }

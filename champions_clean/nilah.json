@@ -1,0 +1,466 @@
+{
+  "name": "NILAH",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-09/1662401945_nilah_10_11zon.webp",
+  "tier": 1,
+  "balance_status": "NERFED",
+  "stats": {
+    "damage": 100,
+    "toughness": 33,
+    "utility": 66,
+    "difficulty": 100
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401878_nilah_joy_unending.webp",
+      "alt_text": "JOY UNENDING",
+      "key": "P",
+      "description": "(PASSIVE)JOY UNENDINGAfter an attack crits, Nilah heals herself for 20% of the damage dealt. Excess healing is converted into an equivalent amount ofshieldthat lasts 6 seconds.",
+      "name": "JOY UNENDINGA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401856_nilah_formless_blade.webp",
+      "alt_text": "FORMLESS BLADE",
+      "key": "Q",
+      "description": "(Q)FORMLESS BLADE4s30Passive:Gains35%of currentCritical Strike ChanceasArmor Penetration.Active:Nilah cracks her whip-blade in a straight line, dealing63 physical damage(10/15/20/25 +90/100/110/120%)  to enemies hit. Every 1% Critical Rate increases damage by 1%.After Formless Blade hits an enemy, Nilah gains10% Attack Speed() and125 bonus Attack Range. Her attacks also deal100% physical damageto enemies in a cone for 4 seconds reduced by 80% against non-champion.When Formless Blade is cast duringSlipstream, Nilah leaves behind a wave that is sent towards her at the end of the dash, dealing the same damage to enemies hit.Deals 25% damage to monsters.",
+      "name": "FORMLESS BLADE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401890_nilah_jubilant_veil.webp",
+      "alt_text": "JUBILANT VEIL",
+      "key": "W",
+      "description": "(W)JUBILANT VEIL21/20/19/18s45Nilah envelops herself in mist for 1.75 seconds, during witch she gains15/20/25/30% Movement Speed, reduces incomingmagic damagetaken by 25% and becomes immune to non-tower attacks. If there are allied champions nearby, the nearest allied champion gains the same effects, and the duration of the effects Nilah gained is extended by 1 second.",
+      "name": "JUBILANT VEIL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401984_nilah_slipstream.webp",
+      "alt_text": "SLIPSTREAM",
+      "key": "E",
+      "description": "(E)SLIPSTREAM18/16/14/12s40Nilah dashes forward for a fixed distance, dealing82 physical damage(70/100/130/160 +20%) to any enemies that she passes through.Empowered attacksreduce the cooldown of this ability by 1 second. Cooldown is further reduced by 1 second after hitting a champion. Hitting any unit will also refresh this ability's cooldown.Cooldown cannot be refreshed again within 10 seconds.If no unit was hit, immediately enters cooldown.",
+      "name": "SLIPSTREAM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401922_nilah_apotheosis.webp",
+      "alt_text": "APOTHEOSIS",
+      "key": "R",
+      "description": "(R)APOTHEOSIS80/70/60s80Nilah whirls her whip-blade, dealing60 physical damage(60/120/180 +140% bonus) continuously over 1 second and reducing the enemy'sMovement Speed by 10%for 3 seconds.When keeping her whip-blade, Nilah also deals125 physical damage(125/225/325 +120% bonus) and pulls nearby enemies toward her. Nilah also heals herself and nearby allied champions by 20% of the damage (20% +30%) that she dealt to enemy champions. Excess healing is converted into a shield that lasts 6 seconds.Non-champion units are healed by 10% instead.",
+      "name": "APOTHEOSIS"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500"
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 225
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302298_navori-quickblades.webp",
+          "alt": "Wild Rift Items: Navori Quickblades",
+          "name": "Navori Quickblades",
+          "description": "Navori QuickbladesAbilities grant damage amplification and cooldown reduction+40 Attack Damage+25% Critical Rate+15% Attack SpeedDeft Strikes:Critical Attacksreduce your non-ultimate abilitycooldowns by 15%of their remaining cooldown.Impermanence:Your abilities deal up to12%increased damage based on.3000Navori Quickblades TIPS:This item is perfect for auto‑attackers who aim to amplify their ability damage and reduce cooldowns. Critical strikes accelerate your non‑ultimate abilities, while your skills hit harder based on your crit chance.  — A top pick for marksmen and assassins who weave auto‑attacks with spells to swiftly eliminate targets and maintain combat momentum."
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389665_boots-of-dynamism.webp",
+          "alt": "Wild Rift Items: Boots of Dynamism",
+          "name": "Boots of Dynamism",
+          "description": "Boots of DynamismAttack Damage, Armor Penetration+30 Attack Damage+45 Move Speed.Strike:+10 Armor Penetration.1400Boots of Dynamism TIPS:These boots are perfect for champions who rely on physical damage and need extra mobility to roam the map quickly. They grant bonuses to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 225
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302298_navori-quickblades.webp",
+          "alt": "Wild Rift Items: Navori Quickblades",
+          "name": "Navori Quickblades",
+          "description": "Navori QuickbladesAbilities grant damage amplification and cooldown reduction+40 Attack Damage+25% Critical Rate+15% Attack SpeedDeft Strikes:Critical Attacksreduce your non-ultimate abilitycooldowns by 15%of their remaining cooldown.Impermanence:Your abilities deal up to12%increased damage based on.3000Navori Quickblades TIPS:This item is perfect for auto‑attackers who aim to amplify their ability damage and reduce cooldowns. Critical strikes accelerate your non‑ultimate abilities, while your skills hit harder based on your crit chance.  — A top pick for marksmen and assassins who weave auto‑attacks with spells to swiftly eliminate targets and maintain combat momentum."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301062_mortal-reminder.webp",
+          "alt": "Wild Rift Items: Mortal Reminder",
+          "name": "Mortal Reminder",
+          "description": "Mortal ReminderArmor Penetration (%) and reduced enemy healing+25 Attack Damage+25% Critical Rate+15% Attack SpeedLast Whisper:+30% Armor Penetration.Attacks that Critically Strike gain an additional6% Armor Penetration.Sepsis:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.3300Mortal Reminder TIPS:This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+          "alt": "Wild Rift Items: Infinity Edge",
+          "name": "Infinity Edge",
+          "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+          "cost": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+          "alt": "Wild Rift Items: The Collector",
+          "name": "The Collector",
+          "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+              "alt": "Wild Rift Items: The Collector",
+              "name": "The Collector",
+              "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+              "alt": "Wild Rift Items: The Collector",
+              "name": "The Collector",
+              "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana."
+            }
+          ],
+          "tips": "Edge of Night— This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+              "alt": "Wild Rift Items: The Collector",
+              "name": "The Collector",
+              "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753303456_serpents-fang.webp",
+              "alt": "Wild Rift Items: Serpent's Fang",
+              "name": "Serpent's Fang",
+              "description": "Serpent's FangAnti-Shielding+50 Attack Damage+10 Ability HasteStab:+15 Armor Penetration.Shield Reaver:Dealing damage to an enemy champion reduces anyshieldsthey gain for 3s. Melee champions apply (10% of bonus AD+ 40)% shield reduction, capped at 60%; while ranged champions apply (10% of bonus AD+ 25)% shield reduction, capped at 45%. When you damage an enemy who is unaffected by Shield Reaver, all shields on them are reduced by the same values.2800Serpent's Fang TIPS:This item is perfect for assassins and champions who face enemies with a lot of shields. It provides bonuses to attack damage and ability haste, along with increased armor penetration, making it effective against well-protected enemies. The \"Shield Reaver\" effect allows you to reduce the effectiveness of shields gained by enemy champions, depending on your bonus attack damage, helping to quickly break through shields. This item is especially useful against champions who rely on shields for defense, such as Lux, Braum, and others."
+            }
+          ],
+          "tips": "Serpent's Fang— This item is perfect for assassins and champions who face enemies with a lot of shields. It provides bonuses to attack damage and ability haste, along with increased armor penetration, making it effective against well-protected enemies. The \"Shield Reaver\" effect allows you to reduce the effectiveness of shields gained by enemy champions, depending on your bonus attack damage, helping to quickly break through shields. This item is especially useful against champions who rely on shields for defense, such as Lux, Braum, and others."
+        },
+        {
+          "purpose": "Increases survivability in prolonged combat",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+              "alt": "Wild Rift Items: The Collector",
+              "name": "The Collector",
+              "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+            }
+          ],
+          "tips": "Amaranth's Twinguard— This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+        },
+        {
+          "purpose": "Delays damage taken",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+              "alt": "Wild Rift Items: The Collector",
+              "name": "The Collector",
+              "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+              "alt": "Wild Rift Items: Yordle Death's Dance",
+              "name": "Yordle Death's Dance",
+              "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting."
+            }
+          ],
+          "tips": "Yordle Death's Dance— This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304861_the-collector.webp",
+              "alt": "Wild Rift Items: The Collector",
+              "name": "The Collector",
+              "description": "The CollectorExecute low health champions+45 Attack Damage+25% Critical RateKiller:+10 Armor Penetration.Death and Taxes:Dealing damage that would leave an enemy champion below (4%+2% Critical Rate) of theirmax Healthexecutes them, permanently increases the max Health percentage execution threshold by 0.1%, and grants25 bonus gold.Limited to 1 The Collector.2900The Collector TIPS:This item turns your auto‑attacks into a finisher: it boosts your penetration for shredding armor and automatically executes low‑health enemies, rewarding you with extra gold.  — Perfect for marksmen and assassins who need reliable executes on vulnerable targets while snowballing their gold income."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695152_barrier.webp",
+          "alt": "Barrier Wild Rift",
+          "name": "Barrier",
+          "description": "BarrierGain ashieldthatabsorbs 120(120–560) damage for 2.5 seconds.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2021-01/1611110740_teleport-enchant.jpg",
+          "alt": "Teleport Wild Rift",
+          "name": "Teleport",
+          "description": "TeleportAfter channeling for 3.5 seconds, teleport your champion to an allied champion, structure, or ward (excludes areas in range of enemy inhibitors). You can only teleport to structures during the first 6 minutes of the game.Cooldown:180s",
+          "cooldown": 180
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Alacrity",
+            "name": "Legend: Alacrity",
+            "description": "Gains Attack Speed."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-06/1749148113_17377296298021.webp",
+          "alt": "Wild Rift Keystone Runes: Fleet Footwork",
+          "name": "Fleet Footwork",
+          "description": "Moving, attacking and casting builds Energy stacks. At maximum stacks, your next attack heals and grants increased Movement Speed."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Takedown high health champions",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+              "alt": "Coup de Grace",
+              "name": "Coup de Grace",
+              "description": "Coup de GraceBonus DamageWhen an enemy champion has less than40% Health, deals 8% bonus adaptive damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            }
+          ],
+          "tips": "Giant Slayer— The rune deals bonus damage based on the enemy champion's bonus health, up to 16% bonus damage when the enemy champion has 1600 or more bonus health. It is perfect for champions who face enemies with high amounts of health, such as tanks. The rune helps effectively break through high health opponents, making it an excellent choice for damage-focused champions."
+        },
+        {
+          "purpose": "Bonus Damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753391561_sudden-impact.webp",
+              "alt": "Sudden Impact",
+              "name": "Sudden Impact",
+              "description": "Sudden ImpactBonus DamageDamaging an enemy champion deals a bonus10-80 true damageafter using a dash, leap, blink, teleport, or when exiting stealth for 4s.The damaging attack/ability gains bonuses at higher levels:Level 5:Deal an additional10 true damage.Level 9:Deal an additional20 true damageand gain10% Movement Speedfor 1.5s after dealing the damage.Cooldown:10s"
+            }
+          ],
+          "tips": "Sudden Impact— The rune that activates after using dashes, teleports, leaps, or exiting stealth deals bonus true damage to the enemy. This mechanic enhances aggressive play by allowing fast movement across the map and delivering powerful strikes. At higher levels, it provides additional damage and movement speed bonuses, increasing mobility and effectiveness in fights. This makes it a great choice for champions who rely on mobility and want to enhance their attacks after quick movements or stealth."
+        },
+        {
+          "purpose": "Bonus HP",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            }
+          ],
+          "tips": "Overgrowth— The rune increases your maximum health permanently with each nearby minion or monster kill. It is useful for most champions, including fighters, tanks, and junglers, who actively farm and frequently engage in fights. The rune helps improve survivability by stacking health over time, making it a great choice for champions who rely on increasing their maximum health for prolonged battles."
+        }
+      ]
+    },
+    {
+      "lane": "Build_2",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "570 → 600."
+            },
+            {
+              "stat": "Health per level",
+              "change": "112 → 128."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "4.5 → 5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "27 DEC 2023",
+      "patch": "4.4D",
+      "changes": [
+        {
+          "ability": "(Q) FORMLESS BLADE",
+          "changes": [
+            {
+              "stat": "Damage to monsters",
+              "change": "60% → 25%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "02 AUG 2023",
+      "patch": "4.3A",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base armor",
+              "change": "34 → 37."
+            },
+            {
+              "stat": "Base health regeneration",
+              "change": "6 → 10."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) FORMLESS BLADE",
+          "changes": [
+            {
+              "stat": "[NEW] Active damage ratio of Formless Blade to monsters",
+              "change": "60%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

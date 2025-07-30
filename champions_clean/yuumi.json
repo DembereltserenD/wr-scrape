@@ -1,0 +1,705 @@
+{
+  "name": "YUUMI",
+  "roles": [
+    "Mage",
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675036681_1644099270_yuumi_74_11zon.webp",
+  "tier": 1,
+  "balance_status": "NERFED",
+  "stats": {
+    "damage": 33,
+    "toughness": 33,
+    "utility": 100,
+    "difficulty": 33
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641943246_yuumip-min.png",
+      "alt_text": "BOP 'N' BLOCK",
+      "key": "P",
+      "description": "(PASSIVE)BOP 'N' BLOCKYuumi's attacks against champions grant her35~175 shield(35 (+10) +15%). This effect has a 18/15/12/9s second cooldown.Shields and haste effects Yuumi placed on herself will be passed on to  herAttachedally.",
+      "name": "BOP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-04/1681651933_yuumi_prowling_projectile_2.webp",
+      "alt_text": "PROWLING PROJECTILE",
+      "key": "Q",
+      "description": "(Q)PROWLING PROJECTILE7/6.5/6/5.5/5s60Hold and drag:Steers an errant missile, dealing60 magic damage(60/100/140/180/220 +20%) to the first enemy hit.If Yuumi isAttached, the missile will be enhanced if travels for 0,75s before impacting, dealing70(70/120/170/220/270  +30%) plus 2/3/4/5/6% current Healthmagic damageinstead andslowschampions by20%for 1 second.Deals up to 120 damage against monsters.",
+      "name": "PROWLING PROJECTILE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641943339_yuumiw-min.png",
+      "alt_text": "YOU AND ME!",
+      "key": "W",
+      "description": "(W)YOU AND ME!10sPassive:IncreasesAttachedally'sAdaptive Forceby 15 +12%(8/14/20/26 +8/11/14/17%ally'sbonusor 16/28/40/52 +13/15/17/19%ally's).Yuumi also gains the same amount ofAdaptive Force.Active:Dashes to an ally champion andAttachesto them. While Yuumi isAttached, she follows her partner's movement and is Untargetable except from towers.Immobilizing effects on Yuumi placeYou and Me!on a 5 second cooldown.",
+      "name": "YOU AND ME"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641943348_yuumie-min.png",
+      "alt_text": "ZOOMIES",
+      "key": "E",
+      "description": "(E)ZOOMIES12/11/10/9s80/90/100/110Yuumirestores 20 Health(20/30/40/50 +10%) to herself and gains15% Movement Speed(15% +0.03%) and20/25/30/35% Attack Speedfor 3 seconds.Her next 3 attacks and abilities hitsheal for 20(20/30/40/50 +10%) within 5 seconds.If Yuumi isAttached, this Ability affects her ally instead.",
+      "name": "ZOOMIES"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641943356_yuumir-min.png",
+      "alt_text": "FINAL CHAPTER",
+      "key": "R",
+      "description": "(R)FINAL CHAPTER85/75/65s100Channels for 3.5 seconds, launching 7 waves dealing80 magic damage(80/100/120 +15%). Waves after the first deal 50% magic damage. Champions hit by 3 waves arerootedfor 1.5 seconds.Yuumi cannot move and castYou and Me!andZoomieswhile channeling.",
+      "name": "FINAL CHAPTER"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Support",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390665_ancient-coin.webp",
+          "alt": "Wild Rift Items: Ancient Coin",
+          "name": "Ancient Coin",
+          "description": "Ancient CoinKill enemy minions to earn bonus goldThis item is for support players. When equipped, it will reduce the gold you receive from killing minions and monsters. If there are multiples of this item within the party, only one of them can take effect at any given time.Offering:Gains 1 charge(s) every 30 seconds (up to 3 times). When a teammate is nearby, each surrounding minion defeated consumes 1 charges to grant65 goldand restore20-80 Health.You do not earn gold generated from minion kills, but you earn gold equal to 50% of the bounty. Gold generated from your minion kills will be given to nearby allies instead.Also reduces monster bounties by 50%.Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.Mission:This item upgrades toTalisman of AscensionAfter obtaining Earn750 gold.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389501_talisman-of-ascension.webp",
+          "alt": "Wild Rift Items: Talisman of Ascension",
+          "name": "Talisman of Ascension",
+          "description": "Talisman of AscensionKill enemy minions to earn bonus gold+125 Max Health+15 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Talisman of Ascension TIPS:This item is designed for supports and grants bonus gold every 60 seconds along with Soulforce stacks that boost health, attack damage, or ability power. It reduces your gold income from killing minions and monsters but helps your team accumulate resources faster. The Soulforce effect stacks up to 10 times, adaptively granting either health, damage, or AP per stack. Additionally, it deals extra damage to revealed Sight Wards, making it easier to clear vision.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388425_ardent-censer.webp",
+          "alt": "Wild Rift Items: Ardent Censer",
+          "name": "Ardent Censer",
+          "description": "Ardent CenserIncreases allies Attack Speed+250 Max Health+35 Ability Power+20 Ability Haste+8% Heal and Shield StrengthArdent:+5% Move Speed.Censer:When youhealorshield, an allied champion other than yourself, they gain15-40% Attack Speedand their attacks deal16-30 bonus magic damage.for 6 seconds. This damage canCritically Strike.2800Ardent Censer TIPS:This item enhances your heals and shields, granting shielded allies increased attack speed and bonus magic damage on their attacks for a short duration. Perfect for enchanter supports who want to protect and empower their carries when it matters most.",
+          "cost": 2800
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389710_locket-enchant.webp",
+          "alt": "Wild Rift Items: Locket Enchant",
+          "name": "Locket Enchant",
+          "description": "Locket EnchantArea of effect magic shieldLocket (Active):Grants ashieldto yourself and nearby allied champions that eachabsorbs 60-330damage for 2.5 seconds. (60s cooldown)This effect is reduced by 50% if the target has been affected by another Locket in the last 20 seconds.500Locket Enchant TIPS:This enchant grants a magic shield to you and nearby allies, absorbing damage for a brief duration. The shield is ideal in large teamfights, providing extra protection and opportunities for counterplay. Perfect for tanks who frequently stand in the thick of battle and want to safeguard their team during critical moments.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389802_veil-enchant.webp",
+          "alt": "Wild Rift Items: Veil Enchant",
+          "name": "Veil Enchant",
+          "description": "Veil EnchantBlock an ability for an allyVeil (Active):Remove disables and crowd control effects from a target allied champion. If the ally is not affected by any such effects, they gain a 3-second spellshieldthat blocks the next hostile ability instead. (60s Cooldown)500Veil Enchant TIPS:This enchant instantly removes all crowd control effects from an ally or, if none are present, grants them a spell shield that blocks the next hostile ability.  — Perfect for supports and tanks looking to safeguard key teammates at clutch moments.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389501_talisman-of-ascension.webp",
+          "alt": "Wild Rift Items: Talisman of Ascension",
+          "name": "Talisman of Ascension",
+          "description": "Talisman of AscensionKill enemy minions to earn bonus gold+125 Max Health+15 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Talisman of Ascension TIPS:This item is designed for supports and grants bonus gold every 60 seconds along with Soulforce stacks that boost health, attack damage, or ability power. It reduces your gold income from killing minions and monsters but helps your team accumulate resources faster. The Soulforce effect stacks up to 10 times, adaptively granting either health, damage, or AP per stack. Additionally, it deals extra damage to revealed Sight Wards, making it easier to clear vision.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388425_ardent-censer.webp",
+          "alt": "Wild Rift Items: Ardent Censer",
+          "name": "Ardent Censer",
+          "description": "Ardent CenserIncreases allies Attack Speed+250 Max Health+35 Ability Power+20 Ability Haste+8% Heal and Shield StrengthArdent:+5% Move Speed.Censer:When youhealorshield, an allied champion other than yourself, they gain15-40% Attack Speedand their attacks deal16-30 bonus magic damage.for 6 seconds. This damage canCritically Strike.2800Ardent Censer TIPS:This item enhances your heals and shields, granting shielded allies increased attack speed and bonus magic damage on their attacks for a short duration. Perfect for enchanter supports who want to protect and empower their carries when it matters most.",
+          "cost": 2800
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388518_yordle-harmonic-echo.webp",
+          "alt": "Wild Rift Items: Yordle Harmonic Echo",
+          "name": "Yordle Harmonic Echo",
+          "description": "Yordle Harmonic EchoAbilities grant healing effects+100 Max Health+40 Ability Power+300 Max Mana+10 Ability Haste+8% Heal and Shield StrengthHarmonic Echo:Moving and casting abilities buildsHarmony. At100 Harmonyyour next healing or shielding ability on an ally restoresHealthequal to100+10% APto them. If the target has less than 30%Health, heal effectiveness is increased to 150% of the original.Dancing Notes:AfterHarmonic Echois applied to themain target, it bounces to a nearby allied champion, healing them for 50% ofHarmonic Echo'seffect.Harmonic Echoalso revitalizes themain target, restoring2% of their max Healthper second over 3 seconds.2600Yordle Harmonic Echo TIPS:This item is designed for supports who want to maximize their healing impact. Moving and casting spells builds up energy, and your next shield or heal delivers a powerful burst of health to your primary ally—amplified if they’re low on HP. The effect then bounces to another nearby ally, while the initial target receives additional healing over time.  — Perfect for enchanter supports aiming for strong multi‑target heals and sustained team survivability.",
+          "cost": 2600
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388553_staff-of-flowing-water.webp",
+          "alt": "Wild Rift Items: Staff of Flowing Water",
+          "name": "Staff of Flowing Water",
+          "description": "Staff of Flowing WaterEnhance allies Ability Power and Ability Haste+100 Max Health+45 Ability Power+350 Max Mana+10 Ability Haste+8% Heal and Shield StrengthRapids:Healingorshieldingan ally grants you both+10Ability Hasteand20-40(based on target's level)Ability Powerfor 6 seconds.2500Staff of Flowing Water TIPS:This item is perfect for champions who rely on healing or shielding abilities to support their team. It provides bonuses to maximum health, ability power, maximum mana, ability haste, and amplifies healing and shielding effects. The \"Rapids\" effect activates when you heal or shield an ally, granting both you and your ally bonuses to ability haste and ability power for 6 seconds. This item is especially useful for champions who actively support their team, such as Soraka, Nami, or Lulu.",
+          "cost": 2500
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Crowd control grants additional ally damage",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388613_imperial-mandate.webp",
+              "alt": "Wild Rift Items: Imperial Mandate",
+              "name": "Imperial Mandate",
+              "description": "Imperial MandateCrowd control grants additional ally damage+200 Max Health+40 Ability Power+20 Ability HasteCoordinated Fire:Abilities that Slow or Immobilize a champion deal47-75 bonus magic damageand marks them for 4 seconds (6 seconds cooldown per enemy champion). Allied champion damage detonates the mark, dealing an additional94-150 magic damage(based on ally level) and granting you both20% Move Speed, for 2 seconds.2500Imperial Mandate TIPS:This item is perfect for support champions who have abilities that slow or immobilize enemies, allowing you to activate effects for your team. It provides bonuses to maximum health, ability power, and ability haste, helping you deal damage while also enhancing teamwork with your allies. The \"Coordinated Fire\" effect activates when you slow or immobilize an enemy, dealing bonus magic damage and marking them for 4 seconds. When an allied champion damages the marked target, it detonates the mark, dealing additional magic damage and granting both you and your ally 20% bonus movement speed for 2 seconds. This item is especially useful for champions with crowd control abilities.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Imperial Mandate— This item is perfect for support champions who have abilities that slow or immobilize enemies, allowing you to activate effects for your team. It provides bonuses to maximum health, ability power, and ability haste, helping you deal damage while also enhancing teamwork with your allies. The \"Coordinated Fire\" effect activates when you slow or immobilize an enemy, dealing bonus magic damage and marking them for 4 seconds. When an allied champion damages the marked target, it detonates the mark, dealing additional magic damage and granting both you and your ally 20% bonus movement speed for 2 seconds. This item is especially useful for champions with crowd control abilities."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Crown of the Shattered Queen— This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana."
+        },
+        {
+          "purpose": "Heal nearby allies periodically",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388553_staff-of-flowing-water.webp",
+              "alt": "Wild Rift Items: Staff of Flowing Water",
+              "name": "Staff of Flowing Water",
+              "description": "Staff of Flowing WaterEnhance allies Ability Power and Ability Haste+100 Max Health+45 Ability Power+350 Max Mana+10 Ability Haste+8% Heal and Shield StrengthRapids:Healingorshieldingan ally grants you both+10Ability Hasteand20-40(based on target's level)Ability Powerfor 6 seconds.2500Staff of Flowing Water TIPS:This item is perfect for champions who rely on healing or shielding abilities to support their team. It provides bonuses to maximum health, ability power, maximum mana, ability haste, and amplifies healing and shielding effects. The \"Rapids\" effect activates when you heal or shield an ally, granting both you and your ally bonuses to ability haste and ability power for 6 seconds. This item is especially useful for champions who actively support their team, such as Soraka, Nami, or Lulu.",
+              "cost": 2500
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389247_yordle-redeeming.webp",
+              "alt": "Wild Rift Items: Yordle Redeeming",
+              "name": "Yordle Redeeming",
+              "description": "Yordle RedeemingHeal nearby allies periodically+400 Max Health+300 Max Mana+20 Ability HasteEternity:RestoreManaequal to15%of the damage taken from champions. When consuming Mana,restore Healthequal to20%of Mana consumed. Capped at15 Healthper cast.Salvation:Every 8 seconds,restore(40 +7% bonus) Health to all allied champions within 350 units.2600Yordle Redeeming TIPS:This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Yordle Redeeming— This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695008_heal.webp",
+          "alt": "Heal Wild Rift",
+          "name": "Heal",
+          "description": "HealRestore 110 Health(110–400) to you and the most wounded nearby ally champion, and grants both of you30% bonus Movement Speedfor 2 second(s).Healing is halved for champions recently affected by Heal.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+            "alt": "Wild Rift Resolve Runes: Font of Life",
+            "name": "Font of Life",
+            "description": "Marks an enemy champion and grants healing upon attack."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392671_loyalty.webp",
+            "alt": "Wild Rift Resolve Runes: Loyalty",
+            "name": "Loyalty",
+            "description": "Grants Armor and Magic Resist to you and your teammates."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392494_revitalize.webp",
+            "alt": "Wild Rift Resolve Runes: Revitalize",
+            "name": "Revitalize",
+            "description": "Increases healing and shielding effects."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729544_8214.webp",
+          "alt": "Wild Rift Keystone Runes: Aery",
+          "name": "Aery",
+          "description": "Your attacks and abilities send Aery to a target, damaging enemies or shielding allies."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Block Combo-damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392671_loyalty.webp",
+              "alt": "Loyalty",
+              "name": "Loyalty",
+              "description": "LoyaltyShared Bonus AR/MRYou gain2and5.Your closest ally champion gains5and2."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            }
+          ],
+          "tips": "Bone Plating— The rune reduces damage from enemy attacks and abilities when you take damage from an enemy champion. It lowers damage from the next few attacks or abilities for a short period, making it useful for most champions, including tanks, fighters, and even some mages. The rune helps improve survivability by mitigating damage in critical moments of the fight, making it suitable for heroes who find themselves in the heart of battles."
+        },
+        {
+          "purpose": "Mana",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392866_transcendence.webp",
+              "alt": "Transcendence",
+              "name": "Transcendence",
+              "description": "TranscendenceCDRGain a bonus when reaching the following levels:At level 1, gain6 Ability Haste;at level 6, gain bonus6 Ability Haste;at level 9, after Basic Ability hit the target, reduce 10% the ability's cooldown time.Cooldown:8s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392903_manaflow-band.webp",
+              "alt": "Manaflow Band",
+              "name": "Manaflow Band",
+              "description": "Manaflow BandManaHitting an enemy champion with and ability orempoweredattack permanently increases yourmax manaby30, up to300 mana."
+            }
+          ],
+          "tips": "Manaflow Band— The rune permanently increases your maximum mana with each hit on an enemy champion using an ability or empowered attack, up to a maximum of 300 mana. This rune is perfect for champions who frequently use their abilities and need more mana for efficient combat, such as mages or champions with high mana consumption."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "530 → 570."
+            },
+            {
+              "stat": "Health per level",
+              "change": "95 → 104."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "35 → 40."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "0.8 → 1.2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "26 SEP 2024",
+      "patch": "5.2D",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "change": "Base Attack Damage：58 → 50."
+            }
+          ]
+        },
+        {
+          "ability": "(PASSIVE) BOP 'N' BLOCK",
+          "changes": [
+            {
+              "stat": "Shield value",
+              "change": "50+ 10 per Level + 25% Ability Power → 35 + 10 Per Level + 15% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(E) ZOOMIES",
+          "changes": [
+            {
+              "change": "Movement speed gained：15% + 0.05% Ability Power → 15% + 0.03% Ability Power."
+            },
+            {
+              "change": "Attack speed gained：30/35/40/45% → 20/25/30/35%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 MAR 2024",
+      "patch": "5.0C",
+      "changes": [
+        {
+          "ability": "(W) YOU AND ME!",
+          "changes": [
+            {
+              "stat": "Adaptive power",
+              "change": "(8/14/20/26 + (5 + 0.25 per level)% bonus Attack Damage) or (16/28/40/52 + (5 + 0.25 per level)% Ability Power) → (8/14/20/26 + (2+ 0.15 per level)% bonus Attack Damage) or (16/28/40/52 + (2 + 0.15 per level)% Ability Power)."
+            }
+          ]
+        },
+        {
+          "ability": "(R) FINAL CHAPTER",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "75/65/55s → 85/75/65s."
+            },
+            {
+              "stat": "Root Duration",
+              "change": "1.75s → 1.5s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": []
+    },
+    {
+      "type": "rework",
+      "date": "14 FEB 2024",
+      "patch": "5.0A",
+      "changes": [
+        {
+          "ability": "(PASSIVE) BOP 'N' BLOCK",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Yuumi's attacks and abilities against enemy champions grant her a shield, which also takes effect when Yuumi is Attached."
+            },
+            {
+              "stat": "Shield value",
+              "change": "35 + 25 per level + 25% Ability Power → 50 + 10 per level + 25% Ability Power."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "18/15/12/9s (growth at 1/5/9/13 levels) → all levels 18s."
+            }
+          ]
+        },
+        {
+          "ability": "(W) YOU AND ME!",
+          "changes": [
+            {
+              "stat": "Adaptive power",
+              "change": "7.5/9/10.5/12 + 8/11/14/17% bonus Attack Damage of Yuumi’s allies or 15/18/21/24 + 8/11/14/17% Ability Power of Yuumi’s allies → 8/14/20/26 + (5 + 0.25 per level)% bonus Attack Damage or 16/28/40/52 + (5 + 0.25 per level)% bonus Ability Power."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "09 NOV 2023",
+      "patch": "4.4A",
+      "changes": [
+        {
+          "ability": "(Q) PROWLING PROJECTILE",
+          "changes": [
+            {
+              "stat": "Base damage",
+              "change": "60/100/140/180/220 + 25% Ability Power → 60/100/140/180/220 + 20% Ability Power."
+            },
+            {
+              "stat": "Damage while attached",
+              "change": "70/120/170/220/270 + 35% Ability Power → 70/120/170/220/270 + 30% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(R) FINAL CHAPTER",
+          "changes": [
+            {
+              "stat": "Damage per wave",
+              "change": "80/100/120 + 20% Ability Power → 80/100/120 + 15% Ability Power."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "15 FEB 2023",
+      "patch": "4.0B",
+      "changes": [
+        {
+          "ability": "(Q) PROWLING PROJECTILE",
+          "changes": [
+            {
+              "stat": "Enhanced current health damage",
+              "change": "1.5/3/4.5/6/7.5% → 2/3/4/5/6%."
+            },
+            {
+              "stat": "Mana cost",
+              "change": "50 → 60."
+            }
+          ]
+        },
+        {
+          "ability": "(W) YOU AND ME!",
+          "changes": [
+            {
+              "stat": "Passive adaptive force",
+              "change": "13/15/17/19% → 8/11/14/17%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "19 OCT 2022",
+      "patch": "3.4B",
+      "changes": [
+        {
+          "ability": "(PASSIVE) BOP 'N' BLOCK",
+          "changes": [
+            {
+              "stat": "Shield duration",
+              "change": "5s → Infinite."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "14 SEP 2022",
+      "patch": "3.4",
+      "changes": [
+        {
+          "ability": "(PASSIVE) BOP 'N' BLOCK",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "12/10/8/6s → 18/15/12/9s."
+            },
+            {
+              "stat": "Shield value",
+              "change": "60 - 410 + 35% Ability Power → 60 - 410 + 25% Ability Power."
+            },
+            {
+              "type": "REMOVED",
+              "description": "Mana restoration."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) PROWLING PROJECTILE",
+          "changes": [
+            {
+              "type": "ADJUSTED",
+              "description": "Projectile is no longer gated by distance from your attached ally. Instead, it has a time-gated duration of 2.25s only."
+            },
+            {
+              "stat": "Empowered threshold",
+              "change": "1s → 0.75s."
+            },
+            {
+              "stat": "Magic damage",
+              "change": "60/100/140/180/220 + 30% Ability Power → 60/100/140/180/220 + 25% Ability Power."
+            },
+            {
+              "stat": "Empowered threshold",
+              "change": "1s → 0.75s."
+            },
+            {
+              "stat": "Empowered Magic damage",
+              "change": "80/130/180/230/280 + 40% Ability Power + 2/4/6/8/10% Target's current health → 70/120/170/220/270 + 35% Ability Power + 1.5/3/4.5/6/7.5% Target's current health."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "9/8/7/6/5s → 7/6.5/6/5.5/5s."
+            }
+          ]
+        },
+        {
+          "ability": "(W) YOU AND ME!",
+          "changes": [
+            {
+              "stat": "Bonus Attack Damage granted to Yuumi and attached ally",
+              "change": "7.5/9/10.5/12+12/15/18/21% × Ally bonus Attack Damage → 7.5/9/10.5/12+13/15/17/19% × Ally bonus Attack Damage."
+            },
+            {
+              "stat": "Bonus Ability Power granted to Yuumi and attached ally",
+              "change": "15/18/21/24 + 12/15/18/21% × ally bonus Ability Power → 15/18/21/24 + 13/15/17/19% × ally bonus Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(E) ZOOMIES",
+          "changes": [
+            {
+              "stat": "Mana cost",
+              "change": "40/45/50/55 + 15% maximum mana → 80/90/100/110."
+            },
+            {
+              "stat": "Movement speed",
+              "change": "15% + 10% Ability Power → 15% + 5% Ability Power."
+            },
+            {
+              "stat": "Heal value",
+              "change": "80/120/160/200 + 40% Ability Power →  20/30/40/50 +10% Ability Power."
+            },
+            {
+              "type": "NEW",
+              "description": "Healing now repeats the heal effect for the next 3 attacks or abilities within 5 seconds. This will affect Yuumi normally, or her attached ally if Yuumi is attached."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "18 AUG 2022",
+      "patch": "3.3B",
+      "changes": [
+        {
+          "ability": "(PASSIVE) BOP 'N' BLOCK",
+          "changes": [
+            {
+              "stat": "Shield",
+              "change": "85~435 → 60~410."
+            }
+          ]
+        },
+        {
+          "ability": "(E) ZOOMIES",
+          "changes": [
+            {
+              "stat": "Heal",
+              "change": "80/120/160/200 → 60/100/140/180."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "08 JUN 2022",
+      "patch": "3.2B",
+      "changes": [
+        {
+          "ability": "(PASSIVE) BOP 'N' BLOCK",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "10/8.5/7/5.5s → 12/10/8/6s."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

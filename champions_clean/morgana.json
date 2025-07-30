@@ -1,0 +1,1150 @@
+{
+  "name": "MORGANA",
+  "roles": [
+    "Mage",
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2024-01/1705767322_blade-mistress-morgana-splash-art-new-update-lol-8k-uhdpaper_com-18_11zon.webp",
+  "tier": 3,
+  "balance_status": "ADJUSTED",
+  "stats": {
+    "damage": 66,
+    "toughness": 33,
+    "utility": 66,
+    "difficulty": 33
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641940111_morgana_0-min.jpg",
+      "alt_text": "SOUL SIPHON",
+      "key": "P",
+      "description": "(PASSIVE)SOUL SIPHONMorgana heals for 20% of the damage dealt with abilities against champions, large minions and large monsters.",
+      "name": "SOUL SIPHONM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641940162_morgana_1-min.jpg",
+      "alt_text": "DARK BINDING",
+      "key": "Q",
+      "description": "(Q)DARK BINDING9s55/60/65/70Fires a bolt of dark energy, rooting the first enemy hit for 2 seconds and dealing80 magic damage(80/160/240/320 +90%).",
+      "name": "DARK BINDING"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641940123_morgana_2-min.jpg",
+      "alt_text": "TORMENTED SHADOW",
+      "key": "W",
+      "description": "(W)TORMENTED SHADOW12s70/90/110/130Curse an area for 5 seconds, dealing7 magic damage(7/12/17/22 +7%) every 0.5 seconds to enemies within, increased by up to 170% based on their missing health.Tormented Soildeals 195% damage against monsters.Tormented Shadow'scurrent cooldown is reduced by 5% of its maximum wheneverSoul Siphontriggers.",
+      "name": "TORMENTED SHADOW"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641940130_morgana_3-min.jpg",
+      "alt_text": "BLACK SHIELD",
+      "key": "E",
+      "description": "(E)BLACK SHIELD13/12/11/10s60Places a barrier around an allied champion for 5 seconds, absorbing70 magic damage(70/150/230/310 +50%) and blocking disables while the shield holds.",
+      "name": "BLACK SHIELD"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-01/1641940138_morgana_4-min.jpg",
+      "alt_text": "SOUL SHACKLES",
+      "key": "R",
+      "description": "(R)SOUL SHACKLES75/65/55s100Chain nearby enemy champions, dealingmagic damageequal to14%(14/16/18% +0.015%) of theirmaximum health. The chains persist for 3 seconds,revealingandslowing by 15% Movement Speed. When the duration ends, chained targets arestunned for 1.5 secondsand dealtmagic damage equal to 14%(14/16/18% +0,15%) of theirmaximum health.Morgana gains15% Movement Speedas long as the chains last.",
+      "name": "SOUL SHACKLES"
+    }
+  ],
+  "lanes": [
+    "Support",
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Support",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390656_spectral-sickle.webp",
+          "alt": "Wild Rift Items: Spectral Sickle",
+          "name": "Spectral Sickle",
+          "description": "Spectral SickleAttack champions and structures to gain bonus goldThis item is for support players. When equipped, it will reduce the gold you receive from killing minions and monsters. If there are multiples of this item within the party, only one of them can take effect at any given time.Versatile:Gain10 Attack Damageor20 Ability Power(Adaptive).Tribute:Gains 1 charge(s) every 30 seconds (up to 3 times). When a teammate is nearby, using abilities or attacks to deal damage to enemy champions or structures consumes 1 charges to grant65 goldand restore20-80 Health.While you will not participate in the resulting minion bounty sharing, you will personally receive gold equal to 50% of the bounty. Your share of the bounty from the minion kill will be entirely given to nearby teammates.Also reduces monster bounties by 50%.Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.Quest:Earn750 goldwith this item to transform it intoBlack Mist Scythe.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389555_black-mist-scythe.webp",
+          "alt": "Wild Rift Items: Black Mist Scythe",
+          "name": "Black Mist Scythe",
+          "description": "Black Mist ScytheAttack champions and structures to gain bonus gold+10 Ability HasteVersatile:Gain14 Attack Damageor28 Ability Power(Adaptive).Every 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Black Mist Scythe TIPS:This item is designed for support players, granting passive bonuses to gold and stats. It reduces your gold from killing minions and monsters but provides 75 gold and 1 Soulforce stack every 60 seconds. Each Soulforce stack adaptively grants health, attack damage, or ability power, and at 10 stacks you gain a significant bonus to one of these stats. The item also increases your effectiveness in clearing vision by dealing extra damage to revealed enemy wards.  Ideal for map-control–focused supports who want to help their team without worrying about farming; you’ll steadily generate resources and strengthen your utility for both protect and peel.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389555_black-mist-scythe.webp",
+          "alt": "Wild Rift Items: Black Mist Scythe",
+          "name": "Black Mist Scythe",
+          "description": "Black Mist ScytheAttack champions and structures to gain bonus gold+10 Ability HasteVersatile:Gain14 Attack Damageor28 Ability Power(Adaptive).Every 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Black Mist Scythe TIPS:This item is designed for support players, granting passive bonuses to gold and stats. It reduces your gold from killing minions and monsters but provides 75 gold and 1 Soulforce stack every 60 seconds. Each Soulforce stack adaptively grants health, attack damage, or ability power, and at 10 stacks you gain a significant bonus to one of these stats. The item also increases your effectiveness in clearing vision by dealing extra damage to revealed enemy wards.  Ideal for map-control–focused supports who want to help their team without worrying about farming; you’ll steadily generate resources and strengthen your utility for both protect and peel.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+          "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+          "name": "Yorlde Liandry's Torment",
+          "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+          "alt": "Wild Rift Items: Morellonomicon",
+          "name": "Morellonomicon",
+          "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+          "cost": 2500
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Additional Magic Damage",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+              "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+              "name": "Yorlde Liandry's Torment",
+              "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388716_bandle-fantasy.webp",
+              "alt": "Wild Rift Items: Bandle Fantasy",
+              "name": "Bandle Fantasy",
+              "description": "Bandle FantasyAdditional Magic Damage+85 Ability Power+7% Magic Penetration+300 Max Mana+20 Ability HasteFlameblossom:Damaging an enemy champion with an active ability spawns a trap at their feet. After a brief delay, the trap dealsmagic damageequal to105plus15% APto enemies in it (8 second(s) cooldown per target). If a target is hit by more than one trap set by the same champion within a short duration, traps after the first deal only 20% damage.3000Bandle Fantasy TIPS:This item is perfect for mages who want to use their abilities to control the battlefield and deal damage through magical traps. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping to increase damage and ability uptime. The \"Flameblossom\" effect creates traps when dealing damage to enemy champions with an active ability. After a brief delay, the trap explodes, dealing magic damage to enemies within its area. However, if a target is hit by more than one trap set by the same champion within a short duration, traps after the first will deal only 20% of their damage. This item is especially useful for champions who can hit multiple enemies and use traps for damage and crowd control.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Bandle Fantasy— This item is perfect for mages who want to use their abilities to control the battlefield and deal damage through magical traps. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping to increase damage and ability uptime. The \"Flameblossom\" effect creates traps when dealing damage to enemy champions with an active ability. After a brief delay, the trap explodes, dealing magic damage to enemies within its area. However, if a target is hit by more than one trap set by the same champion within a short duration, traps after the first will deal only 20% of their damage. This item is especially useful for champions who can hit multiple enemies and use traps for damage and crowd control."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Crown of the Shattered Queen— This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695008_heal.webp",
+          "alt": "Heal Wild Rift",
+          "name": "Heal",
+          "description": "HealRestore 110 Health(110–400) to you and the most wounded nearby ally champion, and grants both of you30% bonus Movement Speedfor 2 second(s).Healing is halved for champions recently affected by Heal.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+            "alt": "Wild Rift Resolve Runes: Font of Life",
+            "name": "Font of Life",
+            "description": "Marks an enemy champion and grants healing upon attack."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+            "alt": "Wild Rift Resolve Runes: Perseverance",
+            "name": "Perseverance",
+            "description": "Gains Tenacity also gains Armor and Magic Resist when immobilizing."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+          "alt": "Wild Rift Keystone Runes: Glacial Augment",
+          "name": "Glacial Augment",
+          "description": "After immobilizing an enemy champion, fires a beam that reduces their Movement Speed."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Mana",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392866_transcendence.webp",
+              "alt": "Transcendence",
+              "name": "Transcendence",
+              "description": "TranscendenceCDRGain a bonus when reaching the following levels:At level 1, gain6 Ability Haste;at level 6, gain bonus6 Ability Haste;at level 9, after Basic Ability hit the target, reduce 10% the ability's cooldown time.Cooldown:8s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392903_manaflow-band.webp",
+              "alt": "Manaflow Band",
+              "name": "Manaflow Band",
+              "description": "Manaflow BandManaHitting an enemy champion with and ability orempoweredattack permanently increases yourmax manaby30, up to300 mana."
+            }
+          ],
+          "tips": "Manaflow Band— The rune permanently increases your maximum mana with each hit on an enemy champion using an ability or empowered attack, up to a maximum of 300 mana. This rune is perfect for champions who frequently use their abilities and need more mana for efficient combat, such as mages or champions with high mana consumption."
+        },
+        {
+          "purpose": "Poke, Protect",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729544_8214.webp",
+              "alt": "Aery",
+              "name": "Aery",
+              "description": "AeryPoke, ProtectYour attacks and abilities send Aery to a target, damaging enemies or shielding allies.Damage: 10-60 () +20% bonus+10%.Shield: 20-120 () +40% bonus+20%.Aery cannot be sent out again until she returns to you."
+            }
+          ],
+          "tips": "Aery— The rune is perfect for champions who combine damage and support, such as Seraphine or Lux. It allows dealing extra damage to enemies or shielding allies. \"Aery\" is especially effective on heroes with strong ranged control, as it deals damage through attacks or abilities without risking retaliation. The rune is also useful in support roles, providing additional protection to allies in crucial moments."
+        },
+        {
+          "purpose": "Poke, Stack Amplification",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729714_8229.webp",
+              "alt": "Arcane Comet",
+              "name": "Arcane Comet",
+              "description": "Arcane CometPoke, Stack AmplificationDamaging a champion with an ability hurls a comet at their location. When a comet hits an enemy champion, the next comet's damage increases.Damage: (23 to 100) + (3 x total hits on enemy champions) +35% bonus+20%.Cooldown:16-8s ()"
+            }
+          ],
+          "tips": "Arcane Comet— The rune is perfect for champions who frequently use abilities to deal damage, such as Lux or Seraphine. Every time you damage an enemy with an ability, the comet deals additional damage, which increases with each hit. This rune is especially effective on magic-based champions as it amplifies damage and allows for high-frequency ability usage, dealing increasing damage to enemies. It is great for active control in fights and increasing damage over time."
+        }
+      ]
+    },
+    {
+      "lane": "Mid",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390572_amplifying-tome.webp",
+          "alt": "Wild Rift Items: Amplifying Tome",
+          "name": "Amplifying Tome",
+          "description": "Amplifying Tome+25 Ability Power500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388716_bandle-fantasy.webp",
+          "alt": "Wild Rift Items: Bandle Fantasy",
+          "name": "Bandle Fantasy",
+          "description": "Bandle FantasyAdditional Magic Damage+85 Ability Power+7% Magic Penetration+300 Max Mana+20 Ability HasteFlameblossom:Damaging an enemy champion with an active ability spawns a trap at their feet. After a brief delay, the trap dealsmagic damageequal to105plus15% APto enemies in it (8 second(s) cooldown per target). If a target is hit by more than one trap set by the same champion within a short duration, traps after the first deal only 20% damage.3000Bandle Fantasy TIPS:This item is perfect for mages who want to use their abilities to control the battlefield and deal damage through magical traps. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping to increase damage and ability uptime. The \"Flameblossom\" effect creates traps when dealing damage to enemy champions with an active ability. After a brief delay, the trap explodes, dealing magic damage to enemies within its area. However, if a target is hit by more than one trap set by the same champion within a short duration, traps after the first will deal only 20% of their damage. This item is especially useful for champions who can hit multiple enemies and use traps for damage and crowd control.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388716_bandle-fantasy.webp",
+          "alt": "Wild Rift Items: Bandle Fantasy",
+          "name": "Bandle Fantasy",
+          "description": "Bandle FantasyAdditional Magic Damage+85 Ability Power+7% Magic Penetration+300 Max Mana+20 Ability HasteFlameblossom:Damaging an enemy champion with an active ability spawns a trap at their feet. After a brief delay, the trap dealsmagic damageequal to105plus15% APto enemies in it (8 second(s) cooldown per target). If a target is hit by more than one trap set by the same champion within a short duration, traps after the first deal only 20% damage.3000Bandle Fantasy TIPS:This item is perfect for mages who want to use their abilities to control the battlefield and deal damage through magical traps. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping to increase damage and ability uptime. The \"Flameblossom\" effect creates traps when dealing damage to enemy champions with an active ability. After a brief delay, the trap explodes, dealing magic damage to enemies within its area. However, if a target is hit by more than one trap set by the same champion within a short duration, traps after the first will deal only 20% of their damage. This item is especially useful for champions who can hit multiple enemies and use traps for damage and crowd control.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+          "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+          "name": "Yorlde Liandry's Torment",
+          "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+          "alt": "Wild Rift Items: Yordle Infinity Orb",
+          "name": "Yordle Infinity Orb",
+          "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+          "cost": 2900
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Crown of the Shattered Queen— This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana."
+        },
+        {
+          "purpose": "Ramping Damage",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+              "alt": "Wild Rift Items: Riftmaker",
+              "name": "Riftmaker",
+              "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+              "cost": 3300
+            }
+          ],
+          "tips": "Riftmaker— This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing."
+        },
+        {
+          "purpose": "Dealing ability damage grants movement speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388596_cosmic-drive.webp",
+              "alt": "Wild Rift Items: Cosmic Drive",
+              "name": "Cosmic Drive",
+              "description": "Cosmic DriveDealing ability damage grants movement speed+75 Ability Power+7% Magic Penetration+30 Ability HasteHyperdrive:+5% Move Speed.Spellweaving:Active abilities andempowered attacksgrant30+70% Ability HasteasMovement Speedafter dealing damage to an enemy champion. ThisMovement Speeddecays over 2 seconds.Each source has an individual 1s cooldown for triggering Spellweaving.Only Haste from items contributes to Spellweaving's movement speed.2800Cosmic Drive TIPS:This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Cosmic Drive— This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695008_heal.webp",
+          "alt": "Heal Wild Rift",
+          "name": "Heal",
+          "description": "HealRestore 110 Health(110–400) to you and the most wounded nearby ally champion, and grants both of you30% bonus Movement Speedfor 2 second(s).Healing is halved for champions recently affected by Heal.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+            "alt": "Wild Rift Resolve Runes: Font of Life",
+            "name": "Font of Life",
+            "description": "Marks an enemy champion and grants healing upon attack."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+            "alt": "Wild Rift Resolve Runes: Perseverance",
+            "name": "Perseverance",
+            "description": "Gains Tenacity also gains Armor and Magic Resist when immobilizing."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+          "alt": "Wild Rift Keystone Runes: Glacial Augment",
+          "name": "Glacial Augment",
+          "description": "After immobilizing an enemy champion, fires a beam that reduces their Movement Speed."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Mana",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392866_transcendence.webp",
+              "alt": "Transcendence",
+              "name": "Transcendence",
+              "description": "TranscendenceCDRGain a bonus when reaching the following levels:At level 1, gain6 Ability Haste;at level 6, gain bonus6 Ability Haste;at level 9, after Basic Ability hit the target, reduce 10% the ability's cooldown time.Cooldown:8s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392903_manaflow-band.webp",
+              "alt": "Manaflow Band",
+              "name": "Manaflow Band",
+              "description": "Manaflow BandManaHitting an enemy champion with and ability orempoweredattack permanently increases yourmax manaby30, up to300 mana."
+            }
+          ],
+          "tips": "Manaflow Band— The rune permanently increases your maximum mana with each hit on an enemy champion using an ability or empowered attack, up to a maximum of 300 mana. This rune is perfect for champions who frequently use their abilities and need more mana for efficient combat, such as mages or champions with high mana consumption."
+        },
+        {
+          "purpose": "Poke, Protect",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729544_8214.webp",
+              "alt": "Aery",
+              "name": "Aery",
+              "description": "AeryPoke, ProtectYour attacks and abilities send Aery to a target, damaging enemies or shielding allies.Damage: 10-60 () +20% bonus+10%.Shield: 20-120 () +40% bonus+20%.Aery cannot be sent out again until she returns to you."
+            }
+          ],
+          "tips": "Aery— The rune is perfect for champions who combine damage and support, such as Seraphine or Lux. It allows dealing extra damage to enemies or shielding allies. \"Aery\" is especially effective on heroes with strong ranged control, as it deals damage through attacks or abilities without risking retaliation. The rune is also useful in support roles, providing additional protection to allies in crucial moments."
+        },
+        {
+          "purpose": "Poke, Stack Amplification",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729714_8229.webp",
+              "alt": "Arcane Comet",
+              "name": "Arcane Comet",
+              "description": "Arcane CometPoke, Stack AmplificationDamaging a champion with an ability hurls a comet at their location. When a comet hits an enemy champion, the next comet's damage increases.Damage: (23 to 100) + (3 x total hits on enemy champions) +35% bonus+20%.Cooldown:16-8s ()"
+            }
+          ],
+          "tips": "Arcane Comet— The rune is perfect for champions who frequently use abilities to deal damage, such as Lux or Seraphine. Every time you damage an enemy with an ability, the comet deals additional damage, which increases with each hit. This rune is especially effective on magic-based champions as it amplifies damage and allows for high-frequency ability usage, dealing increasing damage to enemies. It is great for active control in fights and increasing damage over time."
+        }
+      ]
+    },
+    {
+      "lane": "Jungle",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390572_amplifying-tome.webp",
+          "alt": "Wild Rift Items: Amplifying Tome",
+          "name": "Amplifying Tome",
+          "description": "Amplifying Tome+25 Ability Power500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388218_ludens-echo.webp",
+          "alt": "Wild Rift Items: Luden's Echo",
+          "name": "Luden's Echo",
+          "description": "Luden's EchoAbilities deal bonus damage+85 Ability Power+7% Magic Penetration+300 Max Mana+20 Ability HasteDiscordic Echo:Moving and casting abilities builds Discord. At 100 Discord your next damaging active ability orempowered attackdeals110(+10% AP)bonus magic damageto your target and up to 3 nearby enemies.3000Luden's Echo TIPS:This item is perfect for mages who need to increase their damage and mobility on the battlefield. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Discordic Echo\" effect builds Discord while moving and casting abilities, and upon reaching 100 Discord, your next damaging active ability or empowered attack deals bonus magic damage to your target and up to three nearby enemies. This makes the item a great choice for mages who want to deal damage to multiple targets and control the battlefield effectively.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+          "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+          "name": "Yorlde Liandry's Torment",
+          "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388218_ludens-echo.webp",
+          "alt": "Wild Rift Items: Luden's Echo",
+          "name": "Luden's Echo",
+          "description": "Luden's EchoAbilities deal bonus damage+85 Ability Power+7% Magic Penetration+300 Max Mana+20 Ability HasteDiscordic Echo:Moving and casting abilities builds Discord. At 100 Discord your next damaging active ability orempowered attackdeals110(+10% AP)bonus magic damageto your target and up to 3 nearby enemies.3000Luden's Echo TIPS:This item is perfect for mages who need to increase their damage and mobility on the battlefield. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Discordic Echo\" effect builds Discord while moving and casting abilities, and upon reaching 100 Discord, your next damaging active ability or empowered attack deals bonus magic damage to your target and up to three nearby enemies. This makes the item a great choice for mages who want to deal damage to multiple targets and control the battlefield effectively.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+          "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+          "name": "Yorlde Liandry's Torment",
+          "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388390_rylais-crystal-scepter.webp",
+          "alt": "Wild Rift Items: Rylai's Crystal Scepter",
+          "name": "Rylai's Crystal Scepter",
+          "description": "Rylai's Crystal ScepterAbilities apply slows+300 Max Health+65 Ability Power+7% Magic PenetrationIcy:Damaging active abilities andempowered attacksslow enemiesby 30% for 1 second.2700Rylai's Crystal Scepter TIPS:This item is perfect for mages who deal damage with area-of-effect abilities and want to slow down enemies. It provides bonuses to health, ability power, and magic penetration, enhancing your abilities and increasing survivability. The \"Icy\" effect slows enemies by 30% for 1 second when dealing damage with active abilities or empowered attacks. This makes the item an excellent choice for champions with area-of-effect damage who can control the battlefield and slow enemies, such as Lissandra or Amumu.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+          "alt": "Wild Rift Items: Yordle Infinity Orb",
+          "name": "Yordle Infinity Orb",
+          "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+          "cost": 2900
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Ramping Damage",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+              "alt": "Wild Rift Items: Riftmaker",
+              "name": "Riftmaker",
+              "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+              "cost": 3300
+            }
+          ],
+          "tips": "Riftmaker— This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing."
+        },
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Crown of the Shattered Queen— This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana."
+        },
+        {
+          "purpose": "Dealing ability damage grants movement speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388596_cosmic-drive.webp",
+              "alt": "Wild Rift Items: Cosmic Drive",
+              "name": "Cosmic Drive",
+              "description": "Cosmic DriveDealing ability damage grants movement speed+75 Ability Power+7% Magic Penetration+30 Ability HasteHyperdrive:+5% Move Speed.Spellweaving:Active abilities andempowered attacksgrant30+70% Ability HasteasMovement Speedafter dealing damage to an enemy champion. ThisMovement Speeddecays over 2 seconds.Each source has an individual 1s cooldown for triggering Spellweaving.Only Haste from items contributes to Spellweaving's movement speed.2800Cosmic Drive TIPS:This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Cosmic Drive— This item is perfect for champions who rely on AP and movement speed to improve mobility and positioning in fights. It provides bonuses to ability power, magic penetration, and ability haste, helping you deal damage and use abilities more frequently. The \"Spellweaving\" effect grants bonus movement speed after using active abilities or empowered attacks, helping you dodge enemy abilities and position better in fights. This item is especially useful for champions who face enemies with low mobility or those vulnerable to crowd control."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+              "alt": "Wild Rift Items: Yordle Infinity Orb",
+              "name": "Yordle Infinity Orb",
+              "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+              "cost": 2900
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695008_heal.webp",
+          "alt": "Heal Wild Rift",
+          "name": "Heal",
+          "description": "HealRestore 110 Health(110–400) to you and the most wounded nearby ally champion, and grants both of you30% bonus Movement Speedfor 2 second(s).Healing is halved for champions recently affected by Heal.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+            "alt": "Wild Rift Resolve Runes: Font of Life",
+            "name": "Font of Life",
+            "description": "Marks an enemy champion and grants healing upon attack."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+            "alt": "Wild Rift Resolve Runes: Perseverance",
+            "name": "Perseverance",
+            "description": "Gains Tenacity also gains Armor and Magic Resist when immobilizing."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+          "alt": "Wild Rift Keystone Runes: Glacial Augment",
+          "name": "Glacial Augment",
+          "description": "After immobilizing an enemy champion, fires a beam that reduces their Movement Speed."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Mana",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392866_transcendence.webp",
+              "alt": "Transcendence",
+              "name": "Transcendence",
+              "description": "TranscendenceCDRGain a bonus when reaching the following levels:At level 1, gain6 Ability Haste;at level 6, gain bonus6 Ability Haste;at level 9, after Basic Ability hit the target, reduce 10% the ability's cooldown time.Cooldown:8s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392903_manaflow-band.webp",
+              "alt": "Manaflow Band",
+              "name": "Manaflow Band",
+              "description": "Manaflow BandManaHitting an enemy champion with and ability orempoweredattack permanently increases yourmax manaby30, up to300 mana."
+            }
+          ],
+          "tips": "Manaflow Band— The rune permanently increases your maximum mana with each hit on an enemy champion using an ability or empowered attack, up to a maximum of 300 mana. This rune is perfect for champions who frequently use their abilities and need more mana for efficient combat, such as mages or champions with high mana consumption."
+        },
+        {
+          "purpose": "Poke, Protect",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729544_8214.webp",
+              "alt": "Aery",
+              "name": "Aery",
+              "description": "AeryPoke, ProtectYour attacks and abilities send Aery to a target, damaging enemies or shielding allies.Damage: 10-60 () +20% bonus+10%.Shield: 20-120 () +40% bonus+20%.Aery cannot be sent out again until she returns to you."
+            }
+          ],
+          "tips": "Aery— The rune is perfect for champions who combine damage and support, such as Seraphine or Lux. It allows dealing extra damage to enemies or shielding allies. \"Aery\" is especially effective on heroes with strong ranged control, as it deals damage through attacks or abilities without risking retaliation. The rune is also useful in support roles, providing additional protection to allies in crucial moments."
+        },
+        {
+          "purpose": "Poke, Stack Amplification",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729714_8229.webp",
+              "alt": "Arcane Comet",
+              "name": "Arcane Comet",
+              "description": "Arcane CometPoke, Stack AmplificationDamaging a champion with an ability hurls a comet at their location. When a comet hits an enemy champion, the next comet's damage increases.Damage: (23 to 100) + (3 x total hits on enemy champions) +35% bonus+20%.Cooldown:16-8s ()"
+            }
+          ],
+          "tips": "Arcane Comet— The rune is perfect for champions who frequently use abilities to deal damage, such as Lux or Seraphine. Every time you damage an enemy with an ability, the comet deals additional damage, which increases with each hit. This rune is especially effective on magic-based champions as it amplifies damage and allows for high-frequency ability usage, dealing increasing damage to enemies. It is great for active control in fights and increasing damage over time."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "17 APR 2025",
+      "patch": "6.1",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Movement speed",
+              "change": "350 → 360."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "570 → 630."
+            },
+            {
+              "stat": "Health per level",
+              "change": "105 → 120."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "35 → 37."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "3.9 → 4.5."
+            },
+            {
+              "stat": "Base Magic Resist",
+              "change": "30 → 36."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "0.8 → 1.2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "14 MAR 2024",
+      "patch": "5.0C",
+      "changes": [
+        {
+          "ability": "(W) TORMENTED SHADOW",
+          "changes": [
+            {
+              "stat": "Damage to monsters",
+              "change": "225% → 195%."
+            }
+          ]
+        },
+        {
+          "ability": "(E) BLACK SHIELD",
+          "changes": [
+            {
+              "stat": "Duration",
+              "change": "4s → 5s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 OCT 2023",
+      "patch": "4.4",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Movement speed",
+              "change": "345 → 350."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "15 FEB 2023",
+      "patch": "4.0B",
+      "changes": [
+        {
+          "ability": "(E) BLACK SHIELD",
+          "changes": [
+            {
+              "stat": "Magic Shield",
+              "change": "80/150/220/290 + 60% Ability Power → 70/150/230/310 + 50% Ability Power."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "18/16/14/12s → 16/14/12/10s."
+            },
+            {
+              "stat": "Duration",
+              "change": "5s → 4s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "11 MAY 2022",
+      "patch": "3.2",
+      "changes": [
+        {
+          "ability": "(Q) DARK BINDING",
+          "changes": [
+            {
+              "stat": "Base damage",
+              "change": "80/150/220/290 → 80/160/240/320."
+            }
+          ]
+        },
+        {
+          "ability": "(W) TORMENTED SHADOW",
+          "changes": [
+            {
+              "stat": "Base damage",
+              "change": "6/12/18/24 → 5/10/15/20."
+            },
+            {
+              "stat": "Damage to monsters",
+              "change": "200% → 225%."
+            },
+            {
+              "stat": "Mana cost",
+              "change": "70/85/100/115 → 70/90/110/130."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "16 FEB 2022",
+      "patch": "3.0A",
+      "changes": [
+        {
+          "ability": "(W) TORMENTED SHADOW",
+          "changes": [
+            {
+              "stat": "Base damage",
+              "change": "8/14/20/26 → 6/12/18/24."
+            }
+          ]
+        },
+        {
+          "ability": "(R) SOUL SHACKLES",
+          "changes": [
+            {
+              "stat": "AP ratio",
+              "change": "2% of target’s maximum health per 100 AP → 1.5% of target’s maximum health per 100 AP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "18 JAN 2022",
+      "patch": "3.0",
+      "changes": [
+        {
+          "ability": "(Q) DARK BINDING",
+          "changes": [
+            {
+              "type": "BUGFIX",
+              "description": "Fixed a bug where the root duration of Dark Binding was not reduced by tenacity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "name": "BARD",
+  "roles": [
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656624734_bard1_0-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624585_traveler27s_call.webp",
+      "alt_text": "TRAVELER'S CALL",
+      "key": "P",
+      "description": "(PASSIVE)TRAVELER'S CALLMeeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough Chimes, his meeps will also deal damage in an area and slow enemies hit. Chimes: Ancient chimes randomly appear for Bard to collect. These grant experience, restore mana, and provide out of combat Move Speed.",
+      "name": "TRAVELER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624622_cosmic_binding.webp",
+      "alt_text": "COSMIC BINDING",
+      "key": "Q",
+      "description": "(Q)COSMIC BINDINGBard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+      "name": "COSMIC BINDINGB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624643_caretaker27s_shrine.webp",
+      "alt_text": "CARETAKER'S SHRINE",
+      "key": "W",
+      "description": "(W)CARETAKER'S SHRINEReveals a healing shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it.",
+      "name": "CARETAKER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624636_magical_journey.webp",
+      "alt_text": "MAGICAL JOURNEY",
+      "key": "E",
+      "description": "(E)MAGICAL JOURNEYBard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.",
+      "name": "MAGICAL JOURNEYB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656624683_tempered_fate.webp",
+      "alt_text": "TEMPERED FATE",
+      "key": "R",
+      "description": "(R)TEMPERED FATEBard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+      "name": "TEMPERED FATEB"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Support",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390612_relic-shield.webp",
+          "alt": "Wild Rift Items: Relic Shield",
+          "name": "Relic Shield",
+          "description": "Relic ShieldKill minions to earn bonus gold+100 Max HealthThis item is for support players. When equipped, it will reduce the gold you receive from killing minions and monsters. If there are multiples of this item within the party, only one of them can take effect at any given time.Spoils of War:Gains 1 charge(s) every 30 seconds (up to 3 times). Attacking enemy minions consumes 1 charge(s) and executes minions whose Health are below 65%, granting your teammates the entire bounty, while granting you65 bonus goldand restoring yourHealth by 15-65.While you will not participate in the resulting minion bounty sharing, you will personally receive gold equal to 50% of the bounty. Your share of the bounty from the minion kill will be entirely given to nearby teammates.Also reduces monster bounties by 50%.Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.Quest:Earn750 goldwith this item to transform it intoBulwark of the Mountain.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389518_bulwark-of-the-mountain.webp",
+          "alt": "Wild Rift Items: Bulwark of the Mountain",
+          "name": "Bulwark of the Mountain",
+          "description": "Bulwark of the MountainKill minions to earn bonus gold+175 Max Health+10 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Bulwark of the Mountain TIPS:This item is designed for support players and grants passive gold income every 60 seconds along with Soulforce stacks that boost your health, attack damage, or ability power. At 10 stacks, you gain a significant adaptive stat bonus. While it reduces gold from killing minions and monsters, it accelerates your team’s economic pace. An additional effect deals extra damage to revealed Sight Wards, making it easier to clear vision and maintain map control.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389106_dead-mans-plate.webp",
+          "alt": "Wild Rift Items: Dead Man's Plate",
+          "name": "Dead Man's Plate",
+          "description": "Dead Man's PlateIncreases Movement Speed+250 Max Health+50 ArmorRelentless:+5% Move Speed.Momentum:Moving buildsMomentum, granting up to40 Move Speedat100 stacks. Attacking removes allMomentum. Stacks decay when movement is impaired.Crushing Blow:Attacks deal up to100 bonus magic damagebased onMomentumremoved. Melee attacks with max Momentumslows by 50%for 1 second.2800Dead Man's Plate TIPS:This item provides a substantial boost to health and armor, and its “Momentum” passive builds movement speed as you move—up to a cap—until you land an attack, which then triggers “Crushing Blow”, dealing bonus magic damage based on the momentum removed and slowing enemies at full stacks. This makes it an excellent choice for tanks and bruisers who need extra mobility to engage quickly and sustain through fights.  Tips: ideal for champions who need to close distance and absorb damage; pairs extremely well with Spellblade items (e.g., Divine Sunderer) for additional burst damage on engage.",
+          "cost": 2800
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389518_bulwark-of-the-mountain.webp",
+          "alt": "Wild Rift Items: Bulwark of the Mountain",
+          "name": "Bulwark of the Mountain",
+          "description": "Bulwark of the MountainKill minions to earn bonus gold+175 Max Health+10 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Bulwark of the Mountain TIPS:This item is designed for support players and grants passive gold income every 60 seconds along with Soulforce stacks that boost your health, attack damage, or ability power. At 10 stacks, you gain a significant adaptive stat bonus. While it reduces gold from killing minions and monsters, it accelerates your team’s economic pace. An additional effect deals extra damage to revealed Sight Wards, making it easier to clear vision and maintain map control.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389106_dead-mans-plate.webp",
+          "alt": "Wild Rift Items: Dead Man's Plate",
+          "name": "Dead Man's Plate",
+          "description": "Dead Man's PlateIncreases Movement Speed+250 Max Health+50 ArmorRelentless:+5% Move Speed.Momentum:Moving buildsMomentum, granting up to40 Move Speedat100 stacks. Attacking removes allMomentum. Stacks decay when movement is impaired.Crushing Blow:Attacks deal up to100 bonus magic damagebased onMomentumremoved. Melee attacks with max Momentumslows by 50%for 1 second.2800Dead Man's Plate TIPS:This item provides a substantial boost to health and armor, and its “Momentum” passive builds movement speed as you move—up to a cap—until you land an attack, which then triggers “Crushing Blow”, dealing bonus magic damage based on the momentum removed and slowing enemies at full stacks. This makes it an excellent choice for tanks and bruisers who need extra mobility to engage quickly and sustain through fights.  Tips: ideal for champions who need to close distance and absorb damage; pairs extremely well with Spellblade items (e.g., Divine Sunderer) for additional burst damage on engage.",
+          "cost": 2800
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+          "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+          "name": "Yorlde Liandry's Torment",
+          "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389228_kaenic-rookern.webp",
+          "alt": "Wild Rift Items: Kaenic Rookern",
+          "name": "Kaenic Rookern",
+          "description": "Kaenic RookernGains a magic shield when out of combat+350 Max Health+100% Health Regen+75 Magic ResistanceMagebane:After not takingmagic damagefor 12 seconds, gain amagic shieldthat absorbs damage equal to70-180+10% of max Health.2800Kaenic Rookern TIPS:This item is perfect for champions who need extra protection against magic damage, particularly when spending some time out of combat. It provides significant bonuses to health, regeneration, and magic resistance. The “Magebane” passive activates after 12 seconds without taking magic damage, granting you a magic shield that absorbs damage based on your maximum health. This allows you to safely recover between fights and confidently re-enter combat. It’s especially effective against teams heavy in AP damage.",
+          "cost": 2800
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+          "alt": "Wild Rift Items: Amaranth's Twinguard",
+          "name": "Amaranth's Twinguard",
+          "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+          "cost": 3100
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Reduces all nearby enemies Attack Speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+              "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+              "name": "Yorlde Liandry's Torment",
+              "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389159_frozen-heart.webp",
+              "alt": "Wild Rift Items: Frozen Heart",
+              "name": "Frozen Heart",
+              "description": "Frozen HeartReduces all nearby enemies Attack Speed+80 Armor+200 Max Mana+25 Ability HasteWinter's Caress:Basic attacks andmagic damagecaused by you or inflicted upon you and nearby allies, will apply stacks ofChillto the enemy champion for 3 seconds. Each stack ofChillslows enemyattack speed by 9%, up to a maximum of 4 stacks or36% attack speed reduction. Each individual ability has a 3 seconds cooldown on applyingChillstacks.2700Frozen Heart TIPS:This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Frozen Heart— This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights."
+        },
+        {
+          "purpose": "Reflects damage and reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+              "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+              "name": "Yorlde Liandry's Torment",
+              "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+              "alt": "Wild Rift Items: Thornmail",
+              "name": "Thornmail",
+              "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Thornmail— This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage."
+        },
+        {
+          "purpose": "Heal nearby allies periodically",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+              "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+              "name": "Yorlde Liandry's Torment",
+              "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389247_yordle-redeeming.webp",
+              "alt": "Wild Rift Items: Yordle Redeeming",
+              "name": "Yordle Redeeming",
+              "description": "Yordle RedeemingHeal nearby allies periodically+400 Max Health+300 Max Mana+20 Ability HasteEternity:RestoreManaequal to15%of the damage taken from champions. When consuming Mana,restore Healthequal to20%of Mana consumed. Capped at15 Healthper cast.Salvation:Every 8 seconds,restore(40 +7% bonus) Health to all allied champions within 350 units.2600Yordle Redeeming TIPS:This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Yordle Redeeming— This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes."
+        },
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388368_yorlde-liandrys-torment.webp",
+              "alt": "Wild Rift Items: Yorlde Liandry's Torment",
+              "name": "Yorlde Liandry's Torment",
+              "description": "Yorlde Liandry's TormentAbilities deal bonus damage+250 Max Health+75 Ability Power+7% Magic PenetrationTorment:Damaging abilities orempowered attacksdeal 0.6-2% () of the target'smax Healthasbonus magic damageover 3 seconds.Infernal Agony:Every 4 seconds, Torment detonates, dealingtrue damageequal to 40 plus5%to the target.3000Yorlde Liandry's Torment TIPS:This item enhances your abilities with a damage-over-time effect that scales off the target’s health, allowing you to wear down tanky opponents over an extended skirmish. Periodically, the torment detonates for a burst of true damage to finish off weakened foes.  — Perfect for mages who want to drag out engagements, shred through frontline tanks, and execute them with true damage.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Stacking Magic Resist and Move Speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389228_kaenic-rookern.webp",
+              "alt": "Wild Rift Items: Kaenic Rookern",
+              "name": "Kaenic Rookern",
+              "description": "Kaenic RookernGains a magic shield when out of combat+350 Max Health+100% Health Regen+75 Magic ResistanceMagebane:After not takingmagic damagefor 12 seconds, gain amagic shieldthat absorbs damage equal to70-180+10% of max Health.2800Kaenic Rookern TIPS:This item is perfect for champions who need extra protection against magic damage, particularly when spending some time out of combat. It provides significant bonuses to health, regeneration, and magic resistance. The “Magebane” passive activates after 12 seconds without taking magic damage, granting you a magic shield that absorbs damage based on your maximum health. This allows you to safely recover between fights and confidently re-enter combat. It’s especially effective against teams heavy in AP damage.",
+              "cost": 2800
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389153_force-of-nature.webp",
+              "alt": "Wild Rift Items: Force of Nature",
+              "name": "Force of Nature",
+              "description": "Force of NatureStacking Magic Resist and Move Speed+350 Max Health+55 Magic ResistanceStorm:+5% Move Speed.Absorb:Taking ability damage from enemy champions grants 1 stack(s) of Steadfast for 7 seconds, max 4 stacks. Receiving damage from an enemy Champion will refresh the duration of the stacks. At maximum stacks, gain10% Movement Speedand reduce all incoming magic damage by 25%.2750Force of Nature TIPS:This item provides a substantial boost to health and magic resistance, and its “Absorb” passive stacks up when you take ability damage from enemy champions, reducing all incoming magic damage and granting bonus movement speed at max stacks. It’s perfect for tanks who need to withstand teams heavy in magic damage and maintain mobility to be in the right position during fights. Pick this up when the enemy team builds magic damage (e.g., Syndra, Brand) and you need extra movement speed to initiate effectively or escape dangerous situations.",
+              "cost": 2750
+            }
+          ],
+          "tips": "Force of Nature— This item provides a substantial boost to health and magic resistance, and its “Absorb” passive stacks up when you take ability damage from enemy champions, reducing all incoming magic damage and granting bonus movement speed at max stacks. It’s perfect for tanks who need to withstand teams heavy in magic damage and maintain mobility to be in the right position during fights. Pick this up when the enemy team builds magic damage (e.g., Syndra, Brand) and you need extra movement speed to initiate effectively or escape dangerous situations."
+        },
+        {
+          "purpose": "Heal nearby allies periodically",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389228_kaenic-rookern.webp",
+              "alt": "Wild Rift Items: Kaenic Rookern",
+              "name": "Kaenic Rookern",
+              "description": "Kaenic RookernGains a magic shield when out of combat+350 Max Health+100% Health Regen+75 Magic ResistanceMagebane:After not takingmagic damagefor 12 seconds, gain amagic shieldthat absorbs damage equal to70-180+10% of max Health.2800Kaenic Rookern TIPS:This item is perfect for champions who need extra protection against magic damage, particularly when spending some time out of combat. It provides significant bonuses to health, regeneration, and magic resistance. The “Magebane” passive activates after 12 seconds without taking magic damage, granting you a magic shield that absorbs damage based on your maximum health. This allows you to safely recover between fights and confidently re-enter combat. It’s especially effective against teams heavy in AP damage.",
+              "cost": 2800
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389247_yordle-redeeming.webp",
+              "alt": "Wild Rift Items: Yordle Redeeming",
+              "name": "Yordle Redeeming",
+              "description": "Yordle RedeemingHeal nearby allies periodically+400 Max Health+300 Max Mana+20 Ability HasteEternity:RestoreManaequal to15%of the damage taken from champions. When consuming Mana,restore Healthequal to20%of Mana consumed. Capped at15 Healthper cast.Salvation:Every 8 seconds,restore(40 +7% bonus) Health to all allied champions within 350 units.2600Yordle Redeeming TIPS:This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Yordle Redeeming— This item is a must‑have for supports: it restores mana and health in fights and periodically heals all nearby allies. Perfect for enchanters who need to sustain their team, stay in lane, and keep everyone alive during extended skirmishes."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+            "alt": "Wild Rift Resolve Runes: Font of Life",
+            "name": "Font of Life",
+            "description": "Marks an enemy champion and grants healing upon attack."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729544_8214.webp",
+          "alt": "Wild Rift Keystone Runes: Aery",
+          "name": "Aery",
+          "description": "Your attacks and abilities send Aery to a target, damaging enemies or shielding allies."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Heal after taking damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+              "alt": "Second Wind",
+              "name": "Second Wind",
+              "description": "Second WindHeal after taking damageGain5 Healthevery 5 seconds.After taking damage from an enemy champion,regenerate 6 + (2% of your missing health)over the next 5 seconds. This effect is doubled for melee champions."
+            }
+          ],
+          "tips": "Second Wind— The rune restores health every 5 seconds and significantly boosts regeneration after taking damage from an enemy champion. This rune is especially useful for champions who are often in the thick of the fight, such as tanks or fighters, as it helps sustain health during battles. The effect is doubled for melee champions, making it even more effective in extended fights, improving survivability."
+        },
+        {
+          "purpose": "Armor and Magic Resistance, Tenacity",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+              "alt": "Perseverance",
+              "name": "Perseverance",
+              "description": "PerseveranceArmor and Magic Resistance, TenacityGain10% Tenacity. When immobilized, gain 16-30ArmorandMagic Resistance() for 1.5 seconds. Refresh duration time when immobilized multiple times."
+            }
+          ],
+          "tips": "Perseverance— The rune increases your tenacity by 10%. When immobilized, it grants you bonus armor and magic resistance for a short period. The effect refreshes if you are immobilized multiple times, making the rune especially useful for champions who often find themselves under crowd control. It is ideal for tanks and fighters, enhancing their survivability in fights when they are subjected to multiple crowd control effects."
+        },
+        {
+          "purpose": "Buff Heal, Shield",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392494_revitalize.webp",
+              "alt": "Revitalize",
+              "name": "Revitalize",
+              "description": "RevitalizeBuff Heal, ShieldGains a 5% amplification effect when castingHealorShield. If the target's Health is lower than 40%, amplifies its effect by an additional 10%.Increaseshealingandshieldingeffects."
+            }
+          ],
+          "tips": "Revitalize— The rune amplifies healing and shielding effects by 5%. If the target's health is below 40%, it further amplifies the effect by an additional 10%. This makes it a great choice for champions who focus on healing and shielding allies, such as supports and mages with healing abilities. The rune helps significantly increase the effectiveness of healing and shields in critical moments, potentially turning the tide of a fight."
+        },
+        {
+          "purpose": "CDR",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392903_manaflow-band.webp",
+              "alt": "Manaflow Band",
+              "name": "Manaflow Band",
+              "description": "Manaflow BandManaHitting an enemy champion with and ability orempoweredattack permanently increases yourmax manaby30, up to300 mana."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392866_transcendence.webp",
+              "alt": "Transcendence",
+              "name": "Transcendence",
+              "description": "TranscendenceCDRGain a bonus when reaching the following levels:At level 1, gain6 Ability Haste;at level 6, gain bonus6 Ability Haste;at level 9, after Basic Ability hit the target, reduce 10% the ability's cooldown time.Cooldown:8s"
+            }
+          ],
+          "tips": "Transcendence— The rune provides bonuses to ability haste at different levels. It allows you to use your abilities more frequently by reducing their cooldowns. This rune is perfect for champions who rely heavily on their abilities in combat and want to increase their ability usage, improving mobility and effectiveness in fights."
+        },
+        {
+          "purpose": "Bonus Damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392903_manaflow-band.webp",
+              "alt": "Manaflow Band",
+              "name": "Manaflow Band",
+              "description": "Manaflow BandManaHitting an enemy champion with and ability orempoweredattack permanently increases yourmax manaby30, up to300 mana."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753391621_cheap-shot.webp",
+              "alt": "Cheap Shot",
+              "name": "Cheap Shot",
+              "description": "Cheap ShotBonus DamageDeals 10-45 bonustrue damageto enemies whose movement is impaired.Cooldown:7s"
+            }
+          ],
+          "tips": "Cheap Shot— The rune activates when you impair an enemy’s movement, dealing bonus true damage. It is perfect for mages like Viktor and Syndra, who can control enemy movement with their abilities. The rune enhances damage when the enemy is limited in mobility, allowing these mages to deal additional damage when the enemy cannot effectively dodge attacks."
+        }
+      ]
+    }
+  ],
+  "balance_status": ""
+}

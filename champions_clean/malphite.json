@@ -1,0 +1,436 @@
+{
+  "name": "MALPHITE",
+  "roles": ["Tank"],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675035302_1644097911_malphite_44_11zon.webp",
+  "tier": 3,
+  "balance_status": "ADJUSTED",
+  "stats": {
+    "damage": 33,
+    "toughness": 100,
+    "utility": 33,
+    "difficulty": 33
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432869_malphite_0.jpg",
+      "alt_text": "GRANITE SHIELD",
+      "key": "P",
+      "description": "(PASSIVE)GRANITE SHIELDShield 72 damage(11% maximum) after not taking damage for 8/7/6s (at levels 1/5/11).",
+      "name": "GRANITE SHIELDS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432896_malphite_1.jpg",
+      "alt_text": "SEISMIC SHARD",
+      "key": "Q",
+      "description": "(Q)SEISMIC SHARD8s75/80/85/90Launches a shard that deals70 magic damage(70/130/190/250 +45%of),slowingthe targetby 15/20/25/30%, andhastingMalphite by15/20/25/30%for 3s.",
+      "name": "SEISMIC SHARD"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432896_malphite_2.jpg",
+      "alt_text": "THUNDERCLAP",
+      "key": "W",
+      "description": "(W)THUNDERCLAP10/9/8/7s25Passive:Gains9 Armor(25/30/35/40%).Active:For the next 6 seconds, attacks deal19 physical damage(10/20/30/40 +20%+20%) in a cone. The first attack isempoweredto deal58 bonus physical damage(40/60/80/100 +40%+40%) to the target.",
+      "name": "THUNDERCLAP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432878_malphite_3.jpg",
+      "alt_text": "GROUND SLAM",
+      "key": "E",
+      "description": "(E)GROUND SLAM7s55/60/65/70Slams the ground, dealing71 magic damage(50/100/150/200 +45%+45%) to nearby enemies and reducing theirattack speed by 30/35/40/45%for 3s.",
+      "name": "GROUND SLAM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606432845_malphite_4.jpg",
+      "alt_text": "UNSTOPPABLE FORCE",
+      "key": "R",
+      "description": "(R)UNSTOPPABLE FORCE75/70/65s100Charges to the target area, dealing200 magic damage(200/300/400 + 90%) andknocking upnearby enemies for 1.5s.",
+      "name": "UNSTOPPABLE FORCE"
+    }
+  ],
+  "lanes": ["Baron", "Support", "Mid"],
+  "builds": [
+    {
+      "lane": "Baron",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389735_stoneplate-enchant.webp",
+          "alt": "Wild Rift Items: Stoneplate Enchant",
+          "name": "Stoneplate Enchant",
+          "description": "Stoneplate EnchantShieldStoneplate (Active):Gain a baseshieldthat absorbs damage equal to20% of max Health. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 35%. Theshielddecays over 4s. (60s Cooldown) For every enemy nearby, gain an additionalshieldthat absorbs damage equal to5% of max Health, capped at 3 enemies. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 12%. Damage dealt is reduced by 40% for 4s.500Stoneplate Enchant TIPS:This enchant grants a strong shield based on your max health, further boosted by your armor and magic resist. The shield grows stronger per nearby enemy and decays over time, reducing incoming damage.  — Perfect for tank initiators who need reliable mitigation to withstand initial bursts and control teamfights.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389704_protobelt-enchant.webp",
+          "alt": "Wild Rift Items: Protobelt Enchant",
+          "name": "Protobelt Enchant",
+          "description": "Protobelt EnchantSmall dashProtobelt (Active):Dash forward and unleash a cone of missiles that deal70 magic damage.and reducing the target'sMagic Resistance by 15%for 3s. After cast, gain20% Movement Speedthatdecays over 3s. (50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.500Protobelt Enchant TIPS:This enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance. After casting, you gain a temporary movement speed boost for continued pursuit or escape.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2021-01/1611110740_teleport-enchant.jpg",
+          "alt": "Teleport Wild Rift",
+          "name": "Teleport",
+          "description": "TeleportAfter channeling for 3.5 seconds, teleport your champion to an allied champion, structure, or ward (excludes areas in range of enemy inhibitors). You can only teleport to structures during the first 6 minutes of the game.Cooldown:180s",
+          "cooldown": 180
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392609_nullifying-orb.webp",
+            "alt": "Wild Rift Resolve Runes: Nullifying Orb",
+            "name": "Nullifying Orb",
+            "description": "Grants a shield when Health is low."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+            "alt": "Wild Rift Resolve Runes: Second Wind",
+            "name": "Second Wind",
+            "description": "Heals you after taking damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+          "alt": "Wild Rift Keystone Runes: Grasp of Undying",
+          "name": "Grasp of Undying",
+          "description": "When in combat, your next attack on a champion will occasionally deal bonus magic damage, heal you, and permanently increase your health."
+        }
+      },
+      "situational_runes": []
+    },
+    {
+      "lane": "Support",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389735_stoneplate-enchant.webp",
+          "alt": "Wild Rift Items: Stoneplate Enchant",
+          "name": "Stoneplate Enchant",
+          "description": "Stoneplate EnchantShieldStoneplate (Active):Gain a baseshieldthat absorbs damage equal to20% of max Health. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 35%. Theshielddecays over 4s. (60s Cooldown) For every enemy nearby, gain an additionalshieldthat absorbs damage equal to5% of max Health, capped at 3 enemies. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 12%. Damage dealt is reduced by 40% for 4s.500Stoneplate Enchant TIPS:This enchant grants a strong shield based on your max health, further boosted by your armor and magic resist. The shield grows stronger per nearby enemy and decays over time, reducing incoming damage.  — Perfect for tank initiators who need reliable mitigation to withstand initial bursts and control teamfights.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389704_protobelt-enchant.webp",
+          "alt": "Wild Rift Items: Protobelt Enchant",
+          "name": "Protobelt Enchant",
+          "description": "Protobelt EnchantSmall dashProtobelt (Active):Dash forward and unleash a cone of missiles that deal70 magic damage.and reducing the target'sMagic Resistance by 15%for 3s. After cast, gain20% Movement Speedthatdecays over 3s. (50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.500Protobelt Enchant TIPS:This enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance. After casting, you gain a temporary movement speed boost for continued pursuit or escape.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2021-01/1611110740_teleport-enchant.jpg",
+          "alt": "Teleport Wild Rift",
+          "name": "Teleport",
+          "description": "TeleportAfter channeling for 3.5 seconds, teleport your champion to an allied champion, structure, or ward (excludes areas in range of enemy inhibitors). You can only teleport to structures during the first 6 minutes of the game.Cooldown:180s",
+          "cooldown": 180
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392609_nullifying-orb.webp",
+            "alt": "Wild Rift Resolve Runes: Nullifying Orb",
+            "name": "Nullifying Orb",
+            "description": "Grants a shield when Health is low."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+            "alt": "Wild Rift Resolve Runes: Second Wind",
+            "name": "Second Wind",
+            "description": "Heals you after taking damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+          "alt": "Wild Rift Keystone Runes: Grasp of Undying",
+          "name": "Grasp of Undying",
+          "description": "When in combat, your next attack on a champion will occasionally deal bonus magic damage, heal you, and permanently increase your health."
+        }
+      },
+      "situational_runes": []
+    },
+    {
+      "lane": "Mid",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389704_protobelt-enchant.webp",
+          "alt": "Wild Rift Items: Protobelt Enchant",
+          "name": "Protobelt Enchant",
+          "description": "Protobelt EnchantSmall dashProtobelt (Active):Dash forward and unleash a cone of missiles that deal70 magic damage.and reducing the target'sMagic Resistance by 15%for 3s. After cast, gain20% Movement Speedthatdecays over 3s. (50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.500Protobelt Enchant TIPS:This enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance. After casting, you gain a temporary movement speed boost for continued pursuit or escape.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2021-01/1611110740_teleport-enchant.jpg",
+          "alt": "Teleport Wild Rift",
+          "name": "Teleport",
+          "description": "TeleportAfter channeling for 3.5 seconds, teleport your champion to an allied champion, structure, or ward (excludes areas in range of enemy inhibitors). You can only teleport to structures during the first 6 minutes of the game.Cooldown:180s",
+          "cooldown": 180
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392609_nullifying-orb.webp",
+            "alt": "Wild Rift Resolve Runes: Nullifying Orb",
+            "name": "Nullifying Orb",
+            "description": "Grants a shield when Health is low."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+            "alt": "Wild Rift Resolve Runes: Second Wind",
+            "name": "Second Wind",
+            "description": "Heals you after taking damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+          "alt": "Wild Rift Keystone Runes: Grasp of Undying",
+          "name": "Grasp of Undying",
+          "description": "When in combat, your next attack on a champion will occasionally deal bonus magic damage, heal you, and permanently increase your health."
+        }
+      },
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "650 → 690."
+            },
+            {
+              "stat": "Health per level",
+              "change": "115 → 120."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "45 → 49."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "05 DEC 2024",
+      "patch": "5.3C",
+      "changes": [
+        {
+          "ability": "(Q) SEISMIC SHARD",
+          "changes": [
+            {
+              "stat": "Damage bonus",
+              "change": "50% Ability Power → 45% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(W) THUNDERCLAP",
+          "changes": [
+            {
+              "stat": "Armor increased",
+              "change": "20/25/30/35% → 25/30/35/40%."
+            },
+            {
+              "stat": "Damage of the first basic attack",
+              "change": "30/50/70/90 + 40% Ability Power + 30% armor → 40/60/80/100+40% Ability Power + 40% armor."
+            },
+            {
+              "stat": "Damage bonus for following basic attack",
+              "change": "20% Ability Power + 15% armor → 20% Ability Power + 20% armor."
+            }
+          ]
+        },
+        {
+          "ability": "(E) GROUND SLAM",
+          "changes": [
+            {
+              "stat": "Bonus Damage",
+              "change": "50% Ability Power + 35% armor → 45% Ability Power + 45% armor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "02 NOV 2022",
+      "patch": "3.4C",
+      "changes": [
+        {
+          "ability": "(PASSIVE) GRANITE SHIELD",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "8s → 8/7/6s (levels 1/5/11)."
+            },
+            {
+              "change": "10% of Maximum health → 9% Maximum health."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) SEISMIC SHARD",
+          "changes": [
+            {
+              "stat": "Projectile speed",
+              "change": "10 → 12."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

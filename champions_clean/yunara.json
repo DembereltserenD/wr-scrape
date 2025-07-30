@@ -1,0 +1,64 @@
+{
+  "name": "YUNARA",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2025-07/1751894236_yunara-lol-splash-art-8k-wallpaper-uhdpaper_com-4341225g.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-07/1751894450_yunara_vow_of_the_first_lands.png",
+      "alt_text": "Vow of the First Lands",
+      "key": "P",
+      "description": "(PASSIVE)Vow of the First LandsYunara’s Critical Strikes deal additional Magic damage.",
+      "name": "V"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-07/1751894511_yunara_cultivation_of_spirit.png",
+      "alt_text": "Cultivation of Spirit",
+      "key": "Q",
+      "description": "(Q)Cultivation of SpiritPassive:Yunara’s Attacks deal additional magic damage on hit. Launching an attack causes Yunara to generate 1 Unleash, increased to 2 when attacking a champion. Not attacking causes Yunara to lose Unleash over time.Active:Yunara unleashes her inner potential for a duration in which she gains: increased Attack Speed, her attacks deal additional magic damage on-hit and her attacks spread to nearby enemies dealing additional damage.",
+      "name": "C"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-07/1751894575_yunara_arc_of_judgment.png",
+      "alt_text": "Arc of Judgement",
+      "key": "W",
+      "description": "(W)Arc of Judgement / Arc of RuinYunara lets rip a spinning prayer bead that slows down when near enemies and lingers and expands when it reaches its end point. The initial hit deals damage and applies a decaying slow on the target over a short duration. It deals additional damage to enemies in the area.Transcendent State - Arc of Ruin:Yunara fires off a laser that deals damage and applies a decaying slow for a short duration.",
+      "name": "A"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-07/1751894613_yunara_kanmeis_steps.png",
+      "alt_text": "Kanmei’s Steps",
+      "key": "E",
+      "description": "(E)Kanmei’s Steps / Untouchable ShadowYunara becomes Ghosted and gains Move Speed, increased when moving towards an enemy champion, that decays over a short duration.Transcendent State:Yunara dashes in a direction.",
+      "name": "K"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-07/1751894713_yunara_transcend_ones_self.png",
+      "alt_text": "Transcend One’s Self",
+      "key": "R",
+      "description": "(R)Transcend One’s SelfYunara enters aTranscendent Statefor a period of time;Cultivation of Spiritis activated for the duration,Arc of Judgementis upgraded toArc of Ruinand has its cooldown reduced, andKanmei’s Stepsis upgraded toUntouchable Shadowand has its cooldown refreshed.",
+      "name": "T"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

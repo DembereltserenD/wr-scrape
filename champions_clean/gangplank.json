@@ -1,0 +1,65 @@
+{
+  "name": "GANGPLANK",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656884677_gangplank1_0-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656884770_trial_by_fire.webp",
+      "alt_text": "TRIAL BY FIRE",
+      "key": "P",
+      "description": "(PASSIVE)TRIAL BY FIREEvery few seconds, Gangplank's melee strike will set his opponent on fire.",
+      "name": "TRIAL BY FIREE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656884705_parrrley.webp",
+      "alt_text": "PARRRLEY",
+      "key": "Q",
+      "description": "(Q)PARRRLEYShoots target, plundering Gold for each enemy unit killed.",
+      "name": "PARRRLEYS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656884825_remove_scurvy.webp",
+      "alt_text": "REMOVE SCURVY",
+      "key": "W",
+      "description": "(W)REMOVE SCURVYEats citrus to cure crowd control effects and restore Health.",
+      "name": "REMOVE SCURVYE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656884832_powder_keg.webp",
+      "alt_text": "POWDER KEG",
+      "key": "E",
+      "description": "(E)POWDER KEGGangplank uncovers a powder keg at target location. If he attacks it, it explodes, spreading the attack's damage to enemies in the area, slowing them.",
+      "name": "POWDER KEGG"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656884840_cannon_barrage.webp",
+      "alt_text": "CANNON BARRAGE",
+      "key": "R",
+      "description": "(R)CANNON BARRAGEGangplank signals his ship to bombard an area, slowing and damaging enemies.",
+      "name": "CANNON BARRAGEG"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

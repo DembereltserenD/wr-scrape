@@ -1,0 +1,65 @@
+{
+  "name": "UDYR",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665258724_udyr_10_12_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665258764_udyr_bridge_between.webp",
+      "alt_text": "BRIDGE BETWEEN",
+      "key": "P",
+      "description": "(PASSIVE)BRIDGE BETWEENUdyr has four basic Abilities that swap between Stances and can Recast an Ability to renew it with additional benefits. Additionally, after using an Ability, Udyr's next two Attacks gain Attack Speed.",
+      "name": "BRIDGE BETWEENU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665258776_udyr_wilding_claw.webp",
+      "alt_text": "WILDING CLAW",
+      "key": "Q",
+      "description": "(Q)WILDING CLAWUdyr gains attack speed and his next two attacks deal bonus physical damage. Recast: Gain even more attack speed, and the next two attacks call lightning to strike the target.",
+      "name": "WILDING CLAWU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665258838_udyr_iron_mantle.webp",
+      "alt_text": "IRON MANTLE",
+      "key": "W",
+      "description": "(W)IRON MANTLEUdyr gains a shield and his next two attacks heal him. Recast: Gain an even bigger shield and heal based on max health over the next couple seconds.",
+      "name": "IRON MANTLEU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665258881_udyr_blazing_stampede.webp",
+      "alt_text": "BLAZING STAMPEDE",
+      "key": "E",
+      "description": "(E)BLAZING STAMPEDEUdyr gains movement speed and his first attack against each target will Stun them. Recast: Gain even more movement speed and immunity to immobilizing effects for a couple seconds.",
+      "name": "BLAZING STAMPEDEU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665258901_udyr_wingborne_storm.webp",
+      "alt_text": "WINGBORNE STORM",
+      "key": "R",
+      "description": "(R)WINGBORNE STORMUdyr surrounds himself in a glacial storm, damaging and slowing nearby enemies. Recast: Empower and unleash the storm, causing it to track enemies and deal additional damage.",
+      "name": "WINGBORNE STORMU"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

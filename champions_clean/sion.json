@@ -1,0 +1,485 @@
+{
+  "name": "SION",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675036128_1656270877_banner_ask_riot-1_z1o8n3xc52f3vpllwn6x-min_83_11zon.webp",
+  "tier": 1,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 66,
+    "toughness": 100,
+    "utility": 33,
+    "difficulty": 33
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270964_glory_in_death.webp",
+      "alt_text": "GLORY IN DEATH",
+      "key": "P",
+      "description": "(PASSIVE)GLORY IN DEATHSion permanently gains5 bonus healthwhenever he kills a unit, increased to20against large units, and championtakedowns.Upon talking fatal damage, Sion will reanimate himselfFearingthose around him for 1 second, whileslowingtheirMovement Speed by 90%. After reanimating, Sion can move and Attack, but his health rapidly decays while he is reanimated. Sion reanimates with100% health, attacks at 1.75 attacks per second, gains100% Physical Vamp, his attacks deal an additional10% max Healthmagic damage, copped at 75 bonus damage against monsters and deal 50% damage to structures.All of Sion's abilities are replaced withDeath Surge, which grants him67% Movement Speeddecaying over 2.38 seconds.",
+      "name": "GLORY IN DEATHS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270951_decimating_smash.webp",
+      "alt_text": "DECIMATING SMASH",
+      "key": "Q",
+      "description": "(Q)DECIMATING SMASH9/8/7/6s45Sion charges a heavy blow for up to 1.75 seconds.Recast:Sion slams his axe down, brieflySlowingenemies hit by 50% for 0.25 seconds and dealing between79(50/75/100/125 +45/55/65/75%) and187(100/185/270/355 +135/165/195/225%)physical damagebased  on charge time. If Sion charged for at least 0.75 second, enemies areKnocked UpandStunnedfor between 1~2s based on charge time.Minions take 60% damage, while Monsters take 120% damage.",
+      "name": "DECIMATING SMASH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656270977_soul_furnace.webp",
+      "alt_text": "",
+      "key": "W",
+      "description": "(W)SOUL FURNACE14/13/12/11s65Sion gains ashieldthatabsorbs 137(75/100/125/150 +40%+10/12/14/16%) damage for 6 seconds.After 2 seconds if the shield still holds, Sion canRecastto detonate theshieldto deal60(60/90/120/150 +40%) plus10/11/12/13%of theirmax Healthto all nearby enemies.Bonus damage is capped at 400 against monsters. The shield will automatically detonate after 6 seconds.",
+      "name": "SOUL FURNACE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656271006_roar_of_the_slayer.webp",
+      "alt_text": "ROAR OF THE SLAYER",
+      "key": "E",
+      "description": "(E)ROAR OF THE SLAYER11/10/9/8s35/40/45/50Sion fires a shockwave, dealing75(75/120/165/210 +55%)magic damage.Slowingthem by 50/55/60/65% for 2.5 seconds and removing20% Armorfor 4 seconds. None-champions hit areKnocked Back. Enemies hit by aKnocked Backuntil take the same damage and effects.",
+      "name": "ROAR OF THE SLAYER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-06/1656271073_unstoppable_onslaught.webp",
+      "alt_text": "UNSTOPPABLE ONSLAUGHT",
+      "key": "R",
+      "description": "(R)UNSTOPPABLE ONSLAUGHT90/70/50s100Sion chargesUnstoppablyin a direction, turning with player input. Sion stops when colliding with an enemy champion, structure, terrain, or when recasting this ability.When this happens, Sion will slam the ground with earth shattering force, dealing between150(150/300/450 +40% bonus) and400(400/800/1200 +80% bonus)physical damagewhileStunningandKnocking Upenemies for 0.5~1.5s based on charge time.Deals 50% damage to structures.",
+      "name": "UNSTOPPABLE ONSLAUGHT"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Baron",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390582_shimmering-spark.webp",
+          "alt": "Wild Rift Items: Shimmering Spark",
+          "name": "Shimmering Spark",
+          "description": "Shimmering SparkBurns nearby enemies+50 Max HealthImmolate:Deals5-10 magic damageper second to nearby enemies.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389201_heartsteel.webp",
+          "alt": "Wild Rift Items: Heartsteel",
+          "name": "Heartsteel",
+          "description": "HeartsteelIncrease Maximum Health+700 Max Health+150% Health Regen+20 Ability HasteColossal Consumption:While within 700 units of an enemy champion, charges for 2.5 seconds before dealing a huge strike against the enemy champion. This charged attack deals bonusphysical damageequal to140+3.5% of maximum Health, and grantsmaximum Healthequal to15%of the damage dealt. The charge for each target has a 20 second cooldown.3000Heartsteel TIPS:This item is perfect for tanks and bruisers who want to combine maximum survivability with massive burst damage against enemy champions. It provides a huge health pool, enhanced out-of-combat regeneration, and ability haste.  The “Colossal Consumption” passive requires a 2.5-second charge when near an enemy champion, after which your next strike deals significant bonus physical damage based on your max health and grants you 15% of the damage dealt as bonus health. This allows you to both absorb damage and heal during skirmishes, making the item an excellent choice for extended fights and closing out teamfights.  Excellent synergy with Spirit Visage: the healing amplification and regeneration boost from Spirit Visage further enhance the health restoration from this item’s passive, providing incredible survivability and sustain in combat.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753304937_titanic-hydra.webp",
+          "alt": "Wild Rift Items: Titanic Hydra",
+          "name": "Titanic Hydra",
+          "description": "Titanic HydraAttacks deal bonus damage in a area+450 Max HealthColossus:GainADequal to15+2.5% bonus.Cleave:Every 1.75 second(s), your next attack deals bonusphysical damageequal to25+3% bonus(also applies to turrets), creating a shockwave that dealsphysical damageequal to80+10% bonusto enemies behind the target. Ranged champions deal 75% of the damage.3000Titanic Hydra TIPS:This item is perfect for champions who are involved in frequent skirmishes and rely on physical damage and survivability. It provides bonuses to maximum health and attack damage, increasing your damage based on your health. The \"Cleave\" effect allows you to deal bonus physical damage with each attack, creating a shockwave that deals damage to enemies behind the target, making it effective for both dueling and turret damage. This item is especially useful for champions who engage in frequent skirmishes and can take advantage of the bonus damage to hit multiple targets.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389735_stoneplate-enchant.webp",
+          "alt": "Wild Rift Items: Stoneplate Enchant",
+          "name": "Stoneplate Enchant",
+          "description": "Stoneplate EnchantShieldStoneplate (Active):Gain a baseshieldthat absorbs damage equal to20% of max Health. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 35%. Theshielddecays over 4s. (60s Cooldown) For every enemy nearby, gain an additionalshieldthat absorbs damage equal to5% of max Health, capped at 3 enemies. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 12%. Damage dealt is reduced by 40% for 4s.500Stoneplate Enchant TIPS:This enchant grants a strong shield based on your max health, further boosted by your armor and magic resist. The shield grows stronger per nearby enemy and decays over time, reducing incoming damage.  — Perfect for tank initiators who need reliable mitigation to withstand initial bursts and control teamfights.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389201_heartsteel.webp",
+          "alt": "Wild Rift Items: Heartsteel",
+          "name": "Heartsteel",
+          "description": "HeartsteelIncrease Maximum Health+700 Max Health+150% Health Regen+20 Ability HasteColossal Consumption:While within 700 units of an enemy champion, charges for 2.5 seconds before dealing a huge strike against the enemy champion. This charged attack deals bonusphysical damageequal to140+3.5% of maximum Health, and grantsmaximum Healthequal to15%of the damage dealt. The charge for each target has a 20 second cooldown.3000Heartsteel TIPS:This item is perfect for tanks and bruisers who want to combine maximum survivability with massive burst damage against enemy champions. It provides a huge health pool, enhanced out-of-combat regeneration, and ability haste.  The “Colossal Consumption” passive requires a 2.5-second charge when near an enemy champion, after which your next strike deals significant bonus physical damage based on your max health and grants you 15% of the damage dealt as bonus health. This allows you to both absorb damage and heal during skirmishes, making the item an excellent choice for extended fights and closing out teamfights.  Excellent synergy with Spirit Visage: the healing amplification and regeneration boost from Spirit Visage further enhance the health restoration from this item’s passive, providing incredible survivability and sustain in combat.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753304937_titanic-hydra.webp",
+          "alt": "Wild Rift Items: Titanic Hydra",
+          "name": "Titanic Hydra",
+          "description": "Titanic HydraAttacks deal bonus damage in a area+450 Max HealthColossus:GainADequal to15+2.5% bonus.Cleave:Every 1.75 second(s), your next attack deals bonusphysical damageequal to25+3% bonus(also applies to turrets), creating a shockwave that dealsphysical damageequal to80+10% bonusto enemies behind the target. Ranged champions deal 75% of the damage.3000Titanic Hydra TIPS:This item is perfect for champions who are involved in frequent skirmishes and rely on physical damage and survivability. It provides bonuses to maximum health and attack damage, increasing your damage based on your health. The \"Cleave\" effect allows you to deal bonus physical damage with each attack, creating a shockwave that deals damage to enemies behind the target, making it effective for both dueling and turret damage. This item is especially useful for champions who engage in frequent skirmishes and can take advantage of the bonus damage to hit multiple targets.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389023_yordle-sunfire-aegis.webp",
+          "alt": "Wild Rift Items: Yordle Sunfire Aegis",
+          "name": "Yordle Sunfire Aegis",
+          "description": "Yordle Sunfire AegisBurns nearby emenies+500 Max Health+15 Ability HasteImmolate:While in combat, dealmagic damageequal to16-25plus0.8% bonus HPper second to nearby enemies. Damaging champions or epic monsters withImmolateincreases its damage by 11% for 5s, stacking up to 4 times.Flametouch:At maxImmolatestacks, attacks burn enemies around you for 50% ofImmolate'sdamage over 3 seconds.Flametouch:At maxImmolatestacks leave behind a burning trail that dealsmagic damageequal to7-10plus0.3% bonus HPper second for up to 5 seconds.ImmolateandFirepathdeal 130% damage against monsters and 175-250% damage () against minions.2900Yordle Sunfire Aegis TIPS:This item provides a massive health boost and ability haste, turning you into a relentless inferno. While in combat, you emit burning flames that deal continuous magic damage to nearby enemies and intensify when you strike champions or epic monsters. At peak heat, your basic attacks leave a fiery trail, extending the burn for those dare to chase you. Perfect for tanks and bruisers who want to be both a living wall and a source of sustained AOE damage.",
+          "cost": 2900
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+          "alt": "Wild Rift Items: Thornmail",
+          "name": "Thornmail",
+          "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+          "cost": 2700
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+          "alt": "Wild Rift Items: Amaranth's Twinguard",
+          "name": "Amaranth's Twinguard",
+          "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+          "cost": 3100
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Increases healing and shielding received",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+              "alt": "Wild Rift Items: Thornmail",
+              "name": "Thornmail",
+              "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388986_spirit-visage.webp",
+              "alt": "Wild Rift Items: Spirit Visage",
+              "name": "Spirit Visage",
+              "description": "Spirit VisageIncreases healing and shielding received+350 Max Health+100% Health Regen+50 Magic Resistance+20 Ability HasteBlessed:Increases allhealing, regen,draineffects andshieldson yourself by30%.2800Spirit Visage TIPS:This item greatly boosts your health, regeneration, magic resistance, and ability haste. Its “Blessed” passive amplifies all healing, regen, drain effects, and shields on you by 30%, allowing you to recover more quickly in fights. It’s an excellent choice against champions who deal sustained magic damage, like Vladimir and Swain, as well as burst mages like Syndra or Veigar, helping you survive initial bursts and heal up rapidly.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Spirit Visage— This item greatly boosts your health, regeneration, magic resistance, and ability haste. Its “Blessed” passive amplifies all healing, regen, drain effects, and shields on you by 30%, allowing you to recover more quickly in fights. It’s an excellent choice against champions who deal sustained magic damage, like Vladimir and Swain, as well as burst mages like Syndra or Veigar, helping you survive initial bursts and heal up rapidly."
+        },
+        {
+          "purpose": "Attack to heal from enemy Critical Strikes",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+              "alt": "Wild Rift Items: Thornmail",
+              "name": "Thornmail",
+              "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389031_randuins-omen.webp",
+              "alt": "Wild Rift Items: Randuin's Omen",
+              "name": "Randuin's Omen",
+              "description": "Randuin's OmenAttack to heal from enemy Critical Strikes+400 Max Health+75 ArmorCountercurrent:When you areCritically Struckor takephysical damage, gain 1 stack ofCountercurrent. Each stack ofCountercurrentgrants5% Critical Strikedamage reduction. Stacks up to 4 times. Upon reaching full stacks, grants20% bonus Movement Speedand slow resist equal to 20% plus0.5% of bonus Health.2800Randuin's Omen TIPS:Randuin's Omen Attack to heal from enemy Critical Strikes   +400 Max Health  +75 Armor  Countercurrent: When you are Critically Struck or take physical damage, gain 1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike damage reduction. Stacks up to 4 times. Upon reaching full stacks, grants 20% bonus Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health.   2800  Randuin's Omen TIPS: Pick the item if enemy team has a lot of physical damage, you need increased armor and you want to get an additional bonus to movement speed and resistance to slowdowns.. Effective against champions who deal consistent crit based damage like Jinx, Yasuo or Tryndamere.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Randuin's Omen— Randuin's Omen Attack to heal from enemy Critical Strikes   +400 Max Health  +75 Armor  Countercurrent: When you are Critically Struck or take physical damage, gain 1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike damage reduction. Stacks up to 4 times. Upon reaching full stacks, grants 20% bonus Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health.   2800  Randuin's Omen TIPS: Pick the item if enemy team has a lot of physical damage, you need increased armor and you want to get an additional bonus to movement speed and resistance to slowdowns.. Effective against champions who deal consistent crit based damage like Jinx, Yasuo or Tryndamere."
+        },
+        {
+          "purpose": "Reduces all nearby enemies Attack Speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+              "alt": "Wild Rift Items: Thornmail",
+              "name": "Thornmail",
+              "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+              "cost": 2700
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389159_frozen-heart.webp",
+              "alt": "Wild Rift Items: Frozen Heart",
+              "name": "Frozen Heart",
+              "description": "Frozen HeartReduces all nearby enemies Attack Speed+80 Armor+200 Max Mana+25 Ability HasteWinter's Caress:Basic attacks andmagic damagecaused by you or inflicted upon you and nearby allies, will apply stacks ofChillto the enemy champion for 3 seconds. Each stack ofChillslows enemyattack speed by 9%, up to a maximum of 4 stacks or36% attack speed reduction. Each individual ability has a 3 seconds cooldown on applyingChillstacks.2700Frozen Heart TIPS:This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Frozen Heart— This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392588_courage-of-the-colossus.webp",
+            "alt": "Wild Rift Resolve Runes: Courage of the Colossus",
+            "name": "Courage of the Colossus",
+            "description": "Gains a shield after immobilizing an enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+            "alt": "Wild Rift Resolve Runes: Second Wind",
+            "name": "Second Wind",
+            "description": "Heals you after taking damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+          "alt": "Wild Rift Keystone Runes: Grasp of Undying",
+          "name": "Grasp of Undying",
+          "description": "When in combat, your next attack on a champion will occasionally deal bonus magic damage, heal you, and permanently increase your health."
+        }
+      },
+      "situational_runes": []
+    },
+    {
+      "lane": "Jungle",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392588_courage-of-the-colossus.webp",
+            "alt": "Wild Rift Resolve Runes: Courage of the Colossus",
+            "name": "Courage of the Colossus",
+            "description": "Gains a shield after immobilizing an enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+            "alt": "Wild Rift Resolve Runes: Second Wind",
+            "name": "Second Wind",
+            "description": "Heals you after taking damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+          "alt": "Wild Rift Keystone Runes: Grasp of Undying",
+          "name": "Grasp of Undying",
+          "description": "When in combat, your next attack on a champion will occasionally deal bonus magic damage, heal you, and permanently increase your health."
+        }
+      },
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "570 → 630."
+            },
+            {
+              "stat": "Health per level",
+              "change": "95 → 104."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "40 → 46."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "16 MAR 2023",
+      "patch": "4.1",
+      "changes": [
+        {
+          "ability": "(Q) DECIMATING SMASH",
+          "changes": [
+            {
+              "stat": "Maximum charge base damage",
+              "change": "65/155/245/335 → 80/165/250/335."
+            },
+            {
+              "stat": "Stun duration",
+              "change": "1.25~2.25s → 1~2s."
+            }
+          ]
+        },
+        {
+          "ability": "(W) SOUL FURNACE",
+          "changes": [
+            {
+              "stat": "Base shield",
+              "change": "60/90/120/150 → 75/100/125/150."
+            }
+          ]
+        },
+        {
+          "ability": "(R) UNSTOPPABLE ONSLAUGHT",
+          "changes": [
+            {
+              "stat": "Stun duration",
+              "change": "0.75~1.75s → 0.5~1.5s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 SEP 2022",
+      "patch": "3.4",
+      "changes": [
+        {
+          "ability": "(PASSIVE) GLORY IN DEATH",
+          "changes": [
+            {
+              "stat": "Bonus health gain from killing minions and small monster",
+              "change": "6 → 5."
+            },
+            {
+              "stat": "Bonus Health gain from large monsters, champions, epic monsters, cannon minions and siege minions",
+              "change": "20 → 15."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) DECIMATING SMASH",
+          "changes": [
+            {
+              "stat": "Monster damage modifier",
+              "change": "150% → 120%."
+            }
+          ]
+        },
+        {
+          "ability": "(R) UNSTOPPABLE ONSLAUGHT",
+          "changes": [
+            {
+              "description": "Movement speed capped at 800 during Unstoppable Onslaught"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

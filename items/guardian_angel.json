@@ -21,5 +21,10 @@
     "(210s Cooldown) 3400\n\n\nThis item is perfect for champions who need a second chance in teamfights.",
     "It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin.",
     "The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
-  ]
+  ],
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "situational_items",
+  "extracted_at": "2025-07-27T20:57:05.806387",
+  "last_updated": "2025-07-27T20:57:05.816402"
 }

@@ -1,0 +1,14 @@
+{
+  "name": "Health Potion",
+  "category": "starting",
+  "cost": 0,
+  "tier": "unknown",
+  "description": "",
+  "stats": {},
+  "passive": "",
+  "active": "",
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "starting_items",
+  "extracted_at": "2025-07-27T20:57:05.806387"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "TALIYAH",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665254708_taliyah_10_16_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254756_rock_surfing.webp",
+      "alt_text": "ROCK SURFING",
+      "key": "P",
+      "description": "(PASSIVE)ROCK SURFINGTaliyah gains Move Speed near walls.",
+      "name": "ROCK SURFINGT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254852_threaded_volley.webp",
+      "alt_text": "THREADED VOLLEY",
+      "key": "Q",
+      "description": "(Q)THREADED VOLLEYTaliyah throws a volley of rocks in a target direction, moving freely as she casts. This creates Worked Ground below her. If Taliyah casts Threaded Volley on Worked Ground, she consumes the ground to throw a stronger boulder that slows enemies.",
+      "name": "THREADED VOLLEYT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254824_seismic_shove.webp",
+      "alt_text": "SEISMIC SHOVE",
+      "key": "W",
+      "description": "(W)SEISMIC SHOVETaliyah causes an area of ground to erupt and throws enemies within it in a direction of her choosing.",
+      "name": "SEISMIC SHOVET"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254813_unraveled_earth.webp",
+      "alt_text": "UNRAVELED EARTH",
+      "key": "E",
+      "description": "(E)UNRAVELED EARTHTaliyah creates a slowing minefield. If enemies dash through it or are knocked through it, the mines explode and stun them.",
+      "name": "UNRAVELED EARTHT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254916_weaver27s_wall.webp",
+      "alt_text": "WEAVER'S WALL",
+      "key": "R",
+      "description": "(R)WEAVER'S WALLTaliyah creates a very long wall and then surfs it.",
+      "name": "WEAVER"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,64 @@
+{
+  "name": "CASSIOPEIA",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656881483_cassiope1ia_0-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881518_serpentine_grace.webp",
+      "alt_text": "SERPENTINE GRACE",
+      "key": "P",
+      "description": "(PASSIVE)SERPENTINE GRACECassiopeia gains Move Speed per level, but she cannot purchase Boots items.",
+      "name": "SERPENTINE GRACEC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881599_noxious_blast.webp",
+      "alt_text": "NOXIOUS BLAST",
+      "key": "Q",
+      "description": "(Q)NOXIOUS BLASTCassiopeia blasts an area with Poison after a brief delay, granting her increased Move Speed if she hits an enemy champion.",
+      "name": "NOXIOUS BLASTC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881570_miasma.webp",
+      "alt_text": "MIASMA",
+      "key": "W",
+      "description": "(W)MIASMACassiopeia releases several clouds of poison, slowing, grounding, and lightly damaging enemies that pass through them. Grounded enemies cannot use Movement abilities.",
+      "name": "MIASMAC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881637_twin_fang.webp",
+      "alt_text": "TWIN FANG",
+      "key": "E",
+      "description": "(E)TWIN FANGCassiopeia lets loose an attack that deals increased damage to Poisoned targets and heals her for a percentage of the damage dealt. If the target dies from this attack, Cassiopeia regains Mana.",
+      "name": "TWIN FANGC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881692_petrifying_gaze.webp",
+      "alt_text": "PETRIFYING GAZE",
+      "key": "R",
+      "description": "(R)PETRIFYING GAZECassiopeia releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.",
+      "name": "PETRIFYING GAZEC"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

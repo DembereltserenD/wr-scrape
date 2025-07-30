@@ -1,0 +1,65 @@
+{
+  "name": "TRUNDLE",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665255647_trundle_10_10_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255748_king27s_tribute.webp",
+      "alt_text": "KING'S TRIBUTE",
+      "key": "P",
+      "description": "(PASSIVE)KING'S TRIBUTEWhen an enemy unit dies near Trundle, he heals for a percent of its maximum Health.",
+      "name": "KING"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255677_chomp.webp",
+      "alt_text": "HOMP",
+      "key": "Q",
+      "description": "(Q)HOMPTrundle bites his opponent, dealing damage, briefly slowing and sapping some of their Attack Damage.",
+      "name": "HOMPT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255735_frozen_domain.webp",
+      "alt_text": "FROZEN DOMAIN",
+      "key": "W",
+      "description": "(W)FROZEN DOMAINTrundle turns target location into his domain, gaining Attack Speed, Move Speed, and increased healing from all sources while on it.",
+      "name": "FROZEN DOMAINT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255791_pillar_of_ice.webp",
+      "alt_text": "PILLAR OF ICE",
+      "key": "E",
+      "description": "(E)PILLAR OF ICETrundle creates an ice pillar at target location, becoming impassable terrain and slowing all nearby enemy units.",
+      "name": "PILLAR OF ICET"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255822_subjugate.webp",
+      "alt_text": "SUBJUGATE",
+      "key": "R",
+      "description": "(R)SUBJUGATETrundle immediately steals a percent of his target's Health, Armor and Magic Resistance. Over the next 4 seconds the amount of Health, Armor, and Magic Resistance stolen is doubled.",
+      "name": "SUBJUGATET"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,390 @@
+{
+  "name": "URGOT",
+  "roles": [
+    "Fighter",
+    "Tank"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665259302_urgot_10_13_11zon.webp",
+  "tier": 1,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 66,
+    "toughness": 66,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259437_echoing_flames.webp",
+      "alt_text": "ECHOING FLAMES",
+      "key": "P",
+      "description": "(PASSIVE)ECHOING FLAMESUrgot's attacks and Purge periodically trigger blasts from his leg cannons, dealing29(50/65/80/95%) +3/4/5/6%(increase at level 1/5/9/13) of the target'smax healthasphysical damage. (15/8/4/2s () cooldown per leg).Deals 100 () max damage against monsters.",
+      "name": "ECHOING FLAMESU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259445_corrosive_charge.webp",
+      "alt_text": "CORROSIVE CHARGE",
+      "key": "Q",
+      "description": "(Q)CORROSIVE CHARGE9.5/9/8.5/8s70Fires an explosive charge that deals 110 physical damage (25/85/145/205 +70%) andslows by 45/50/55/60%for 1.25 seconds.",
+      "name": "CORROSIVE CHARGE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259545_purge.webp",
+      "alt_text": "PURGE",
+      "key": "W",
+      "description": "(W)PURGE12/8/4/0.5s30/20/10/0Shoots the nearest enemy rapidly for 4 seconds, dealing18 physical damage(6 +20/25/30/35%) and applyingon-hitsat 70% effectiveness. During this time Urgot'sMovement Speedis reduced by125/110/95/80and he gains40% Slow Resist.Dealing a minimum of 50 damage to minions and monsters, prioritizes the champion hit most recently by Urgot's abilities. At max rank, Purge gains infinite duration.Re-cast:Ends Purge.",
+      "name": "PURGE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259510_disdain.webp",
+      "alt_text": "DISDAIN",
+      "key": "E",
+      "description": "(E)DISDAIN14/13/12/11s60/70/80/90Gain ashieldthatabsorbs 70damage (70/100/130/160 +150%+15% bonus) for 4 seconds and charges forward, dealing90 physical damage(90/130/170/210 +100% bonus) andstunningthem for 1.5 seconds. Flings the first enemy champion over him and knock non-champions aside.",
+      "name": "DISDAIN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665259545_fear_beyond_death.webp",
+      "alt_text": "FEAR BEYOND DEATH",
+      "key": "R",
+      "description": "(R)FEAR BEYOND DEATH60/55/50sFires a chem-drill that deals100 physical damage(100/225/350 +70% bonus) to the fist champion hit and impales them for 4 seconds,slowingthem by up to75%based on their missing health.Re-cast:If the impaled target falls below 25% Health, Urgot channels for 1.5 seconds while he reels in and executes them. Upon an execution, nearby enemies are feared for 1.5 seconds.Fear Beyond Death is automatically re-cast if the enemy is below the threshold at the end of the duration.",
+      "name": "FEAR BEYOND DEATH"
+    }
+  ],
+  "lanes": [
+    "Baron"
+  ],
+  "builds": [
+    {
+      "lane": "Baron",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301421_black-cleaver.webp",
+          "alt": "Wild Rift Items: Black Cleaver",
+          "name": "Black Cleaver",
+          "description": "Black CleaverPhysical Damage reduces Armor+400 Max Health+40 Attack Damage+20 Ability HasteSunder:Dealingphysical damageto a champion reduces theirArmorby 6% for 6 seconds, stacking 4 times for 24% reduction.Rage:Gain20 Movement Speedwhen you dealphysical damage, and gain40 Move Speedwhen moving toward enemy champions with 4 Sunder stacks. Ranged champions gain halved values.3000Black Cleaver TIPS:This item is perfect for champions who deal physical damage and need to fight tanky opponents. The \"Sunder\" effect reduces the enemy’s armor when dealing physical damage, making it effective at shredding through tanks with high resistance. The movement speed bonus, activated when dealing physical damage, helps maintain mobility on the battlefield. It's a great choice for fighters and junglers who can quickly apply multiple stacks of the item’s passive, reducing the enemy's armor and increasing the overall damage dealt.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389201_heartsteel.webp",
+          "alt": "Wild Rift Items: Heartsteel",
+          "name": "Heartsteel",
+          "description": "HeartsteelIncrease Maximum Health+700 Max Health+150% Health Regen+20 Ability HasteColossal Consumption:While within 700 units of an enemy champion, charges for 2.5 seconds before dealing a huge strike against the enemy champion. This charged attack deals bonusphysical damageequal to140+3.5% of maximum Health, and grantsmaximum Healthequal to15%of the damage dealt. The charge for each target has a 20 second cooldown.3000Heartsteel TIPS:This item is perfect for tanks and bruisers who want to combine maximum survivability with massive burst damage against enemy champions. It provides a huge health pool, enhanced out-of-combat regeneration, and ability haste.  The “Colossal Consumption” passive requires a 2.5-second charge when near an enemy champion, after which your next strike deals significant bonus physical damage based on your max health and grants you 15% of the damage dealt as bonus health. This allows you to both absorb damage and heal during skirmishes, making the item an excellent choice for extended fights and closing out teamfights.  Excellent synergy with Spirit Visage: the healing amplification and regeneration boost from Spirit Visage further enhance the health restoration from this item’s passive, providing incredible survivability and sustain in combat.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389735_stoneplate-enchant.webp",
+          "alt": "Wild Rift Items: Stoneplate Enchant",
+          "name": "Stoneplate Enchant",
+          "description": "Stoneplate EnchantShieldStoneplate (Active):Gain a baseshieldthat absorbs damage equal to20% of max Health. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 35%. Theshielddecays over 4s. (60s Cooldown) For every enemy nearby, gain an additionalshieldthat absorbs damage equal to5% of max Health, capped at 3 enemies. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 12%. Damage dealt is reduced by 40% for 4s.500Stoneplate Enchant TIPS:This enchant grants a strong shield based on your max health, further boosted by your armor and magic resist. The shield grows stronger per nearby enemy and decays over time, reducing incoming damage.  — Perfect for tank initiators who need reliable mitigation to withstand initial bursts and control teamfights.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301421_black-cleaver.webp",
+          "alt": "Wild Rift Items: Black Cleaver",
+          "name": "Black Cleaver",
+          "description": "Black CleaverPhysical Damage reduces Armor+400 Max Health+40 Attack Damage+20 Ability HasteSunder:Dealingphysical damageto a champion reduces theirArmorby 6% for 6 seconds, stacking 4 times for 24% reduction.Rage:Gain20 Movement Speedwhen you dealphysical damage, and gain40 Move Speedwhen moving toward enemy champions with 4 Sunder stacks. Ranged champions gain halved values.3000Black Cleaver TIPS:This item is perfect for champions who deal physical damage and need to fight tanky opponents. The \"Sunder\" effect reduces the enemy’s armor when dealing physical damage, making it effective at shredding through tanks with high resistance. The movement speed bonus, activated when dealing physical damage, helps maintain mobility on the battlefield. It's a great choice for fighters and junglers who can quickly apply multiple stacks of the item’s passive, reducing the enemy's armor and increasing the overall damage dealt.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389201_heartsteel.webp",
+          "alt": "Wild Rift Items: Heartsteel",
+          "name": "Heartsteel",
+          "description": "HeartsteelIncrease Maximum Health+700 Max Health+150% Health Regen+20 Ability HasteColossal Consumption:While within 700 units of an enemy champion, charges for 2.5 seconds before dealing a huge strike against the enemy champion. This charged attack deals bonusphysical damageequal to140+3.5% of maximum Health, and grantsmaximum Healthequal to15%of the damage dealt. The charge for each target has a 20 second cooldown.3000Heartsteel TIPS:This item is perfect for tanks and bruisers who want to combine maximum survivability with massive burst damage against enemy champions. It provides a huge health pool, enhanced out-of-combat regeneration, and ability haste.  The “Colossal Consumption” passive requires a 2.5-second charge when near an enemy champion, after which your next strike deals significant bonus physical damage based on your max health and grants you 15% of the damage dealt as bonus health. This allows you to both absorb damage and heal during skirmishes, making the item an excellent choice for extended fights and closing out teamfights.  Excellent synergy with Spirit Visage: the healing amplification and regeneration boost from Spirit Visage further enhance the health restoration from this item’s passive, providing incredible survivability and sustain in combat.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753304937_titanic-hydra.webp",
+          "alt": "Wild Rift Items: Titanic Hydra",
+          "name": "Titanic Hydra",
+          "description": "Titanic HydraAttacks deal bonus damage in a area+450 Max HealthColossus:GainADequal to15+2.5% bonus.Cleave:Every 1.75 second(s), your next attack deals bonusphysical damageequal to25+3% bonus(also applies to turrets), creating a shockwave that dealsphysical damageequal to80+10% bonusto enemies behind the target. Ranged champions deal 75% of the damage.3000Titanic Hydra TIPS:This item is perfect for champions who are involved in frequent skirmishes and rely on physical damage and survivability. It provides bonuses to maximum health and attack damage, increasing your damage based on your health. The \"Cleave\" effect allows you to deal bonus physical damage with each attack, creating a shockwave that deals damage to enemies behind the target, making it effective for both dueling and turret damage. This item is especially useful for champions who engage in frequent skirmishes and can take advantage of the bonus damage to hit multiple targets.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305021_steraks-gage.webp",
+          "alt": "Wild Rift Items: Sterak's Gage",
+          "name": "Sterak's Gage",
+          "description": "Sterak's GageTaking damage triggers a shield+400 Max HealthHeavy Handed:+50% base Attack Damageasbonus Attack Damage.Lifeline:Damage that puts you under35%Healthgrants ashieldthat equal to75% of your bonus healththat decays over 3 seconds (90s Cooldown).Sterak's Fury:Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants30% Tenacityfor 4 seconds.3200Sterak's Gage TIPS:This item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions. It provides bonuses to maximum health, attack damage, and helps increase your survivability. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits. \"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies. This item is especially useful against champions with burst damage, such as Zed and Talon, and against champions with heavy CC, like Lissandra and Nautilus.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+          "alt": "Wild Rift Items: Amaranth's Twinguard",
+          "name": "Amaranth's Twinguard",
+          "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+          "cost": 3100
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Reflects damage and reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753305021_steraks-gage.webp",
+              "alt": "Wild Rift Items: Sterak's Gage",
+              "name": "Sterak's Gage",
+              "description": "Sterak's GageTaking damage triggers a shield+400 Max HealthHeavy Handed:+50% base Attack Damageasbonus Attack Damage.Lifeline:Damage that puts you under35%Healthgrants ashieldthat equal to75% of your bonus healththat decays over 3 seconds (90s Cooldown).Sterak's Fury:Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants30% Tenacityfor 4 seconds.3200Sterak's Gage TIPS:This item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions. It provides bonuses to maximum health, attack damage, and helps increase your survivability. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits. \"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies. This item is especially useful against champions with burst damage, such as Zed and Talon, and against champions with heavy CC, like Lissandra and Nautilus.",
+              "cost": 3200
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389035_thornmail.webp",
+              "alt": "Wild Rift Items: Thornmail",
+              "name": "Thornmail",
+              "description": "ThornmailReflects damage and reduces enemy healing+200 Max Health+75 ArmorThorns:When struck by an enemy champion's attack, deal20+6% bonus Armor+2% bonus Healthmagic damageto the attacker and inflict50% Grievous Woundsfor 3 second(s).Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2700Thornmail TIPS:This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Thornmail— This item provides a large boost to health and armor, and its “Thorns” passive reflects magic damage when hit by basic attacks, applying Grievous Wounds to reduce enemy healing. It’s ideal against multiple auto-attack or strong heal champions, and helps you soak damage for your team. Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage."
+        },
+        {
+          "purpose": "Increases healing and shielding received",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753305021_steraks-gage.webp",
+              "alt": "Wild Rift Items: Sterak's Gage",
+              "name": "Sterak's Gage",
+              "description": "Sterak's GageTaking damage triggers a shield+400 Max HealthHeavy Handed:+50% base Attack Damageasbonus Attack Damage.Lifeline:Damage that puts you under35%Healthgrants ashieldthat equal to75% of your bonus healththat decays over 3 seconds (90s Cooldown).Sterak's Fury:Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants30% Tenacityfor 4 seconds.3200Sterak's Gage TIPS:This item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions. It provides bonuses to maximum health, attack damage, and helps increase your survivability. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits. \"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies. This item is especially useful against champions with burst damage, such as Zed and Talon, and against champions with heavy CC, like Lissandra and Nautilus.",
+              "cost": 3200
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388986_spirit-visage.webp",
+              "alt": "Wild Rift Items: Spirit Visage",
+              "name": "Spirit Visage",
+              "description": "Spirit VisageIncreases healing and shielding received+350 Max Health+100% Health Regen+50 Magic Resistance+20 Ability HasteBlessed:Increases allhealing, regen,draineffects andshieldson yourself by30%.2800Spirit Visage TIPS:This item greatly boosts your health, regeneration, magic resistance, and ability haste. Its “Blessed” passive amplifies all healing, regen, drain effects, and shields on you by 30%, allowing you to recover more quickly in fights. It’s an excellent choice against champions who deal sustained magic damage, like Vladimir and Swain, as well as burst mages like Syndra or Veigar, helping you survive initial bursts and heal up rapidly.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Spirit Visage— This item greatly boosts your health, regeneration, magic resistance, and ability haste. Its “Blessed” passive amplifies all healing, regen, drain effects, and shields on you by 30%, allowing you to recover more quickly in fights. It’s an excellent choice against champions who deal sustained magic damage, like Vladimir and Swain, as well as burst mages like Syndra or Veigar, helping you survive initial bursts and heal up rapidly."
+        },
+        {
+          "purpose": "Reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753305021_steraks-gage.webp",
+              "alt": "Wild Rift Items: Sterak's Gage",
+              "name": "Sterak's Gage",
+              "description": "Sterak's GageTaking damage triggers a shield+400 Max HealthHeavy Handed:+50% base Attack Damageasbonus Attack Damage.Lifeline:Damage that puts you under35%Healthgrants ashieldthat equal to75% of your bonus healththat decays over 3 seconds (90s Cooldown).Sterak's Fury:Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants30% Tenacityfor 4 seconds.3200Sterak's Gage TIPS:This item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions. It provides bonuses to maximum health, attack damage, and helps increase your survivability. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits. \"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies. This item is especially useful against champions with burst damage, such as Zed and Talon, and against champions with heavy CC, like Lissandra and Nautilus.",
+              "cost": 3200
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304959_chempunk-chainsword.webp",
+              "alt": "Wild Rift Items: Chempunk Chainsword",
+              "name": "Chempunk Chainsword",
+              "description": "Chempunk ChainswordReduces enemy healing+250 Max Health+45 Attack Damage+15 Ability HastePunishment:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2800Chempunk Chainsword TIPS:This item is perfect for champions who face enemies with high sustain, such as Dr. Mundo, Soraka, and Yuumi, who have significant healing abilities. The \"Punishment\" effect applies Grievous Wounds, reducing the effectiveness of healing and regeneration by 50%, making this item effective against champions who rely on healing. It’s also useful against champions who rely on lifesteal, such as Aatrox, Darius, and Fiora, as it helps reduce the effectiveness of their healing.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Chempunk Chainsword— This item is perfect for champions who face enemies with high sustain, such as Dr. Mundo, Soraka, and Yuumi, who have significant healing abilities. The \"Punishment\" effect applies Grievous Wounds, reducing the effectiveness of healing and regeneration by 50%, making this item effective against champions who rely on healing. It’s also useful against champions who rely on lifesteal, such as Aatrox, Darius, and Fiora, as it helps reduce the effectiveness of their healing."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2021-01/1611110740_teleport-enchant.jpg",
+          "alt": "Teleport Wild Rift",
+          "name": "Teleport",
+          "description": "TeleportAfter channeling for 3.5 seconds, teleport your champion to an allied champion, structure, or ward (excludes areas in range of enemy inhibitors). You can only teleport to structures during the first 6 minutes of the game.Cooldown:180s",
+          "cooldown": 180
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+            "alt": "Wild Rift Precision Runes: Giant Slayer",
+            "name": "Giant Slayer",
+            "description": "Deals more damage to an enemy champions the more bonus Health they have."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392264_legend-tenacity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Tenacity",
+            "name": "Legend: Tenacity",
+            "description": "Gains Tenacity and Slow Resist."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729601_8005.webp",
+          "alt": "Wild Rift Keystone Runes: Empowerment",
+          "name": "Empowerment",
+          "description": "Every third consecutive attack on the enemy increases their damage taken."
+        }
+      },
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "630 → 660."
+            },
+            {
+              "stat": "Health per level",
+              "change": "128 → 136."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "40 → 46."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.5 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "05 SEP 2024",
+      "patch": "5.2C",
+      "changes": [
+        {
+          "ability": "(W) PURGE",
+          "changes": [
+            {
+              "stat": "Damage",
+              "change": "12 + 20/25/30/35% Attack Damage → 6 + 20/25/30/35% Attack Damage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "10 APR 2024",
+      "patch": "5.1",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Attack Damage per level",
+              "change": "4.5 → 3.5."
+            }
+          ]
+        },
+        {
+          "ability": "(PASSIVE) ECHOING FLAMES",
+          "changes": [
+            {
+              "stat": "Damage",
+              "change": "50/65/80/95% Attack Damage + 2/3.5/5/6.5% target's maximum Health → 50/65/80/95% Attack Damage + 2/3/4/5% target's maximum Health (increase at level 1/5/9/13)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

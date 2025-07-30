@@ -1,0 +1,65 @@
+{
+  "name": "QIYANA",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665250086_qiyana_01_2_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250173_qiyana_royal_privilege.webp",
+      "alt_text": "ROYAL PRIVILEGE",
+      "key": "P",
+      "description": "(PASSIVE)ROYAL PRIVILEGEQiyana's first basic attack or ability against each enemy deals bonus damage.",
+      "name": "ROYAL PRIVILEGEQ"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250509_qiyanaq.png",
+      "alt_text": "ELEMENTAL WRATH / EDGE OF IXTAL",
+      "key": "Q",
+      "description": "(Q)ELEMENTAL WRATH / EDGE OF IXTALQiyana swings her weapon, dealing damage with a bonus effect based on her element.",
+      "name": "ELEMENTAL WRATH / EDGE OF IXTALQ"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250574_qiyana_terrashape.webp",
+      "alt_text": "TERRASHAPE",
+      "key": "W",
+      "description": "(W)TERRASHAPEQiyana dashes to a location and enchants her weapon with an element. Her attacks and abilities deal bonus damage while her weapon is enchanted.",
+      "name": "TERRASHAPEQ"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250542_qiyana_audacity.webp",
+      "alt_text": "AUDACITY",
+      "key": "E",
+      "description": "(E)AUDACITYQiyana dashes to an enemy, damaging them.",
+      "name": "AUDACITYQ"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665250601_qiyana_supreme_display_of_talent.webp",
+      "alt_text": "SUPREME DISPLAY OF TALENT",
+      "key": "R",
+      "description": "(R)SUPREME DISPLAY OF TALENTQiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
+      "name": "SUPREME DISPLAY OF TALENTQ"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

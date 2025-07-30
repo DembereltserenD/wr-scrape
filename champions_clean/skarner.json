@@ -1,0 +1,65 @@
+{
+  "name": "SKARNER",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2024-04/1712511780_skarner_01_11zon-1.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-04/1712511468_skarner_threads_of_vibration.webp",
+      "alt_text": "THREADS OF VIBRATION",
+      "key": "P",
+      "description": "(PASSIVE)THREADS OF VIBRATIONSkarner's Attacks, Shattered Earth, Upheaval, and Impale, apply Quaking. At max stacks of Quaking, enemies take max-Health magic damage over its duration.",
+      "name": "THREADS OF VIBRATIONS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-04/1712511490_skarner_shattered_earth.webp",
+      "alt_text": "SHATTERED EARTH / UPHEAVAL",
+      "key": "Q",
+      "description": "(Q)SHATTERED EARTH / UPHEAVALSkarner rips a boulder from the earth that empowers his attacks and can be thrown as a powerful projectile.",
+      "name": "SHATTERED EARTH / UPHEAVALS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-04/1712511548_skarner_seismic_bastion.webp",
+      "alt_text": "SEISMIC BASTION",
+      "key": "W",
+      "description": "(W)SEISMIC BASTIONSkarner gains a shield and creates an earthquake whose shockwave damages and slows foes.",
+      "name": "SEISMIC BASTIONS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-04/1712511489_skarner_ixtal27s_impact.webp",
+      "alt_text": "IXTAL'S IMPACT",
+      "key": "E",
+      "description": "(E)IXTAL'S IMPACTSkarner charges forward and passes through terrain. If he collides with a champion or large monster, he'll slam them into the next wall he hits to damage and stun them.",
+      "name": "IXTAL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-04/1712511564_skarner_impale.webp",
+      "alt_text": "IMPALE",
+      "key": "R",
+      "description": "(R)IMPALESkarner's tails lash forward to suppress enemy champions. Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+      "name": "IMPALES"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

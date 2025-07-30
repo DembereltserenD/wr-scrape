@@ -1,0 +1,816 @@
+{
+  "name": "GWEN",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675026237_1656966553_1141364-min_85_11zon.webp",
+  "tier": 2,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 100,
+    "toughness": 66,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656966451_gwen_thousand_cuts.webp",
+      "alt_text": "A THOUSAND CUTS",
+      "key": "P",
+      "description": "(PASSIVE)A THOUSAND CUTSAttacks deal bonusmagic damageequal to1%(1% +0.005%) of the target's maximum health.Heals for 70%of the damage this ability deals to champion, up to12(12 +7%).Deals a max of2 magic damage(2 +3%) against monsters.",
+      "name": "A THOUSAND CUTSA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656966440_gwen_snip_snip21.webp",
+      "alt_text": "SNIP SNIP!",
+      "key": "Q",
+      "description": "(Q)SNIP SNIP!6.5/5.5/4.5/3.5s35Passive:Gains 1 stack per attack hit (max 4, lasts 6 seconds).Active:Snips her scissors twice, snipping an extra time for each stack consumed. Each snip deals14 magic damage(14/18/22/26 +6%) with the final snip dealing70 magic damage(70/90/110/130 +30%) instead.The center of each strike deals true damage instead an appliesThousand Cuts.Deals 80% damage to monsters.",
+      "name": "SNIP SNIP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656966492_gwen_hallowed_mist.webp",
+      "alt_text": "HALLOWED MIST",
+      "key": "W",
+      "description": "(W)HALLOWED MIST17/16/15/14s60Summons the Hallowed Mist, making Gwen unforgettable to enemies outside the zone while inside.Gwen gains 18 (18/20/22/24 +5%)AmorandMagic Resistinside the Mist.The Mist will move to Gwen the first time she attempts to leave.",
+      "name": "HALLOWED MIST"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656966445_gwen_skip_27n_slash.webp",
+      "alt_text": "SKIP'N SLASH",
+      "key": "E",
+      "description": "(E)SKIP'N SLASH13.5/12/10.5/9s35Dashes and enhances her attacks for 4 seconds. Enhance attacks gain20/40/60/80% Attack Speed,10 magic damage(10 +15%) on-hit and 100 Range.The first enhanced attack to hit a champion or minion refunds50% of this ability's cooldown.",
+      "name": "SKIP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656966483_gwen_needlework.webp",
+      "alt_text": "NEEDLEWORK",
+      "key": "R",
+      "description": "(R)NEEDLEWORK75/65/55s100First Cast:Hurl a needle that deals30 magic damage(30/45/60 +8%),slowsby 35/40/45% for 1.5 seconds, and appliesThousand Cutsto all enemies hit. Needlework can be re-cast 2 additional times.Second Cast:Fires 3 needles, dealing a total of90 magic damage(90 +24%).Third Cast:Fires 5 needles, dealing a total of150 magic damage(150 +40%).",
+      "name": "NEEDLEWORK"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Baron",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390572_amplifying-tome.webp",
+          "alt": "Wild Rift Items: Amplifying Tome",
+          "name": "Amplifying Tome",
+          "description": "Amplifying Tome+25 Ability Power500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+          "alt": "Wild Rift Items: Riftmaker",
+          "name": "Riftmaker",
+          "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302010_nashors-tooth.webp",
+          "alt": "Wild Rift Items: Nashor's Tooth",
+          "name": "Nashor's Tooth",
+          "description": "Nashor's ToothAttacks deal bonus damage+45% Attack Speed+20 Ability HasteMagic Fang:Obtain30 Attack Damageor60 Ability Power(Adaptive).Gnaw:Attacks deal adaptive damage (15+20% bonus+30% bonus) on hit.3000Nashor's Tooth TIPS:This item is perfect for champions who blend auto-attacks with magic damage. It provides a hefty boost to attack speed and reduces ability cooldowns, allowing you to cast spells more frequently in fights. The “Magic Fang” passive adapts to your build by granting either bonus attack damage or ability power, adding flexibility.  With each auto-attack, “Gnaw” deals adaptive magic damage on hit, making it especially effective against tanky targets and for wearing down opponents over time. This item is ideal for champions like Teemo, Kayle, and Jax, who rely on sustained auto-attacks supported by magic damage and need frequent ability usage to maximize DPS in extended engagements.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389704_protobelt-enchant.webp",
+          "alt": "Wild Rift Items: Protobelt Enchant",
+          "name": "Protobelt Enchant",
+          "description": "Protobelt EnchantSmall dashProtobelt (Active):Dash forward and unleash a cone of missiles that deal70 magic damage.and reducing the target'sMagic Resistance by 15%for 3s. After cast, gain20% Movement Speedthatdecays over 3s. (50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.500Protobelt Enchant TIPS:This enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance. After casting, you gain a temporary movement speed boost for continued pursuit or escape.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389735_stoneplate-enchant.webp",
+          "alt": "Wild Rift Items: Stoneplate Enchant",
+          "name": "Stoneplate Enchant",
+          "description": "Stoneplate EnchantShieldStoneplate (Active):Gain a baseshieldthat absorbs damage equal to20% of max Health. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 35%. Theshielddecays over 4s. (60s Cooldown) For every enemy nearby, gain an additionalshieldthat absorbs damage equal to5% of max Health, capped at 3 enemies. Every 1 bonusArmororMagic Resistanceyou have increases theshieldby 0.1%, up to 12%. Damage dealt is reduced by 40% for 4s.500Stoneplate Enchant TIPS:This enchant grants a strong shield based on your max health, further boosted by your armor and magic resist. The shield grows stronger per nearby enemy and decays over time, reducing incoming damage.  — Perfect for tank initiators who need reliable mitigation to withstand initial bursts and control teamfights.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+          "alt": "Wild Rift Items: Riftmaker",
+          "name": "Riftmaker",
+          "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302010_nashors-tooth.webp",
+          "alt": "Wild Rift Items: Nashor's Tooth",
+          "name": "Nashor's Tooth",
+          "description": "Nashor's ToothAttacks deal bonus damage+45% Attack Speed+20 Ability HasteMagic Fang:Obtain30 Attack Damageor60 Ability Power(Adaptive).Gnaw:Attacks deal adaptive damage (15+20% bonus+30% bonus) on hit.3000Nashor's Tooth TIPS:This item is perfect for champions who blend auto-attacks with magic damage. It provides a hefty boost to attack speed and reduces ability cooldowns, allowing you to cast spells more frequently in fights. The “Magic Fang” passive adapts to your build by granting either bonus attack damage or ability power, adding flexibility.  With each auto-attack, “Gnaw” deals adaptive magic damage on hit, making it especially effective against tanky targets and for wearing down opponents over time. This item is ideal for champions like Teemo, Kayle, and Jax, who rely on sustained auto-attacks supported by magic damage and need frequent ability usage to maximize DPS in extended engagements.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+          "alt": "Wild Rift Items: Yordle Infinity Orb",
+          "name": "Yordle Infinity Orb",
+          "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+          "cost": 2900
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+          "alt": "Wild Rift Items: Lich Bane",
+          "name": "Lich Bane",
+          "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+          "cost": 2950
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Increases survivability in prolonged combat",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            }
+          ],
+          "tips": "Amaranth's Twinguard— This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695152_barrier.webp",
+          "alt": "Barrier Wild Rift",
+          "name": "Barrier",
+          "description": "BarrierGain ashieldthatabsorbs 120(120–560) damage for 2.5 seconds.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392609_nullifying-orb.webp",
+            "alt": "Wild Rift Resolve Runes: Nullifying Orb",
+            "name": "Nullifying Orb",
+            "description": "Grants a shield when Health is low."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+          "alt": "Wild Rift Keystone Runes: Conqueror",
+          "name": "Conqueror",
+          "description": "Gain stacks of AD or AP when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus Omnivamp (Adaptive)."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Heal after taking damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+              "alt": "Second Wind",
+              "name": "Second Wind",
+              "description": "Second WindHeal after taking damageGain5 Healthevery 5 seconds.After taking damage from an enemy champion,regenerate 6 + (2% of your missing health)over the next 5 seconds. This effect is doubled for melee champions."
+            }
+          ],
+          "tips": "Second Wind— The rune restores health every 5 seconds and significantly boosts regeneration after taking damage from an enemy champion. This rune is especially useful for champions who are often in the thick of the fight, such as tanks or fighters, as it helps sustain health during battles. The effect is doubled for melee champions, making it even more effective in extended fights, improving survivability."
+        },
+        {
+          "purpose": "Armor and Magic Resistance, Tenacity",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+              "alt": "Perseverance",
+              "name": "Perseverance",
+              "description": "PerseveranceArmor and Magic Resistance, TenacityGain10% Tenacity. When immobilized, gain 16-30ArmorandMagic Resistance() for 1.5 seconds. Refresh duration time when immobilized multiple times."
+            }
+          ],
+          "tips": "Perseverance— The rune increases your tenacity by 10%. When immobilized, it grants you bonus armor and magic resistance for a short period. The effect refreshes if you are immobilized multiple times, making the rune especially useful for champions who often find themselves under crowd control. It is ideal for tanks and fighters, enhancing their survivability in fights when they are subjected to multiple crowd control effects."
+        },
+        {
+          "purpose": "Tank, Heal",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+              "alt": "Conqueror",
+              "name": "Conqueror",
+              "description": "ConquerorStacking Damage, VampGain stacks of Adaptive Force when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus omnivamp.Per stack:3-7 bonusor4-11for 6s.Fully stacked bonus: Melee - 9%, Ranged - 5% bonusOmnivamp."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+              "alt": "Grasp of Undying",
+              "name": "Grasp of Undying",
+              "description": "Grasp of UndyingTank, HealEvery 3s in combat, your next attack on a champion will be enhanced.Bonusmagic damage:2%Heal:2.5%Permanentlyhealthincrease:10On Ranged champions, the effects are reduced by 60%."
+            }
+          ],
+          "tips": "Grasp of Undying— The rune is perfect for champions who engage in close combat and can consistently stay in contact with enemies, such as Maokai or Nunu. It enhances attacks, dealing bonus magic damage and healing for a portion of health. The rune also permanently increases maximum health, making the champion more durable. For ranged champions, its effects are reduced, but it can still be useful for survival support in combat. It’s especially beneficial in extended fights where sustaining health is key."
+        }
+      ]
+    },
+    {
+      "lane": "Jungle",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390572_amplifying-tome.webp",
+          "alt": "Wild Rift Items: Amplifying Tome",
+          "name": "Amplifying Tome",
+          "description": "Amplifying Tome+25 Ability Power500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302010_nashors-tooth.webp",
+          "alt": "Wild Rift Items: Nashor's Tooth",
+          "name": "Nashor's Tooth",
+          "description": "Nashor's ToothAttacks deal bonus damage+45% Attack Speed+20 Ability HasteMagic Fang:Obtain30 Attack Damageor60 Ability Power(Adaptive).Gnaw:Attacks deal adaptive damage (15+20% bonus+30% bonus) on hit.3000Nashor's Tooth TIPS:This item is perfect for champions who blend auto-attacks with magic damage. It provides a hefty boost to attack speed and reduces ability cooldowns, allowing you to cast spells more frequently in fights. The “Magic Fang” passive adapts to your build by granting either bonus attack damage or ability power, adding flexibility.  With each auto-attack, “Gnaw” deals adaptive magic damage on hit, making it especially effective against tanky targets and for wearing down opponents over time. This item is ideal for champions like Teemo, Kayle, and Jax, who rely on sustained auto-attacks supported by magic damage and need frequent ability usage to maximize DPS in extended engagements.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+          "alt": "Wild Rift Items: Riftmaker",
+          "name": "Riftmaker",
+          "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+          "cost": 3300
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302010_nashors-tooth.webp",
+          "alt": "Wild Rift Items: Nashor's Tooth",
+          "name": "Nashor's Tooth",
+          "description": "Nashor's ToothAttacks deal bonus damage+45% Attack Speed+20 Ability HasteMagic Fang:Obtain30 Attack Damageor60 Ability Power(Adaptive).Gnaw:Attacks deal adaptive damage (15+20% bonus+30% bonus) on hit.3000Nashor's Tooth TIPS:This item is perfect for champions who blend auto-attacks with magic damage. It provides a hefty boost to attack speed and reduces ability cooldowns, allowing you to cast spells more frequently in fights. The “Magic Fang” passive adapts to your build by granting either bonus attack damage or ability power, adding flexibility.  With each auto-attack, “Gnaw” deals adaptive magic damage on hit, making it especially effective against tanky targets and for wearing down opponents over time. This item is ideal for champions like Teemo, Kayle, and Jax, who rely on sustained auto-attacks supported by magic damage and need frequent ability usage to maximize DPS in extended engagements.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389619_boots-of-mana.webp",
+          "alt": "Wild Rift Items: Boots of Mana",
+          "name": "Boots of Mana",
+          "description": "Boots of ManaAbility Power, Magic Penetration, Mana Regeneration+55 Ability Power+150% Mana Regeneration+45 Move Speed.Magic Break:+8% Magic Penetration.Equilibrium:Champions without Mana gain 75% bonus health Regen.Big Bully:Attacks and active abilities deal18 bonus physical damageto minions.1400Boots of Mana TIPS:These boots boost your ability power, mana regeneration, and movement speed. The “Magic Break” passive grants extra magic penetration for more potent spells against resistances. “Big Bully” speeds up waveclear by dealing bonus damage to minions with attacks and abilities. The new “Equilibrium” passive gives champions without mana a strong health regeneration boost, enhancing their survivability in prolonged engagements.  — A great pick for mage mid laners and supports who need frequent spellcasting, wave control, mobility, and added staying power.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388604_riftmaker.webp",
+          "alt": "Wild Rift Items: Riftmaker",
+          "name": "Riftmaker",
+          "description": "RiftmakerRamping Damage+150 Max Health+80 Ability Power+7% Magic Penetration+15 Ability HasteAssimilation:+11% Omnivamp.Void Corruption:When in combat with champions, gain 1 stack(s) ofCorruptionevery 1 second(s). Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the additional damage provided byCorruptionbecomestrue damage.3300Riftmaker TIPS:This item is perfect for mages and champions who need to increase damage over time while fighting. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Void Corruption\" effect allows you to gain stacks of Corruption every second while in combat with champions, increasing your damage with each stack. At maximum stacks, the additional damage becomes true damage, making this item very powerful in prolonged fights. This item is especially useful for champions who can sustain in long battles, dealing damage while healing.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+          "alt": "Wild Rift Items: Rabadon's Deathcap",
+          "name": "Rabadon's Deathcap",
+          "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+          "cost": 3400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388486_yordle-infinity-orb.webp",
+          "alt": "Wild Rift Items: Yordle Infinity Orb",
+          "name": "Yordle Infinity Orb",
+          "description": "Yordle Infinity OrbAbilities deal bonus damage+80 Ability Power+7% Magic PenetrationDestiny:+5% Move Speed.Balanced:+15 Magic Penetration.Inevitable Demise:Abilities andempowered attacksCritically Strikefor20%bonus damage against enemies below35% Health.Thunderfall:When an enemy champion dies within 3 second(s) of you applying Inevitable Demise to them, a lightning bolt strikes at the spot where they died, dealingmagic damageequal to50-85() plus20%to nearby enemies.2900Yordle Infinity Orb TIPS:This item is ideal for mages and assassins looking to boost execution damage and mobility. It grants magic penetration and adds critical strike damage against weakened targets, enabling reliable finishers. Following a kill under this effect, a lightning bolt strikes, damaging nearby enemies—perfect for cleaning up in teamfights.",
+          "cost": 2900
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+          "alt": "Wild Rift Items: Lich Bane",
+          "name": "Lich Bane",
+          "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+          "cost": 2950
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Increases survivability in prolonged combat",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388405_lich-bane.webp",
+              "alt": "Wild Rift Items: Lich Bane",
+              "name": "Lich Bane",
+              "description": "Lich BaneAttacks deal bonus damage aster ability casts+80 Ability Power+7% Magic Penetration+10 Ability HasteBane:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus magic damageequal to75% base AD+50% AP. (1.5s Cooldown) Damage is reduced vs structures.2950Lich Bane TIPS:This item is perfect for mages and champions who deal both magic and physical damage. It provides bonuses to ability power, magic penetration, and ability haste, helping to increase damage and the frequency of ability usage. The \"Spellblade\" effect allows you to deal bonus magic damage with your next attack after using an ability, adding burst damage and helping to quickly take down squishy enemies. This item is especially effective against champions with low magic resistance, such as AD carries, mages, and assassins, who are vulnerable to high magic damage.",
+              "cost": 2950
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            }
+          ],
+          "tips": "Amaranth's Twinguard— This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695152_barrier.webp",
+          "alt": "Barrier Wild Rift",
+          "name": "Barrier",
+          "description": "BarrierGain ashieldthatabsorbs 120(120–560) damage for 2.5 seconds.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392609_nullifying-orb.webp",
+            "alt": "Wild Rift Resolve Runes: Nullifying Orb",
+            "name": "Nullifying Orb",
+            "description": "Grants a shield when Health is low."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+            "alt": "Wild Rift Resolve Runes: Overgrowth",
+            "name": "Overgrowth",
+            "description": "Gains bonus scalable max Health."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+          "alt": "Wild Rift Keystone Runes: Conqueror",
+          "name": "Conqueror",
+          "description": "Gain stacks of AD or AP when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus Omnivamp (Adaptive)."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Heal after taking damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392641_second-wind.webp",
+              "alt": "Second Wind",
+              "name": "Second Wind",
+              "description": "Second WindHeal after taking damageGain5 Healthevery 5 seconds.After taking damage from an enemy champion,regenerate 6 + (2% of your missing health)over the next 5 seconds. This effect is doubled for melee champions."
+            }
+          ],
+          "tips": "Second Wind— The rune restores health every 5 seconds and significantly boosts regeneration after taking damage from an enemy champion. This rune is especially useful for champions who are often in the thick of the fight, such as tanks or fighters, as it helps sustain health during battles. The effect is doubled for melee champions, making it even more effective in extended fights, improving survivability."
+        },
+        {
+          "purpose": "Armor and Magic Resistance, Tenacity",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392435_overgrowth.webp",
+              "alt": "Overgrowth",
+              "name": "Overgrowth",
+              "description": "OvergrowthBonus HPWhen 2 minions or 1 monsters are killed nearby, permanently gains3 max Health. Max Health can be increased indefinitely. Gains abonus 3% max Healthupon reaching 30 stacks."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392452_perseverance.webp",
+              "alt": "Perseverance",
+              "name": "Perseverance",
+              "description": "PerseveranceArmor and Magic Resistance, TenacityGain10% Tenacity. When immobilized, gain 16-30ArmorandMagic Resistance() for 1.5 seconds. Refresh duration time when immobilized multiple times."
+            }
+          ],
+          "tips": "Perseverance— The rune increases your tenacity by 10%. When immobilized, it grants you bonus armor and magic resistance for a short period. The effect refreshes if you are immobilized multiple times, making the rune especially useful for champions who often find themselves under crowd control. It is ideal for tanks and fighters, enhancing their survivability in fights when they are subjected to multiple crowd control effects."
+        },
+        {
+          "purpose": "Tank, Heal",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+              "alt": "Conqueror",
+              "name": "Conqueror",
+              "description": "ConquerorStacking Damage, VampGain stacks of Adaptive Force when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus omnivamp.Per stack:3-7 bonusor4-11for 6s.Fully stacked bonus: Melee - 9%, Ranged - 5% bonusOmnivamp."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729699_8437.webp",
+              "alt": "Grasp of Undying",
+              "name": "Grasp of Undying",
+              "description": "Grasp of UndyingTank, HealEvery 3s in combat, your next attack on a champion will be enhanced.Bonusmagic damage:2%Heal:2.5%Permanentlyhealthincrease:10On Ranged champions, the effects are reduced by 60%."
+            }
+          ],
+          "tips": "Grasp of Undying— The rune is perfect for champions who engage in close combat and can consistently stay in contact with enemies, such as Maokai or Nunu. It enhances attacks, dealing bonus magic damage and healing for a portion of health. The rune also permanently increases maximum health, making the champion more durable. For ranged champions, its effects are reduced, but it can still be useful for survival support in combat. It’s especially beneficial in extended fights where sustaining health is key."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "660 → 690."
+            },
+            {
+              "stat": "Health per level",
+              "change": "115 → 120."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "45 → 52."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "10 MAY 2023",
+      "patch": "4.1C",
+      "changes": [
+        {
+          "ability": "(PASSIVE) A THOUSAND CUTS",
+          "changes": [
+            {
+              "stat": "Bonus magic damage Ability Power ratio",
+              "change": "0.006% → 0.005%."
+            }
+          ]
+        },
+        {
+          "ability": "(E) SKIP'N SLASH",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "16.5/14/11.5/9s → 13.5/12/10.5/9s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "30 NOV 2022",
+      "patch": "3.5A",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Attack Damage",
+              "change": "64 → 58."
+            }
+          ]
+        },
+        {
+          "ability": "(E) SKIP'N SLASH",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "12/11/10/9s → 16.5/14/11.5/9s."
+            },
+            {
+              "stat": "Cooldown refund",
+              "change": "35/40/45/50% → 50%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "19 OCT 2022",
+      "patch": "3.4B",
+      "changes": [
+        {
+          "ability": "(PASSIVE) A THOUSAND CUTS",
+          "changes": [
+            {
+              "stat": "Max damage to monsters",
+              "change": "4 (+ 4% Ability Power) → 2 (+ 3% Ability Power)."
+            }
+          ]
+        },
+        {
+          "ability": "(E) SKIP'N SLASH",
+          "changes": [
+            {
+              "stat": "Cooldown reduction %",
+              "change": "20/30/40/50% → 35/40/45/50%."
+            },
+            {
+              "change": "Reduce cooldown when hitting a target → Reduce cooldown when hitting a non-monster target."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "28 SEP 2022",
+      "patch": "3.4A",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Health",
+              "change": "610 → 660."
+            }
+          ]
+        },
+        {
+          "ability": "(PASSIVE) A THOUSAND CUTS",
+          "changes": [
+            {
+              "stat": "Maximum Monster damage",
+              "change": "5 + 5% Ability Power → 4 + 4% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) SNIP SNIP!",
+          "changes": [
+            {
+              "stat": "Initial Snip base damage",
+              "change": "10/14/18/22 → 12/16/20/24."
+            },
+            {
+              "stat": "Final Snip base damage",
+              "change": "50/70/90/110 → 60/80/100/120."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

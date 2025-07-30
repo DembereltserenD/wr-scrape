@@ -1,0 +1,444 @@
+{
+  "name": "VI",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675036468_1644095816_vi_12_11zon.webp",
+  "tier": 1,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 66,
+    "toughness": 66,
+    "utility": 33,
+    "difficulty": 33
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606367028_vi_0.jpg",
+      "alt_text": "DENTING BLOWS",
+      "key": "P",
+      "description": "(PASSIVE)DENTING BLOWSEvery 3rd attack on the same enemy deals4.8-9%(4.8% (+0.3%) +0.03%bonus) of theirmax Healthasbonus physical damage,reduces their Armor by 20%and grants Vi27% Attack Speedfor 4 seconds.Deals 300 max damage vs. monsters.",
+      "name": "DENTING BLOWSE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606367047_vi_1.jpg",
+      "alt_text": "VAULT BREAKER",
+      "key": "Q",
+      "description": "(Q)VAULT BREAKER9/8/7/6s50/60/70/80Hold:Charges up a powerful punch, slowing Movement Speed by 15% while increasing the punch's damage and dash distance.Cast:Dashes forward dealing60 to 120 physical damage(60/95/130/165 +80% bonusto 120/190/260/330 +160% bonus) and applyingDenting Blowsto all enemies hit. Colliding with an enemy champion stops the punch andknocksthem back.Deals 75% damage to minions and monsters.",
+      "name": "VAULT BREAKER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606367047_vi_2.jpg",
+      "alt_text": "BLAST SHIELD",
+      "key": "W",
+      "description": "(W)BLAST SHIELD10/9/8/7s30/20/10/0Passive:Hitting an enemy with an attack or ability grants a stack of Blast Shield, up to 5 stacks.Active:Generates ashieldthatabsorbs 60/85/110/135 damagefor 3 seconds. Each stack consumed adds 10 (1.5/2/2.5/3%max) to the shield. At max stacks also grants a burst of47% Movement Speed.Blast Shield stacks fall off one at a time and a max of 1 stack is added per attack or ability.",
+      "name": "BLAST SHIELD"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606367114_vi_3.jpg",
+      "alt_text": "EXCESSIVE FORCE",
+      "key": "E",
+      "description": "(E)EXCESSIVE FORCE1s20/30/40/50EmpowersVi's next attack to deal30 bonus physical damage(20/45/70/95 +15%+70%) to the target and enemies behind it.Vi stores a new charge every 14/12/10/8 seconds and can hold 2 charges at once.",
+      "name": "EXCESSIVE FORCE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606367122_vi_4.jpg",
+      "alt_text": "ASSAULT AND BATTERY",
+      "key": "R",
+      "description": "(R)ASSAULT AND BATTERY70/60/50s100Chases down an enemy champion, knocking them up for 1.25 seconds and dealing150 physical damage(150/300/450 +140% bonus).ViRevealsher target and cannot be stopped while chasing it down. Enemies in the way areknockedaside and take 75% of the damage.",
+      "name": "ASSAULT AND BATTERY"
+    }
+  ],
+  "lanes": [
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Jungle",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+          "alt": "Wild Rift Items: Trinity Force",
+          "name": "Trinity Force",
+          "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage.",
+          "cost": 3333
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305059_sundered-sky.webp",
+          "alt": "Wild Rift Items: Sundered Sky",
+          "name": "Sundered Sky",
+          "description": "Sundered SkyPeriodically empowers attacks+300 Max Health+40 Attack Damage+15 Ability HasteLightshield Strike:The first attack against an enemy champion dealsCritically Strikes(6s cooldown per target), dealing 160% damage  andrestores Health(equal to125% base Attack Damage+5% of missing Healthto you.3000Sundered Sky TIPS:This item is perfect for AD bruisers who deal physical damage and need sustain during fights. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve both survivability and damage output. The \"Lightshield Strike\" effect causes your first attack against an enemy champion to critically strike, dealing 160% damage and restoring health based on your base attack damage and a percentage of your missing health. This makes the item a great choice for AD bruisers who engage in fights and require both extra damage and sustain.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+          "alt": "Wild Rift Items: Trinity Force",
+          "name": "Trinity Force",
+          "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage.",
+          "cost": 3333
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights.",
+          "cost": 1350
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305059_sundered-sky.webp",
+          "alt": "Wild Rift Items: Sundered Sky",
+          "name": "Sundered Sky",
+          "description": "Sundered SkyPeriodically empowers attacks+300 Max Health+40 Attack Damage+15 Ability HasteLightshield Strike:The first attack against an enemy champion dealsCritically Strikes(6s cooldown per target), dealing 160% damage  andrestores Health(equal to125% base Attack Damage+5% of missing Healthto you.3000Sundered Sky TIPS:This item is perfect for AD bruisers who deal physical damage and need sustain during fights. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve both survivability and damage output. The \"Lightshield Strike\" effect causes your first attack against an enemy champion to critically strike, dealing 160% damage and restoring health based on your base attack damage and a percentage of your missing health. This makes the item a great choice for AD bruisers who engage in fights and require both extra damage and sustain.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305021_steraks-gage.webp",
+          "alt": "Wild Rift Items: Sterak's Gage",
+          "name": "Sterak's Gage",
+          "description": "Sterak's GageTaking damage triggers a shield+400 Max HealthHeavy Handed:+50% base Attack Damageasbonus Attack Damage.Lifeline:Damage that puts you under35%Healthgrants ashieldthat equal to75% of your bonus healththat decays over 3 seconds (90s Cooldown).Sterak's Fury:Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants30% Tenacityfor 4 seconds.3200Sterak's Gage TIPS:This item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions. It provides bonuses to maximum health, attack damage, and helps increase your survivability. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits. \"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies. This item is especially useful against champions with burst damage, such as Zed and Talon, and against champions with heavy CC, like Lissandra and Nautilus.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+          "alt": "Wild Rift Items: Yordle Death's Dance",
+          "name": "Yordle Death's Dance",
+          "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+          "alt": "Wild Rift Items: Amaranth's Twinguard",
+          "name": "Amaranth's Twinguard",
+          "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+          "cost": 3100
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304959_chempunk-chainsword.webp",
+              "alt": "Wild Rift Items: Chempunk Chainsword",
+              "name": "Chempunk Chainsword",
+              "description": "Chempunk ChainswordReduces enemy healing+250 Max Health+45 Attack Damage+15 Ability HastePunishment:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2800Chempunk Chainsword TIPS:This item is perfect for champions who face enemies with high sustain, such as Dr. Mundo, Soraka, and Yuumi, who have significant healing abilities. The \"Punishment\" effect applies Grievous Wounds, reducing the effectiveness of healing and regeneration by 50%, making this item effective against champions who rely on healing. It’s also useful against champions who rely on lifesteal, such as Aatrox, Darius, and Fiora, as it helps reduce the effectiveness of their healing.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Chempunk Chainsword— This item is perfect for champions who face enemies with high sustain, such as Dr. Mundo, Soraka, and Yuumi, who have significant healing abilities. The \"Punishment\" effect applies Grievous Wounds, reducing the effectiveness of healing and regeneration by 50%, making this item effective against champions who rely on healing. It’s also useful against champions who rely on lifesteal, such as Aatrox, Darius, and Fiora, as it helps reduce the effectiveness of their healing."
+        },
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Attack to heal from enemy Critical Strikes",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389031_randuins-omen.webp",
+              "alt": "Wild Rift Items: Randuin's Omen",
+              "name": "Randuin's Omen",
+              "description": "Randuin's OmenAttack to heal from enemy Critical Strikes+400 Max Health+75 ArmorCountercurrent:When you areCritically Struckor takephysical damage, gain 1 stack ofCountercurrent. Each stack ofCountercurrentgrants5% Critical Strikedamage reduction. Stacks up to 4 times. Upon reaching full stacks, grants20% bonus Movement Speedand slow resist equal to 20% plus0.5% of bonus Health.2800Randuin's Omen TIPS:Randuin's Omen Attack to heal from enemy Critical Strikes   +400 Max Health  +75 Armor  Countercurrent: When you are Critically Struck or take physical damage, gain 1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike damage reduction. Stacks up to 4 times. Upon reaching full stacks, grants 20% bonus Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health.   2800  Randuin's Omen TIPS: Pick the item if enemy team has a lot of physical damage, you need increased armor and you want to get an additional bonus to movement speed and resistance to slowdowns.. Effective against champions who deal consistent crit based damage like Jinx, Yasuo or Tryndamere.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Randuin's Omen— Randuin's Omen Attack to heal from enemy Critical Strikes   +400 Max Health  +75 Armor  Countercurrent: When you are Critically Struck or take physical damage, gain 1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike damage reduction. Stacks up to 4 times. Upon reaching full stacks, grants 20% bonus Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health.   2800  Randuin's Omen TIPS: Pick the item if enemy team has a lot of physical damage, you need increased armor and you want to get an additional bonus to movement speed and resistance to slowdowns.. Effective against champions who deal consistent crit based damage like Jinx, Yasuo or Tryndamere."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695616_smite.webp",
+          "alt": "Smite Wild Rift",
+          "name": "Smite",
+          "description": "SmiteDeal600 true damageto monsters, epic monsters or enemy minions. Smiting a monsterrestore 127 Health(70 + 10%). Smite upgrades toChilling Smiteafter 3 uses.Jungle Expertise:Earn 20% bonus gold and 20% bonus XP from  monsters kills, but temporarily earn 60% less gold and XP from minions kills.Deal 15% more  attack damage and 30% more ability damage against monsters.Restore 40 Healthover 5 seconds after dealing damage to monsters.Restore 4 Manaevery second while in the jungle or river.From 7:30 onward, monster kills will no longer grant bonus gold.At 2:00, the attack damage bonus against monsters will start to decay.At 5:00, it will be removed.Gains one charge every 45 seconds, up to a max of 2.Cooldown:10s",
+          "cooldown": 10
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695722_chilling-smite.png",
+          "alt": "Сhilling Smite Wild Rift",
+          "name": "Сhilling Smite",
+          "description": "Сhilling SmiteDeal800 true damageto a large or epic monster or minion. Smiting monstersrestore 152 Health(70 + 10%).Against champions: Deal70 true damage(38 to 184) ato enemy Champions and steals 25% of theirMovement Speedfor 2 seconds.Cooldown:10s",
+          "cooldown": 10
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392264_legend-tenacity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Tenacity",
+            "name": "Legend: Tenacity",
+            "description": "Gains Tenacity and Slow Resist."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+          "alt": "Wild Rift Keystone Runes: Conqueror",
+          "name": "Conqueror",
+          "description": "Gain stacks of AD or AP when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus Omnivamp (Adaptive)."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Execute, Heal",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+              "alt": "Brutal",
+              "name": "Brutal",
+              "description": "BrutalOn-hit DamageBasic attacks deal 7-21 bonusadaptivedamageon-hitagainst champions."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392053_triumph.webp",
+              "alt": "Triumph",
+              "name": "Triumph",
+              "description": "TriumphExecute, HealChampion takedowns restore10% of lost healthand 10% of maximum mana and energy."
+            }
+          ],
+          "tips": "Triumph— The rune restores 10% of lost health and 10% of maximum mana or energy after a champion takedown. It is perfect for champions who actively participate in fights and frequently secure kills, such as fighters or assassins. The rune helps sustain survivability in prolonged battles by restoring health and mana or energy, providing an advantage in fights."
+        },
+        {
+          "purpose": "Takedown high health champions",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+              "alt": "Coup de Grace",
+              "name": "Coup de Grace",
+              "description": "Coup de GraceBonus DamageWhen an enemy champion has less than40% Health, deals 8% bonus adaptive damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            }
+          ],
+          "tips": "Giant Slayer— The rune deals bonus damage based on the enemy champion's bonus health, up to 16% bonus damage when the enemy champion has 1600 or more bonus health. It is perfect for champions who face enemies with high amounts of health, such as tanks. The rune helps effectively break through high health opponents, making it an excellent choice for damage-focused champions."
+        },
+        {
+          "purpose": "Bonus Attack Speed",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392264_legend-tenacity.webp",
+              "alt": "Legend: Tenacity",
+              "name": "Legend: Tenacity",
+              "description": "Legend: TenacityTenacity, Slow ResistGains3% Tenacityand3% Slow Resist. Takedown monsters, enemy champions, or minions to gain up to an additional15% Tenacityand20% Slow Resist."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+              "alt": "Legend: Alacrity",
+              "name": "Legend: Alacrity",
+              "description": "Legend: AlacrityBonus Attack SpeedGains3% Attack Speed. Takedown monsters, enemy champions, or minions to gain up to an additional20% Attack Speed."
+            }
+          ],
+          "tips": "Legend: Alacrity— The rune increases your attack speed by 3% and grants additional attack speed for each takedown of monsters, enemy champions, or minions, up to 20%. This makes it a great choice for champions who actively engage in fights and farm, such as fighters or junglers. The rune helps quickly ramp up attack speed, enhancing your aggressive playstyle and effectiveness in extended fights."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "650 → 690."
+            },
+            {
+              "stat": "Health per level",
+              "change": "105 → 112."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "40 → 46."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 APR 2021",
+      "patch": "2.2а",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Armor",
+              "change": "35 → 30."
+            }
+          ]
+        },
+        {
+          "ability": "(R) ASSAULT AND BATTERY",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "85/65/45s → 95/75/55s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "06 DEC 2020",
+      "patch": "1.1",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Mana regen",
+              "change": "18 → 15."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

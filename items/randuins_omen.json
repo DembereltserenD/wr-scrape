@@ -1,42 +1,14 @@
 {
   "name": "Randuin's Omen",
-  "stats": {
-    "armor": {
-      "value": 80,
-      "type": "flat"
-    },
-    "health": {
-      "value": 400,
-      "type": "flat"
-    },
-    "critical_chance": {
-      "value": 5,
-      "type": "percentage"
-    }
-  },
-  "cost": 2700,
-  "passive": "Rock Solid: Reduce damage from critical strikes by 20%. When struck by an attack, slow the attacker's Attack Speed by 15% for 1.5 seconds.",
-  "active": "Active: Slow nearby enemies by 55% for 2 seconds (60 second cooldown).",
-  "description": "Item that provides Armor, Health. Passive effect: Reduce damage from critical strikes by 20%. When struck by an attack, slow the attacker's Attack Speed by 15% for 1.5 seconds.. Active effect: Slow nearby enemies by 55% for 2 seconds (60 second cooldown).. Perfect for frontline champions who need to absorb damage.",
-  "category": "legendary",
-  "tier": "A",
-  "build_path": [
-    "Warden's Mail",
-    "Giant's Belt"
-  ],
-  "tags": [
-    "Armor",
-    "Health",
-    "Tank",
-    "Slow"
-  ],
-  "tips": [
-    "Provides excellent sustain in lane and during fights",
-    "The healing/lifesteal helps you stay in fights longer",
-    "Great for champions who take extended trades",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy physical damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "category": "situational",
+  "cost": 0,
+  "tier": "unknown",
+  "description": "",
+  "stats": {},
+  "passive": "",
+  "active": "",
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "situational_items",
+  "extracted_at": "2025-07-27T20:57:05.806387"
 }

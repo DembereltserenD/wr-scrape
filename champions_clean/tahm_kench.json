@@ -1,0 +1,64 @@
+{
+  "name": "TAHM KENCH",
+  "roles": [
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665254464_tahmkench_10_14_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254602_an_acquired_taste.webp",
+      "alt_text": "AN ACQUIRED TASTE",
+      "key": "P",
+      "description": "(PASSIVE)AN ACQUIRED TASTETahm Kench puts the heft of his immense body behind his attacks, gaining extra damage based on his total health. Damaging enemy champions builds stacks of An Acquired Taste. At three stacks, he can use Devour on an enemy champion.",
+      "name": "AN ACQUIRED TASTET"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254559_tongue_lash.webp",
+      "alt_text": "TONGUE LASH",
+      "key": "Q",
+      "description": "(Q)TONGUE LASHTahm Kench lashes out with his tongue, damaging and slowing the first unit hit and healing himself if he strikes an enemy champion. Applies a stack of An Acquired Taste to enemy champions. If the champion already has 3 stacks of An Acquired Taste, they are stunned and the stacks are consumed.",
+      "name": "TONGUE LASHT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254591_abyssal_voyage_2.webp",
+      "alt_text": "ABYSSAL DIVE",
+      "key": "W",
+      "description": "(W)ABYSSAL DIVEDive down and then re-appear at target location, damaging and knocking up all enemies in an area.",
+      "name": "ABYSSAL DIVED"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254555_thick_skin.webp",
+      "alt_text": "THICK SKIN",
+      "key": "E",
+      "description": "(E)THICK SKINPassive: Tahm Kench stores a percent of the damage he takes and heals based on it while out of combat. Active: Convert all stored damage into a temporary shield.",
+      "name": "THICK SKINP"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254594_devour.webp",
+      "alt_text": "DEVOUR",
+      "key": "R",
+      "description": "(R)DEVOURTahm Kench devours a champion for a few seconds, dealing magic damage if they are an enemy, or shielding them if they are an ally.",
+      "name": "DEVOURT"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Unknown",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

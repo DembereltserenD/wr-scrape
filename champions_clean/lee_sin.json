@@ -1,0 +1,493 @@
+{
+  "name": "LEE SIN",
+  "roles": [
+    "Assassin",
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675035069_1644095231_lee-sin_6_11zon.webp",
+  "tier": 1,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 100,
+    "toughness": 66,
+    "utility": 33,
+    "difficulty": 100
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606358921_leesin_0.jpg",
+      "alt_text": "FLURRY",
+      "key": "P",
+      "description": "(PASSIVE)FLURRYGains40% Attack Speedfor his next 2 attacks within 3 seconds. The first attack restores20 energy(+10 every 5 levels) and the second restores half of that amount.",
+      "name": "FLURRYG"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606358961_leesin_1.jpg",
+      "alt_text": "SONIC WAVE / RESONATING STRIKE",
+      "key": "Q",
+      "description": "(Q)SONIC WAVE / RESONATING STRIKE8/7/6/5s50Sonic Wave:Fires an energy wave that deals55 physical damage(55/90/125/160 +105% bonus) to enemies andrevealsthem. Hitting an enemy allowsResonating Striketo be cast within 3 seconds.Resonating Strike:Dash to enemy marked by Sonic Wave, dealing70 to 120 physical damage(70/130/190/250 +105% bonusto 120 +210% bonus) based on its missing Health.",
+      "name": "SONIC WAVE / RESONATING STRIKE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606358951_leesin_2.jpg",
+      "alt_text": "SAFEGUARD",
+      "key": "W",
+      "description": "(W)SAFEGUARD / IRON WILL15/14.5/14/13.5s50Safeguard:Dashes to target location. If an enemy is nearby on arrival, Lee Sinshieldshimself for80(80/140/200/260 +100%) for 2 seconds. AllowsIron Willto be cast within 3 seconds.Safeguard'scooldown is reduced by 0.5 seconds with each attack.Iron Will:Empowersnext two attacks to deal an additional26 magic damage(26/39/52/65 +40%) and gain16/24/32/40% Omnivamp.",
+      "name": "SAFEGUARD / IRON WILL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606358964_leesin_3.jpg",
+      "alt_text": "TEMPEST / CRIPPLE",
+      "key": "E",
+      "description": "(E)TEMPEST / CRIPPLE8s50Tempest: Deals90 magic damage(90/140/190/240 +125% bonus) to nearby enemies andrevealsthem. Hitting an enemy allowsCrippleto be cast within 3 seconds.Cripple:Slowsenemies hit by Tempestby 30/40/50/60%decaying over the course of 4 seconds.",
+      "name": "TEMPEST / CRIPPLE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606359026_leesin_4.jpg",
+      "alt_text": "DRAGON'S RAGE",
+      "key": "R",
+      "description": "(R)DRAGON'S RAGE70/60/50sLaunches a powerful roundhouse kick at an enemy champion, dealing100 physical damage(100/250/400 +200% bonus+10/13/16% of the target's max Health) and knocking them back.Enemies the target collides with along the way are knocked Airborne for 1 second(s) and take100 physical damage(100/300/500 +200% bonus+10/13/16% of the target's max Health).Deals up to 800 damage to monsters.",
+      "name": "DRAGON"
+    }
+  ],
+  "lanes": [
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Jungle",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305145_eclipse.webp",
+          "alt": "Wild Rift Items: Eclipse",
+          "name": "Eclipse",
+          "description": "EclipseGain a shield and deal bonus damage+65 Attack Damage+20 Ability HasteEver Rising Moon:Hitting an enemy champion with 2 separate attacks or abilities within 1.8s deals bonusphysical damageequal to7% of the target's max Health(3.5% for ranged champions), and grants you ashieldthat absorbs damage equal to140 + 35% bonus Attack Damage(70 + 18% bonus Attack Damagefor ranged champions) for 2s. (6s Cooldawn)3000Eclipse TIPS:This item is perfect for assassins who want to burst down enemies quickly. It provides bonuses to attack damage and ability haste, allowing you to deal more damage and use your abilities more frequently. The \"Ever Rising Moon\" effect activates when hitting an enemy champion with two separate attacks or abilities within 1.8 seconds, dealing bonus physical damage based on the target's max health and granting you a shield that absorbs damage. This makes the item a great choice for assassins who want to quickly eliminate targets and gain extra survivability.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301421_black-cleaver.webp",
+          "alt": "Wild Rift Items: Black Cleaver",
+          "name": "Black Cleaver",
+          "description": "Black CleaverPhysical Damage reduces Armor+400 Max Health+40 Attack Damage+20 Ability HasteSunder:Dealingphysical damageto a champion reduces theirArmorby 6% for 6 seconds, stacking 4 times for 24% reduction.Rage:Gain20 Movement Speedwhen you dealphysical damage, and gain40 Move Speedwhen moving toward enemy champions with 4 Sunder stacks. Ranged champions gain halved values.3000Black Cleaver TIPS:This item is perfect for champions who deal physical damage and need to fight tanky opponents. The \"Sunder\" effect reduces the enemy’s armor when dealing physical damage, making it effective at shredding through tanks with high resistance. The movement speed bonus, activated when dealing physical damage, helps maintain mobility on the battlefield. It's a great choice for fighters and junglers who can quickly apply multiple stacks of the item’s passive, reducing the enemy's armor and increasing the overall damage dealt.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305145_eclipse.webp",
+          "alt": "Wild Rift Items: Eclipse",
+          "name": "Eclipse",
+          "description": "EclipseGain a shield and deal bonus damage+65 Attack Damage+20 Ability HasteEver Rising Moon:Hitting an enemy champion with 2 separate attacks or abilities within 1.8s deals bonusphysical damageequal to7% of the target's max Health(3.5% for ranged champions), and grants you ashieldthat absorbs damage equal to140 + 35% bonus Attack Damage(70 + 18% bonus Attack Damagefor ranged champions) for 2s. (6s Cooldawn)3000Eclipse TIPS:This item is perfect for assassins who want to burst down enemies quickly. It provides bonuses to attack damage and ability haste, allowing you to deal more damage and use your abilities more frequently. The \"Ever Rising Moon\" effect activates when hitting an enemy champion with two separate attacks or abilities within 1.8 seconds, dealing bonus physical damage based on the target's max health and granting you a shield that absorbs damage. This makes the item a great choice for assassins who want to quickly eliminate targets and gain extra survivability.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301421_black-cleaver.webp",
+          "alt": "Wild Rift Items: Black Cleaver",
+          "name": "Black Cleaver",
+          "description": "Black CleaverPhysical Damage reduces Armor+400 Max Health+40 Attack Damage+20 Ability HasteSunder:Dealingphysical damageto a champion reduces theirArmorby 6% for 6 seconds, stacking 4 times for 24% reduction.Rage:Gain20 Movement Speedwhen you dealphysical damage, and gain40 Move Speedwhen moving toward enemy champions with 4 Sunder stacks. Ranged champions gain halved values.3000Black Cleaver TIPS:This item is perfect for champions who deal physical damage and need to fight tanky opponents. The \"Sunder\" effect reduces the enemy’s armor when dealing physical damage, making it effective at shredding through tanks with high resistance. The movement speed bonus, activated when dealing physical damage, helps maintain mobility on the battlefield. It's a great choice for fighters and junglers who can quickly apply multiple stacks of the item’s passive, reducing the enemy's armor and increasing the overall damage dealt.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305059_sundered-sky.webp",
+          "alt": "Wild Rift Items: Sundered Sky",
+          "name": "Sundered Sky",
+          "description": "Sundered SkyPeriodically empowers attacks+300 Max Health+40 Attack Damage+15 Ability HasteLightshield Strike:The first attack against an enemy champion dealsCritically Strikes(6s cooldown per target), dealing 160% damage  andrestores Health(equal to125% base Attack Damage+5% of missing Healthto you.3000Sundered Sky TIPS:This item is perfect for AD bruisers who deal physical damage and need sustain during fights. It provides bonuses to maximum health, attack damage, and ability haste, helping to improve both survivability and damage output. The \"Lightshield Strike\" effect causes your first attack against an enemy champion to critically strike, dealing 160% damage and restoring health based on your base attack damage and a percentage of your missing health. This makes the item a great choice for AD bruisers who engage in fights and require both extra damage and sustain.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305021_steraks-gage.webp",
+          "alt": "Wild Rift Items: Sterak's Gage",
+          "name": "Sterak's Gage",
+          "description": "Sterak's GageTaking damage triggers a shield+400 Max HealthHeavy Handed:+50% base Attack Damageasbonus Attack Damage.Lifeline:Damage that puts you under35%Healthgrants ashieldthat equal to75% of your bonus healththat decays over 3 seconds (90s Cooldown).Sterak's Fury:Triggering Lifeline increases size, empowers you, removes all crowd control effects on you (except Airborne), and grants30% Tenacityfor 4 seconds.3200Sterak's Gage TIPS:This item is perfect for champions who need survivability in team fights, especially for tanks and fighters who take frontline positions. It provides bonuses to maximum health, attack damage, and helps increase your survivability. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that absorbs damage, helping you survive heavy hits. \"Sterak's Fury\" empowers you, increases your size, removes crowd control effects (except airborne), and grants 30% tenacity for 4 seconds, allowing you to survive and continue fighting through heavy crowd control and burst damage from enemies. This item is especially useful against champions with burst damage, such as Zed and Talon, and against champions with heavy CC, like Lissandra and Nautilus.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+          "alt": "Wild Rift Items: Yordle Death's Dance",
+          "name": "Yordle Death's Dance",
+          "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
+          "cost": 3000
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+              "alt": "Wild Rift Items: Yordle Death's Dance",
+              "name": "Yordle Death's Dance",
+              "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+              "alt": "Wild Rift Items: Yordle Death's Dance",
+              "name": "Yordle Death's Dance",
+              "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753304959_chempunk-chainsword.webp",
+              "alt": "Wild Rift Items: Chempunk Chainsword",
+              "name": "Chempunk Chainsword",
+              "description": "Chempunk ChainswordReduces enemy healing+250 Max Health+45 Attack Damage+15 Ability HastePunishment:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2800Chempunk Chainsword TIPS:This item is perfect for champions who face enemies with high sustain, such as Dr. Mundo, Soraka, and Yuumi, who have significant healing abilities. The \"Punishment\" effect applies Grievous Wounds, reducing the effectiveness of healing and regeneration by 50%, making this item effective against champions who rely on healing. It’s also useful against champions who rely on lifesteal, such as Aatrox, Darius, and Fiora, as it helps reduce the effectiveness of their healing.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Chempunk Chainsword— This item is perfect for champions who face enemies with high sustain, such as Dr. Mundo, Soraka, and Yuumi, who have significant healing abilities. The \"Punishment\" effect applies Grievous Wounds, reducing the effectiveness of healing and regeneration by 50%, making this item effective against champions who rely on healing. It’s also useful against champions who rely on lifesteal, such as Aatrox, Darius, and Fiora, as it helps reduce the effectiveness of their healing."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+              "alt": "Wild Rift Items: Yordle Death's Dance",
+              "name": "Yordle Death's Dance",
+              "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301539_yordle-deaths-dance.webp",
+              "alt": "Wild Rift Items: Yordle Death's Dance",
+              "name": "Yordle Death's Dance",
+              "description": "Yordle Death's DanceDelays damage taken+35 Attack Damage+40 Armor+15 Ability HasteDance:Champion takedowns cleanse Cauterize's remaining damage pool andrestores 10% of your maximum healthover 2 seconds.Cauterize:32%of allphysical damageandmagic damagereceived (12%for ranged champions) is dealt to you over 4 seconds astrue damageinstead.3000Yordle Death's Dance TIPS:This item converts incoming damage into a delayed effect, letting you stay in fights longer and smooth out damage spikes. It boosts your survivability with armor and ability haste, and successful takedowns cleanse the delayed damage while instantly healing you.  — Perfect for bruisers and tanks who need to absorb bursts of damage and then quickly recover to keep fighting.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+              "cost": 3150
+            }
+          ],
+          "tips": "Edge of Night— This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695616_smite.webp",
+          "alt": "Smite Wild Rift",
+          "name": "Smite",
+          "description": "SmiteDeal600 true damageto monsters, epic monsters or enemy minions. Smiting a monsterrestore 127 Health(70 + 10%). Smite upgrades toChilling Smiteafter 3 uses.Jungle Expertise:Earn 20% bonus gold and 20% bonus XP from  monsters kills, but temporarily earn 60% less gold and XP from minions kills.Deal 15% more  attack damage and 30% more ability damage against monsters.Restore 40 Healthover 5 seconds after dealing damage to monsters.Restore 4 Manaevery second while in the jungle or river.From 7:30 onward, monster kills will no longer grant bonus gold.At 2:00, the attack damage bonus against monsters will start to decay.At 5:00, it will be removed.Gains one charge every 45 seconds, up to a max of 2.Cooldown:10s",
+          "cooldown": 10
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695722_chilling-smite.png",
+          "alt": "Сhilling Smite Wild Rift",
+          "name": "Сhilling Smite",
+          "description": "Сhilling SmiteDeal800 true damageto a large or epic monster or minion. Smiting monstersrestore 152 Health(70 + 10%).Against champions: Deal70 true damage(38 to 184) ato enemy Champions and steals 25% of theirMovement Speedfor 2 seconds.Cooldown:10s",
+          "cooldown": 10
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+            "alt": "Wild Rift Precision Runes: Legend Bloodline",
+            "name": "Legend: Bloodline",
+            "description": "Gains Omnivamp."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729700_8369.webp",
+          "alt": "Wild Rift Keystone Runes: First Strike",
+          "name": "First Strike",
+          "description": "Obtains gold and bonus damage when initiate deals damage."
+        }
+      },
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "630 → 660."
+            },
+            {
+              "stat": "Health per level",
+              "change": "112 → 120."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "40 → 46."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 MAR 2024",
+      "patch": "5.0C",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "650 → 630."
+            }
+          ]
+        },
+        {
+          "ability": "(R) DRAGON'S RAGE",
+          "changes": [
+            {
+              "stat": "Damage",
+              "change": "100/300/500 + 200% bonus Attack Damage + 10/13/16% target’s maximum Health → 100/250/400 + 200% bonus Attack Damage + 10/13/16% target’s maximum Health."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "16 FEB 2022",
+      "patch": "3.0A",
+      "changes": [
+        {
+          "ability": "(W) SAFEGUARD",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "15s → 17s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 OCT 2021",
+      "patch": "2.5",
+      "changes": [
+        {
+          "ability": "(W) SAFEGUARD",
+          "changes": [
+            {
+              "stat": "Iron Will",
+              "change": "Empowers next attack to deal an additional 50/75/100/125 + 80% AP magic damage and gain 35/50/65/80% physical and magic vamp. → Empowers next two attacks to deal an additional 26/39/52/65 + 40% AP magic damage and gain 16/24/32/40% physical and magic vamp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "12 MAY 2021",
+      "patch": "2.2C",
+      "changes": [
+        {
+          "ability": "(PASSIVE) FLURRY",
+          "changes": [
+            {
+              "stat": "Attack Speed",
+              "change": "50%→ 40%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "2 FEB 2021",
+      "patch": "2.1",
+      "changes": [
+        {
+          "ability": "(R) DRAGON'S RAGE",
+          "changes": [
+            {
+              "stat": "Knockback range",
+              "change": "7,5 → 6,75."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "19 JAN 2021",
+      "patch": "2.0A",
+      "changes": [
+        {
+          "ability": "(Q) SONIC WAVE",
+          "changes": [
+            {
+              "stat": "Target range",
+              "change": "11 → 10."
+            },
+            {
+              "stat": "Base damage",
+              "change": "60/100/140/180 → 55/90/125/160."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "08 DEC 2020",
+      "patch": "1.1",
+      "changes": [
+        {
+          "ability": "(W) SAFEGUARD",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "15/14/13/12s → 15s."
+            },
+            {
+              "stat": "Shield value",
+              "change": "80/160/240/320 → 60/120/180/240."
+            },
+            {
+              "stat": "Damage",
+              "change": "55/100/145/190 → 50/75/100/125."
+            },
+            {
+              "stat": "Physical and magic vamp",
+              "change": "40/60/80/100% → 35/50/65/80%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

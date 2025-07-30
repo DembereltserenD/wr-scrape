@@ -18,5 +18,10 @@
     "It also provides ability haste, allowing you to use your skills more often.",
     "This makes it an excellent late-game choice when you need high survivability and sustained healing, especially against teams and champions that deal damage over time, like Singed or Swain.",
     "It pairs exceptionally well with Spirit Visage: the healing amplification and increased regeneration from Spirit Visage stack with Warmog’s out-of-combat life regen, giving you an enormous health pool and unmatched sustain both in fights and while recovering between engagements."
-  ]
+  ],
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "core_items",
+  "extracted_at": "2025-07-27T20:57:05.806387",
+  "last_updated": "2025-07-27T20:57:05.812403"
 }

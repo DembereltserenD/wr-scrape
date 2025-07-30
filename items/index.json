@@ -1,0 +1,75 @@
+{
+  "items": {
+    "Relic Shield": {
+      "file": "relic_shield.json",
+      "category": "basic",
+      "cost": 750,
+      "tier": "B"
+    },
+    "Health Potion": {
+      "file": "health_potion.json",
+      "category": "starting",
+      "cost": 0,
+      "tier": "unknown"
+    },
+    "Locket of the Iron Solari": {
+      "file": "locket_of_the_iron_solari.json",
+      "category": "legendary",
+      "cost": 0,
+      "tier": "unknown"
+    },
+    "Thornmail": {
+      "file": "thornmail.json",
+      "category": "legendary",
+      "cost": 2700,
+      "tier": "A"
+    },
+    "Warmog's Armor": {
+      "file": "warmogs_armor.json",
+      "category": "legendary",
+      "cost": 2850,
+      "tier": "A"
+    },
+    "Plated Steelcaps": {
+      "file": "plated_steelcaps.json",
+      "category": "legendary",
+      "cost": 1350,
+      "tier": "A"
+    },
+    "Mercury's Treads": {
+      "file": "mercurys_treads.json",
+      "category": "boots",
+      "cost": 1350,
+      "tier": "A"
+    },
+    "Guardian Angel": {
+      "file": "guardian_angel.json",
+      "category": "legendary",
+      "cost": 3400,
+      "tier": "S"
+    },
+    "Randuin's Omen": {
+      "file": "randuins_omen.json",
+      "category": "situational",
+      "cost": 0,
+      "tier": "unknown"
+    },
+    "Force of Nature": {
+      "file": "force_of_nature.json",
+      "category": "situational",
+      "cost": 0,
+      "tier": "unknown"
+    }
+  },
+  "metadata": {
+    "total_items": 10,
+    "last_updated": "2025-07-27T20:57:05.819423",
+    "categories": [
+      "basic",
+      "boots",
+      "legendary",
+      "situational",
+      "starting"
+    ]
+  }
+}

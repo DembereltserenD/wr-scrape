@@ -1,0 +1,60 @@
+{
+  "name": "K'SANTE",
+  "roles": ["Tank"],
+  "image": "https://wr-meta.com/uploads/posts/2022-11/1668359593_ksante_01_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-11/1668359701_k27sante_dauntless_instinct.webp",
+      "alt_text": "DAUNTLESS INSTINCT",
+      "key": "P",
+      "description": "(PASSIVE)DAUNTLESS INSTINCTK'Sante's Abilities mark targets to take more damage on his next Attack.",
+      "name": "DAUNTLESS INSTINCTK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-11/1668359659_k27sante_ntofo_strikes.webp",
+      "alt_text": "NTOFO STRIKES",
+      "key": "Q",
+      "description": "(Q)NTOFO STRIKESStrike a weapon forward, damaging and slowing all enemies in a short line. On hit, grants a stack for a few seconds. At 2 stacks, this skill fires a shockwave that pulls enemies in.",
+      "name": "NTOFO STRIKESS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-11/1668359704_k27sante_path_maker.webp",
+      "alt_text": "PATH MAKER",
+      "key": "W",
+      "description": "(W)PATH MAKERK'Sante charges up before dashing. K'Sante is unstoppable and takes less damage while charging. Any targets hit by the dash are knocked to the end of the dash and stunned.",
+      "name": "PATH MAKERK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-11/1668359764_k27sante_footwork.webp",
+      "alt_text": "FOOTWORK",
+      "key": "E",
+      "description": "(E)FOOTWORKK'Sante will dash to an ally and both will gain a shield. If there is no ally, K'Sante will still dash to the location at a reduced range and gain a shield.",
+      "name": "FOOTWORKK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-11/1668359753_k27sante_all_out.webp",
+      "alt_text": "ALL OUT",
+      "key": "R",
+      "description": "(R)K'Sante smashes an enemy away. If the enemy hits a wall they will go through the wall taking more damage. K'Sante will appear behind the target and goes All Out by shredding his defenses but greatly increasing his damage.",
+      "name": "K"
+    }
+  ],
+  "lanes": ["Baron", "Support"],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

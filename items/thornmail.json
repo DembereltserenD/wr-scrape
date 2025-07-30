@@ -16,5 +16,10 @@
     "ThornmailReflects damage and reduces enemy healing +200 Max Health +75 ArmorThorns: When struck by an enemy champion's attack, deal 20 + 6% bonus Armor + 2% bonus Health magic damage to the attacker and inflict 50% Grievous Wounds for 3 second(s).Grievous Wounds reduces the effectiveness of Healing and Regeneration effects.",
     "2700\n\n\nle auto-attack or strong heal champions, and helps you soak damage for your team.",
     "Pick this up when the enemy team has many auto-attack reliant champions (e.g., Yasuo, Tryndamere, Jinx) or heavy healing (e.g., Soraka, Vladimir, Samira), and you need to absorb incoming damage."
-  ]
+  ],
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "core_items",
+  "extracted_at": "2025-07-27T20:57:05.806387",
+  "last_updated": "2025-07-27T20:57:05.810401"
 }

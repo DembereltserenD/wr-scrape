@@ -1,0 +1,66 @@
+{
+  "name": "MEL",
+  "roles": [
+    "Mage",
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2025-01/1737748919_mel_0.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748953_mel_passive.webp",
+      "alt_text": "Searing Brilliance",
+      "key": "P",
+      "description": "(PASSIVE)Searing BrillianceWhenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack. When Mel deals damage through an ability or attack, she applies Overwhelm, which can stack infinitely. If the enemy is hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the target.",
+      "name": "S"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748951_melq.webp",
+      "alt_text": "Radiant Volley",
+      "key": "Q",
+      "description": "(Q)Radiant VolleyMel fires a barrage of projectiles that explode around a target location, dealing damage repeatedly to enemies within the area.",
+      "name": "R"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748954_melw.webp",
+      "alt_text": "Rebuttal",
+      "key": "W",
+      "description": "(W)RebuttalMel forms a barrier around herself that reflects enemy projectiles back at the attacker, prevents her from taking damage, and grants her movement speed.",
+      "name": "R"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748988_mele.webp",
+      "alt_text": "Solar Snare",
+      "key": "E",
+      "description": "(E)Solar SnareMel fires a radiant orb forward, rooting those at its center while the area around it slows enemies and deals damage over time.",
+      "name": "S"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2025-01/1737748986_melr.webp",
+      "alt_text": "Golden Eclipse",
+      "key": "R",
+      "description": "(R)Golden EclipseMel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm. Ranks of Golden Eclipse increase Overwhelm's damage.",
+      "name": "G"
+    }
+  ],
+  "lanes": [
+    "Support",
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,65 @@
+{
+  "name": "SHACO",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665252793_shaco_10_5_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252935_backstab.webp",
+      "alt_text": "BACKSTAB",
+      "key": "P",
+      "description": "(PASSIVE)BACKSTABShaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind.",
+      "name": "BACKSTABS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252881_deceive.webp",
+      "alt_text": "DECEIVE",
+      "key": "Q",
+      "description": "(Q)DECEIVEShaco becomes Invisible and teleports to target location. His first attack while Invisible is empowered, dealing bonus damage and critically striking if he attacks from behind.",
+      "name": "DECEIVES"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252905_jack_in_the_box.webp",
+      "alt_text": "JACK IN THE BOX",
+      "key": "W",
+      "description": "(W)JACK IN THE BOXShaco creates a hidden animated Jack-in-the-Box. When triggered, it will fear and attack nearby enemies.",
+      "name": "JACK IN THE BOXS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252911_two-shiv_poison.webp",
+      "alt_text": "TWO-SHIV POISON",
+      "key": "E",
+      "description": "(E)TWO-SHIV POISONShaco's Shivs passively poison targets on hit, slowing their Move Speed. He can throw his Shivs to deal damage and poison the target. The thrown Shiv deals bonus damage if the target is below 30% health.",
+      "name": "TWO"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252946_hallucinate.webp",
+      "alt_text": "HALLUCINATE",
+      "key": "R",
+      "description": "(R)HALLUCINATEShaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets). Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
+      "name": "HALLUCINATES"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

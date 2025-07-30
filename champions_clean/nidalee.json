@@ -1,0 +1,65 @@
+{
+  "name": "NIDALEE",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-09/1662401607_nidalee_10_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401559_prowl.webp",
+      "alt_text": "PROWL",
+      "key": "P",
+      "description": "(PASSIVE)PROWLMoving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range. Hitting champions or monsters with Javelin Toss or Bushwhack triggers a Hunt, granting True Sight of them for 4 seconds. During this time, Nidalee gains 10% Move Speed (increased to 30% toward the Hunted target) and her Takedown and Pounce are enhanced against them.",
+      "name": "PROWLM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401536_javelin_toss.webp",
+      "alt_text": "JAVELIN TOSS",
+      "key": "Q",
+      "description": "(Q)JAVELIN TOSS / TAKEDOWNIn human form, Nidalee throws a spiked javelin at her target that gains damage as it flies. As a cougar, her next attack will attempt to fatally wound her target, dealing more damage the less life they have.",
+      "name": "JAVELIN TOSS / TAKEDOWNI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401625_bushwhack.webp",
+      "alt_text": "BUSHWHACK",
+      "key": "W",
+      "description": "(W)BUSHWHACK / POUNCEIn human form, Nidalee lays a trap for unwary opponents that, when sprung, damages and reveals its target. As a cougar, she jumps in a direction, dealing damage in an area where she lands.",
+      "name": "BUSHWHACK / POUNCEI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401580_primal_surge.webp",
+      "alt_text": "PRIMAL SURGE",
+      "key": "E",
+      "description": "(E)PRIMAL SURGE / SWIPEIn human form, Nidalee channels the spirit of the cougar to heal her allies and imbue them with Attack Speed for a short duration. As a cougar, she claws in a direction, dealing damage to enemies in front of her.",
+      "name": "PRIMAL SURGE / SWIPEI"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401702_aspect_of_the_cougar.webp",
+      "alt_text": "ASPECT OF THE COUGAR",
+      "key": "R",
+      "description": "(R)ASPECT OF THE COUGARNidalee transforms into a cougar, gaining new abilities.",
+      "name": "ASPECT OF THE COUGARN"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,62 @@
+{
+  "name": "APHELIOS",
+  "roles": [],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656623514_aphe1lios_0-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656623263_aphelios_the_hitman_and_the_seer.webp",
+      "alt_text": "THE HITMAN AND THE SEER",
+      "key": "P",
+      "description": "(PASSIVE)THE HITMAN AND THE SEERAphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5.",
+      "name": "THE HITMAN AND THE SEERA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656623320_aphelios_weapons_of_the_faithful.webp",
+      "alt_text": "WEAPON ABILITES",
+      "key": "Q",
+      "description": "(Q)WEAPON ABILITESAphelios has 5 different activated abilities, based on his main-hand weapon: Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack. Severum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons. Gravitum (Cannon): Root all enemies slowed by this weapon. Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon. Crescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.",
+      "name": "WEAPON ABILITESA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656623359_aphelios_phase.webp",
+      "alt_text": "PHASE",
+      "key": "W",
+      "description": "(W)PHASEAphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+      "name": "PHASEA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656623378_aphelios_calibrum.webp",
+      "alt_text": "WEAPON QUEUE SYSTEM",
+      "key": "E",
+      "description": "(E)WEAPON QUEUE SYSTEMAphelios has no third ability. This slot shows the next weapon Alune will give him. Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+      "name": "WEAPON QUEUE SYSTEMA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656623441_aphelios_moonlight_vigil.webp",
+      "alt_text": "MOONLIGHT VIGIL",
+      "key": "R",
+      "description": "(R)MOONLIGHT VIGILFire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.",
+      "name": "MOONLIGHT VIGILF"
+    }
+  ],
+  "lanes": [
+    "Dragon"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,65 @@
+{
+  "name": "CHO'GATH",
+  "roles": [
+    "Tank"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656882114_chogath_01-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881967_carnivore.webp",
+      "alt_text": "CARNIVORE",
+      "key": "P",
+      "description": "(PASSIVE)CARNIVOREWhenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level.",
+      "name": "CARNIVOREW"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656882023_rupture.webp",
+      "alt_text": "RUPTURE",
+      "key": "Q",
+      "description": "(Q)RUPTURERuptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.",
+      "name": "RUPTURER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656881994_feral_scream.webp",
+      "alt_text": "FERAL SCREAM",
+      "key": "W",
+      "description": "(W)FERAL SCREAMCho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.",
+      "name": "FERAL SCREAMC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656882007_vorpal_spikes.webp",
+      "alt_text": "VORPAL SPIKES",
+      "key": "E",
+      "description": "(E)VORPAL SPIKESCho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of him.",
+      "name": "VORPAL SPIKESC"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656882101_feast.webp",
+      "alt_text": "FEAST",
+      "key": "R",
+      "description": "(R)FEASTDevours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows, gaining maximum Health.",
+      "name": "FEASTD"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

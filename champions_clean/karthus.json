@@ -1,0 +1,64 @@
+{
+  "name": "KARTHUS",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1657050109_karthus-lol-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657050153_death_defied.webp",
+      "alt_text": "DEATH DEFIED",
+      "key": "P",
+      "description": "(PASSIVE)DEATH DEFIEDUpon dying, Karthus enters a spirit form that allows him to continue casting spells.",
+      "name": "DEATH DEFIEDU"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657050218_lay_waste.webp",
+      "alt_text": "LAY WASTE",
+      "key": "Q",
+      "description": "(Q)LAY WASTEKarthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies.",
+      "name": "LAY WASTEK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657050255_wall_of_pain.webp",
+      "alt_text": "WALL OF PAIN",
+      "key": "W",
+      "description": "(W)WALL OF PAINKarthus creates a passable screen of leeching energy. Any enemy units that walk through the screen have their Move Speed and Magic Resist reduced for a period.",
+      "name": "WALL OF PAINK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657050301_defile.webp",
+      "alt_text": "DEFILE",
+      "key": "E",
+      "description": "(E)DEFILEKarthus passively steals energy from his victims, gaining Mana on each kill. Alternatively, Karthus can surround himself in the souls of his prey, dealing damage to nearby enemies, but quickly draining his own Mana.",
+      "name": "DEFILEK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657050249_requiem.webp",
+      "alt_text": "REQUIEM",
+      "key": "R",
+      "description": "(R)REQUIEMAfter channeling for 3 seconds, Karthus deals damage to all enemy champions.",
+      "name": "REQUIEMA"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

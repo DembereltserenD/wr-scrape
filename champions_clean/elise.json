@@ -1,0 +1,64 @@
+{
+  "name": "ELISE",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1656883387_elise-league-of-legends-league-of-legends-150-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656883041_spider_queen.webp",
+      "alt_text": "SPIDER QUEEN",
+      "key": "P",
+      "description": "(PASSIVE)SPIDER QUEENHuman Form:When Elise's abilities hit an enemy, she gains a dormant Spiderling.Spider Form:Basic attacks deal bonus magic damage and restore health to Elise.",
+      "name": "SPIDER QUEENH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656883048_neurotoxin.webp",
+      "alt_text": "NEUROTOXIN",
+      "key": "Q",
+      "description": "(Q)NEUROTOXIN / VENOMOUS BITEHuman Form:Deals damage based upon how high the target's Health is.Spider Form:Lunges at an enemy and deals damage based upon how low their Health is.",
+      "name": "NEUROTOXIN / VENOMOUS BITEH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656883281_volatile_spiderling.webp",
+      "alt_text": "VOLATILE SPIDERLING",
+      "key": "W",
+      "description": "(W)VOLATILE SPIDERLING / SKITTERING FRENZYHuman Form:Releases a venom-gorged Spiderling that explodes when it nears a target.Spider Form:Elise and her Spiderlings gain Attack Speed.",
+      "name": "VOLATILE SPIDERLING / SKITTERING FRENZYH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656883277_cocoon.webp",
+      "alt_text": "COCOON",
+      "key": "E",
+      "description": "(E)COCOON / RAPPELHuman Form:Stuns the first enemy unit hit and reveals them if they are not stealthed.Spider Form:Elise and her Spiderlings ascend into the air and then descend upon target enemy. After descending on an enemy target, Elise's bonus damage and healing from Spider Queen is increased.",
+      "name": "COCOON / RAPPELH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1656883421_spider_form.webp",
+      "alt_text": "SPIDER FORM",
+      "key": "R",
+      "description": "(R)SPIDER FORMTransforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her foes.",
+      "name": "SPIDER FORMT"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

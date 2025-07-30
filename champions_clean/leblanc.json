@@ -1,0 +1,65 @@
+{
+  "name": "LEBLANC",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1657053785_385549-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657053839_mirror_image.webp",
+      "alt_text": "MIRROR IMAGE",
+      "key": "P",
+      "description": "(PASSIVE)MIRROR IMAGEWhen LeBlanc drops below 40% Health, she becomes invisible for 1 second and creates a Mirror Image that deals no damage and lasts for up to 8 seconds.",
+      "name": "MIRROR IMAGEW"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657053857_sigil_of_malice.webp",
+      "alt_text": "SIGIL OF MALICE",
+      "key": "Q",
+      "description": "(Q)SIGIL OF MALICELeBlanc projects a sigil, dealing damage and marking the target for 3.5 seconds. Damaging the marked target with an ability detonates the sigil, dealing additional damage.",
+      "name": "SIGIL OF MALICEL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657053905_distortion.webp",
+      "alt_text": "DISTORTION",
+      "key": "W",
+      "description": "(W)DISTORTIONLeBlanc dashes to a location, dealing damage to enemies near her destination. For the next 4 seconds, activate Distortion again to return LeBlanc to her starting location.",
+      "name": "DISTORTIONL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657053861_ethereal_chains.webp",
+      "alt_text": "ETHEREAL CHAINS",
+      "key": "E",
+      "description": "(E)ETHEREAL CHAINSLeBlanc launches a chain that shackles the first enemy hit. If the target remains shackled for 1.5 seconds, LeBlanc roots them and deals additional damage.",
+      "name": "ETHEREAL CHAINSL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657053906_mimic.webp",
+      "alt_text": "MIMIC",
+      "key": "R",
+      "description": "(R)MIMICLeBlanc casts a mimicked version of one of her basic spells.",
+      "name": "MIMICL"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,64 @@
+{
+  "name": "HWEI",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2024-01/1705952929_hwei_01_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705952787_hwei_signature_of_the_visionary.webp",
+      "alt_text": "SIGNATURE OF THE VISIONARY",
+      "key": "P",
+      "description": "(PASSIVE)SIGNATURE OF THE VISIONARYHwei primes enemy champions he damages with his abilities for his signature finishing touch. Hitting an enemy with a second damaging spell completes his signature, leaving it beneath them. The signature detonates after a short delay, dealing magic damage to all enemies in range.",
+      "name": "SIGNATURE OF THE VISIONARYH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705952774_hwei_subject_disaster.webp",
+      "alt_text": "",
+      "key": "Q",
+      "description": "(Q)SUBJECT: DISASTERHwei envisions a series of disasters, allowing him to paint a devastating blow. This ability replaces Hwei's abilities with damaging abilities: Devastating Fire, Severing Bolt, and Molten Fissure.",
+      "name": "SUBJECT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705952812_hwei_subject_serenity.webp",
+      "alt_text": "SUBJECT: SERENITY",
+      "key": "W",
+      "description": "(W)SUBJECT: SERENITYHwei envisions a series of serenities, allowing him to paint invigorating settings. This ability replaces Hwei's abilities with utility abilities: Fleeting Current, Pool of Reflection, and Stirring Lights.",
+      "name": "SUBJECT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705952813_hwei_subject_torment.webp",
+      "alt_text": "SUBJECT: TORMENT",
+      "key": "E",
+      "description": "(E)SUBJECT: TORMENTHwei envisions a series of torments, allowing him to paint controlling visages. This ability replaces Hwei's abilities with crowd control abilities: Grim Visage, Gaze of the Abyss, and Crushing Maw.",
+      "name": "SUBJECT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2024-01/1705952869_hwei_spiraling_despair.webp",
+      "alt_text": "SPIRALING DESPAIR",
+      "key": "R",
+      "description": "(R)SPIRALING DESPAIRHwei paints a vision of pure despair. The first enemy champion struck becomes the center of an expanding painting that slows and damages nearby enemies. The vision explodes after reaching its maximum size or when the champion dies.",
+      "name": "SPIRALING DESPAIRH"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

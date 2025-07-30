@@ -15,13 +15,13 @@
     }
   },
   "cost": 2900,
-  "passive": "Attack range and damage +25% Critical Rate +35% Attack Speed Fervor: +5% Move Speed. Energized: Moving and attacking will generate an Energized Attack . Power Blitz: Energized Attacks gain 100 range (50 range for mele attacks), deal 50-120 bonus magic damage , and grant 60 Movement Speed for 0.75 seconds. This damage bounces to 5 nearby enemies and can Critically Strike . (Deals 20-50% bonus damage against minions.) 2900 Magnetic Blaster TIPS: This item extends your attack range and adds hybrid damage by empowering every fourth attack with a magic burst that can bounce to multiple targets and critically strike. Moving and attacking charges the empowered strike, and upon activation you gain a hefty movement speed boost, aiding both chase and retreat. — Perfect for marksmen and auto‑attack bruisers who want more reach, multi‑target damage, and extra mobility in skirmishes.",
+  "passive": "Attack range and damage +25% Critical Rate +35% Attack Speed Fervor: +5% Move Speed. Energized: Moving and attacking will generate an Energized Attack . Power Blitz: Energized Attacks gain 100 range (50 range for melee attacks), deal 50-120 bonus magic damage , and grant 60 Movement Speed for 0.75 seconds. This damage bounces to 5 nearby enemies and can Critically Strike . (Deals 20-50% bonus damage against minions.) 2900 Magnetic Blaster TIPS: This item extends your attack range and adds hybrid damage by empowering every fourth attack with a magic burst that can bounce to multiple targets and critically strike. Moving and attacking charges the empowered strike, and upon activation you gain a hefty movement speed boost, aiding both chase and retreat. — Perfect for marksmen and auto‑attack bruisers who want more reach, multi‑target damage, and extra mobility in skirmishes.",
   "active": "",
   "description": ":",
   "category": "legendary",
   "tier": "A",
   "tips": [
-    "Magnetic BlasterIncreases attack range and damage +25% Critical Rate +35% Attack SpeedFervor:  +5% Move Speed.Energized: Moving and attacking will generate an Energized Attack.Power Blitz: Energized Attacks gain 100 range (50 range for mele attacks), deal 50-120 bonus magic damage, and grant 60 Movement Speed for 0.75 seconds.",
+    "Magnetic BlasterIncreases attack range and damage +25% Critical Rate +35% Attack SpeedFervor:  +5% Move Speed.Energized: Moving and attacking will generate an Energized Attack.Power Blitz: Energized Attacks gain 100 range (50 range for melee attacks), deal 50-120 bonus magic damage, and grant 60 Movement Speed for 0.75 seconds.",
     "This damage bounces to 5 nearby enemies and can Critically Strike.(Deals 20-50% bonus damage against minions.) 2900\n\n\nle targets and critically strike.",
     "Moving and attacking charges the empowered strike, and upon activation you gain a hefty movement speed boost, aiding both chase and retreat.",
     "— Perfect for marksmen and auto‑attack bruisers who want more reach, multi‑target damage, and extra mobility in skirmishes."

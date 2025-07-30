@@ -12,36 +12,14 @@
     "health": {
       "value": 325,
       "type": "flat"
-    },
-    "armor": {
-      "value": 8,
-      "type": "flat"
     }
   },
   "cost": 3100,
   "passive": "Annul: Gain a spell shield that blocks the next enemy ability (40 second cooldown).",
   "active": "",
-  "description": "Item that provides Attack Damage, Health, Armor. Passive effect: Gain a spell shield that blocks the next enemy ability (40 second cooldown).. Great for champions looking to maximize their damage output.",
+  "description": "Wild Rift item with real stats and effects from wr-meta.com",
   "category": "legendary",
   "tier": "B",
-  "build_path": [
-    "Serrated Dirk",
-    "Ruby Crystal"
-  ],
-  "tags": [
-    "Damage",
-    "Physical",
-    "Lethality",
-    "Health",
-    "Shield"
-  ],
-  "tips": [
-    "Excellent against targets building resistances",
-    "The penetration helps maintain damage relevance as the game progresses",
-    "Great for assassins looking to eliminate priority targets",
-    "Excellent for frontline champions who need to absorb damage",
-    "Build this when facing heavy physical damage compositions"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "build_path": ["Serrated Dirk", "Ruby Crystal"],
+  "tags": ["Damage", "Physical", "Lethality", "Health", "Shield"]
 }

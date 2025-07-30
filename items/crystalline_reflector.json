@@ -1,37 +1,15 @@
 {
   "name": "Crystalline Reflector",
   "stats": {
-    "ability_power": {
-      "value": 70,
-      "type": "flat"
-    },
-    "armor": {
-      "value": 45,
-      "type": "flat"
-    }
+    "ability_power": { "value": 50, "type": "flat" },
+    "magic_resistance": { "value": 25, "type": "flat" }
   },
-  "cost": 2650,
-  "passive": "Thorns: When struck by a basic attack, deal 25 (+10% AP) magic damage to the attacker.",
+  "cost": 1200,
+  "passive": "Reflects 20% of magic damage taken back to the attacker",
   "active": "",
-  "description": "AP item that provides Ability Power and Armor with a damage reflection passive. Great for AP champions who need armor against AD threats while still dealing damage.",
+  "description": "Defensive AP item that provides magic resistance and reflects magic damage back to attackers. Great for AP champions who need survivability against other mages.",
   "category": "legendary",
   "tier": "B",
-  "build_path": [
-    "Needlessly Large Rod",
-    "Chain Vest"
-  ],
-  "tags": [
-    "Magic",
-    "Armor",
-    "Reflect"
-  ],
-  "tips": [
-    "Perfect for AP champions facing heavy AD compositions",
-    "The reflection damage scales with AP",
-    "Great on champions like Malphite or Rammus who can build AP",
-    "Provides both offense and defense in one item",
-    "The reflection triggers on basic attacks, not abilities"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "build_path": ["Amplifying Tome", "Null-Magic Mantle"],
+  "tags": ["Magic", "Defense", "Reflect"]
 }

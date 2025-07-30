@@ -1,9 +1,9 @@
 import React from 'react';
 import { useTranslation, formatNumber } from '../utils/i18n';
-import { ChampionStats as StatsType } from '../types/champion';
+import { ChampionStats, StatValue } from '../types/champion';
 
 interface ChampionStatsProps {
-  stats: Record<string, StatsType>;
+  stats: ChampionStats;
 }
 
 const ChampionStatsI18n: React.FC<ChampionStatsProps> = ({ stats }) => {

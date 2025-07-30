@@ -1,0 +1,64 @@
+{
+  "name": "TARIC",
+  "roles": [
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665255294_taric_10_9_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255355_bravado.webp",
+      "alt_text": "BRAVADO",
+      "key": "P",
+      "description": "(PASSIVE)BRAVADOSpellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession.",
+      "name": "BRAVADOS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255418_starlight27s_touch.webp",
+      "alt_text": "STARLIGHT'S TOUCH",
+      "key": "Q",
+      "description": "(Q)STARLIGHT'S TOUCH",
+      "name": "STARLIGHT"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255435_bastion.webp",
+      "alt_text": "BASTION",
+      "key": "W",
+      "description": "(W)BASTION",
+      "name": "BASTION"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255419_dazzle.webp",
+      "alt_text": "DAZZLE",
+      "key": "E",
+      "description": "(E)DAZZLETaric readies a beam of starlight that, after a brief delay, deals magic damage and stuns enemies.",
+      "name": "DAZZLET"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255420_cosmic_radiance.webp",
+      "alt_text": "COSMIC RADIANCE",
+      "key": "R",
+      "description": "(R)COSMIC RADIANCEPulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.",
+      "name": "COSMIC RADIANCEP"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

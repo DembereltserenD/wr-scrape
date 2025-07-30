@@ -16,5 +16,10 @@
     "Mercury's TreadsReduces Magic Damage +200 Max Health +100% Health Regen +35 Magic Resistance +45 Move Speed.Dissolve: Reduces magic damage taken from champions by 7-12% ().",
     "1350\n\n\nThese boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.",
     "— The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
-  ]
+  ],
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "boots",
+  "extracted_at": "2025-07-27T20:57:05.806387",
+  "last_updated": "2025-07-27T20:57:05.815403"
 }

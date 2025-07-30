@@ -1,0 +1,65 @@
+{
+  "name": "BRIAR",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-09/1695050518_stretched-1920-1080-1329304_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-09/1695050167_briar_crimson_curse.webp",
+      "alt_text": "CRIMSON CURSE",
+      "key": "P",
+      "description": "(PASSIVE)CRIMSON CURSEBriar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals. Perpetually hungry, she gains increased healing based on her missing health, but lacks innate health regeneration.",
+      "name": "CRIMSON CURSEB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-09/1695050186_briar_head_rush.webp",
+      "alt_text": "HEAD RUSH",
+      "key": "Q",
+      "description": "(Q)HEAD RUSHBriar leaps to a unit and hits enemies with The Heel Wheel (of Pain), stunning them and breaking their armor.",
+      "name": "HEAD RUSHB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-09/1695050236_briar_blood_frenzy.webp",
+      "alt_text": "BLOOD FRENZY",
+      "key": "W",
+      "description": "(W)BLOOD FRENZY / SNACK ATTACKBriar leaps forward and shatters her pillory, entering a Blood Frenzy that causes her to relentlessly pursue the nearest enemy (prioritizing champions). While frenzied, she gains increased attack speed and move speed, and her attacks deal damage in an area around her target. Briar can reactivate this ability while frenzied to take a CHOMP out of her target on her next attack, dealing additional damage based on their missing health, and healing Briar based on the damage she deals.",
+      "name": "BLOOD FRENZY / SNACK ATTACKB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-09/1695050284_briar_chilling_scream.webp",
+      "alt_text": "CHILLING SCREAM",
+      "key": "E",
+      "description": "(E)CHILLING SCREAMBriar refocuses her mind, removing Blood Frenzy and channeling energy into a powerful scream that damages and slows enemies. While charging, she takes reduced damage and heals for a portion of her max health. A fully charged scream knocks foes back, dealing additional damage and stunning those who collide with a wall.",
+      "name": "CHILLING SCREAMB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-09/1695050298_briar_certain_death.webp",
+      "alt_text": "CERTAIN DEATH",
+      "key": "R",
+      "description": "(R)CERTAIN DEATHBriar kicks her pillory's hemolith gemstone, marking the first champion it hits as her prey. She then beelines straight to them, fearing other surrounding enemies upon arriving at her target, and enters a state of complete hemomania. She will pursue her prey until death, gaining the benefits of Blood Frenzy as well as additional armor, magic Resist, lifesteal, and move speed.",
+      "name": "CERTAIN DEATHB"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

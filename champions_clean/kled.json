@@ -1,0 +1,65 @@
+{
+  "name": "KLED",
+  "roles": [
+    "Fighter"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1657052181_kled_10-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052213_skaarl_the_cowardly_lizard.webp",
+      "alt_text": "SKAARL&#44; THE COWARDLY LIZARD",
+      "key": "P",
+      "description": "(PASSIVE)SKAARL, THE COWARDLY LIZARDKled rides his trusty steed, Skaarl, who takes damage for him. When Skaarl's health depletes, Kled dismounts. While dismounted, Kled's abilities change and he deals less damage to champions. Kled can restore Skaarl's courage by fighting enemies. At maximum courage, Kled remounts with a portion of Skaarl's health.",
+      "name": "SKAARL"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052312_beartrap_on_a_rope.webp",
+      "alt_text": "BEAR TRAP ON A ROPE",
+      "key": "Q",
+      "description": "(Q)BEAR TRAP ON A ROPEKled throws a bear trap that damages and hooks an enemy champion. If shackled for a short duration, the target takes additional physical damage and is yanked toward Kled. When dismounted, this ability is replaced by Pocket Pistol, a ranged gun blast that knocks back Kled and restores courage.",
+      "name": "BEAR TRAP ON A ROPEK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052246_violent_tendencies.webp",
+      "alt_text": "VIOLENT TENDENCIES",
+      "key": "W",
+      "description": "(W)VIOLENT TENDENCIESKled gains massive attack speed for four attacks. The fourth attack deals more damage.",
+      "name": "VIOLENT TENDENCIESK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052341_jousting.webp",
+      "alt_text": "JOUSTING",
+      "key": "E",
+      "description": "(E)JOUSTINGKled dashes, dealing physical damage and gaining a short burst of speed. Kled can cast this ability again to dash back through his initial target, dealing the same damage.",
+      "name": "JOUSTINGK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052371_chaaaaaaaarge212121.webp",
+      "alt_text": "CHAAAAAAAARGE!!!",
+      "key": "R",
+      "description": "(R)CHAAAAAAAARGE!!!Kled and Skaarl charge to a location, leaving a speed-granting trail behind them and gaining a shield. Skaarl locks onto and rams the first enemy champion encountered.",
+      "name": "CHAAAAAAAARGE"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

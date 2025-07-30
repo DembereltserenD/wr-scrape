@@ -1,0 +1,64 @@
+{
+  "name": "MALZAHAR",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-08/1661722569_malzahar_0-1.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-08/1661722279_void_shift.webp",
+      "alt_text": "VOID SHIFT",
+      "key": "P",
+      "description": "(PASSIVE)VOID SHIFTWhen he hasn't recently taken damage or been crowd controlled, Malzahar gains massive damage reduction and crowd control immunity, lingering for a short period after taking damage.",
+      "name": "VOID SHIFTW"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-08/1661722292_call_of_the_void.webp",
+      "alt_text": "CALL OF THE VOID",
+      "key": "Q",
+      "description": "(Q)CALL OF THE VOIDMalzahar opens up two portals to the Void. After a short delay, they fire projectiles that deal Magic Damage and silence enemy champions.",
+      "name": "CALL OF THE VOIDM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-08/1661722322_void_swarm.webp",
+      "alt_text": "VOID SWARM",
+      "key": "W",
+      "description": "(W)VOID SWARMMalzahar summons Voidlings to attack nearby enemies.",
+      "name": "VOID SWARMM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-08/1661722301_malefic_visions.webp",
+      "alt_text": "MALEFIC VISIONS",
+      "key": "E",
+      "description": "(E)MALEFIC VISIONSMalzahar infects his target's mind with cruel visions of their demise, dealing damage over time. Using Malzahar's other spells on the target will refresh the visions. If the target dies while afflicted by the visions, they pass on to a nearby enemy unit and Malzahar gains Mana. Malzahar's Voidlings are attracted to affected units.",
+      "name": "MALEFIC VISIONSM"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-08/1661722292_nether_grasp.webp",
+      "alt_text": "NETHER GRASP",
+      "key": "R",
+      "description": "(R)NETHER GRASPMalzahar channels the essence of the Void to suppress an enemy champion over a zone of damaging negative energy.",
+      "name": "NETHER GRASPM"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

@@ -1,0 +1,687 @@
+{
+  "name": "SONA",
+  "roles": [
+    "Mage",
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675036211_1644097486_sona_34_11zon.webp",
+  "tier": 1,
+  "balance_status": "ADJUSTED",
+  "stats": {
+    "damage": 66,
+    "toughness": 33,
+    "utility": 100,
+    "difficulty": 33
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429379_sona_0.jpg",
+      "alt_text": "POWER CHORD",
+      "key": "P",
+      "description": "(PASSIVE)POWER CHORDAfter casting 3 basic abilities, her next attack is empowered to deal an additional20 magic damage(20 (+10) +15%) andstunfor 0.5 seconds.Chord:Casting a basic ability grants Sona a non-stackingbuffing aurafor 3 seconds.Reduces basic ability cooldowns by 2-20% ().Casting a basic ability places other basic abilities on 0.54 second cooldowns.",
+      "name": "POWER CHORDA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429443_sona_1.jpg",
+      "alt_text": "HYMN OF VALOR",
+      "key": "Q",
+      "description": "(Q)HYMN OF VALOR8s60/65/70/75Sends out a soundwave that deals40 magic damage(40/80/120/160 +40%) to two nearest enemies (targets champion first).Aura:Gains an aura that last 3 seconds. The next attack by allied champions within the aura is empowered to deal an additional8 magic damage(8/13/18/23 +20%).",
+      "name": "HYMN OF VALOR"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429423_sona_2.jpg",
+      "alt_text": "ARIA OF PERSEVERANCE",
+      "key": "W",
+      "description": "(W)ARIA OF PERSEVERANCE10s85/90/95/100Healsherself and another allied champion for25(25/40/55/70 +20%).Aura:Grants allied champions ashieldthatabsorbs 25 damage(25/50/75/100 +18%) for 3 seconds.",
+      "name": "ARIA OF PERSEVERANCE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429395_sona_3.jpg",
+      "alt_text": "SONG OF CELERITY",
+      "key": "E",
+      "description": "(E)SONG OF CELERITY14s80Gains10% Movement Speed(10/11/12/13% +3%) for 5 seconds.Aura:Grants an aura that last 5 seconds. Allied champions within the aura gain10% Movement Speed(10/11/12/13% +3%).",
+      "name": "SONG OF CELERITY"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2020-11/1606429425_sona_4.jpg",
+      "alt_text": "CRESCENDO",
+      "key": "R",
+      "description": "(R)CRESCENDO80/70/60s100Passive:After casting an ability, her aura is empowered to grant stronger (to 20%) buffs for 20 seconds.Active:Plays a chord that emits a soundwave every 0.75 seconds as it travels to the target location. The soundwave deals35 magic damage(35/60/85 +15%) andstunsenemies hit for the first time for 1 seconds. Enemies caught inside the chord are also 25/30/35%slowed.",
+      "name": "CRESCENDO"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Support",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390665_ancient-coin.webp",
+          "alt": "Wild Rift Items: Ancient Coin",
+          "name": "Ancient Coin",
+          "description": "Ancient CoinKill enemy minions to earn bonus goldThis item is for support players. When equipped, it will reduce the gold you receive from killing minions and monsters. If there are multiples of this item within the party, only one of them can take effect at any given time.Offering:Gains 1 charge(s) every 30 seconds (up to 3 times). When a teammate is nearby, each surrounding minion defeated consumes 1 charges to grant65 goldand restore20-80 Health.You do not earn gold generated from minion kills, but you earn gold equal to 50% of the bounty. Gold generated from your minion kills will be given to nearby allies instead.Also reduces monster bounties by 50%.Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.Mission:This item upgrades toTalisman of AscensionAfter obtaining Earn750 gold.500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389501_talisman-of-ascension.webp",
+          "alt": "Wild Rift Items: Talisman of Ascension",
+          "name": "Talisman of Ascension",
+          "description": "Talisman of AscensionKill enemy minions to earn bonus gold+125 Max Health+15 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Talisman of Ascension TIPS:This item is designed for supports and grants bonus gold every 60 seconds along with Soulforce stacks that boost health, attack damage, or ability power. It reduces your gold income from killing minions and monsters but helps your team accumulate resources faster. The Soulforce effect stacks up to 10 times, adaptively granting either health, damage, or AP per stack. Additionally, it deals extra damage to revealed Sight Wards, making it easier to clear vision.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389658_ionian-boots-of-lucidity.webp",
+          "alt": "Wild Rift Items: Ionian Boots of Lucidity",
+          "name": "Ionian Boots of Lucidity",
+          "description": "Ionian Boots of LucidityCooldown+150 Max Health+150% Mana Regen+30 Ability Haste.+45 Move Speed.Summoned:Reduces spell cooldowns by15%.Equilibrium:Champions without Mana gain 75% bonus health Regen.1400Ionian Boots of Lucidity TIPS:These boots speed up your ability and mana regeneration while boosting durability and movement. They reduce spell cooldowns, enabling more frequent ability use, and grant champions without mana a strong health regeneration boost.  — Perfect for mages, supports, and assassins who rely on rapid cooldown refreshes and sustained presence in fights.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388429_seraphs-embrace.webp",
+          "alt": "Wild Rift Items: Seraph's Embrace",
+          "name": "Seraph's Embrace",
+          "description": "Seraph's EmbraceConverts Mana to Ability Power+35 Ability Power+7% Magic Penetration+1200 Max Mana+20 Ability HasteAwe:Grants Ability Power equal to3%max Mana and refunds25%of all Mana spent.Lifeline:Damage that puts you under35%Healthconsumes15%of your currentManato grant ashield, equal to that amount+100for 2 seconds. (90s cooldown).2950Seraph's Embrace TIPS:This item is perfect for mages who need a large mana pool and survivability in team fights. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping you deal damage and use your abilities effectively. The \"Awe\" effect increases your ability power based on your maximum mana and refunds a portion of mana spent, allowing you to stay in fights longer. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that helps you survive the initial burst damage and prolong your presence in the fight. This item is ideal for champions who want to scale well into the late game with a large amount of AP and mana, while also gaining extra survivability.",
+          "cost": 2950
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389501_talisman-of-ascension.webp",
+          "alt": "Wild Rift Items: Talisman of Ascension",
+          "name": "Talisman of Ascension",
+          "description": "Talisman of AscensionKill enemy minions to earn bonus gold+125 Max Health+15 Ability HasteEvery 60 seconds, gains75 goldand 1 stacks of soulforce (up to 10 stacks). Each stack of soulforce grants25 Health,2 Attack Damage, or4 Ability Power(Adaptive).Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom.0Talisman of Ascension TIPS:This item is designed for supports and grants bonus gold every 60 seconds along with Soulforce stacks that boost health, attack damage, or ability power. It reduces your gold income from killing minions and monsters but helps your team accumulate resources faster. The Soulforce effect stacks up to 10 times, adaptively granting either health, damage, or AP per stack. Additionally, it deals extra damage to revealed Sight Wards, making it easier to clear vision.",
+          "cost": 0
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389658_ionian-boots-of-lucidity.webp",
+          "alt": "Wild Rift Items: Ionian Boots of Lucidity",
+          "name": "Ionian Boots of Lucidity",
+          "description": "Ionian Boots of LucidityCooldown+150 Max Health+150% Mana Regen+30 Ability Haste.+45 Move Speed.Summoned:Reduces spell cooldowns by15%.Equilibrium:Champions without Mana gain 75% bonus health Regen.1400Ionian Boots of Lucidity TIPS:These boots speed up your ability and mana regeneration while boosting durability and movement. They reduce spell cooldowns, enabling more frequent ability use, and grant champions without mana a strong health regeneration boost.  — Perfect for mages, supports, and assassins who rely on rapid cooldown refreshes and sustained presence in fights.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388429_seraphs-embrace.webp",
+          "alt": "Wild Rift Items: Seraph's Embrace",
+          "name": "Seraph's Embrace",
+          "description": "Seraph's EmbraceConverts Mana to Ability Power+35 Ability Power+7% Magic Penetration+1200 Max Mana+20 Ability HasteAwe:Grants Ability Power equal to3%max Mana and refunds25%of all Mana spent.Lifeline:Damage that puts you under35%Healthconsumes15%of your currentManato grant ashield, equal to that amount+100for 2 seconds. (90s cooldown).2950Seraph's Embrace TIPS:This item is perfect for mages who need a large mana pool and survivability in team fights. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste, helping you deal damage and use your abilities effectively. The \"Awe\" effect increases your ability power based on your maximum mana and refunds a portion of mana spent, allowing you to stay in fights longer. The \"Lifeline\" effect activates when your health drops below 35%, granting a shield that helps you survive the initial burst damage and prolong your presence in the fight. This item is ideal for champions who want to scale well into the late game with a large amount of AP and mana, while also gaining extra survivability.",
+          "cost": 2950
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388518_yordle-harmonic-echo.webp",
+          "alt": "Wild Rift Items: Yordle Harmonic Echo",
+          "name": "Yordle Harmonic Echo",
+          "description": "Yordle Harmonic EchoAbilities grant healing effects+100 Max Health+40 Ability Power+300 Max Mana+10 Ability Haste+8% Heal and Shield StrengthHarmonic Echo:Moving and casting abilities buildsHarmony. At100 Harmonyyour next healing or shielding ability on an ally restoresHealthequal to100+10% APto them. If the target has less than 30%Health, heal effectiveness is increased to 150% of the original.Dancing Notes:AfterHarmonic Echois applied to themain target, it bounces to a nearby allied champion, healing them for 50% ofHarmonic Echo'seffect.Harmonic Echoalso revitalizes themain target, restoring2% of their max Healthper second over 3 seconds.2600Yordle Harmonic Echo TIPS:This item is designed for supports who want to maximize their healing impact. Moving and casting spells builds up energy, and your next shield or heal delivers a powerful burst of health to your primary ally—amplified if they’re low on HP. The effect then bounces to another nearby ally, while the initial target receives additional healing over time.  — Perfect for enchanter supports aiming for strong multi‑target heals and sustained team survivability.",
+          "cost": 2600
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388553_staff-of-flowing-water.webp",
+          "alt": "Wild Rift Items: Staff of Flowing Water",
+          "name": "Staff of Flowing Water",
+          "description": "Staff of Flowing WaterEnhance allies Ability Power and Ability Haste+100 Max Health+45 Ability Power+350 Max Mana+10 Ability Haste+8% Heal and Shield StrengthRapids:Healingorshieldingan ally grants you both+10Ability Hasteand20-40(based on target's level)Ability Powerfor 6 seconds.2500Staff of Flowing Water TIPS:This item is perfect for champions who rely on healing or shielding abilities to support their team. It provides bonuses to maximum health, ability power, maximum mana, ability haste, and amplifies healing and shielding effects. The \"Rapids\" effect activates when you heal or shield an ally, granting both you and your ally bonuses to ability haste and ability power for 6 seconds. This item is especially useful for champions who actively support their team, such as Soraka, Nami, or Lulu.",
+          "cost": 2500
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+          "alt": "Wild Rift Items: Crown of the Shattered Queen",
+          "name": "Crown of the Shattered Queen",
+          "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+          "cost": 3000
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388583_oceanids-trident.webp",
+              "alt": "Wild Rift Items: Oceanid's Trident",
+              "name": "Oceanid's Trident",
+              "description": "Oceanid's TridentAnti-Shielding+200 Max Health+80 Ability Power+7% Magic Penetration+10 Ability HasteLethal Weapon:Dealing ability damage to an enemy champion reduces anyshieldsthey gain for 3 seconds. Area of effect abilities apply (5% of bonus AP+ 25)% shield reduction, capped at 45%; while single target abilities apply (5% of bonus AP+ 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected byLethal Weapon, all shields on them are reduced by the same values.2600Oceanid's Trident TIPS:This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection.",
+              "cost": 2600
+            }
+          ],
+          "tips": "Oceanid's Trident— This item is perfect for mage-assassins who face enemies with a lot of shields. It provides bonuses to maximum health, ability power, magic penetration, and ability haste, helping you deal damage and more effectively break through enemy shields. The \"Lethal Weapon\" effect reduces the effectiveness of shields that enemies gain based on the type of ability you use. Area of effect abilities apply up to 45% shield reduction, while single target abilities apply up to 60%, allowing you to significantly reduce enemy defenses. This item is especially useful when the enemy team relies on shields for protection."
+        },
+        {
+          "purpose": "Reduces all nearby enemies Attack Speed",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389159_frozen-heart.webp",
+              "alt": "Wild Rift Items: Frozen Heart",
+              "name": "Frozen Heart",
+              "description": "Frozen HeartReduces all nearby enemies Attack Speed+80 Armor+200 Max Mana+25 Ability HasteWinter's Caress:Basic attacks andmagic damagecaused by you or inflicted upon you and nearby allies, will apply stacks ofChillto the enemy champion for 3 seconds. Each stack ofChillslows enemyattack speed by 9%, up to a maximum of 4 stacks or36% attack speed reduction. Each individual ability has a 3 seconds cooldown on applyingChillstacks.2700Frozen Heart TIPS:This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights.",
+              "cost": 2700
+            }
+          ],
+          "tips": "Frozen Heart— This item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool. It provides substantial bonuses to armor, mana, and ability haste. The “Winter’s Caress” passive applies up to four stacks of Chill on enemy champions through your basic attacks, abilities, or any magic damage they take—each stack slows their attack speed by 9%, up to 36% at full stacks. This weakens enemy marksmen and fighters, making it harder for them to deal sustained damage in fights."
+        },
+        {
+          "purpose": "Magic damage reduces enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388237_morellonomicon.webp",
+              "alt": "Wild Rift Items: Morellonomicon",
+              "name": "Morellonomicon",
+              "description": "MorellonomiconMagic damage reduces enemy healing+150 Max Health+70 Ability Power+7% Magic Penetration+20 Ability HasteAffliction:Dealingmagic damageto enemy champions inflicts50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.2500Morellonomicon TIPS:This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir.",
+              "cost": 2500
+            }
+          ],
+          "tips": "Morellonomicon— This item is perfect for mages who need to reduce the effectiveness of healing and regeneration on enemies. It provides bonuses to maximum health, ability power, magic penetration, and ability haste. The \"Affliction\" effect applies Grievous Wounds on enemy champions when you deal magic damage, reducing their healing and regeneration effectiveness by 50% for 3 seconds. This item is especially useful against champions who rely on healing, such as Soraka, Dr. Mundo, and Vladimir."
+        },
+        {
+          "purpose": "Boosts Ability Power",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388234_crown-of-the-shattered-queen.webp",
+              "alt": "Wild Rift Items: Crown of the Shattered Queen",
+              "name": "Crown of the Shattered Queen",
+              "description": "Crown of the Shattered QueenBlocks an enemy ability+60 Ability Power+7% Magic Penetration+200 Max Mana+20 Ability HasteSafeguard:Grant a spell shield that blocks the next hostile ability, reduce incoming damage by 40% for 1s (40s Cooldown).Poise:APincreases by 20 while Safeguarded. Dealing magic damage to enemy champions using an active ability reduces Safeguard's cooldown by 4s.3000Crown of the Shattered Queen TIPS:This item is perfect for champions who need both defense and offense. It provides bonuses to ability power, magic penetration, maximum mana, and ability haste. The \"Safeguard\" effect grants a spell shield that blocks the next enemy ability and reduces incoming damage by 40% for 1 second. \"Poise\" increases your ability power while safeguarded and reduces the cooldown of Safeguard by 4 seconds when you deal magic damage using an active ability. This item is especially useful for champions who need to protect themselves from crowd control while engaging in fights, particularly against champions with key abilities that can be blocked, such as Ashe, Lux, or Morgana.",
+              "cost": 3000
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753388295_rabadons-deathcap.webp",
+              "alt": "Wild Rift Items: Rabadon's Deathcap",
+              "name": "Rabadon's Deathcap",
+              "description": "Rabadon's DeathcapBoosts Ability Power+100 Ability Power+7% Magic PenetrationOverkill:IncreasesAbility Power by 20-45%.3400Rabadon's Deathcap TIPS:This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Rabadon's Deathcap— This item is perfect for mages who rely on high ability power ratios and want to significantly increase their damage output. It provides a huge bonus to ability power and magic penetration. The \"Overkill\" effect increases your ability power by 20-45%, depending on the level, significantly enhancing your magical abilities and attacks. This item is especially useful against enemy teams that lack magic resistance or have squishy targets, as it allows you to significantly boost your damage and deal massive magic damage."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695008_heal.webp",
+          "alt": "Heal Wild Rift",
+          "name": "Heal",
+          "description": "HealRestore 110 Health(110–400) to you and the most wounded nearby ally champion, and grants both of you30% bonus Movement Speedfor 2 second(s).Healing is halved for champions recently affected by Heal.Cooldown:100s",
+          "cooldown": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+            "alt": "Wild Rift Resolve Runes: Font of Life",
+            "name": "Font of Life",
+            "description": "Marks an enemy champion and grants healing upon attack."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+            "alt": "Wild Rift Resolve Runes: Bone Plating",
+            "name": "Bone Plating",
+            "description": "Reduces incoming damage."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392494_revitalize.webp",
+            "alt": "Wild Rift Resolve Runes: Revitalize",
+            "name": "Revitalize",
+            "description": "Increases healing and shielding effects."
+          }
+        ],
+        "secondary": [],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+          "alt": "Wild Rift Keystone Runes: Glacial Augment",
+          "name": "Glacial Augment",
+          "description": "After immobilizing an enemy champion, fires a beam that reduces their Movement Speed."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Poke, Protect",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729684_8351.webp",
+              "alt": "Glacial Augment",
+              "name": "Glacial Augment",
+              "description": "Glacial AugmentApplies SlowLanding an attack on an enemy champion reduces theirMovement Speed by 20%for 1.5s. This effect only affects each champion up to a maximum of 1 time(s) within 10s.Immobilizingan enemy champion triggers 3 glacial rays that radiate toward you, creating a frozen region that lasts for 3s. The regionslows enemieswithin it by (1.5%of your bonusHealth+ 20%). and reduces the damage that they deal by 12%. Theslow effectwill persist for 1.5s even after they leave the frozen region.Cooldown:20s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729544_8214.webp",
+              "alt": "Aery",
+              "name": "Aery",
+              "description": "AeryPoke, ProtectYour attacks and abilities send Aery to a target, damaging enemies or shielding allies.Damage: 10-60 () +20% bonus+10%.Shield: 20-120 () +40% bonus+20%.Aery cannot be sent out again until she returns to you."
+            }
+          ],
+          "tips": "Aery— The rune is perfect for champions who combine damage and support, such as Seraphine or Lux. It allows dealing extra damage to enemies or shielding allies. \"Aery\" is especially effective on heroes with strong ranged control, as it deals damage through attacks or abilities without risking retaliation. The rune is also useful in support roles, providing additional protection to allies in crucial moments."
+        },
+        {
+          "purpose": "Shield when low health",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392605_font-of-life.webp",
+              "alt": "Font of Life",
+              "name": "Font of Life",
+              "description": "Font of LifeTeam HealHitting an enemy champion with an attack or ability marks them. When allies or you damage marked champions, heal those allies and yourself.  Each ally can trigger this healing once per mark.Ally Heal: 3%of your max+15% of your.Self Heal: 1%of your max+5% of your.Mark duration:3sCooldown:15s for Melee champions, 20s for Ranged champions.Subsequent heals from other ally's marks are reduced to 25%."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392609_nullifying-orb.webp",
+              "alt": "Nullifying Orb",
+              "name": "Nullifying Orb",
+              "description": "Nullifying OrbShield when low healthIf you would take damage from a champion that causes you to fall below 35% of your maximum health, grants ashieldthatabsorbs up to 60-190() damage for 4s.Cooldown:60s"
+            }
+          ],
+          "tips": "Nullifying Orb— The rune activates when you would take damage from a champion that causes you to fall below 35% of your maximum health, granting a shield that absorbs damage for a few seconds. This makes the rune perfect for champions who often find themselves in dangerous situations and could be attacked in critical moments. It is ideal for tanks or fighters who need to survive in tough fights, providing protection from sudden damage when at low health."
+        },
+        {
+          "purpose": "Block Combo-damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392671_loyalty.webp",
+              "alt": "Loyalty",
+              "name": "Loyalty",
+              "description": "LoyaltyShared Bonus AR/MRYou gain2and5.Your closest ally champion gains5and2."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            }
+          ],
+          "tips": "Bone Plating— The rune reduces damage from enemy attacks and abilities when you take damage from an enemy champion. It lowers damage from the next few attacks or abilities for a short period, making it useful for most champions, including tanks, fighters, and even some mages. The rune helps improve survivability by mitigating damage in critical moments of the fight, making it suitable for heroes who find themselves in the heart of battles."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "22 MAY 2025",
+      "patch": "6.1B",
+      "changes": [
+        {
+          "ability": "(PASSIVE) POWER CHORD",
+          "changes": [
+            {
+              "type": "Adjustment",
+              "description": "Stacks are only consumed when attacking champions or epic monsters."
+            },
+            {
+              "type": "New",
+              "description": "Grants full stack of passive when respawn."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) HYMN OF VALOR",
+          "changes": [
+            {
+              "stat": "Base damage",
+              "change": "50/90/130/170 → 40/80/120/160."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "530 → 600."
+            },
+            {
+              "stat": "Health per level",
+              "change": "96 → 104."
+            },
+            {
+              "stat": "Base Armor",
+              "change": "35 → 40."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "0.8 → 1.2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "27 DEC 2023",
+      "patch": "4.4D",
+      "changes": [
+        {
+          "ability": "(PASSIVE) POWER CHORD",
+          "changes": [
+            {
+              "stat": "Cooldown reduction of basic skills",
+              "change": "2%~30% → 2%~20%."
+            }
+          ]
+        },
+        {
+          "ability": "(W) ARIA OF PERSEVERANCE",
+          "changes": [
+            {
+              "stat": "Life regeneration",
+              "change": "20/35/50/60 + 20% Ability Power → 25/40/55/70 + 20% Ability Power."
+            },
+            {
+              "stat": "Shield",
+              "change": "20/50/80/110 + 20% of Ability Power → 25/50/75/100 + 18% of Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(R) CRESCENDO",
+          "changes": [
+            {
+              "stat": "Passive enhanced aura effect",
+              "change": "30% → 20%."
+            },
+            {
+              "stat": "Each soundwave damage",
+              "change": "40/70/100 + 15% Ability Power → 35/60/85 + 15% Ability Power."
+            },
+            {
+              "stat": "Slow",
+              "change": "35/40/45% → 25/30/35%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "06 DEC 2023",
+      "patch": "4.4C",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Health per level",
+              "change": "105 → 96."
+            }
+          ]
+        },
+        {
+          "ability": "(PASSIVE) POWER CHORD",
+          "changes": [
+            {
+              "type": "Removed",
+              "description": "After casting basic abilities for 3 times, Sona’s empowered attack will gain a bonus effect from the last ability she casts."
+            },
+            {
+              "type": "New",
+              "description": "After casting basic abilities for 3 times, Sona’s next attack will be empowered, dealing (20~160 + 15% Ability Power) bonus magic damage, stunning the target for 0.5s. Casting basic abilities creates a non-stacking buff aura for 3s."
+            },
+            {
+              "type": "New",
+              "description": "CD of basic abilities will be reduced (level *2%)."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) HYMN OF VALOR",
+          "changes": [
+            {
+              "stat": "Mana cost",
+              "change": "55/60/65/70 → 60/65/70/75."
+            },
+            {
+              "stat": "Damage",
+              "change": "40/75/110/145 + 20% Ability Power → 50/90/130/170 + 40% Ability Power."
+            },
+            {
+              "stat": "Bonus damage of aura effect",
+              "change": "10/15/20/25 + 20% Ability Power → 8/13/18/23 + 20% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(W) ARIA OF PERSEVERANCE",
+          "changes": [
+            {
+              "stat": "Health regeneration",
+              "change": "30/45/60/75 + 25% Ability Power → 20/35/50/65 + 20% Ability Power."
+            },
+            {
+              "stat": "Bonus shield of aura effect",
+              "change": "25/55/85/115 + 30% Ability Power → 20/50/80/110 + 20% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(R) CRESCENDO",
+          "changes": [
+            {
+              "type": "Removed",
+              "description": "Passive: Reduce 10/20/30% basic Cooldown of basic abilities."
+            },
+            {
+              "stat": "[Removed] Active",
+              "change": "Strikes an irresistible chord, dealing (150/250/350+50% Ability Power) magic damage to enemies hit and stunning them for 1s."
+            },
+            {
+              "type": "New",
+              "description": "Passive: The aura will be reinforced for 20s after casting the ability, providing a higher buff effect than usual."
+            },
+            {
+              "stat": "[New] Active",
+              "change": "Plays a chord that emits a soundwave every 0.75s as it travels to the target location. The soundwave deals (40/80/120 + 15% Ability Power) magic damage and stuns enemies hit for the first time for 1s. Enemies caught inside the chord are also slowed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 OCT 2023",
+      "patch": "4.4",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Movement speed",
+              "change": "335 → 340."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "28 JUL 2022",
+      "patch": "3.3A",
+      "changes": [
+        {
+          "ability": "(W) ARIA OF PERSEVERANCE",
+          "changes": [
+            {
+              "stat": "Shield",
+              "change": "25/65/105/145 → 25/55/85/115."
+            }
+          ]
+        },
+        {
+          "ability": "(R) CRESCENDO",
+          "changes": [
+            {
+              "stat": "Basic ability cooldown reduction",
+              "change": "10/25/40% → 10/20/30%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "11 MAY 2022",
+      "patch": "3.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base armor",
+              "change": "40 → 35."
+            }
+          ]
+        },
+        {
+          "ability": "(W) ARIA OF PERSEVERANCE",
+          "changes": [
+            {
+              "stat": "Heal",
+              "change": "30/55/80/105 → 30/45/60/75."
+            },
+            {
+              "stat": "Shield",
+              "change": "25/55/85/115 → 25/65/105/145."
+            }
+          ]
+        },
+        {
+          "ability": "(E) SONG OF CELERITY",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "12s → 14s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "15 SEP 2021",
+      "patch": "2.4c",
+      "changes": [
+        {
+          "ability": "(Q) HYMN OF VALOR",
+          "changes": [
+            {
+              "stat": "Active damage",
+              "change": "40/80/120/160 → 40/75/110/145."
+            },
+            {
+              "stat": "Active AP ratio",
+              "change": "50% → 40%."
+            },
+            {
+              "stat": "Ally aura bonus damage AP ratio",
+              "change": "30% → 20%."
+            }
+          ]
+        },
+        {
+          "ability": "(R) CRESCENDO",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "90/75/50s → 100/80/60s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "14 JUL 2021",
+      "patch": "2.3С",
+      "changes": [
+        {
+          "ability": "(E) SONG OF CELERITY",
+          "changes": [
+            {
+              "type": "BUGFIX",
+              "description": "Now correctly displays 3% AP ratio in tooltip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "14 JUL 2021",
+      "patch": "2.3С",
+      "changes": [
+        {
+          "ability": "(E) SONG OF CELERITY",
+          "changes": [
+            {
+              "stat": "Mana",
+              "change": "65 → 80."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

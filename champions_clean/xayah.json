@@ -1,0 +1,440 @@
+{
+  "name": "XAYAH",
+  "roles": [],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675036571_1644098432_xayah_54_11zon.webp",
+  "tier": 1,
+  "balance_status": "ADJUSTED",
+  "stats": {
+    "damage": 100,
+    "toughness": 33,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222808_xayahpassive-min.png",
+      "alt_text": "CLEAN CUTS",
+      "key": "P",
+      "description": "(PASSIVE)CLEAN CUTSAfter using an ability, Xayah's next 3 attacks will hit all enemies along their path and dropFeathersshe can recall. Xayah can store up to 5Feathersat a time.Lover's Leap:Xayah andRakancan join each other's recall. Both will reach the Summoning Platform at the time of which the initiator's recall ends.",
+      "name": "CLEAN CUTSA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222834_xayahq-min.png",
+      "alt_text": "DOUBLE DAGGERS",
+      "key": "Q",
+      "description": "(Q)DOUBLE DAGGERS10/9/8/7s50Throws two daggers dealing50 physical damage(50/75/100/125 +50% bonus) each and leavingtwo Feathers. Targets hit after the first take 50% damage.",
+      "name": "DOUBLE DAGGERS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222817_xayahw-min.png",
+      "alt_text": "DEADLY PLUMAGE",
+      "key": "W",
+      "description": "(W)DEADLY PLUMAGE17/16/15/14s50Create a storm of blades for 4s that grants45/50/55/60% Attack Speedand causes attacks to deal 20% more damage.If Deadly Plumage strikes an enemy champion, gain25/30/35/40% Movement Speedfor 1.5 seconds.IfRakanis nearby he will also gain the effects of this skill.",
+      "name": "DEADLY PLUMAGE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222927_xayahe-min.png",
+      "alt_text": "BLADECALLER",
+      "key": "E",
+      "description": "(E)BLADECALLER11/10/9/8s40Calls back allFeathers, dealing60 physical damage(60/70/80/90 +90% bonus) to enemies they pass through. Hitting an enemy with3 Feathersrootthem for 1.25s.Minions take 50% damage from Bladecaller.",
+      "name": "BLADECALLER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-02/1612222986_xayahr-min.png",
+      "alt_text": "FEATHERSTORM",
+      "key": "R",
+      "description": "(R)FEATHERSTORM80/70/60s100Leaps into the air, becoming untargetable and throwing out a fan of daggers which deal125 physical damage(125/250/375 +100% bonus) and leave behind a line ofFeathersCan move while in the air.",
+      "name": "FEATHERSTORM"
+    }
+  ],
+  "lanes": [
+    "Dragon"
+  ],
+  "builds": [
+    {
+      "lane": "Dragon",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500"
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 225
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302298_navori-quickblades.webp",
+          "alt": "Wild Rift Items: Navori Quickblades",
+          "name": "Navori Quickblades",
+          "description": "Navori QuickbladesAbilities grant damage amplification and cooldown reduction+40 Attack Damage+25% Critical Rate+15% Attack SpeedDeft Strikes:Critical Attacksreduce your non-ultimate abilitycooldowns by 15%of their remaining cooldown.Impermanence:Your abilities deal up to12%increased damage based on.3000Navori Quickblades TIPS:This item is perfect for auto‑attackers who aim to amplify their ability damage and reduce cooldowns. Critical strikes accelerate your non‑ultimate abilities, while your skills hit harder based on your crit chance.  — A top pick for marksmen and assassins who weave auto‑attacks with spells to swiftly eliminate targets and maintain combat momentum."
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 225
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302298_navori-quickblades.webp",
+          "alt": "Wild Rift Items: Navori Quickblades",
+          "name": "Navori Quickblades",
+          "description": "Navori QuickbladesAbilities grant damage amplification and cooldown reduction+40 Attack Damage+25% Critical Rate+15% Attack SpeedDeft Strikes:Critical Attacksreduce your non-ultimate abilitycooldowns by 15%of their remaining cooldown.Impermanence:Your abilities deal up to12%increased damage based on.3000Navori Quickblades TIPS:This item is perfect for auto‑attackers who aim to amplify their ability damage and reduce cooldowns. Critical strikes accelerate your non‑ultimate abilities, while your skills hit harder based on your crit chance.  — A top pick for marksmen and assassins who weave auto‑attacks with spells to swiftly eliminate targets and maintain combat momentum."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301062_mortal-reminder.webp",
+          "alt": "Wild Rift Items: Mortal Reminder",
+          "name": "Mortal Reminder",
+          "description": "Mortal ReminderArmor Penetration (%) and reduced enemy healing+25 Attack Damage+25% Critical Rate+15% Attack SpeedLast Whisper:+30% Armor Penetration.Attacks that Critically Strike gain an additional6% Armor Penetration.Sepsis:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.3300Mortal Reminder TIPS:This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300773_magnetic-blaster.webp",
+          "alt": "Wild Rift Items: Magnetic Blaster",
+          "name": "Magnetic Blaster",
+          "description": "Magnetic BlasterIncreases attack range and damage+25% Critical Rate+35% Attack SpeedFervor:+5% Move Speed.Energized:Moving and attacking will generate anEnergized Attack.Power Blitz:Energized Attacksgain 100 range (50 range for melee attacks), deal50-120 bonus magic damage, and grant60 Movement Speedfor 0.75 seconds. This damage bounces to 5 nearby enemies and canCritically Strike.(Deals 20-50% bonus damage against minions.)2900Magnetic Blaster TIPS:This item extends your attack range and adds hybrid damage by empowering every fourth attack with a magic burst that can bounce to multiple targets and critically strike. Moving and attacking charges the empowered strike, and upon activation you gain a hefty movement speed boost, aiding both chase and retreat.  — Perfect for marksmen and auto‑attack bruisers who want more reach, multi‑target damage, and extra mobility in skirmishes."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+          "alt": "Wild Rift Items: Trinity Force",
+          "name": "Trinity Force",
+          "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+              "alt": "Wild Rift Items: Trinity Force",
+              "name": "Trinity Force",
+              "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+              "alt": "Wild Rift Items: Trinity Force",
+              "name": "Trinity Force",
+              "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Attacks deal bonus damage",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+              "alt": "Wild Rift Items: Trinity Force",
+              "name": "Trinity Force",
+              "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300931_yordle-duskblade-of-draktharr.webp",
+              "alt": "Wild Rift Items:  Yordle Duskblade of Draktharr",
+              "name": "Yordle Duskblade of Draktharr",
+              "description": "Yordle Duskblade of DraktharrAttacks deal bonus damage+50 Attack Damage+10 Ability HasteRazor:+18 Armor Penetration.Nightstalker:The first attack against a champion deals60-160 bonus physical damageandslowsthem by 99% for 0.35s (10s cooldown). Champion takedowns refresh cooldown duration.Nightfall:Become invisible for 1s upon getting a kill. While invisible, gain60% Movement Speed. (5s cooldown)3000Yordle Duskblade of Draktharr TIPS:This item is best purchased on AD assassins who can attack quickly and decisively after being spotted. The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen. The Nightstalker effect allows you to deal significant bonus damage with the first attack on a champion, slowing them briefly, giving you time to follow up with additional attacks. This item excels against targets with low defense, but if the enemy is building more tanky or brawler-oriented champions, you may want to consider a different core item."
+            }
+          ],
+          "tips": "Yordle Duskblade of Draktharr— This item is best purchased on AD assassins who can attack quickly and decisively after being spotted. The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen. The Nightstalker effect allows you to deal significant bonus damage with the first attack on a champion, slowing them briefly, giving you time to follow up with additional attacks. This item excels against targets with low defense, but if the enemy is building more tanky or brawler-oriented champions, you may want to consider a different core item."
+        },
+        {
+          "purpose": "Increases survivability in prolonged combat",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+              "alt": "Wild Rift Items: Trinity Force",
+              "name": "Trinity Force",
+              "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+            }
+          ],
+          "tips": "Amaranth's Twinguard— This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+        },
+        {
+          "purpose": "Summon a clone that attacks alongside you",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+              "alt": "Wild Rift Items: Trinity Force",
+              "name": "Trinity Force",
+              "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753305204_soul-transfer.webp",
+              "alt": "Wild Rift Items: Soul Transfer",
+              "name": "Soul Transfer",
+              "description": "Soul TransferSummon a clone that attacks alongside you+25 Attack Damage+25% Critical Rate+30% Attack SpeedShadow Dance:When your attack Critically Strikes an enemy champion or a large monster, summon a clone that lasts 4 second(s) to attack nearby enemies. The clone inherits25% of your Attack Damageand additionally gains 30% of yourCritical RateasAttack Speed. Up to two clones can exist at one time.If a clone moves more than 600 units away from you, it will disappear early.3200Soul Transfer TIPS:This item is perfect for champions relying on critical strikes and auto-attacks, especially in extended teamfights. It grants bonus attack damage, critical strike chance, and attack speed. On a critical strike against a champion or large monster, you summon a clone that attacks nearby enemies— the clone inherits a portion of your AD and converts extra crit chance into attack speed.  Ideal for marksmen who frequently land crits and need extra multi-target damage."
+            }
+          ],
+          "tips": "Soul Transfer— This item is perfect for champions relying on critical strikes and auto-attacks, especially in extended teamfights. It grants bonus attack damage, critical strike chance, and attack speed. On a critical strike against a champion or large monster, you summon a clone that attacks nearby enemies— the clone inherits a portion of your AD and converts extra crit chance into attack speed.  Ideal for marksmen who frequently land crits and need extra multi-target damage."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Alacrity",
+            "name": "Legend: Alacrity",
+            "description": "Gains Attack Speed."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729643_8008.webp",
+          "alt": "Wild Rift Keystone Runes: Lethal Tempo",
+          "name": "Lethal Tempo",
+          "description": "Attack faster with each consecutive attack."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Stacking Damage, Vamp",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729643_8008.webp",
+              "alt": "Lethal Tempo",
+              "name": "Lethal Tempo",
+              "description": "Lethal TempoAttack SpeedGain stacks of Attack Speed when attacking enemy champions. Stacks up to 6 times. At max stacks, you gain bonus range and can exceed the Attack Speed cap.Each stack: increase 10-18% (Melee) or 4-13% (Ranged)Attack Speedfor 6 seconds.At max stack bonus: Gain 50 (Melee) or 75 (Ranged) Attack Distance."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+              "alt": "Conqueror",
+              "name": "Conqueror",
+              "description": "ConquerorStacking Damage, VampGain stacks of Adaptive Force when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus omnivamp.Per stack:3-7 bonusor4-11for 6s.Fully stacked bonus: Melee - 9%, Ranged - 5% bonusOmnivamp."
+            }
+          ],
+          "tips": "Conqueror— The rune is perfect for champions who frequently engage in combat and use both auto-attacks and abilities, such as Riven or Aurelion Sol. Each time you deal damage to an enemy, the rune gains stacks, increasing your adaptive force. When fully stacked, you gain bonus omnivamp, allowing you to restore health based on the damage you deal. This makes the rune an excellent choice for champions who actively participate in fights and need both damage and sustain."
+        },
+        {
+          "purpose": "Takedown high health champions",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+              "alt": "Coup de Grace",
+              "name": "Coup de Grace",
+              "description": "Coup de GraceBonus DamageWhen an enemy champion has less than40% Health, deals 8% bonus adaptive damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            }
+          ],
+          "tips": "Giant Slayer— The rune deals bonus damage based on the enemy champion's bonus health, up to 16% bonus damage when the enemy champion has 1600 or more bonus health. It is perfect for champions who face enemies with high amounts of health, such as tanks. The rune helps effectively break through high health opponents, making it an excellent choice for damage-focused champions."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "610 → 630."
+            },
+            {
+              "stat": "Health per level",
+              "change": "105 → 120."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "3.5 → 4."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "0.8 → 1.4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "17 OCT 2024",
+      "patch": "5.3",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Attack Damage",
+              "change": "58 → 54."
+            },
+            {
+              "stat": "Attack Damage per level",
+              "change": "4 → 5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            },
+            {
+              "stat": "Attack range",
+              "change": "550 → 575."
+            },
+            {
+              "stat": "Base attack speed",
+              "change": "20% → 30%."
+            },
+            {
+              "stat": "Attack speed per level",
+              "change": "2.2% → 3.2%."
+            },
+            {
+              "stat": "Attack Damage per level",
+              "change": "3.6 → 4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "02 DEC 2021",
+      "patch": "2.6",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base AD",
+              "change": "64 → 58."
+            }
+          ]
+        },
+        {
+          "ability": "(W) DEADLY PLUMAGE",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "19/17/15/13s → 19/18/17/16s."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

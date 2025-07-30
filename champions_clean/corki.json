@@ -1,0 +1,874 @@
+{
+  "name": "CORKI",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2023-01/1675025603_1644098217_corki_51_11zon.webp",
+  "tier": 2,
+  "balance_status": "NERFED",
+  "stats": {
+    "damage": 100,
+    "toughness": 33,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609853720_corki-passive-min.png",
+      "alt_text": "HEXTECH MUNITIONS",
+      "key": "P",
+      "description": "(PASSIVE)HEXTECH MUNITIONSHextech Shrapnel:Attacks andSpellbladedeal20% bonus true damage.The package:After hitting enemy champions 6 times withMissile Barrage,The Packageis delivered to Corki. He can pick it up to gain 4Big Ones.The Packagedespawns after 15 seconds.",
+      "name": "HEXTECH MUNITIONSH"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609853734_corki-q-min.png",
+      "alt_text": "PHOSPHOROUS BOMB",
+      "key": "Q",
+      "description": "(Q)PHOSPHOROUS BOMB9/8/7/6s60/65/70/75Fires a bomb, dealing65 magic damage(65/125/185/245 +120% bonus+80%) and granting vision of the area.",
+      "name": "PHOSPHOROUS BOMB"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609853729_corki-w-min.png",
+      "alt_text": "VALKYRIE",
+      "key": "W",
+      "description": "(W)VALKYRIE18/16/14/12s80/85/90/95Flies a short distance, leaving a burning trail for 2.5 seconds. The trail burns enemies in it for60 magic damage(60 +60% bonus+60%) per second, dealing up to150/250/350/450magic damage.",
+      "name": "VALKYRIE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609853694_corki-e-min.png",
+      "alt_text": "GATLING GUN",
+      "key": "E",
+      "description": "(E)GATLING GUN12s50/60/70/80Fires a gatling gun, dealing20 physical damage(20/35/50/65 +55% bonus) per second, up to a total of100/160/220/280 physical damageover 4 seconds. Shreds up to 10/14/18/22ArmorandMagic Resistfor 2 seconds.Corki automatically fires Gatling Gun at his current target.",
+      "name": "GATLING GUN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2021-01/1609853738_corki-r-min.png",
+      "alt_text": "MISSILE BARRAGE",
+      "key": "R",
+      "description": "(R)MISSILE BARRAGE2s16Fires a missile that explodes on the first target hit, dealing70 physical damage(70/140/210 +70%) to nearby enemies.Big One:Every third missile is aBig Onethat deals140 physical damage(140/210/280  +140%) and has a bigger area of effect and increased blast radius.Charge:Gains a charge every 20 seconds, storing up to 4 charges. Attacks against champions reduce the time between charges by 2 seconds (2+300% Crit Rate) on hit.",
+      "name": "MISSILE BARRAGE"
+    }
+  ],
+  "lanes": [
+    "Dragon",
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Mid",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302228_essence-reaver.webp",
+          "alt": "Wild Rift Items: Essence Reaver",
+          "name": "Essence Reaver",
+          "description": "Essence ReaverAttacks grant Mana Regen, and damage amplification+35 Attack Damage+25% Critical Rate+20 Ability HasteSpellblade:Casting an ability generates aSpellbladecharge (max 3 charges) that lasts up to 10 second(s).Hitting an enemy with an attackconsumes a charge, dealing90 bonusasphysical damageand granting40 Movement Speedfor 2 second(s). This bonus damage canCritically Strike. Each ability generates only one charge per 2 second(s).Mana Siphon:Attacks restore3% missingManaon-hit.3000Essence Reaver TIPS:This item is perfect for hybrid auto‑attack champions who need mana sustain and enhanced damage after casting abilities. It boosts ability haste, and after using a skill, your next basic attack hits harder and grants a burst of movement speed. Additionally, auto‑attacks restore a portion of your missing mana, keeping you in fights longer.  — A great pick for marksmen and fighters who weave spells into their auto‑attack rotations for maximum DPS and mana sustainability.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302228_essence-reaver.webp",
+          "alt": "Wild Rift Items: Essence Reaver",
+          "name": "Essence Reaver",
+          "description": "Essence ReaverAttacks grant Mana Regen, and damage amplification+35 Attack Damage+25% Critical Rate+20 Ability HasteSpellblade:Casting an ability generates aSpellbladecharge (max 3 charges) that lasts up to 10 second(s).Hitting an enemy with an attackconsumes a charge, dealing90 bonusasphysical damageand granting40 Movement Speedfor 2 second(s). This bonus damage canCritically Strike. Each ability generates only one charge per 2 second(s).Mana Siphon:Attacks restore3% missingManaon-hit.3000Essence Reaver TIPS:This item is perfect for hybrid auto‑attack champions who need mana sustain and enhanced damage after casting abilities. It boosts ability haste, and after using a skill, your next basic attack hits harder and grants a burst of movement speed. Additionally, auto‑attacks restore a portion of your missing mana, keeping you in fights longer.  — A great pick for marksmen and fighters who weave spells into their auto‑attack rotations for maximum DPS and mana sustainability.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389849_gluttonous-greaves.webp",
+          "alt": "Wild Rift Items: Gluttonous Greaves",
+          "name": "Gluttonous Greaves",
+          "description": "Gluttonous GreavesAttack Damage, Omnivamp+35 Attack Damage+45 Move Speed.Conversion:+7% Omnivamp.1400Gluttonous Greaves TIPS:These boots are perfect for champions who rely on auto-attacks and need constant sustain. They provide bonuses to attack damage and movement speed, while the “Conversion” passive turns a portion of your damage into omnivamp, allowing you to stay in fights longer. Especially useful for marksmen, fighters, and junglers who frequently skirmish and require extra healing from their attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300773_magnetic-blaster.webp",
+          "alt": "Wild Rift Items: Magnetic Blaster",
+          "name": "Magnetic Blaster",
+          "description": "Magnetic BlasterIncreases attack range and damage+25% Critical Rate+35% Attack SpeedFervor:+5% Move Speed.Energized:Moving and attacking will generate anEnergized Attack.Power Blitz:Energized Attacksgain 100 range (50 range for melee attacks), deal50-120 bonus magic damage, and grant60 Movement Speedfor 0.75 seconds. This damage bounces to 5 nearby enemies and canCritically Strike.(Deals 20-50% bonus damage against minions.)2900Magnetic Blaster TIPS:This item extends your attack range and adds hybrid damage by empowering every fourth attack with a magic burst that can bounce to multiple targets and critically strike. Moving and attacking charges the empowered strike, and upon activation you gain a hefty movement speed boost, aiding both chase and retreat.  — Perfect for marksmen and auto‑attack bruisers who want more reach, multi‑target damage, and extra mobility in skirmishes.",
+          "cost": 2900
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301062_mortal-reminder.webp",
+          "alt": "Wild Rift Items: Mortal Reminder",
+          "name": "Mortal Reminder",
+          "description": "Mortal ReminderArmor Penetration (%) and reduced enemy healing+25 Attack Damage+25% Critical Rate+15% Attack SpeedLast Whisper:+30% Armor Penetration.Attacks that Critically Strike gain an additional6% Armor Penetration.Sepsis:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.3300Mortal Reminder TIPS:This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+          "alt": "Wild Rift Items: Infinity Edge",
+          "name": "Infinity Edge",
+          "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+          "cost": 3400
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+              "alt": "Wild Rift Items: Infinity Edge",
+              "name": "Infinity Edge",
+              "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+              "alt": "Wild Rift Items: Infinity Edge",
+              "name": "Infinity Edge",
+              "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Blocks an enemy ability",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+              "alt": "Wild Rift Items: Infinity Edge",
+              "name": "Infinity Edge",
+              "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+              "cost": 3150
+            }
+          ],
+          "tips": "Edge of Night— This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana."
+        },
+        {
+          "purpose": "Well-Rounded",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+              "alt": "Wild Rift Items: Infinity Edge",
+              "name": "Infinity Edge",
+              "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+              "alt": "Wild Rift Items: Trinity Force",
+              "name": "Trinity Force",
+              "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage.",
+              "cost": 3333
+            }
+          ],
+          "tips": "Trinity Force— This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage."
+        },
+        {
+          "purpose": "Increases survivability in prolonged combat",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+              "alt": "Wild Rift Items: Infinity Edge",
+              "name": "Infinity Edge",
+              "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+              "cost": 3400
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753389236_amaranths-twinguard.webp",
+              "alt": "Wild Rift Items: Amaranth's Twinguard",
+              "name": "Amaranth's Twinguard",
+              "description": "Amaranth's TwinguardIn-combat durability+60 Armor+60 Magic ResistanceEndurance:Gain 1 stacks of Endurance every 1 seconds while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size,20% Tenacity, and increaseArmorby 30% andMagic Resistanceby 30% until out of combat with champion.3100Amaranth's Twinguard TIPS:This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes.",
+              "cost": 3100
+            }
+          ],
+          "tips": "Amaranth's Twinguard— This item is perfect for champions who spend a lot of time in the thick of fights and need extra durability and crowd control resistance. It provides bonuses to armor and magic resistance. The “Endurance” passive stacks up to five times during combat, and at full stacks you increase in size, gain enhanced tenacity, and receive bonus armor and magic resistance until you exit combat. This allows you to stay in the frontline longer and withstand enemy attacks more effectively. Due to its versatile utility, this item is one of the most popular defensive choices in the game and is used by the majority of tanks, fighters, and other classes."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1735511112_cleanse.webp",
+          "alt": "Cleanse Wild Rift",
+          "name": "Cleanse",
+          "description": "CleanseRemoves disables (including spell debuffs) affecting your champion and grants immunity to disables for 0.25 seconds.Cooldown:110s",
+          "cooldown": 110
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+            "alt": "Wild Rift Precision Runes: Legend Bloodline",
+            "name": "Legend: Bloodline",
+            "description": "Gains Omnivamp."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+          "alt": "Wild Rift Keystone Runes: Conqueror",
+          "name": "Conqueror",
+          "description": "Gain stacks of AD or AP when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus Omnivamp (Adaptive)."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Increasing AD/AP",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+              "alt": "Brutal",
+              "name": "Brutal",
+              "description": "BrutalOn-hit DamageBasic attacks deal 7-21 bonusadaptivedamageon-hitagainst champions."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+              "alt": "Gathering Storm",
+              "name": "Gathering Storm",
+              "description": "Gathering StormIncreasing AD/APEvery 3 minutes, gain increasingAdaptiveor. Totaling:2/5/9/14or4/10/18/28based on game time."
+            }
+          ],
+          "tips": "Gathering Storm— The rune increases your adaptive strength (AD or AP) every 3 minutes, stacking bonuses as the game progresses. It is perfect for champions who need scaling power throughout the game, such as mages and damage-focused champions. The rune allows for significant damage growth in the late game, making it a great choice for champions who can build up their power over time and use it to secure victories in critical fights."
+        },
+        {
+          "purpose": "Takedown high health champions",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+              "alt": "Coup de Grace",
+              "name": "Coup de Grace",
+              "description": "Coup de GraceBonus DamageWhen an enemy champion has less than40% Health, deals 8% bonus adaptive damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            }
+          ],
+          "tips": "Giant Slayer— The rune deals bonus damage based on the enemy champion's bonus health, up to 16% bonus damage when the enemy champion has 1600 or more bonus health. It is perfect for champions who face enemies with high amounts of health, such as tanks. The rune helps effectively break through high health opponents, making it an excellent choice for damage-focused champions."
+        },
+        {
+          "purpose": "Bonus Attack Speed",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+              "alt": "Legend: Bloodline",
+              "name": "Legend: Bloodline",
+              "description": "Legend: BloodlineOmnivampGains1% Omnivamp. Takedown monsters, enemy champions, or minions to gain up to an additional7% Omnivamp."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+              "alt": "Legend: Alacrity",
+              "name": "Legend: Alacrity",
+              "description": "Legend: AlacrityBonus Attack SpeedGains3% Attack Speed. Takedown monsters, enemy champions, or minions to gain up to an additional20% Attack Speed."
+            }
+          ],
+          "tips": "Legend: Alacrity— The rune increases your attack speed by 3% and grants additional attack speed for each takedown of monsters, enemy champions, or minions, up to 20%. This makes it a great choice for champions who actively engage in fights and farm, such as fighters or junglers. The rune helps quickly ramp up attack speed, enhancing your aggressive playstyle and effectiveness in extended fights."
+        }
+      ]
+    },
+    {
+      "lane": "Mid",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389863_mercurys-treads.webp",
+          "alt": "Wild Rift Items: Mercury's Treads",
+          "name": "Mercury's Treads",
+          "description": "Mercury's TreadsReduces Magic Damage+200 Max Health+100% Health Regen+35 Magic Resistance+45 Move Speed.Dissolve:Reducesmagic damagetaken from champions by 7-12% ().1350Mercury's Treads TIPS:These boots provide solid magic damage reduction, enhanced regeneration, and movement speed, with a passive that further lessens incoming magic damage.  — The perfect pick for tanks, bruisers, and supports who need to withstand heavy AP threats while maintaining mobility."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1735511112_cleanse.webp",
+          "alt": "Cleanse Wild Rift",
+          "name": "Cleanse",
+          "description": "CleanseRemoves disables (including spell debuffs) affecting your champion and grants immunity to disables for 0.25 seconds.Cooldown:110s",
+          "cooldown": 110
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+            "alt": "Wild Rift Precision Runes: Legend Bloodline",
+            "name": "Legend: Bloodline",
+            "description": "Gains Omnivamp."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+            "alt": "Wild Rift Precision Runes: Brutal",
+            "name": "Brutal",
+            "description": "Attacks deal bonus damage to enemy champions."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+          "alt": "Wild Rift Keystone Runes: Conqueror",
+          "name": "Conqueror",
+          "description": "Gain stacks of AD or AP when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus Omnivamp (Adaptive)."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Increasing AD/AP",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392016_brutal.webp",
+              "alt": "Brutal",
+              "name": "Brutal",
+              "description": "BrutalOn-hit DamageBasic attacks deal 7-21 bonusadaptivedamageon-hitagainst champions."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+              "alt": "Gathering Storm",
+              "name": "Gathering Storm",
+              "description": "Gathering StormIncreasing AD/APEvery 3 minutes, gain increasingAdaptiveor. Totaling:2/5/9/14or4/10/18/28based on game time."
+            }
+          ],
+          "tips": "Gathering Storm— The rune increases your adaptive strength (AD or AP) every 3 minutes, stacking bonuses as the game progresses. It is perfect for champions who need scaling power throughout the game, such as mages and damage-focused champions. The rune allows for significant damage growth in the late game, making it a great choice for champions who can build up their power over time and use it to secure victories in critical fights."
+        },
+        {
+          "purpose": "Takedown high health champions",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+              "alt": "Coup de Grace",
+              "name": "Coup de Grace",
+              "description": "Coup de GraceBonus DamageWhen an enemy champion has less than40% Health, deals 8% bonus adaptive damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            }
+          ],
+          "tips": "Giant Slayer— The rune deals bonus damage based on the enemy champion's bonus health, up to 16% bonus damage when the enemy champion has 1600 or more bonus health. It is perfect for champions who face enemies with high amounts of health, such as tanks. The rune helps effectively break through high health opponents, making it an excellent choice for damage-focused champions."
+        },
+        {
+          "purpose": "Bonus Attack Speed",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+              "alt": "Legend: Bloodline",
+              "name": "Legend: Bloodline",
+              "description": "Legend: BloodlineOmnivampGains1% Omnivamp. Takedown monsters, enemy champions, or minions to gain up to an additional7% Omnivamp."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+              "alt": "Legend: Alacrity",
+              "name": "Legend: Alacrity",
+              "description": "Legend: AlacrityBonus Attack SpeedGains3% Attack Speed. Takedown monsters, enemy champions, or minions to gain up to an additional20% Attack Speed."
+            }
+          ],
+          "tips": "Legend: Alacrity— The rune increases your attack speed by 3% and grants additional attack speed for each takedown of monsters, enemy champions, or minions, up to 20%. This makes it a great choice for champions who actively engage in fights and farm, such as fighters or junglers. The rune helps quickly ramp up attack speed, enhancing your aggressive playstyle and effectiveness in extended fights."
+        }
+      ]
+    }
+  ],
+  "change_history": [
+    {
+      "type": "nerf",
+      "date": "12 JUN 2025",
+      "patch": "6.1D",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Attack Damage",
+              "change": "54 → 50."
+            }
+          ]
+        },
+        {
+          "ability": "(E) GATLING GUN",
+          "changes": [
+            {
+              "stat": "Damage per second",
+              "change": "25/40/55/70 + 60% bonus Attack Damage → 20/35/50/65+55%bonus Attack Damage."
+            },
+            {
+              "stat": "Shredding target’s Armor and Magic Resist",
+              "change": "10/15/20/25 → 10/14/18/2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "13 MAR 2025",
+      "patch": "6.0D",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Attack Speed per level",
+              "change": "0.022 → 0.032."
+            },
+            {
+              "stat": "Attack Damage per level",
+              "change": "3 → 3.5."
+            }
+          ]
+        },
+        {
+          "ability": "(R) MISSILE BARRAGE",
+          "changes": [
+            {
+              "stat": "Big One Charge Time",
+              "change": "20s → 16s."
+            },
+            {
+              "stat": "Auto Attacks Against Champions Reduce Charge Time",
+              "change": "(2 + 200% Critical Strike rate) s → (2 + 300% Critical Strike Rate) s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rework",
+      "date": "06 MAR 2025",
+      "patch": "6.0C",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Basic Attack Damage",
+              "change": "58 → 54."
+            },
+            {
+              "stat": "Attack Damage per level",
+              "change": "4 → 3.5."
+            }
+          ]
+        },
+        {
+          "ability": "(PASSIVE) HEXTECH MUNITIONS",
+          "changes": [
+            {
+              "stat": "[Adjustment] Hextech Shrapnel",
+              "change": "deal 20% Physical Damage + 80% Magic Damage → 100% Physical Damage + 20% True Damage."
+            },
+            {
+              "stat": "[New] The Package",
+              "change": "After hitting enemy champions 6 times with Missile Barrage, The Package is delivered to Corki. He can pick it up to gain 4 Big Ones."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) PHOSPHOROUS BOMB",
+          "changes": [
+            {
+              "type": "Adjustment",
+              "description": "Bullet speed increased."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "Full level 7s → 9/8/7/6s."
+            },
+            {
+              "stat": "Damage",
+              "change": "75/135/195/255 + 70% bonus Attack Damage + 50% Ability Power → 75/135/195/255 + 120% bonus Attack Damage + 100% Ability Power."
+            }
+          ]
+        },
+        {
+          "ability": "(W) VALKYRIE",
+          "changes": [
+            {
+              "type": "Removed",
+              "description": "Special Delivery: Corki dashes forward. Enemies are knocked aside and the zone deals magic damage and slows enemies down."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "19/18/17/16s → 18/16/14/12s."
+            },
+            {
+              "stat": "Mana consumption",
+              "change": "100/100/100/100 → 80/85/90/95."
+            },
+            {
+              "stat": "Damage",
+              "change": "60/100/140/180 + 40% Ability Power → 60/100/140/180 + 60% bonus Attack Damage + 60% Ability Power."
+            },
+            {
+              "stat": "Trail burning for",
+              "change": "3s → 2.5s."
+            }
+          ]
+        },
+        {
+          "ability": "(E) GATLING GUN",
+          "changes": [
+            {
+              "type": "Damage type",
+              "description": "Magic Damage → Physical Damage."
+            },
+            {
+              "type": "Removed",
+              "description": "Shreds targets Magic Resistance by 10/15/20/25."
+            },
+            {
+              "type": "New",
+              "description": "Shreds target Armor and Magic Resistance by 10/15/20/25."
+            },
+            {
+              "stat": "Cooldown",
+              "change": "Full level 14s → Full level 12s."
+            },
+            {
+              "stat": "Mana consumption",
+              "change": "50/50/50/50 → 50/60/70/80."
+            },
+            {
+              "stat": "Damage",
+              "change": "32/48/64/80 + 60% bonus Attack Damage per second → 25/40/55/70 + 60% bonus Attack Damage."
+            }
+          ]
+        },
+        {
+          "ability": "(R) MISSILE BARRAGE",
+          "changes": [
+            {
+              "type": "Damage type",
+              "description": "Magic Damage → Physical Damage."
+            },
+            {
+              "type": "Maximum stacks",
+              "description": "6 → 4."
+            },
+            {
+              "type": "New",
+              "description": "Basic attacks against champions reduce the time between charges by (2 + 200% Critical Strike rate) seconds on hit."
+            },
+            {
+              "stat": "Missile preparation time",
+              "change": "10/9/8s → Full level 20s."
+            },
+            {
+              "stat": "Normal missile damage",
+              "change": "80/115/150 + 25%/50%/75% Attack Damage + 20% Ability Power → 70/140/210 + 70% bonus Attack Damage."
+            },
+            {
+              "stat": "Empowered missile damage",
+              "change": "160/230/300 + 50%/100%/150% Attack Damage + 40% Ability Power → 140/210/280 + 140% bonus Attack Damage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "570 → 600."
+            },
+            {
+              "stat": "Health per level",
+              "change": "112 → 128."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "4.5 → 5."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "0.8 → 1.4."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            },
+            {
+              "stat": "Attack range",
+              "change": "550 → 575."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "31 AUG 2022",
+      "patch": "3.3C",
+      "changes": [
+        {
+          "ability": "(PASSIVE) HEXTECH MUNITIONS",
+          "changes": [
+            {
+              "stat": "Package pickup duration",
+              "change": "1m → 45s."
+            }
+          ]
+        },
+        {
+          "ability": "(W) VALKYRIE",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "22/20/18/16s → 19/18/17/16s."
+            }
+          ]
+        },
+        {
+          "ability": "(E) GATLING GUN",
+          "changes": [
+            {
+              "stat": "Base Damage",
+              "change": "16/24/32/40+20% Bonus Attack Damage as physical damage + 16/24/32/40+20% Bonus Attack Damage as Magic damage → 32/48/64/80+40% bonus Attack Damage as Magic damage."
+            },
+            {
+              "stat": "Resists reduction",
+              "change": "8/12/16/20 → 10/15/20/25."
+            },
+            {
+              "stat": "Resists reduction per tick",
+              "change": "0.5/0.75/1/1.25 → 1/1.5/2/2.5."
+            }
+          ]
+        },
+        {
+          "ability": "(R) MISSILE BARRAGE",
+          "changes": [
+            {
+              "stat": "Recharge",
+              "change": "12/12/12s → 10/9/8s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "18 AUG 2021",
+      "patch": "2.4a",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Armor per level",
+              "change": "4,3 → 3,9."
+            }
+          ]
+        },
+        {
+          "ability": "(W) VALKYRIE",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "20/18/16/14s → 22/20/18/16s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "13 APR 2021",
+      "patch": "2.2a",
+      "changes": [
+        {
+          "ability": "(PASSIVE) HEXTECH MUNITIONS",
+          "changes": [
+            {
+              "stat": "The Package arrival rate",
+              "change": "100s → 150s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "29 MAR 2021",
+      "patch": "2.2",
+      "changes": [
+        {
+          "ability": "(PASSIVE) HEXTECH MUNITIONS",
+          "changes": [
+            {
+              "description": "Corki's attacks will no longer convert physical vamp into magic vamp and will instead behave as normal."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

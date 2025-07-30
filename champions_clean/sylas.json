@@ -1,0 +1,64 @@
+{
+  "name": "SYLAS",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665253877_sylas_10_7_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253970_petricite_burst.webp",
+      "alt_text": "PETRICITE BURST",
+      "key": "P",
+      "description": "(PASSIVE)PETRICITE BURSTAfter casting a spell, Sylas stores a charge of Petricite Burst. Sylas's basic attacks will expend a charge and whirl his energized chains around him dealing bonus magic damage to enemies hit. While Sylas has a charge of Petricite Burst, he gains attack speed.",
+      "name": "PETRICITE BURSTA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253959_chain_lash.webp",
+      "alt_text": "CHAIN LASH",
+      "key": "Q",
+      "description": "(Q)CHAIN LASHSylas lashes his chains out, intersecting at his targeted location dealing damage to and slowing enemies. After a delay, magical energy explodes from the intersection point dealing damage.",
+      "name": "CHAIN LASHS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253998_kingslayer.webp",
+      "alt_text": "KINGSLAYER",
+      "key": "W",
+      "description": "(W)KINGSLAYERSylas lunges at an enemy with magical force dealing damage and healing himself against enemy champions.",
+      "name": "KINGSLAYERS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665253991_abscond.webp",
+      "alt_text": "ABSCOND / ABDUCT",
+      "key": "E",
+      "description": "(E)ABSCOND / ABDUCTSylas dashes to a location. Sylas can recast the ability to throw his chains out, pulling himself to an enemy he hits.",
+      "name": "ABSCOND / ABDUCTS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665254095_hijack.webp",
+      "alt_text": "HIJACK",
+      "key": "R",
+      "description": "(R)HIJACKSylas steals the enemy's ultimate ability and can cast it freely.",
+      "name": "HIJACKS"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

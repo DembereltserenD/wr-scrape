@@ -1,0 +1,562 @@
+{
+  "name": "ZERI",
+  "roles": [],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665262235_zeri_10_20_11zon.webp",
+  "tier": 1,
+  "balance_status": "REWORKED",
+  "stats": {
+    "damage": 100,
+    "toughness": 33,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665262310_zeri_living_battery.webp",
+      "alt_text": "LIVING BATTERY",
+      "key": "P",
+      "description": "(PASSIVE)LIVING BATTERYFires a burst of 6 rounds in the target direction, dealing62 physical damage(8/10/12/14/16 +100/102.5/105/107.5/110%(level 1/4/7/10/13)) to the first enemy hit.Zeri'sAttack Speedis capped at 1.5 (maximum attack speed 140%) attacks per second.50% of Attack Speedin. excess of the cap is converted intobonus Attack Damage.",
+      "name": "LIVING BATTERYF"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2023-02/1676593850_zeri_basic_attack_2.webp",
+      "alt_text": "ELECTROCUTE!",
+      "key": "Q",
+      "description": "(Q)ELECTROCUTE!7.5/6/4.5/3s30Zaps target location, dealing65 magic damage(35/60/85/110 +55/70/85/100%+30/35/40/45%) andslowingthem by14/18/22/26%for 2 seconds.If this ability kills an enemy, it refunds 50% of its cooldown and 100% of its Mana cost.",
+      "name": "ELECTROCUTE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665262359_zeri_ultrashock_laser.webp",
+      "alt_text": "ULTRASHOCK LASER",
+      "key": "W",
+      "description": "(W)ULTRASHOCK LASER12/11/10/9s50Fires an electric pulse that deals74 pliysical damage(30/70/110/150 +80%+40%) to the first enemy hit andslows them by 30/35/40/45%for 2 second(s).If the pulse hits a wall, it expands into a long range laser, dealing the same damage andsloweffect to enemies in the area andCritically Strikingchampions and monsters.",
+      "name": "ULTRASHOCK LASER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665262393_zeri_spark_surge.webp",
+      "alt_text": "SPARK SURGE",
+      "key": "E",
+      "description": "(E)SPARK SURGE24/22/20/18s80Dashes a short distance and builds upElectrocute!for 6 second(s), empowering the next 3 attacks topierce, dealing20 bonus magic damage(20/23/26/29 +10% bonus+20% bonus) to the first target hit (increased by up to 100% based on herCritical Rate) and 80/85/90/95% damage to targets after the first.Hitting an enemy champion with an attack or ability reduces this ability'scooldown, by 0.5 second(s).Critical Strikesreduce the cooldown by 1.5 second(s) instead.Zeri vaults over any terrain she touches, greatly extending the dash distance.",
+      "name": "SPARK SURGE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665262409_zeri_lightning_crash.webp",
+      "alt_text": "LIGHTNING CRASH",
+      "key": "R",
+      "description": "(R)LIGHTNING CRASH70/65/60s100Discharges a nova of electricity, dealing150 magic damage(150/200/250 +70% bonus+80%) to nearby enemies.Upon hitting an enemy champion, she gains10% Movement Speedand a30% Attack Speedbonus that can bypass herAttack Speedcap for 5 second(s).During this time, her attack becomes a faster triple shot that chains to nearby enemies to deal14 physical damage(25%).Hitting an enemy champion with an ability or attack extends this ability's duration and adds 1 stack(s) ofOverchargefor 1.5 second(s).Critical Strikesadd 2 additional stack(s). Each stack grants0.5% Movement Speed.",
+      "name": "LIGHTNING CRASH"
+    }
+  ],
+  "lanes": [
+    "Dragon"
+  ],
+  "builds": [
+    {
+      "lane": "Dragon",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500"
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 225
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389864_berserkers-greaves.webp",
+          "alt": "Wild Rift Items: Berserker's Greaves",
+          "name": "Berserker's Greaves",
+          "description": "Berserker's GreavesAttack Speed+20 Attack Damage+35% Attack Speed+45 Move Speed.Blessed Blade:Reduces Attacks restore 8 Health on hit.1400Berserker's Greaves TIPS:These boots grant a significant boost to attack speed and movement speed, while empowering your basic attacks with on‑hit life steal.  — A great pick for marksmen and auto‑attack bruisers who need mobility, rapid attack cadence, and constant sustain in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302228_essence-reaver.webp",
+          "alt": "Wild Rift Items: Essence Reaver",
+          "name": "Essence Reaver",
+          "description": "Essence ReaverAttacks grant Mana Regen, and damage amplification+35 Attack Damage+25% Critical Rate+20 Ability HasteSpellblade:Casting an ability generates aSpellbladecharge (max 3 charges) that lasts up to 10 second(s).Hitting an enemy with an attackconsumes a charge, dealing90 bonusasphysical damageand granting40 Movement Speedfor 2 second(s). This bonus damage canCritically Strike. Each ability generates only one charge per 2 second(s).Mana Siphon:Attacks restore3% missingManaon-hit.3000Essence Reaver TIPS:This item is perfect for hybrid auto‑attack champions who need mana sustain and enhanced damage after casting abilities. It boosts ability haste, and after using a skill, your next basic attack hits harder and grants a burst of movement speed. Additionally, auto‑attacks restore a portion of your missing mana, keeping you in fights longer.  — A great pick for marksmen and fighters who weave spells into their auto‑attack rotations for maximum DPS and mana sustainability."
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389685_quicksilver-enchant.webp",
+          "alt": "Wild Rift Items: Quicksilver Enchant",
+          "name": "Quicksilver Enchant",
+          "description": "Quicksilver EnchantDispels crowd controlQuicksilver (Active):Removes all crowd control effects currently affecting you, and become immune to crowd control effects for 0.75 seconds.Perseverance (Passive):After theQuicksilvereffects ends, grant30% Tenacityand30% Slow Resistfor 1.5 seconds. (60s Cooldown)Cannot be used during knock up or knock back effects.800Quicksilver Enchant TIPS:This enchant cleanses all crowd control effects, grants brief CC immunity, then boosts your tenacity and slow resist.  Perfect for champions who need to quickly purge control to stay in the fight.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389651_plated-steelcaps.webp",
+          "alt": "Wild Rift Items: Plated Steelcaps",
+          "name": "Plated Steelcaps",
+          "description": "Plated SteelcapsReduces Physical Damage+150 Max Health+100% Health Regen+35 Armor+45 Move Speed.Block:Reducesphysical damagetaken from champions by 7-10% ().1350Plated Steelcaps TIPS:These boots provide solid protection against physical damage, boosting your durability and movement speed. The “Block” passive further reduces incoming basic attacks and physical damage from enemy champions.  — The perfect pick for tanks, bruisers, and supports who need to soak up auto‑attacks while staying mobile in fights."
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2024-12/1733876753_3072.webp",
+          "alt": "Wild Rift Items: Bloodthirster",
+          "name": "Bloodthirster",
+          "description": "BloodthirsterGain shields, Armor and Magic Resist at low Health+50 Attack Damage+25% Critical Rate+15% Attack SpeedLifeline:Damage that puts you under35% Healthpreemptively grants ashieldthat absorbs 225-550 damage (),20 Armorand 20Magic Resistfor 5s. (90s Cooldown)Bloody:+8% Physical Vamp, Attacks thatCritically Strikegain an additional4% Physical Vamp.3000Bloodthirster TIPS:This item is a core pick for auto‑attackers who value both damage and durability. It greatly boosts your attack power, critical chance, and attack speed, turning every hit into self‑heal, and at low health provides a powerful shield with extra defensive bonuses.  — Perfect for marksmen and auto‑attack fighters who need to dish out damage and survive clutch moments.",
+          "cost": 225
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389864_berserkers-greaves.webp",
+          "alt": "Wild Rift Items: Berserker's Greaves",
+          "name": "Berserker's Greaves",
+          "description": "Berserker's GreavesAttack Speed+20 Attack Damage+35% Attack Speed+45 Move Speed.Blessed Blade:Reduces Attacks restore 8 Health on hit.1400Berserker's Greaves TIPS:These boots grant a significant boost to attack speed and movement speed, while empowering your basic attacks with on‑hit life steal.  — A great pick for marksmen and auto‑attack bruisers who need mobility, rapid attack cadence, and constant sustain in fights."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302228_essence-reaver.webp",
+          "alt": "Wild Rift Items: Essence Reaver",
+          "name": "Essence Reaver",
+          "description": "Essence ReaverAttacks grant Mana Regen, and damage amplification+35 Attack Damage+25% Critical Rate+20 Ability HasteSpellblade:Casting an ability generates aSpellbladecharge (max 3 charges) that lasts up to 10 second(s).Hitting an enemy with an attackconsumes a charge, dealing90 bonusasphysical damageand granting40 Movement Speedfor 2 second(s). This bonus damage canCritically Strike. Each ability generates only one charge per 2 second(s).Mana Siphon:Attacks restore3% missingManaon-hit.3000Essence Reaver TIPS:This item is perfect for hybrid auto‑attack champions who need mana sustain and enhanced damage after casting abilities. It boosts ability haste, and after using a skill, your next basic attack hits harder and grants a burst of movement speed. Additionally, auto‑attacks restore a portion of your missing mana, keeping you in fights longer.  — A great pick for marksmen and fighters who weave spells into their auto‑attack rotations for maximum DPS and mana sustainability."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300938_infinity-edge.webp",
+          "alt": "Wild Rift Items: Infinity Edge",
+          "name": "Infinity Edge",
+          "description": "Infinity EdgeIncreases Critical Strike Damage+60 Attack Damage+25% Critical RateInfinity:Critical Strikes deal205% damageinstead of175%.Limit Break:When your totalgain from items exceeds 100%, every 1% excessgrants0.6 bonus Critical Damage.3400Infinity Edge TIPS:This item greatly amplifies your auto‑attack power by boosting the base damage of critical strikes and granting extra critical damage when your total crit chance from items is capped.  — Perfect for marksmen and auto‑attack fighters looking to maximize their crit damage and squeeze even more value out of high crit chance builds.",
+          "cost": 100
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753305038_terminus.webp",
+          "alt": "Wild Rift Items: Terminus",
+          "name": "Terminus",
+          "description": "TerminusIncreases Armor Pen, Megic Pen, Armor, and Magic Resist+35 Attack Damage+30% Attack SpeedShadow:Attacks deal35 bonus magic damageon-hit.Juxtaposition:Alternate between Light and Dark on-hits when attacking. Light attacks grant 5-8ArmorandMagic Resistfor 5 seconds on hit. Dark attacks grant11% Armor Penetrationand11% Magic Penetrationfor 5 seconds on hit. Each on-hit effect stacks up to 3 times. The upper limit of armor and magic penetration rates is 40% when equipped with Terminus.3400Terminus TIPS:This item is perfect for champions who rely heavily on auto-attacks and can benefit from mixed penetration effects and stacking resistances. It provides bonuses to attack damage and attack speed, and adds bonus magic damage to your auto-attacks. The \"Juxtaposition\" effect alternates between Light and Dark on-hits, granting you bonuses to resistances or penetration depending on which effect is triggered. Light attacks grant armor and magic resist, while Dark attacks grant armor and magic penetration. This item is especially useful for champions who auto-attack frequently and can take advantage of the stacking resistances and penetration effects."
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300839_yordle-runaans-hurricane.webp",
+          "alt": "Wild Rift Items: Yordle Runaan's Hurricane",
+          "name": "Yordle Runaan's Hurricane",
+          "description": "Yordle Runaan's HurricaneRanged Attacks hit 3 targets+35% Attack SpeedWind’s Favor:Gain15 Attack Damageor30 Ability Power(Adaptive).Wind's Fury:Attacks strike 2 additional nearby enemies, each dealing55%. These strikes canCritically Strikeand triggeron-hit effects.Wind Blade:Attacks deal15 bonus physical damageon-hit against targets.Razorwind:Every 2 attacks, your next attack fires 1 additional bolts at targets, each dealing10%asphysical damageand applyingon-hit effects.This item cannot only be used by melee champions.3000Yordle Runaan's Hurricane TIPS:This item empowers your attacks to hit multiple targets at once while augmenting each strike with bonus magic or physical damage. As you stack its passive, your auto‑attacks unleash extra bolts that spread your on‑hit effects to nearby foes.  — Perfect for marksmen and auto‑attack bruisers who need sustained multi‑target damage and want to fully leverage their on‑hit abilities."
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Armor Penetration (%) and reduced enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753305038_terminus.webp",
+              "alt": "Wild Rift Items: Terminus",
+              "name": "Terminus",
+              "description": "TerminusIncreases Armor Pen, Megic Pen, Armor, and Magic Resist+35 Attack Damage+30% Attack SpeedShadow:Attacks deal35 bonus magic damageon-hit.Juxtaposition:Alternate between Light and Dark on-hits when attacking. Light attacks grant 5-8ArmorandMagic Resistfor 5 seconds on hit. Dark attacks grant11% Armor Penetrationand11% Magic Penetrationfor 5 seconds on hit. Each on-hit effect stacks up to 3 times. The upper limit of armor and magic penetration rates is 40% when equipped with Terminus.3400Terminus TIPS:This item is perfect for champions who rely heavily on auto-attacks and can benefit from mixed penetration effects and stacking resistances. It provides bonuses to attack damage and attack speed, and adds bonus magic damage to your auto-attacks. The \"Juxtaposition\" effect alternates between Light and Dark on-hits, granting you bonuses to resistances or penetration depending on which effect is triggered. Light attacks grant armor and magic resist, while Dark attacks grant armor and magic penetration. This item is especially useful for champions who auto-attack frequently and can take advantage of the stacking resistances and penetration effects."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301062_mortal-reminder.webp",
+              "alt": "Wild Rift Items: Mortal Reminder",
+              "name": "Mortal Reminder",
+              "description": "Mortal ReminderArmor Penetration (%) and reduced enemy healing+25 Attack Damage+25% Critical Rate+15% Attack SpeedLast Whisper:+30% Armor Penetration.Attacks that Critically Strike gain an additional6% Armor Penetration.Sepsis:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.3300Mortal Reminder TIPS:This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain."
+            }
+          ],
+          "tips": "Mortal Reminder— This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain."
+        },
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300839_yordle-runaans-hurricane.webp",
+              "alt": "Wild Rift Items: Yordle Runaan's Hurricane",
+              "name": "Yordle Runaan's Hurricane",
+              "description": "Yordle Runaan's HurricaneRanged Attacks hit 3 targets+35% Attack SpeedWind’s Favor:Gain15 Attack Damageor30 Ability Power(Adaptive).Wind's Fury:Attacks strike 2 additional nearby enemies, each dealing55%. These strikes canCritically Strikeand triggeron-hit effects.Wind Blade:Attacks deal15 bonus physical damageon-hit against targets.Razorwind:Every 2 attacks, your next attack fires 1 additional bolts at targets, each dealing10%asphysical damageand applyingon-hit effects.This item cannot only be used by melee champions.3000Yordle Runaan's Hurricane TIPS:This item empowers your attacks to hit multiple targets at once while augmenting each strike with bonus magic or physical damage. As you stack its passive, your auto‑attacks unleash extra bolts that spread your on‑hit effects to nearby foes.  — Perfect for marksmen and auto‑attack bruisers who need sustained multi‑target damage and want to fully leverage their on‑hit abilities."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300839_yordle-runaans-hurricane.webp",
+              "alt": "Wild Rift Items: Yordle Runaan's Hurricane",
+              "name": "Yordle Runaan's Hurricane",
+              "description": "Yordle Runaan's HurricaneRanged Attacks hit 3 targets+35% Attack SpeedWind’s Favor:Gain15 Attack Damageor30 Ability Power(Adaptive).Wind's Fury:Attacks strike 2 additional nearby enemies, each dealing55%. These strikes canCritically Strikeand triggeron-hit effects.Wind Blade:Attacks deal15 bonus physical damageon-hit against targets.Razorwind:Every 2 attacks, your next attack fires 1 additional bolts at targets, each dealing10%asphysical damageand applyingon-hit effects.This item cannot only be used by melee champions.3000Yordle Runaan's Hurricane TIPS:This item empowers your attacks to hit multiple targets at once while augmenting each strike with bonus magic or physical damage. As you stack its passive, your auto‑attacks unleash extra bolts that spread your on‑hit effects to nearby foes.  — Perfect for marksmen and auto‑attack bruisers who need sustained multi‑target damage and want to fully leverage their on‑hit abilities."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694862_ghost.webp",
+          "alt": "Ghost Wild Rift",
+          "name": "Ghost",
+          "description": "GhostGain a large burst ofmovement speed, that decays to25% bonus movement speedfor 8 seconds. With each takedown, Ghost's duration is extended by 6 seconds, refreshing its effects, up to the original amount.Cooldown:90s",
+          "cooldown": 90
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695333_exhaust.webp",
+          "alt": "Exhaust Wild Rift",
+          "name": "Exhaust",
+          "description": "ExhaustExhausts target enemy champion, reducing theirMovement Speed by 35%and their damage dealt by 40% for 2.5 seconds.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+            "alt": "Wild Rift Precision Runes: Coup de Grace",
+            "name": "Coup de Grace",
+            "description": "Increases damage dealt to enemy champions with low Health."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+            "alt": "Wild Rift Precision Runes: Legend Alacrity",
+            "name": "Legend: Alacrity",
+            "description": "Gains Attack Speed."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729643_8008.webp",
+          "alt": "Wild Rift Keystone Runes: Lethal Tempo",
+          "name": "Lethal Tempo",
+          "description": "Attack faster with each consecutive attack."
+        }
+      },
+      "situational_runes": [
+        {
+          "purpose": "Stacking Damage, Vamp",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729643_8008.webp",
+              "alt": "Lethal Tempo",
+              "name": "Lethal Tempo",
+              "description": "Lethal TempoAttack SpeedGain stacks of Attack Speed when attacking enemy champions. Stacks up to 6 times. At max stacks, you gain bonus range and can exceed the Attack Speed cap.Each stack: increase 10-18% (Melee) or 4-13% (Ranged)Attack Speedfor 6 seconds.At max stack bonus: Gain 50 (Melee) or 75 (Ranged) Attack Distance."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-01/1737729565_8010.webp",
+              "alt": "Conqueror",
+              "name": "Conqueror",
+              "description": "ConquerorStacking Damage, VampGain stacks of Adaptive Force when hitting a champion with separate attacks or abilities. Stacks up to 6 times. When fully stacked, gain bonus omnivamp.Per stack:3-7 bonusor4-11for 6s.Fully stacked bonus: Melee - 9%, Ranged - 5% bonusOmnivamp."
+            }
+          ],
+          "tips": "Conqueror— The rune is perfect for champions who frequently engage in combat and use both auto-attacks and abilities, such as Riven or Aurelion Sol. Each time you deal damage to an enemy, the rune gains stacks, increasing your adaptive force. When fully stacked, you gain bonus omnivamp, allowing you to restore health based on the damage you deal. This makes the rune an excellent choice for champions who actively participate in fights and need both damage and sustain."
+        },
+        {
+          "purpose": "Takedown high health champions",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392209_coup-de-grace.webp",
+              "alt": "Coup de Grace",
+              "name": "Coup de Grace",
+              "description": "Coup de GraceBonus DamageWhen an enemy champion has less than40% Health, deals 8% bonus adaptive damage."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+              "alt": "Giant Slayer",
+              "name": "Giant Slayer",
+              "description": "Giant SlayerTakedown high health championsDeal bonus damage based on the enemy champion’sbonus health, up to 16% bonus damage when the enemy champion has 1600bonus health."
+            }
+          ],
+          "tips": "Giant Slayer— The rune deals bonus damage based on the enemy champion's bonus health, up to 16% bonus damage when the enemy champion has 1600 or more bonus health. It is perfect for champions who face enemies with high amounts of health, such as tanks. The rune helps effectively break through high health opponents, making it an excellent choice for damage-focused champions."
+        },
+        {
+          "purpose": "Omnivamp",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392174_legend-alacrity.webp",
+              "alt": "Legend: Alacrity",
+              "name": "Legend: Alacrity",
+              "description": "Legend: AlacrityBonus Attack SpeedGains3% Attack Speed. Takedown monsters, enemy champions, or minions to gain up to an additional20% Attack Speed."
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+              "alt": "Legend: Bloodline",
+              "name": "Legend: Bloodline",
+              "description": "Legend: BloodlineOmnivampGains1% Omnivamp. Takedown monsters, enemy champions, or minions to gain up to an additional7% Omnivamp."
+            }
+          ],
+          "tips": "Legend: Bloodline— The rune increases your omnivamp by 1%, allowing you to restore health when dealing damage to both enemies and allies. By taking down monsters, enemy champions, or minions, you gain additional bonuses, increasing your omnivamp up to 7%. This rune is suitable for champions such as fighters, junglers, and marksmen who actively engage in battles. Marksmen, who are often in the heart of the action, can effectively sustain themselves with omnivamp, enhancing their survivability in fights."
+        },
+        {
+          "purpose": "Bonus Damage",
+          "runes": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753392660_bone-plating.webp",
+              "alt": "Bone Plating",
+              "name": "Bone Plating",
+              "description": "Bone PlatingBlock Combo-damageWhen taking damage from a champion, the current and next 3 champion abilities or attacks against you and within 1.5s deal30-60() less damage.Cooldown:30s"
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753391561_sudden-impact.webp",
+              "alt": "Sudden Impact",
+              "name": "Sudden Impact",
+              "description": "Sudden ImpactBonus DamageDamaging an enemy champion deals a bonus10-80 true damageafter using a dash, leap, blink, teleport, or when exiting stealth for 4s.The damaging attack/ability gains bonuses at higher levels:Level 5:Deal an additional10 true damage.Level 9:Deal an additional20 true damageand gain10% Movement Speedfor 1.5s after dealing the damage.Cooldown:10s"
+            }
+          ],
+          "tips": "Sudden Impact— The rune that activates after using dashes, teleports, leaps, or exiting stealth deals bonus true damage to the enemy. This mechanic enhances aggressive play by allowing fast movement across the map and delivering powerful strikes. At higher levels, it provides additional damage and movement speed bonuses, increasing mobility and effectiveness in fights. This makes it a great choice for champions who rely on mobility and want to enhance their attacks after quick movements or stealth."
+        }
+      ]
+    },
+    {
+      "lane": "Dragon",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "rework",
+      "date": "17 JUL 2025",
+      "patch": "6.2",
+      "changes": [
+        {
+          "ability": "(PASSIVE) LIVING BATTERY",
+          "changes": [
+            {
+              "type": "Remove",
+              "description": "Gain 15% Move speed for 3s when Shielded."
+            },
+            {
+              "type": "Remove",
+              "description": "Zeri Shields herself for 60% of the damage she deals to Shields."
+            },
+            {
+              "type": "New (Previously passive of ability 1)",
+              "description": ": Base Attack fires a burst of 6 rounds in the target direction, dealing 8/10/12/14/16 (+100/102.5/105/107.5/110% Attack Damage) Physical Damage (level 1/4/7/10/13) Zeri’s Attack Speed is capped at 1.5 times/s (maximum attack speed 140%), 50% of the Attack Speed in excess of the cap is converted into bonus Attack Damage."
+            }
+          ]
+        },
+        {
+          "ability": "(Q) ELECTROCUTE!",
+          "changes": [
+            {
+              "type": "New",
+              "description": "If this ability kills an enemy, it refunds 50% of its cooldown and 100% of its mana cost. Slow effect decays over the duration of the ability."
+            },
+            {
+              "type": "Remove",
+              "description": "This ability’s passive effect has been moved to Living Battery, Zeri’s passive."
+            }
+          ]
+        },
+        {
+          "ability": "(W) ULTRASHOCK LASER",
+          "changes": [
+            {
+              "stat": "Damage type",
+              "change": "Magic Damage → Physical Damage."
+            }
+          ]
+        },
+        {
+          "ability": "(E) SPARK SURGE",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Zeri deals a bonus (20/23/26/29+10% bonus Attack Damage+20% Ability Power) Magic Damage to the first target hit based on her Critical Rate, maximum of 100%."
+            },
+            {
+              "change": "Zeri deals 0/65/80/95% damage to the target behind the first target → Zeri deals 80/85/90/95% damage to the target behind the first target."
+            },
+            {
+              "change": "Hitting an enemy champion with an attack reduces this ability’s cooldown by 1s → Hitting an enemy champion with an attack or ability reduces this ability's cooldown by 0.5s. Critical Strikes reduce the cooldown by 1.5 second(s) instead."
+            }
+          ]
+        },
+        {
+          "ability": "(R) LIGHTNING CRASH",
+          "changes": [
+            {
+              "type": "New",
+              "description": "Zeri discharges a nova of electricity, upon hitting an enemy champion, she gains 10% Movement Speed and 30% attack speed bonus that can bypass her Attack Speed cap for 5s."
+            },
+            {
+              "type": "New",
+              "description": "Hitting an enemy champion with an ability or attack extends this ability’s duration and adds 1 stack of Overcharge for 1.5s; Critical Strikes adds 3 stacks, each stack grants 0.5% Movement Speed."
+            },
+            {
+              "change": "During this time, her attack becomes a faster triple shot, she gains 25% Attack Speed, and can deal (5/10/15+15% Ability Power) bonus magic damage, and chains to nearby enemies dealing (5/10/15+15% Ability Power) bonus magic damage and (20% Attack Damage) Physical Damage → During this time, her attack becomes a faster triple shot that chains to nearby enemies to deal (25% Attack Damage) Physical Damage."
+            },
+            {
+              "type": "Removed",
+              "description": "Zeri discharges a nova of electricity, gains 8 stacks of Overcharge for each champion hit. While active, kills or participation in kills extends Overchage’s duration for 4s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "600 → 630."
+            },
+            {
+              "stat": "Health per level",
+              "change": "112 → 128."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "4.5 → 5."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.5 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "25 MAY 2023",
+      "patch": "4.2",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "description": "Base movement speed +10."
+            },
+            {
+              "change": "Crit damage rate：200% → 175%."
+            },
+            {
+              "stat": "Attack range",
+              "change": "675 → 700."
+            },
+            {
+              "stat": "Base attack speed",
+              "change": "20% → 30%."
+            },
+            {
+              "stat": "Attack speed per level",
+              "change": "1.7% → 2.7%."
+            },
+            {
+              "stat": "Attack Damage per level",
+              "change": "3 → 3.5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "29 MAR 2023",
+      "patch": "4.1A",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Health per level",
+              "change": "120 → 112."
+            }
+          ]
+        },
+        {
+          "ability": "(R) LIGHTNING CRASH",
+          "changes": [
+            {
+              "stat": "Basic attack chains bonus Attack Damage",
+              "change": "25% Attack Damage → 20% Attack Damage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "01 MAR 2023",
+      "patch": "4.0C",
+      "changes": [
+        {
+          "ability": "(Q) ELECTROCUTE!",
+          "changes": [
+            {
+              "stat": "Basic attack damage",
+              "change": "8/11/14/17/20 + 100/105/110/115/120% Attack Damage → 8/10/12/14/16 + 100/102.5/105/107.5/110% Attack Damage."
+            },
+            {
+              "stat": "Spilled attack speed conversion ratio",
+              "change": "60% → 50%."
+            }
+          ]
+        },
+        {
+          "ability": "(E) SPARK SURGE",
+          "changes": [
+            {
+              "stat": "Damage ratio to subsequent enemies",
+              "change": "60/75/90/105% → 50/65/80/95%."
+            }
+          ]
+        },
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Range",
+              "change": "825 → Range: 825."
+            },
+            {
+              "stat": "Damage",
+              "change": "150/200/250+80% Bonus Attack Damage + 80% Ability Power → 150/200/250+70% Bonus Attack Damage + 80% Ability Power."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

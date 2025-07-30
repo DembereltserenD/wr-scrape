@@ -1,0 +1,62 @@
+{
+  "name": "KOG'MAW",
+  "roles": [],
+  "image": "https://wr-meta.com/uploads/posts/2022-07/1657052453_kogmaw_01-min.jpg",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052570_icathian_surprise.webp",
+      "alt_text": "ICATHIAN SURPRISE",
+      "key": "P",
+      "description": "(PASSIVE)ICATHIAN SURPRISE4 seconds after dying, Kogmaw explodes, dealing true damage to surrounding enemies.",
+      "name": "ICATHIAN SURPRISE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052528_caustic_spittle.webp",
+      "alt_text": "CAUSTIC SPITTLE",
+      "key": "Q",
+      "description": "(Q)CAUSTIC SPITTLEKog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.",
+      "name": "CAUSTIC SPITTLEK"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052559_bio-arcane_barrage.webp",
+      "alt_text": "BIO-ARCANE BARRAGE",
+      "key": "W",
+      "description": "(W)BIO-ARCANE BARRAGEKog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage.",
+      "name": "BIO"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052560_void_ooze.webp",
+      "alt_text": "VOID OOZE",
+      "key": "E",
+      "description": "(E)Kog'Maw launches a peculiar ooze which damages all enemies it passes through and leaves a trail which slows enemies who stand on it.",
+      "name": "K"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-07/1657052641_living_artillery.webp",
+      "alt_text": "LIVING ARTILLERY",
+      "key": "R",
+      "description": "(R)LIVING ARTILLERYKog'Maw fires an artillery shell at a great distance dealing magic damage (increased significantly on low health enemies) and revealing non-stealthed targets. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
+      "name": "LIVING ARTILLERYK"
+    }
+  ],
+  "lanes": [
+    "Dragon"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

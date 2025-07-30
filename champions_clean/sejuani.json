@@ -1,0 +1,65 @@
+{
+  "name": "SEJUANI",
+  "roles": [
+    "Tank"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665252514_sejuani_10_4_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252585_fury_of_the_north.webp",
+      "alt_text": "FURY OF THE NORTH",
+      "key": "P",
+      "description": "(PASSIVE)FURY OF THE NORTHAfter being out of combat, Sejuani gains Frost Armor which grants Armor and Magic Resist and immunity to slows. Frost Armor persists for a short time after Sejuani takes damage. Sejuani can damage a stunned enemy to shatter it, dealing massive magic damage.",
+      "name": "FURY OF THE NORTHA"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252671_arctic_assault.webp",
+      "alt_text": "ARCTIC ASSAULT",
+      "key": "Q",
+      "description": "(Q)ARCTIC ASSAULTSejuani charges forward, knocking enemies into the air. The charge stops after hitting an enemy champion.",
+      "name": "ARCTIC ASSAULTS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252670_winter27s_wrath.webp",
+      "alt_text": "WINTER'S WRATH",
+      "key": "W",
+      "description": "(W)WINTER'S WRATHSejuani swings her mace twice, dealing damage, slowing enemies and applying Frost stacks.",
+      "name": "WINTER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252676_permafrost.webp",
+      "alt_text": "PERMAFROST",
+      "key": "E",
+      "description": "(E)PERMAFROSTSejuani freezes and stuns an enemy champion that has maximum Frost stacks.",
+      "name": "PERMAFROSTS"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665252711_glacial_prison.webp",
+      "alt_text": "GLACIAL PRISON",
+      "key": "R",
+      "description": "(R)GLACIAL PRISONSejuani throws her bola that freezes and stuns the first champion hit and creates an ice storm that slows other enemies.",
+      "name": "GLACIAL PRISONS"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

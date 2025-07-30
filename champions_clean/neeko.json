@@ -1,0 +1,64 @@
+{
+  "name": "NEEKO",
+  "roles": [
+    "Mage"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-09/1662401341_neeko1_0_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401212_inherent_glamour.webp",
+      "alt_text": "INHERENT GLAMOUR",
+      "key": "P",
+      "description": "(PASSIVE)INHERENT GLAMOURNeeko can look like an ally champion. Taking damage from enemy Champions or casting damaging spells breaks the disguise.",
+      "name": "INHERENT GLAMOURN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401235_blooming_burst.webp",
+      "alt_text": "BLOOMING BURST",
+      "key": "Q",
+      "description": "(Q)BLOOMING BURSTNeeko throws a seed dealing magic damage. The seed blooms again on hitting champions or killing units.",
+      "name": "BLOOMING BURSTN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401222_shapesplitter.webp",
+      "alt_text": "SHAPESPLITTER",
+      "key": "W",
+      "description": "(W)SHAPESPLITTERNeeko passively deals bonus magic damage every third attack. Neeko can activate to send a clone in a direction.",
+      "name": "SHAPESPLITTERN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401264_tangle-barbs.webp",
+      "alt_text": "TANGLE-BARBS",
+      "key": "E",
+      "description": "(E)TANGLE-BARBSNeeko slings a tangle that damage and root everything it passes through. If the tangle kills an enemy or passes through a champion, it becomes larger, faster, and roots for longer.",
+      "name": "TANGLE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-09/1662401262_pop_blossom.webp",
+      "alt_text": "POP BLOSSOM",
+      "key": "R",
+      "description": "(R)POP BLOSSOMAfter a short preparation, Neeko leaps into the air and gains a shield. Upon landing, nearby enemies are damaged and stunned. The preparation is hidden if Neeko is disguised.",
+      "name": "POP BLOSSOMA"
+    }
+  ],
+  "lanes": [
+    "Mid"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

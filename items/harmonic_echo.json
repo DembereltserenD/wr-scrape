@@ -12,10 +12,6 @@
     "cooldown_reduction": {
       "value": 20,
       "type": "percentage"
-    },
-    "ability_haste": {
-      "value": 10,
-      "type": "flat"
     }
   },
   "cost": 3200,
@@ -24,23 +20,6 @@
   "description": "Grants Ability Power, Mana, and Cooldown Reduction. Abilities launch echo orbs at enemies for additional magic damage.",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Lost Chapter",
-    "Blasting Wand"
-  ],
-  "tags": [
-    "Magic",
-    "Mana",
-    "CDR",
-    "Echo"
-  ],
-  "tips": [
-    "Great for champions with low-cooldown abilities",
-    "The echo effect has a per-target cooldown",
-    "Perfect for poke compositions and siege scenarios",
-    "Works well with AOE abilities that hit multiple targets",
-    "Good on champions like Ziggs, Xerath, and Lux"
-  ],
-  "build_components": {},
-  "builds_into": []
+  "build_path": ["Lost Chapter", "Blasting Wand"],
+  "tags": ["Magic", "Mana", "CDR", "Echo"]
 }

@@ -7,5 +7,10 @@
   "description": "les of this item within the party, only one of them can take effect at any given time.",
   "category": "basic",
   "tier": "B",
-  "tips": []
+  "tips": [],
+  "source_champion": "Blitzcrank",
+  "source_lane": null,
+  "build_category": "starting_items",
+  "extracted_at": "2025-07-27T20:57:05.806387",
+  "last_updated": "2025-07-27T20:57:05.807395"
 }

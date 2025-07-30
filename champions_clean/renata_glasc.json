@@ -1,0 +1,64 @@
+{
+  "name": "RENATA GLASC",
+  "roles": [
+    "Support"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665251597_renata_10_3_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251736_renata_glasc_leverage.webp",
+      "alt_text": "LEVERAGE",
+      "key": "P",
+      "description": "(PASSIVE)LEVERAGERenata's Attacks deal bonus damage and mark enemies. Renata's allies can damage marked enemies to deal bonus damage.",
+      "name": "LEVERAGER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251717_renata_glasc_handshake.webp",
+      "alt_text": "HANDSHAKE",
+      "key": "Q",
+      "description": "(Q)HANDSHAKEenata sends out a missile rooting the first enemy hit, and can recast the ability to throw the unit in a direction.",
+      "name": "HANDSHAKE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251715_renata_glasc_bailout.webp",
+      "alt_text": "BAILOUT",
+      "key": "W",
+      "description": "(W)BAILOUTRenata buffs an allied champion to fight harder, delaying their death and potentially saving them if they get a takedown.",
+      "name": "BAILOUTR"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251758_renata_glasc_loyalty_program.webp",
+      "alt_text": "LOYALTY PROGRAM",
+      "key": "E",
+      "description": "(E)LOYALTY PROGRAMRenata sends out a pair of chemtech missiles, shielding allies and damaging and slowing enemies hit.",
+      "name": "LOYALTY PROGRAMR"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251761_renata_glasc_hostile_takeover.webp",
+      "alt_text": "HOSTILE TAKEOVER",
+      "key": "R",
+      "description": "(R)HOSTILE TAKEOVERRenata sends out a wave of chemicals, causing any enemies hit to go Berserk.",
+      "name": "HOSTILE TAKEOVERR"
+    }
+  ],
+  "lanes": [
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Unknown",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

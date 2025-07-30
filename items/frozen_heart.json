@@ -5,14 +5,6 @@
       "value": 80,
       "type": "flat"
     },
-    "mana": {
-      "value": 400,
-      "type": "flat"
-    },
-    "cooldown_reduction": {
-      "value": 20,
-      "type": "flat"
-    },
     "attack_speed": {
       "value": 36,
       "type": "percentage"
@@ -23,29 +15,16 @@
     }
   },
   "cost": 2700,
-  "passive": "Winter's Caress: Reduces Attack Speed of nearby enemies by 15%. When struck by a basic attack, reduces the attacker's Attack Speed by an additional 15% for 1 second.",
+  "passive": "Winter's Caress: Reduces the Attack Speed of nearby enemies by 15%.",
   "active": "",
-  "description": "Tank item providing Armor, Mana, and Ability Haste with attack speed reduction auras. Excellent against auto-attack heavy compositions, reducing both your damage taken and nearby enemies' attack speed.",
+  "description": ":",
   "category": "legendary",
   "tier": "A",
-  "build_path": [
-    "Warden's Mail",
-    "Glacial Shroud"
-  ],
-  "tags": [
-    "Armor",
-    "Mana",
-    "CDR",
-    "Tank",
-    "Aura"
-  ],
   "tips": [
-    "Perfect against teams with multiple auto-attack champions",
-    "The aura affects all nearby enemies, great for team fights",
-    "Provides mana for ability-hungry tanks like Malphite or Maokai",
-    "The attack speed reduction stacks with the passive slow effect",
-    "Great on champions who want to stay in the middle of fights"
-  ],
-  "build_components": {},
-  "builds_into": []
+    "Frozen HeartReduces all nearby enemies Attack Speed +80 Armor +200 Max Mana +25 Ability HasteWinter's Caress: Basic attacks and magic damage caused by you or inflicted upon you and nearby allies, will apply stacks of Chill to the enemy champion for 3 seconds.",
+    "Each stack of Chill slows enemy attack speed by 9%, up to a maximum of 4 stacks or 36% attack speed reduction.",
+    "Each individual ability has a 3 seconds cooldown on applying Chill stacks.",
+    "2700\n\n\nThis item is ideal for tanks and support champions who need to slow enemy attack speed and maintain a healthy mana pool.",
+    "It provides substantial bonuses to armor, mana, and ability haste."
+  ]
 }

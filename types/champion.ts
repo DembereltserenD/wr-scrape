@@ -1,26 +1,6 @@
-export interface ChampionStats {
-  base: number;
-  per_level: number;
-}
+// Champion data type definitions
 
-export interface Ability {
-  name: string;
-  key: string;
-  type: string;
-  description: string;
-  damage?: number[];
-  scaling?: string | string[];
-  damage_type: string;
-  image: string;
-  notes: string[];
-  cooldown?: number;
-  duration?: number;
-  ad_bonus?: string[];
-  healing_increase?: string[];
-  movement_speed?: string[];
-}
-
-export interface Champion {
+export interface ChampionBasicInfo {
   id: string;
   name: string;
   title: string;
@@ -32,46 +12,123 @@ export interface Champion {
   splash_art: string;
 }
 
+export interface StatValue {
+  base: number;
+  per_level: number;
+}
+
+export interface ChampionStats {
+  attack_damage: StatValue;
+  health: StatValue;
+  health_regeneration: StatValue;
+  attack_speed: StatValue;
+  mana: StatValue;
+  mana_regeneration: StatValue;
+  movement_speed: StatValue;
+  armor: StatValue;
+  magic_resistance: StatValue;
+  critical_strike: StatValue;
+}
+
+export interface Ability {
+  name: string;
+  key: string;
+  type: "Passive" | "Active" | "Ultimate";
+  description: string;
+  damage: number[];
+  scaling: string;
+  damage_type: "Physical" | "Magic" | "True";
+  image: string;
+  notes: string[];
+}
+
+export interface ChampionAbilities {
+  passive: Ability;
+  q: Ability;
+  w: Ability;
+  e: Ability;
+  r: Ability;
+}
+
+export interface ChampionItem {
+  name: string;
+  stats: Record<string, any>;
+  cost: number;
+  passive: string;
+  active: string;
+  description: string;
+  category: string;
+  tier: string;
+}
+
+export interface AlternativeBuild {
+  lane: string;
+  core_items: string[];
+  description: string;
+}
+
+export interface ChampionBuilds {
+  lanes: string[];
+  starting_items: string[];
+  core_items: string[];
+  boots: string[];
+  situational_items: string[];
+  situational: string[]; // For compatibility with BuildGuideI18n component
+  example_build: string[];
+  enchants: string[];
+  alternative_builds: AlternativeBuild[];
+  lane_specific: Record<string, any>;
+  core_items_detailed: ChampionItem[];
+}
+
+export interface RuneTree {
+  tree: string;
+  keystone: string;
+  runes: string[];
+}
+
+export interface ChampionRunes {
+  primary: RuneTree;
+  secondary: RuneTree;
+  stat_shards: string[];
+}
+
+export interface ChampionCounters {
+  strong_against: string[];
+  weak_against: string[];
+}
+
+export interface ChampionMeta {
+  tier: string;
+  win_rate: string;
+  pick_rate: string;
+  ban_rate: string;
+  patch: string;
+  last_updated: string;
+  views: string;
+}
+
 export interface ChampionData {
-  champion: Champion;
-  stats: Record<string, ChampionStats>;
-  abilities: {
-    passive: Ability;
-    q: Ability;
-    w: Ability;
-    e: Ability;
-    r: Ability;
-  };
-  builds: {
-    core_items: string[];
-    starting_items: string[];
-    boots: string[];
-    situational: string[];
-  };
-  runes: {
-    primary: {
-      tree: string;
-      keystone: string;
-      runes: string[];
-    };
-    secondary: {
-      tree: string;
-      runes: string[];
-    };
-  };
+  champion: ChampionBasicInfo;
+  stats: ChampionStats;
+  abilities: ChampionAbilities;
+  builds: ChampionBuilds;
+  runes: ChampionRunes;
   summoner_spells: string[];
-  counters: {
-    strong_against: string[];
-    weak_against: string[];
-  };
+  counters: ChampionCounters;
   tips: string[];
-  meta: {
-    tier: string;
-    win_rate: string;
-    pick_rate: string;
-    ban_rate: string;
-    patch: string;
-    last_updated: string;
-    views: string;
-  };
+  meta: ChampionMeta;
+}
+
+// Simplified interface for homepage display
+export interface ChampionCard {
+  id: string;
+  name: string;
+  role: string;
+  tier: string;
+  image: string;
+  lanes: string[];
+  difficulty: string;
+  winRate?: string;
+  pickRate?: string;
 }

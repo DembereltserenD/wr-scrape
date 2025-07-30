@@ -1,0 +1,65 @@
+{
+  "name": "RELL",
+  "roles": [
+    "Tank"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665251379_rell_10_2_11zon.webp",
+  "tier": 1,
+  "stats": {},
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251452_rell_break_the_mold.webp",
+      "alt_text": "BREAK THE MOLD",
+      "key": "P",
+      "description": "(PASSIVE)BREAK THE MOLDRell attacks slowly but steals her target's Armor and Magic Resist on hit, dealing bonus damage based on the amount stolen.",
+      "name": "BREAK THE MOLDR"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251431_rell_shattering_strike.webp",
+      "alt_text": "SHATTERING STRIKE",
+      "key": "Q",
+      "description": "(Q)SHATTERING STRIKERell thrusts her lance to deal magic damage to units in a line, breaking their Shields. The first unit hit additionally suffers Break the Mold's defense steal. If Rell is bound to an ally with Attract and Repel, they both recover health for each enemy champion hit by this spell.",
+      "name": "SHATTERING STRIKER"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251439_rell_ferromancy-_crash_down.webp",
+      "alt_text": "FERROMANCY: CRASH DOWN",
+      "key": "W",
+      "description": "(W)FERROMANCY: CRASH DOWNPassive: Rell gains additional Move Speed while mounted and additional Armor and Magic Resist while armored. Active: Rell changes forms, casting a different spell based on form. Mounted: Rell crashes down in her armor, knocking enemies up and gaining a large shield. Armored: Rell forms her mount, gaining a burst of speed and flipping the next enemy she attacks.",
+      "name": "FERROMANCY"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251500_rell_attract_and_repel.webp",
+      "alt_text": "ATTRACT AND REPEL",
+      "key": "E",
+      "description": "(E)ATTRACT AND REPELRell binds a piece of her Armor to another allied champion to grant them Armor and Magic Resist while near. While she has an ally bound in this way, Rell can cast this ability without targeting an allied champion to snap the binding and Stun enemies caught in it.",
+      "name": "ATTRACT AND REPELR"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665251486_rell_magnet_storm.webp",
+      "alt_text": "MAGNET STORM",
+      "key": "R",
+      "description": "(R)MAGNET STORMRell explodes in a magnetic fury, violently Pulling nearby enemies towards herself. Then Rell constantly Drags nearby enemies towards herself for a short while, dealing magic damage over time.",
+      "name": "MAGNET STORMR"
+    }
+  ],
+  "lanes": [
+    "Baron",
+    "Support"
+  ],
+  "builds": [
+    {
+      "lane": "Build_1",
+      "start_items": [],
+      "core_items": [],
+      "boots_enchants": [],
+      "example_build": [],
+      "situational_items": [],
+      "summoner_spells": [],
+      "runes": {},
+      "situational_runes": []
+    }
+  ],
+  "balance_status": ""
+}

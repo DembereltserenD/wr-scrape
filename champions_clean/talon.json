@@ -1,0 +1,669 @@
+{
+  "name": "TALON",
+  "roles": [
+    "Assassin"
+  ],
+  "image": "https://wr-meta.com/uploads/posts/2022-10/1665254953_talon_10_18_11zon.webp",
+  "tier": 2,
+  "balance_status": "BUFFED",
+  "stats": {
+    "damage": 100,
+    "toughness": 33,
+    "utility": 33,
+    "difficulty": 66
+  },
+  "base_stats": {},
+  "abilities": [
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255125_blade27s_end.webp",
+      "alt_text": "BLADE'S END",
+      "key": "P",
+      "description": "(PASSIVE)BLADE'S ENDTalon's abilities apply a stack ofWoundto enemy champions and large monsters hit for 6 second(s), stacking up to 3 time(s). Damaging the same target again resetsWoundduration. When Talon attacks a target with 3 stack(s) ofWound, allWoundstacks are consumed to send the target into ableedingstate, dealing80~280 physical damage(80+210% bonus) over 2 second(s).Monsters are dealt 90% of this damage.The target will not gainWoundstacks during this period. If an enemy champion is killed whilebleeding, Talon gains bonusMovement Speedthat decays over 2 second(s).",
+      "name": "BLADE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255124_noxian_diplomacy.webp",
+      "alt_text": "NOXIAN DIPLOMACY",
+      "key": "Q",
+      "description": "(Q)NOXIAN DIPLOMACY7/6.5/6/5.5s70/65/60/55Long-range cast:Dashes toward an enemy champion, dealing75 physical damage(75/100/125/150 +100% bonus).Close-range cast:Stabs the target, dealing98 physical damage(98/135/173/210 +150% bonus).If this ability kills the target, Talon restores35~70 Health(), and the ability's cooldown is reduced by 50%. The higherArmor Penis, the faster the dash andcast speedof this ability will be. Damage from close-range casts scales withCritical Strike Damage.",
+      "name": "NOXIAN DIPLOMACY"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255179_rake.webp",
+      "alt_text": "RAKE",
+      "key": "W",
+      "description": "(W)RAKE9/8.5/8/7.5s50/55/60/65Tosses daggers in a cone at the target area, dealing35 physical damage(35/45/55/65 +45% bonus) to enemies hit.Upon reaching maximum range, the daggers linger for 0.75 second(s) before returning, dealing60 physical damage(60/100/140/180 +100% bonus) to enemies hit along the way andslowing them by 40/45/50/55%for 1 second(s).Deals 70% damage to monsters.",
+      "name": "RAKE"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255126_assassin27s_path.webp",
+      "alt_text": "ASSASSIN'S PATH",
+      "key": "E",
+      "description": "(E)ASSASSIN'S PATH1sVaults over the terrain or structure closest to him.Talon cannot vault over the same terrain within 135/110/85/60 second(s) of his last vault over it (cooldown per terrain decreases withAbility Haste).",
+      "name": "ASSASSIN"
+    },
+    {
+      "image": "https://wr-meta.com/uploads/posts/2022-10/1665255169_shadow_assault.webp",
+      "alt_text": "SHADOW ASSAULT",
+      "key": "R",
+      "description": "(R)SHADOW ASSAULT70/60/50sFirst Cast:Flings out a ring of blades around himself, dealing90 physical damage(90/130/170 +100% bonus) to nearby enemies and gaininginvisibilityand40/55/70% bonus Movement Speedfor up to 2.5 second(s).How to recast:Tap the ability 1 second(s) after the first cast to recast. The ability will automatically be cast again wheninvisibilityexpires or is disabled.Recast:Exits invisibility and recalls the blades, dealing90 physical damage(90/130/170 +100% bonus) again to enemies hit along the way. Using attacks orNoxian Diplomacyto exitinvisibilitycauses the blades to converge toward the target enemy instead.",
+      "name": "SHADOW ASSAULT"
+    }
+  ],
+  "lanes": [
+    "Mid",
+    "Jungle"
+  ],
+  "builds": [
+    {
+      "lane": "Mid",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300869_youmuus-ghostblade.webp",
+          "alt": "Wild Rift Items: Youmuu's Ghostblade",
+          "name": "Youmuu's Ghostblade",
+          "description": "Youmuu's GhostbladeIncreases Movement Speed+55 Attack Damage+15 Ability HasteSlice:+15 Armor Penetration.Momentum:Moving buildsMomentum, granting up to50 Move Speedand3-6at100 stacks. () Attacks removes allMomentum, butArmor Penetrationwill last for 3 seconds after. Stacks decay when movement is impaired.Haste:Attacking with maxMomentumgrants25% Attack Speedfor 4 seconds.3200Youmuu's Ghostblade TIPS:This item is perfect for assassins and champions who need to get in and out of fights quickly. It provides bonuses to attack damage and ability haste, along with armor penetration, helping you deal more damage to enemies. The Momentum effect increases your movement speed and armor penetration as you move, giving you an advantage in mobility during fights. When Momentum is fully stacked, attacks grant bonus attack speed, making the item a great choice for champions who need to quickly deal damage and escape from fights.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389665_boots-of-dynamism.webp",
+          "alt": "Wild Rift Items: Boots of Dynamism",
+          "name": "Boots of Dynamism",
+          "description": "Boots of DynamismAttack Damage, Armor Penetration+30 Attack Damage+45 Move Speed.Strike:+10 Armor Penetration.1400Boots of Dynamism TIPS:These boots are perfect for champions who rely on physical damage and need extra mobility to roam the map quickly. They grant bonuses to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300931_yordle-duskblade-of-draktharr.webp",
+          "alt": "Wild Rift Items:  Yordle Duskblade of Draktharr",
+          "name": "Yordle Duskblade of Draktharr",
+          "description": "Yordle Duskblade of DraktharrAttacks deal bonus damage+50 Attack Damage+10 Ability HasteRazor:+18 Armor Penetration.Nightstalker:The first attack against a champion deals60-160 bonus physical damageandslowsthem by 99% for 0.35s (10s cooldown). Champion takedowns refresh cooldown duration.Nightfall:Become invisible for 1s upon getting a kill. While invisible, gain60% Movement Speed. (5s cooldown)3000Yordle Duskblade of Draktharr TIPS:This item is best purchased on AD assassins who can attack quickly and decisively after being spotted. The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen. The Nightstalker effect allows you to deal significant bonus damage with the first attack on a champion, slowing them briefly, giving you time to follow up with additional attacks. This item excels against targets with low defense, but if the enemy is building more tanky or brawler-oriented champions, you may want to consider a different core item.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389704_protobelt-enchant.webp",
+          "alt": "Wild Rift Items: Protobelt Enchant",
+          "name": "Protobelt Enchant",
+          "description": "Protobelt EnchantSmall dashProtobelt (Active):Dash forward and unleash a cone of missiles that deal70 magic damage.and reducing the target'sMagic Resistance by 15%for 3s. After cast, gain20% Movement Speedthatdecays over 3s. (50s Cooldown)If champions or monsters are hit by more than one missile, missiles after the first will deal only 10% damage.500Protobelt Enchant TIPS:This enchant grants a forward dash followed by a burst of missiles that deal magic damage and briefly weaken the target’s magic resistance. After casting, you gain a temporary movement speed boost for continued pursuit or escape.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300869_youmuus-ghostblade.webp",
+          "alt": "Wild Rift Items: Youmuu's Ghostblade",
+          "name": "Youmuu's Ghostblade",
+          "description": "Youmuu's GhostbladeIncreases Movement Speed+55 Attack Damage+15 Ability HasteSlice:+15 Armor Penetration.Momentum:Moving buildsMomentum, granting up to50 Move Speedand3-6at100 stacks. () Attacks removes allMomentum, butArmor Penetrationwill last for 3 seconds after. Stacks decay when movement is impaired.Haste:Attacking with maxMomentumgrants25% Attack Speedfor 4 seconds.3200Youmuu's Ghostblade TIPS:This item is perfect for assassins and champions who need to get in and out of fights quickly. It provides bonuses to attack damage and ability haste, along with armor penetration, helping you deal more damage to enemies. The Momentum effect increases your movement speed and armor penetration as you move, giving you an advantage in mobility during fights. When Momentum is fully stacked, attacks grant bonus attack speed, making the item a great choice for champions who need to quickly deal damage and escape from fights.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389665_boots-of-dynamism.webp",
+          "alt": "Wild Rift Items: Boots of Dynamism",
+          "name": "Boots of Dynamism",
+          "description": "Boots of DynamismAttack Damage, Armor Penetration+30 Attack Damage+45 Move Speed.Strike:+10 Armor Penetration.1400Boots of Dynamism TIPS:These boots are perfect for champions who rely on physical damage and need extra mobility to roam the map quickly. They grant bonuses to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300931_yordle-duskblade-of-draktharr.webp",
+          "alt": "Wild Rift Items:  Yordle Duskblade of Draktharr",
+          "name": "Yordle Duskblade of Draktharr",
+          "description": "Yordle Duskblade of DraktharrAttacks deal bonus damage+50 Attack Damage+10 Ability HasteRazor:+18 Armor Penetration.Nightstalker:The first attack against a champion deals60-160 bonus physical damageandslowsthem by 99% for 0.35s (10s cooldown). Champion takedowns refresh cooldown duration.Nightfall:Become invisible for 1s upon getting a kill. While invisible, gain60% Movement Speed. (5s cooldown)3000Yordle Duskblade of Draktharr TIPS:This item is best purchased on AD assassins who can attack quickly and decisively after being spotted. The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen. The Nightstalker effect allows you to deal significant bonus damage with the first attack on a champion, slowing them briefly, giving you time to follow up with additional attacks. This item excels against targets with low defense, but if the enemy is building more tanky or brawler-oriented champions, you may want to consider a different core item.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+          "alt": "Wild Rift Items: Trinity Force",
+          "name": "Trinity Force",
+          "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage.",
+          "cost": 3333
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302257_yordle-seryldas-grudge.webp",
+          "alt": "Wild Rift Items: Yordle Serylda’s Grudge",
+          "name": "Yordle Serylda’s Grudge",
+          "description": "Yordle Serylda’s GrudgeArmor Penetration (%) and apply slows+40 Attack Damage+15 Ability HasteLast Whisper:Gain+33% Armor Penetration.Icy:Damaging active abilities andempowered attacksslow enemies by 30%for 1 second.Frostbite:Apply Frostbite to enemiesslowedby Icy for 6s. At 3 Frostbite stacks, all stacks are consumed to applybleed, dealing (25+ 5-75 () +70% bonus)physical damageover 2s. Also applies50% Grievous Woundsfor 3s. (5s cooldown per target)3300Yordle Serylda’s Grudge TIPS:This item blends heavy armor penetration with crowd control: your active abilities and empowered hits slow targets, and repeated slows trigger a bleed that also applies grievous wounds. Perfect for champions who need to kite, execute priority targets, and curb their healing.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+          "alt": "Wild Rift Items: Edge of Night",
+          "name": "Edge of Night",
+          "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+          "cost": 3150
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Armor Penetration (%) and reduced enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302257_yordle-seryldas-grudge.webp",
+              "alt": "Wild Rift Items: Yordle Serylda’s Grudge",
+              "name": "Yordle Serylda’s Grudge",
+              "description": "Yordle Serylda’s GrudgeArmor Penetration (%) and apply slows+40 Attack Damage+15 Ability HasteLast Whisper:Gain+33% Armor Penetration.Icy:Damaging active abilities andempowered attacksslow enemies by 30%for 1 second.Frostbite:Apply Frostbite to enemiesslowedby Icy for 6s. At 3 Frostbite stacks, all stacks are consumed to applybleed, dealing (25+ 5-75 () +70% bonus)physical damageover 2s. Also applies50% Grievous Woundsfor 3s. (5s cooldown per target)3300Yordle Serylda’s Grudge TIPS:This item blends heavy armor penetration with crowd control: your active abilities and empowered hits slow targets, and repeated slows trigger a bleed that also applies grievous wounds. Perfect for champions who need to kite, execute priority targets, and curb their healing.",
+              "cost": 3300
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301062_mortal-reminder.webp",
+              "alt": "Wild Rift Items: Mortal Reminder",
+              "name": "Mortal Reminder",
+              "description": "Mortal ReminderArmor Penetration (%) and reduced enemy healing+25 Attack Damage+25% Critical Rate+15% Attack SpeedLast Whisper:+30% Armor Penetration.Attacks that Critically Strike gain an additional6% Armor Penetration.Sepsis:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.3300Mortal Reminder TIPS:This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain.",
+              "cost": 3300
+            }
+          ],
+          "tips": "Mortal Reminder— This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+              "cost": 3150
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+              "cost": 3150
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302257_yordle-seryldas-grudge.webp",
+              "alt": "Wild Rift Items: Yordle Serylda’s Grudge",
+              "name": "Yordle Serylda’s Grudge",
+              "description": "Yordle Serylda’s GrudgeArmor Penetration (%) and apply slows+40 Attack Damage+15 Ability HasteLast Whisper:Gain+33% Armor Penetration.Icy:Damaging active abilities andempowered attacksslow enemies by 30%for 1 second.Frostbite:Apply Frostbite to enemiesslowedby Icy for 6s. At 3 Frostbite stacks, all stacks are consumed to applybleed, dealing (25+ 5-75 () +70% bonus)physical damageover 2s. Also applies50% Grievous Woundsfor 3s. (5s cooldown per target)3300Yordle Serylda’s Grudge TIPS:This item blends heavy armor penetration with crowd control: your active abilities and empowered hits slow targets, and repeated slows trigger a bleed that also applies grievous wounds. Perfect for champions who need to kite, execute priority targets, and curb their healing.",
+              "cost": 3300
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753303456_serpents-fang.webp",
+              "alt": "Wild Rift Items: Serpent's Fang",
+              "name": "Serpent's Fang",
+              "description": "Serpent's FangAnti-Shielding+50 Attack Damage+10 Ability HasteStab:+15 Armor Penetration.Shield Reaver:Dealing damage to an enemy champion reduces anyshieldsthey gain for 3s. Melee champions apply (10% of bonus AD+ 40)% shield reduction, capped at 60%; while ranged champions apply (10% of bonus AD+ 25)% shield reduction, capped at 45%. When you damage an enemy who is unaffected by Shield Reaver, all shields on them are reduced by the same values.2800Serpent's Fang TIPS:This item is perfect for assassins and champions who face enemies with a lot of shields. It provides bonuses to attack damage and ability haste, along with increased armor penetration, making it effective against well-protected enemies. The \"Shield Reaver\" effect allows you to reduce the effectiveness of shields gained by enemy champions, depending on your bonus attack damage, helping to quickly break through shields. This item is especially useful against champions who rely on shields for defense, such as Lux, Braum, and others.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Serpent's Fang— This item is perfect for assassins and champions who face enemies with a lot of shields. It provides bonuses to attack damage and ability haste, along with increased armor penetration, making it effective against well-protected enemies. The \"Shield Reaver\" effect allows you to reduce the effectiveness of shields gained by enemy champions, depending on your bonus attack damage, helping to quickly break through shields. This item is especially useful against champions who rely on shields for defense, such as Lux, Braum, and others."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+            "alt": "Wild Rift Precision Runes: Giant Slayer",
+            "name": "Giant Slayer",
+            "description": "Deals more damage to an enemy champions the more bonus Health they have."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+            "alt": "Wild Rift Precision Runes: Legend Bloodline",
+            "name": "Legend: Bloodline",
+            "description": "Gains Omnivamp."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729550_8112.webp",
+          "alt": "Wild Rift Keystone Runes: Electrocute",
+          "name": "Electrocute",
+          "description": "Hitting a champion with successive attacks or abilities deals bonus adaptive damage."
+        }
+      },
+      "situational_runes": []
+    },
+    {
+      "lane": "Jungle",
+      "start_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753390561_long-sword.webp",
+          "alt": "Wild Rift Items: Long Sword",
+          "name": "Long Sword",
+          "description": "Long Sword+12 Attack Damage500",
+          "cost": 500
+        }
+      ],
+      "core_items": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300869_youmuus-ghostblade.webp",
+          "alt": "Wild Rift Items: Youmuu's Ghostblade",
+          "name": "Youmuu's Ghostblade",
+          "description": "Youmuu's GhostbladeIncreases Movement Speed+55 Attack Damage+15 Ability HasteSlice:+15 Armor Penetration.Momentum:Moving buildsMomentum, granting up to50 Move Speedand3-6at100 stacks. () Attacks removes allMomentum, butArmor Penetrationwill last for 3 seconds after. Stacks decay when movement is impaired.Haste:Attacking with maxMomentumgrants25% Attack Speedfor 4 seconds.3200Youmuu's Ghostblade TIPS:This item is perfect for assassins and champions who need to get in and out of fights quickly. It provides bonuses to attack damage and ability haste, along with armor penetration, helping you deal more damage to enemies. The Momentum effect increases your movement speed and armor penetration as you move, giving you an advantage in mobility during fights. When Momentum is fully stacked, attacks grant bonus attack speed, making the item a great choice for champions who need to quickly deal damage and escape from fights.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389665_boots-of-dynamism.webp",
+          "alt": "Wild Rift Items: Boots of Dynamism",
+          "name": "Boots of Dynamism",
+          "description": "Boots of DynamismAttack Damage, Armor Penetration+30 Attack Damage+45 Move Speed.Strike:+10 Armor Penetration.1400Boots of Dynamism TIPS:These boots are perfect for champions who rely on physical damage and need extra mobility to roam the map quickly. They grant bonuses to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300931_yordle-duskblade-of-draktharr.webp",
+          "alt": "Wild Rift Items:  Yordle Duskblade of Draktharr",
+          "name": "Yordle Duskblade of Draktharr",
+          "description": "Yordle Duskblade of DraktharrAttacks deal bonus damage+50 Attack Damage+10 Ability HasteRazor:+18 Armor Penetration.Nightstalker:The first attack against a champion deals60-160 bonus physical damageandslowsthem by 99% for 0.35s (10s cooldown). Champion takedowns refresh cooldown duration.Nightfall:Become invisible for 1s upon getting a kill. While invisible, gain60% Movement Speed. (5s cooldown)3000Yordle Duskblade of Draktharr TIPS:This item is best purchased on AD assassins who can attack quickly and decisively after being spotted. The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen. The Nightstalker effect allows you to deal significant bonus damage with the first attack on a champion, slowing them briefly, giving you time to follow up with additional attacks. This item excels against targets with low defense, but if the enemy is building more tanky or brawler-oriented champions, you may want to consider a different core item.",
+          "cost": 3000
+        }
+      ],
+      "boots_enchants": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389628_stasis-enchant.webp",
+          "alt": "Wild Rift Items: Stasis Enchant",
+          "name": "Stasis Enchant",
+          "description": "Stasis EnchantTurn invulnerableStasis (Active):Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)1000Stasis Enchant TIPS:This Enchant renders you invulnerable and untargetable for 2.5 s, but prevents movement, attacks, and ability or item use. Perfect for surviving critical moments against assassins and high burst damage.",
+          "type": "enchant"
+        }
+      ],
+      "example_build": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300869_youmuus-ghostblade.webp",
+          "alt": "Wild Rift Items: Youmuu's Ghostblade",
+          "name": "Youmuu's Ghostblade",
+          "description": "Youmuu's GhostbladeIncreases Movement Speed+55 Attack Damage+15 Ability HasteSlice:+15 Armor Penetration.Momentum:Moving buildsMomentum, granting up to50 Move Speedand3-6at100 stacks. () Attacks removes allMomentum, butArmor Penetrationwill last for 3 seconds after. Stacks decay when movement is impaired.Haste:Attacking with maxMomentumgrants25% Attack Speedfor 4 seconds.3200Youmuu's Ghostblade TIPS:This item is perfect for assassins and champions who need to get in and out of fights quickly. It provides bonuses to attack damage and ability haste, along with armor penetration, helping you deal more damage to enemies. The Momentum effect increases your movement speed and armor penetration as you move, giving you an advantage in mobility during fights. When Momentum is fully stacked, attacks grant bonus attack speed, making the item a great choice for champions who need to quickly deal damage and escape from fights.",
+          "cost": 3200
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753389665_boots-of-dynamism.webp",
+          "alt": "Wild Rift Items: Boots of Dynamism",
+          "name": "Boots of Dynamism",
+          "description": "Boots of DynamismAttack Damage, Armor Penetration+30 Attack Damage+45 Move Speed.Strike:+10 Armor Penetration.1400Boots of Dynamism TIPS:These boots are perfect for champions who rely on physical damage and need extra mobility to roam the map quickly. They grant bonuses to attack damage and movement speed, while the “Strike” passive increases your armor penetration, helping you deal more damage to tanky targets. Especially useful for marksmen, fighters, and assassins who want to close gaps faster and land more powerful auto-attacks.",
+          "cost": 1400
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753300931_yordle-duskblade-of-draktharr.webp",
+          "alt": "Wild Rift Items:  Yordle Duskblade of Draktharr",
+          "name": "Yordle Duskblade of Draktharr",
+          "description": "Yordle Duskblade of DraktharrAttacks deal bonus damage+50 Attack Damage+10 Ability HasteRazor:+18 Armor Penetration.Nightstalker:The first attack against a champion deals60-160 bonus physical damageandslowsthem by 99% for 0.35s (10s cooldown). Champion takedowns refresh cooldown duration.Nightfall:Become invisible for 1s upon getting a kill. While invisible, gain60% Movement Speed. (5s cooldown)3000Yordle Duskblade of Draktharr TIPS:This item is best purchased on AD assassins who can attack quickly and decisively after being spotted. The large lethality boost this item provides makes it especially effective against squishy targets like mages or marksmen. The Nightstalker effect allows you to deal significant bonus damage with the first attack on a champion, slowing them briefly, giving you time to follow up with additional attacks. This item excels against targets with low defense, but if the enemy is building more tanky or brawler-oriented champions, you may want to consider a different core item.",
+          "cost": 3000
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753301537_trinity-force.webp",
+          "alt": "Wild Rift Items: Trinity Force",
+          "name": "Trinity Force",
+          "description": "Trinity ForceWell-Rounded+250 Max Health+30 Attack Damage+30% Attack Speed+25 Ability HasteFervor:+5% Move Speed.Spellblade:Using an ability causes the next attack used within 10 seconds to dealbonus physical damageequal to200% base AD(1.5s Cooldown). Damage is reduced vs structures.Valor:Attacks grant20 Move Speedand kills grant60 Move Speedfor 2 seconds. Bonuses do not stack. Ranged champions gain halved values.3333Trinity Force TIPS:This item is perfect for champions who frequently use both abilities and auto-attacks in combat. It provides bonuses to health, attack damage, attack speed, and ability haste, making it a versatile choice for fighters who are in the thick of the action. The \"Spellblade\" effect allows you to deal bonus physical damage after using an ability, enhancing your auto-attacks. The \"Valor\" effect grants bonus movement speed after attacks, making you more mobile in fights. This item is especially useful for champions who frequently use their abilities but also rely on auto-attacks to deal damage.",
+          "cost": 3333
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302257_yordle-seryldas-grudge.webp",
+          "alt": "Wild Rift Items: Yordle Serylda’s Grudge",
+          "name": "Yordle Serylda’s Grudge",
+          "description": "Yordle Serylda’s GrudgeArmor Penetration (%) and apply slows+40 Attack Damage+15 Ability HasteLast Whisper:Gain+33% Armor Penetration.Icy:Damaging active abilities andempowered attacksslow enemies by 30%for 1 second.Frostbite:Apply Frostbite to enemiesslowedby Icy for 6s. At 3 Frostbite stacks, all stacks are consumed to applybleed, dealing (25+ 5-75 () +70% bonus)physical damageover 2s. Also applies50% Grievous Woundsfor 3s. (5s cooldown per target)3300Yordle Serylda’s Grudge TIPS:This item blends heavy armor penetration with crowd control: your active abilities and empowered hits slow targets, and repeated slows trigger a bleed that also applies grievous wounds. Perfect for champions who need to kite, execute priority targets, and curb their healing.",
+          "cost": 3300
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+          "alt": "Wild Rift Items: Edge of Night",
+          "name": "Edge of Night",
+          "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+          "cost": 3150
+        }
+      ],
+      "situational_items": [
+        {
+          "purpose": "Armor Penetration (%) and reduced enemy healing",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302257_yordle-seryldas-grudge.webp",
+              "alt": "Wild Rift Items: Yordle Serylda’s Grudge",
+              "name": "Yordle Serylda’s Grudge",
+              "description": "Yordle Serylda’s GrudgeArmor Penetration (%) and apply slows+40 Attack Damage+15 Ability HasteLast Whisper:Gain+33% Armor Penetration.Icy:Damaging active abilities andempowered attacksslow enemies by 30%for 1 second.Frostbite:Apply Frostbite to enemiesslowedby Icy for 6s. At 3 Frostbite stacks, all stacks are consumed to applybleed, dealing (25+ 5-75 () +70% bonus)physical damageover 2s. Also applies50% Grievous Woundsfor 3s. (5s cooldown per target)3300Yordle Serylda’s Grudge TIPS:This item blends heavy armor penetration with crowd control: your active abilities and empowered hits slow targets, and repeated slows trigger a bleed that also applies grievous wounds. Perfect for champions who need to kite, execute priority targets, and curb their healing.",
+              "cost": 3300
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301062_mortal-reminder.webp",
+              "alt": "Wild Rift Items: Mortal Reminder",
+              "name": "Mortal Reminder",
+              "description": "Mortal ReminderArmor Penetration (%) and reduced enemy healing+25 Attack Damage+25% Critical Rate+15% Attack SpeedLast Whisper:+30% Armor Penetration.Attacks that Critically Strike gain an additional6% Armor Penetration.Sepsis:Dealingphysical damageto enemy champions applies50% Grievous Woundsfor 3 seconds.Grievous Woundsreduces the effectiveness of Healing and Regeneration effects.3300Mortal Reminder TIPS:This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain.",
+              "cost": 3300
+            }
+          ],
+          "tips": "Mortal Reminder— This item is perfect for auto‑attackers who need to shred through armor and cut down enemy healing. It boosts your penetration to deal more damage against tanky targets and applies grievous wounds on hit, reducing all healing and regen effects.  — Ideal against tanks and high‑heal champions, and for marksmen and auto‑attack fighters who need to pierce defenses and curb enemy sustain."
+        },
+        {
+          "purpose": "Revives at death",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+              "cost": 3150
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753300268_guardian-angel.webp",
+              "alt": "Wild Rift Items: Guardian Angel",
+              "name": "Guardian Angel",
+              "description": "Guardian AngelRevives at death+40 Attack Damage+40 ArmorResurrect:Upon taking lethal damage, restores50% Healthand30% Manaafter 4 seconds of stasis. (210s Cooldown)3400Guardian Angel TIPS:This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments.",
+              "cost": 3400
+            }
+          ],
+          "tips": "Guardian Angel— This item is perfect for champions who need a second chance in teamfights. It is especially effective against champions with high burst damage, such as Zed, Syndra, or Zoe, as well as against strong diving champions like Camille, Kha'Zix, or Lee Sin. The Resurrection effect allows you to return to the fight after taking lethal damage, restoring health and mana, giving you a chance to continue fighting and assist your team even in critical moments."
+        },
+        {
+          "purpose": "Converts damage from attacks into a magic shield",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302335_edge-of-night.webp",
+              "alt": "Wild Rift Items: Edge of Night",
+              "name": "Edge of Night",
+              "description": "Edge of NightBlocks an enemy ability+250 Max Health+50 Attack DamageGouge:+8 Armor Penetration.Annul:Grants a spell shield that blocks the next hostile ability. This spell shield refreshes upon leaving combat with enemy champions. (35 second cooldown)3150Edge of Night TIPS:This item is perfect for champions who need a mix of offense and defense. It provides bonuses to maximum health and attack damage, along with increased armor penetration to help you shred through enemy defenses. The \"Annul\" effect grants you a spell shield, blocking the next enemy ability. This spell shield refreshes when leaving combat with enemy champions, making the item a great choice for champions who need protection from crowd control and to engage in fights, such as Ashe, Lux, or Morgana.",
+              "cost": 3150
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753301577_maw-of-malmortius.webp",
+              "alt": "Wild Rift Items: Maw of Malmortius",
+              "name": "Maw of Malmortius",
+              "description": "Maw of MalmortiusConverts damage from attacks into a magic shield+55 Attack Damage+45 Magic Resistance+10 Ability HasteDemonbane:20% of the damage that your attack deals, or 15% of the physical damage that your abilities deal is converted into amagic shieldthat absorbs up to60-400 magic damage. Theshielddecays by 5% per second.3000Maw of Malmortius TIPS:This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time.",
+              "cost": 3000
+            }
+          ],
+          "tips": "Maw of Malmortius— This item is a great choice against burst mages like Vex, Syndra, and Annie, who can quickly take you down. It provides bonuses to attack damage, magic resistance, and ability haste, helping you resist magic damage. The \"Demonbane\" effect converts a portion of the physical damage you deal into a magic shield that absorbs magic damage, making it especially effective against both burst and sustained damage mages like Vladimir and Swain who rely on consistent damage over time."
+        },
+        {
+          "purpose": "Anti-Shielding",
+          "items": [
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753302257_yordle-seryldas-grudge.webp",
+              "alt": "Wild Rift Items: Yordle Serylda’s Grudge",
+              "name": "Yordle Serylda’s Grudge",
+              "description": "Yordle Serylda’s GrudgeArmor Penetration (%) and apply slows+40 Attack Damage+15 Ability HasteLast Whisper:Gain+33% Armor Penetration.Icy:Damaging active abilities andempowered attacksslow enemies by 30%for 1 second.Frostbite:Apply Frostbite to enemiesslowedby Icy for 6s. At 3 Frostbite stacks, all stacks are consumed to applybleed, dealing (25+ 5-75 () +70% bonus)physical damageover 2s. Also applies50% Grievous Woundsfor 3s. (5s cooldown per target)3300Yordle Serylda’s Grudge TIPS:This item blends heavy armor penetration with crowd control: your active abilities and empowered hits slow targets, and repeated slows trigger a bleed that also applies grievous wounds. Perfect for champions who need to kite, execute priority targets, and curb their healing.",
+              "cost": 3300
+            },
+            {
+              "image": "https://wr-meta.com/uploads/posts/2025-07/1753303456_serpents-fang.webp",
+              "alt": "Wild Rift Items: Serpent's Fang",
+              "name": "Serpent's Fang",
+              "description": "Serpent's FangAnti-Shielding+50 Attack Damage+10 Ability HasteStab:+15 Armor Penetration.Shield Reaver:Dealing damage to an enemy champion reduces anyshieldsthey gain for 3s. Melee champions apply (10% of bonus AD+ 40)% shield reduction, capped at 60%; while ranged champions apply (10% of bonus AD+ 25)% shield reduction, capped at 45%. When you damage an enemy who is unaffected by Shield Reaver, all shields on them are reduced by the same values.2800Serpent's Fang TIPS:This item is perfect for assassins and champions who face enemies with a lot of shields. It provides bonuses to attack damage and ability haste, along with increased armor penetration, making it effective against well-protected enemies. The \"Shield Reaver\" effect allows you to reduce the effectiveness of shields gained by enemy champions, depending on your bonus attack damage, helping to quickly break through shields. This item is especially useful against champions who rely on shields for defense, such as Lux, Braum, and others.",
+              "cost": 2800
+            }
+          ],
+          "tips": "Serpent's Fang— This item is perfect for assassins and champions who face enemies with a lot of shields. It provides bonuses to attack damage and ability haste, along with increased armor penetration, making it effective against well-protected enemies. The \"Shield Reaver\" effect allows you to reduce the effectiveness of shields gained by enemy champions, depending on your bonus attack damage, helping to quickly break through shields. This item is especially useful against champions who rely on shields for defense, such as Lux, Braum, and others."
+        }
+      ],
+      "summoner_spells": [
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691694210_flash.webp",
+          "alt": "Flash Wild Rift",
+          "name": "Flash",
+          "description": "FlashTeleport a short distance forward or towards the aimed direction.Cooldown:150s",
+          "cooldown": 150
+        },
+        {
+          "image": "https://wr-meta.com/uploads/posts/2023-08/1691695236_ignite.webp",
+          "alt": "Ignite Wild Rift",
+          "name": "Ignite",
+          "description": "IgniteIgnites target enemy champion, dealing72 true damage(72–380) over 5 and applying60% Grievous Woundsfor the duration.Grievous Woundreduces the effectiveness of Healing and Regeneration effects.Cooldown:100s",
+          "cooldown": 100
+        }
+      ],
+      "runes": {
+        "primary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392215_giant-slayer.webp",
+            "alt": "Wild Rift Precision Runes: Giant Slayer",
+            "name": "Giant Slayer",
+            "description": "Deals more damage to an enemy champions the more bonus Health they have."
+          },
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392254_legend-bloodline.webp",
+            "alt": "Wild Rift Precision Runes: Legend Bloodline",
+            "name": "Legend: Bloodline",
+            "description": "Gains Omnivamp."
+          }
+        ],
+        "secondary": [
+          {
+            "image": "https://wr-meta.com/uploads/posts/2025-07/1753392119_gathering-storm.webp",
+            "alt": "Wild Rift Precision Runes: Gathering Storm",
+            "name": "Gathering Storm",
+            "description": "Damage output increases over time."
+          }
+        ],
+        "keystone": {
+          "image": "https://wr-meta.com/uploads/posts/2025-01/1737729550_8112.webp",
+          "alt": "Wild Rift Keystone Runes: Electrocute",
+          "name": "Electrocute",
+          "description": "Hitting a champion with successive attacks or abilities deals bonus adaptive damage."
+        }
+      },
+      "situational_runes": []
+    }
+  ],
+  "change_history": [
+    {
+      "type": "adjustment",
+      "date": "09 JAN 2025",
+      "patch": "6.0",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "Base Health",
+              "change": "630 → 660."
+            },
+            {
+              "stat": "Health per level",
+              "change": "115 → 128."
+            },
+            {
+              "stat": "Armor per level",
+              "change": "4.3 → 4.5."
+            },
+            {
+              "stat": "Magic Resist per level",
+              "change": "1.6 → 2."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "05 DEC 2024",
+      "patch": "5.3C",
+      "changes": [
+        {
+          "ability": "(Q) NOXIAN DIPLOMACY",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "6/5.5/5/4.5s → 7/6.5/6/5.5s."
+            }
+          ]
+        },
+        {
+          "ability": "(R) SHADOW ASSAULT",
+          "changes": [
+            {
+              "stat": "Cooldown",
+              "change": "60/50/40s → 70/60/50s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "01 AUG 2024",
+      "patch": "5.2A",
+      "changes": [
+        {
+          "ability": "(W) RAKE",
+          "changes": [
+            {
+              "stat": "Sending damage",
+              "change": "50/60/70/80 + 45% bonus Attack Damage → 35/45/55/65 + 45% bonus Attack Damage."
+            },
+            {
+              "stat": "Returning damage",
+              "change": "50/90/130/170 + 90% bonus Attack Damage → 60/100/140/180 + 90% bonus Attack Damage."
+            }
+          ]
+        },
+        {
+          "ability": "(E) ASSASSIN'S PATH",
+          "changes": [
+            {
+              "stat": "Cooldown of vaulting over the same terrain or structure",
+              "change": "110/90/70/50s → 135/110/85/60s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "16 MAY 2024",
+      "patch": "5.1B",
+      "changes": [
+        {
+          "ability": "(Q) NOXIAN DIPLOMACY",
+          "changes": [
+            {
+              "stat": "Ranged damage",
+              "change": "95/120/145/170 + 100% bonus AD → 75/100/125/150 + 100% bonus AD."
+            },
+            {
+              "stat": "Health regeneration from taking down enemies",
+              "change": "10~70 → 35~70."
+            }
+          ]
+        },
+        {
+          "ability": "(W) RAKE",
+          "changes": [
+            {
+              "stat": "Damage of the first phase",
+              "change": "60/70/80/90 + 50% bonus AD → 50/60/70/80 + 45% bonus AD."
+            },
+            {
+              "stat": "Damage of the second phase",
+              "change": "60/100/140/180 + 90% bonus AD → 50/90/130/170 + 90% bonus AD."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "nerf",
+      "date": "10 APR 2024",
+      "patch": "5.1",
+      "changes": [
+        {
+          "ability": "BASE STATS",
+          "changes": [
+            {
+              "stat": "[New] Damage to monsters",
+              "change": "70%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "adjustment",
+      "date": "14 MAR 2024",
+      "patch": "5.0C",
+      "changes": [
+        {
+          "ability": "(PASSIVE) BLADE'S END",
+          "changes": [
+            {
+              "stat": "Damage to monsters",
+              "change": "120% → 90%."
+            }
+          ]
+        },
+        {
+          "ability": "(E) ASSASSIN'S PATH",
+          "changes": [
+            {
+              "description": "Increase Talon’s speed of vaulting over terrains and turrets by 10%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
