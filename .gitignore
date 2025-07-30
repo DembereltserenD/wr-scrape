@@ -53,6 +53,8 @@ yarn-error.log*
 *.log
 .env
 .coverage
-htmlcov/"node_modules/" 
-"node_modules/" 
-"__pycache__/" 
+htmlcov/
+
+# Tempo specific
+**/tempobook/dynamic/
+**/tempobook/storyboards/ 
