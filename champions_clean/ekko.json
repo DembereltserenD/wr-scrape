@@ -13,7 +13,16 @@
     "utility": 66,
     "difficulty": 100
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 630,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 390,
+    "mana_regen": 32.0,
+    "movement_speed": 350,
+    "armor": 40.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2023-03/1677951873_z-drive_resonance.webp",

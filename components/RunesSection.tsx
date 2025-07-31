@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ChampionData } from '../types/champion';
+import PatchInfo from './PatchInfo';
 
 interface RuneInfo {
     name: string;
@@ -131,9 +132,10 @@ const RunesSection: React.FC<RunesSectionProps> = ({
                     {t('sections.runes')}
                 </h2>
                 {showPatchInfo && (
-                    <span className="bg-primary-purple text-white px-3 py-1 rounded-full text-sm font-medium">
-                        Patch 6.2b
-                    </span>
+                    <PatchInfo
+                        showLink={true}
+                        className="bg-primary-purple text-white px-3 py-1 rounded-full text-sm font-medium hover:bg-primary-purple/80 transition-colors duration-200"
+                    />
                 )}
             </div>
 

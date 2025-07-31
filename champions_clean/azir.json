@@ -6,7 +6,10 @@
   "image": "https://wr-meta.com/uploads/posts/2022-07/1656624190_azir_10-min.jpg",
   "tier": 1,
   "stats": {},
-  "base_stats": {},
+  "base_stats": {
+    "mana": 2,
+    "armor": 2.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-07/1656624021_shurima27s_legacy.webp",

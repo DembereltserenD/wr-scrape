@@ -12,7 +12,16 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 50.0,
+    "health": 600,
+    "health_regen": 6.0,
+    "attack_speed": 0.75,
+    "mana": 435,
+    "mana_regen": 9.0,
+    "movement_speed": 345,
+    "armor": 35.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2021-01/1609853720_corki-passive-min.png",

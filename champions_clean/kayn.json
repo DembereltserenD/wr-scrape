@@ -13,7 +13,17 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 70.0,
+    "health": 630,
+    "health_regen": 8.0,
+    "attack_speed": 0.8,
+    "mana": 420,
+    "mana_regen": 32.0,
+    "movement_speed": 350,
+    "armor": 40.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-07/1657051071_the_darkin_scythe.webp",

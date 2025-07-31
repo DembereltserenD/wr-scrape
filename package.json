@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/build-champion-index.js && next build",
+    "build:fast": "next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "analyze": "ANALYZE=true next build",
     "build:analyze": "cross-env ANALYZE=true next build",
-    "test:performance": "node scripts/test-performance-accessibility.js"
+    "test:performance": "node scripts/test-performance-accessibility.js",
+    "measure:performance": "node scripts/measure-performance.js",
+    "prebuild": "node scripts/build-champion-index.js"
   },
   "dependencies": {
     "next": "^14.0.0",

@@ -120,12 +120,31 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             </button>
           </div>
 
-          <div className="inline-flex items-center px-6 py-3 bg-black/40 backdrop-blur-sm rounded-full border border-gray-700">
-            <div className="flex items-center space-x-2 text-gray-300">
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium">{t("sections.patch")}</span>
+          <a
+            href="https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-6-2b/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-600/20 to-green-600/20 backdrop-blur-sm rounded-full border border-emerald-500/30 hover:border-emerald-400/50 hover:bg-gradient-to-r hover:from-emerald-600/30 hover:to-green-600/30 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/25"
+            title="View patch notes"
+          >
+            <div className="flex items-center space-x-3 text-emerald-300 group-hover:text-emerald-200">
+              <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse group-hover:bg-emerald-300"></div>
+              <span className="text-sm font-semibold">Patch {t("sections.patch")}</span>
+              <svg
+                className="w-4 h-4 opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-200"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>

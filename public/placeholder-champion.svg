@@ -1,0 +1,5 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#374151"/>
+  <circle cx="100" cy="100" r="40" fill="#6B7280"/>
+  <text x="100" y="160" text-anchor="middle" fill="#9CA3AF" font-family="Arial, sans-serif" font-size="12">Champion</text>
+</svg>

@@ -12,7 +12,17 @@
     "utility": 66,
     "difficulty": 33
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 660,
+    "health_regen": 10.0,
+    "attack_speed": 0.8,
+    "mana": 380,
+    "mana_regen": 32.0,
+    "movement_speed": 345,
+    "armor": 43.0,
+    "magic_resist": 40.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-09/1664570394_umbra_blades.webp",

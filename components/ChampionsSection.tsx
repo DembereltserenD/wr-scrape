@@ -92,7 +92,7 @@ const ChampionsSection: React.FC<ChampionsSectionProps> = ({
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
                 {t("sections.champions")}
               </h2>
-              {showPatchInfo && <PatchInfo showLink={true} />}
+              {showPatchInfo && <PatchInfo showLink={false} />}
             </div>
             {showPatchInfo && (
               <p className="text-gray-400 text-lg">

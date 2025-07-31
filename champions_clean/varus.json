@@ -12,7 +12,17 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 600,
+    "health_regen": 6.0,
+    "attack_speed": 0.81,
+    "mana": 390,
+    "mana_regen": 12.0,
+    "movement_speed": 335,
+    "armor": 35.0,
+    "magic_resist": 30.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2025-07/1752663666_varus_living_vengeance.webp",

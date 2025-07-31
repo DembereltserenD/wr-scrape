@@ -1,6 +1,8 @@
 {
   "name": "MALPHITE",
-  "roles": ["Tank"],
+  "roles": [
+    "Tank"
+  ],
   "image": "https://wr-meta.com/uploads/posts/2023-01/1675035302_1644097911_malphite_44_11zon.webp",
   "tier": 3,
   "balance_status": "ADJUSTED",
@@ -10,7 +12,17 @@
     "utility": 33,
     "difficulty": 33
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 52.0,
+    "health": 690,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 345,
+    "mana_regen": 15.0,
+    "movement_speed": 340,
+    "armor": 49.0,
+    "magic_resist": 38.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606432869_malphite_0.jpg",
@@ -48,7 +60,11 @@
       "name": "UNSTOPPABLE FORCE"
     }
   ],
-  "lanes": ["Baron", "Support", "Mid"],
+  "lanes": [
+    "Baron",
+    "Support",
+    "Mid"
+  ],
   "builds": [
     {
       "lane": "Baron",

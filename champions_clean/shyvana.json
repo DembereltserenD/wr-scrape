@@ -13,7 +13,17 @@
     "utility": 33,
     "difficulty": 33
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 660,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 0,
+    "mana_regen": 0.0,
+    "movement_speed": 350,
+    "armor": 46.0,
+    "magic_resist": 38.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606390622_shyvana_0.jpg",

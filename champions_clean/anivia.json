@@ -6,7 +6,10 @@
   "image": "https://wr-meta.com/uploads/posts/2022-06/1656622602_aniv1ia_0-min.jpg",
   "tier": 1,
   "stats": {},
-  "base_stats": {},
+  "base_stats": {
+    "mana": 2,
+    "armor": 2.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-06/1656622705_rebirth.webp",

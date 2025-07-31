@@ -13,7 +13,17 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 64.0,
+    "health": 690,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 345,
+    "mana_regen": 12.0,
+    "movement_speed": 355,
+    "armor": 46.0,
+    "magic_resist": 32.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606429171_singed_0.jpg",

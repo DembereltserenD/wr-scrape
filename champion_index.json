@@ -1,0 +1,1028 @@
+{
+  "aatrox": {
+    "filename": "aatrox.json",
+    "name": "AATROX",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "ahri": {
+    "filename": "ahri.json",
+    "name": "AHRI",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "akali": {
+    "filename": "akali.json",
+    "name": "AKALI",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "akshan": {
+    "filename": "akshan.json",
+    "name": "AKSHAN",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "alistar": {
+    "filename": "alistar.json",
+    "name": "ALISTAR",
+    "tier": "1",
+    "role": "Support"
+  },
+  "ambessa": {
+    "filename": "ambessa.json",
+    "name": "AMBESSA",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "amumu": {
+    "filename": "amumu.json",
+    "name": "AMUMU",
+    "tier": "2",
+    "role": "Tank"
+  },
+  "anivia": {
+    "filename": "anivia.json",
+    "name": "ANIVIA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "annie": {
+    "filename": "annie.json",
+    "name": "ANNIE",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "aphelios": {
+    "filename": "aphelios.json",
+    "name": "APHELIOS",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "ashe": {
+    "filename": "ashe.json",
+    "name": "ASHE",
+    "tier": "2",
+    "role": "Support"
+  },
+  "aurelion_sol": {
+    "filename": "aurelion_sol.json",
+    "name": "AURELION SOL",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "aurora": {
+    "filename": "aurora.json",
+    "name": "AURORA",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "azir": {
+    "filename": "azir.json",
+    "name": "AZIR",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "bard": {
+    "filename": "bard.json",
+    "name": "BARD",
+    "tier": "1",
+    "role": "Support"
+  },
+  "belveth": {
+    "filename": "belveth.json",
+    "name": "BEL'VETH",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "blitzcrank": {
+    "filename": "blitzcrank.json",
+    "name": "BLITZCRANK",
+    "tier": "1",
+    "role": "Support"
+  },
+  "brand": {
+    "filename": "brand.json",
+    "name": "BRAND",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "braum": {
+    "filename": "braum.json",
+    "name": "BRAUM",
+    "tier": "1",
+    "role": "Support"
+  },
+  "briar": {
+    "filename": "briar.json",
+    "name": "BRIAR",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "caitlyn": {
+    "filename": "caitlyn.json",
+    "name": "CAITLYN",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "camille": {
+    "filename": "camille.json",
+    "name": "CAMILLE",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "cassiopeia": {
+    "filename": "cassiopeia.json",
+    "name": "CASSIOPEIA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "chogath": {
+    "filename": "chogath.json",
+    "name": "CHO'GATH",
+    "tier": "1",
+    "role": "Tank"
+  },
+  "corki": {
+    "filename": "corki.json",
+    "name": "CORKI",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "darius": {
+    "filename": "darius.json",
+    "name": "DARIUS",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "diana": {
+    "filename": "diana.json",
+    "name": "DIANA",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "draven": {
+    "filename": "draven.json",
+    "name": "DRAVEN",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "dr_mundo": {
+    "filename": "dr_mundo.json",
+    "name": "DR. MUNDO",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "ekko": {
+    "filename": "ekko.json",
+    "name": "EKKO",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "elise": {
+    "filename": "elise.json",
+    "name": "ELISE",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "evelynn": {
+    "filename": "evelynn.json",
+    "name": "EVELYNN",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "ezreal": {
+    "filename": "ezreal.json",
+    "name": "EZREAL",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "fiddlesticks": {
+    "filename": "fiddlesticks.json",
+    "name": "FIDDLESTICKS",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "fiora": {
+    "filename": "fiora.json",
+    "name": "FIORA",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "fizz": {
+    "filename": "fizz.json",
+    "name": "FIZZ",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "galio": {
+    "filename": "galio.json",
+    "name": "GALIO",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "gangplank": {
+    "filename": "gangplank.json",
+    "name": "GANGPLANK",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "garen": {
+    "filename": "garen.json",
+    "name": "GAREN",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "gnar": {
+    "filename": "gnar.json",
+    "name": "GNAR",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "gragas": {
+    "filename": "gragas.json",
+    "name": "GRAGAS",
+    "tier": "4",
+    "role": "Mage"
+  },
+  "graves": {
+    "filename": "graves.json",
+    "name": "GRAVES",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "gwen": {
+    "filename": "gwen.json",
+    "name": "GWEN",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "hecarim": {
+    "filename": "hecarim.json",
+    "name": "HECARIM",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "heimerdinger": {
+    "filename": "heimerdinger.json",
+    "name": "HEIMERDINGER",
+    "tier": "3",
+    "role": "Mage"
+  },
+  "hwei": {
+    "filename": "hwei.json",
+    "name": "HWEI",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "illaoi": {
+    "filename": "illaoi.json",
+    "name": "ILLAOI",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "irelia": {
+    "filename": "irelia.json",
+    "name": "IRELIA",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "ivern": {
+    "filename": "ivern.json",
+    "name": "IVERN",
+    "tier": "1",
+    "role": "Support"
+  },
+  "janna": {
+    "filename": "janna.json",
+    "name": "JANNA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "jarvan_iv": {
+    "filename": "jarvan_iv.json",
+    "name": "JARVAN IV",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "jax": {
+    "filename": "jax.json",
+    "name": "JAX",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "jayce": {
+    "filename": "jayce.json",
+    "name": "JAYCE",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "jhin": {
+    "filename": "jhin.json",
+    "name": "JHIN",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "jinx": {
+    "filename": "jinx.json",
+    "name": "JINX",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "kaisa": {
+    "filename": "kaisa.json",
+    "name": "KAI'SA",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "kalista": {
+    "filename": "kalista.json",
+    "name": "KALISTA",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "karma": {
+    "filename": "karma.json",
+    "name": "KARMA",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "karthus": {
+    "filename": "karthus.json",
+    "name": "KARTHUS",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "kassadin": {
+    "filename": "kassadin.json",
+    "name": "KASSADIN",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "katarina": {
+    "filename": "katarina.json",
+    "name": "KATARINA",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "kayle": {
+    "filename": "kayle.json",
+    "name": "KAYLE",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "kayn": {
+    "filename": "kayn.json",
+    "name": "KAYN",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "kennen": {
+    "filename": "kennen.json",
+    "name": "KENNEN",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "khazix": {
+    "filename": "khazix.json",
+    "name": "KHA'ZIX",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "kindred": {
+    "filename": "kindred.json",
+    "name": "KINDRED",
+    "tier": "1",
+    "role": "Marksman"
+  },
+  "kled": {
+    "filename": "kled.json",
+    "name": "KLED",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "kogmaw": {
+    "filename": "kogmaw.json",
+    "name": "KOG'MAW",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "ksante": {
+    "filename": "ksante.json",
+    "name": "K'SANTE",
+    "tier": "1",
+    "role": "Tank"
+  },
+  "leblanc": {
+    "filename": "leblanc.json",
+    "name": "LEBLANC",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "lee_sin": {
+    "filename": "lee_sin.json",
+    "name": "LEE SIN",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "leona": {
+    "filename": "leona.json",
+    "name": "LEONA",
+    "tier": "1",
+    "role": "Support"
+  },
+  "lillia": {
+    "filename": "lillia.json",
+    "name": "LILLIA",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "lissandra": {
+    "filename": "lissandra.json",
+    "name": "LISSANDRA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "lucian": {
+    "filename": "lucian.json",
+    "name": "LUCIAN",
+    "tier": "2",
+    "role": "Marksman"
+  },
+  "lulu": {
+    "filename": "lulu.json",
+    "name": "LULU",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "lux": {
+    "filename": "lux.json",
+    "name": "LUX",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "malphite": {
+    "filename": "malphite.json",
+    "name": "MALPHITE",
+    "tier": "3",
+    "role": "Tank"
+  },
+  "malzahar": {
+    "filename": "malzahar.json",
+    "name": "MALZAHAR",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "maokai": {
+    "filename": "maokai.json",
+    "name": "MAOKAI",
+    "tier": "3",
+    "role": "Tank"
+  },
+  "master_yi": {
+    "filename": "master_yi.json",
+    "name": "MASTER YI",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "mel": {
+    "filename": "mel.json",
+    "name": "MEL",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "milio": {
+    "filename": "milio.json",
+    "name": "MILIO",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "miss_fortune": {
+    "filename": "miss_fortune.json",
+    "name": "MISS FORTUNE",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "mordekaiser": {
+    "filename": "mordekaiser.json",
+    "name": "MORDEKAISER",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "morgana": {
+    "filename": "morgana.json",
+    "name": "MORGANA",
+    "tier": "3",
+    "role": "Mage"
+  },
+  "naafiri": {
+    "filename": "naafiri.json",
+    "name": "NAAFIRI",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "nami": {
+    "filename": "nami.json",
+    "name": "NAMI",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "nasus": {
+    "filename": "nasus.json",
+    "name": "NASUS",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "nautilus": {
+    "filename": "nautilus.json",
+    "name": "NAUTILUS",
+    "tier": "3",
+    "role": "Support"
+  },
+  "neeko": {
+    "filename": "neeko.json",
+    "name": "NEEKO",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "nidalee": {
+    "filename": "nidalee.json",
+    "name": "NIDALEE",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "nilah": {
+    "filename": "nilah.json",
+    "name": "NILAH",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "nocturne": {
+    "filename": "nocturne.json",
+    "name": "NOCTURNE",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "nunu_willump": {
+    "filename": "nunu_willump.json",
+    "name": "NUNU & WILLUMP",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "olaf": {
+    "filename": "olaf.json",
+    "name": "OLAF",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "orianna": {
+    "filename": "orianna.json",
+    "name": "ORIANNA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "ornn": {
+    "filename": "ornn.json",
+    "name": "ORNN",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "pantheon": {
+    "filename": "pantheon.json",
+    "name": "PANTHEON",
+    "tier": "3",
+    "role": "Assassin"
+  },
+  "poppy": {
+    "filename": "poppy.json",
+    "name": "POPPY",
+    "tier": "2",
+    "role": "Tank"
+  },
+  "pyke": {
+    "filename": "pyke.json",
+    "name": "PYKE",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "qiyana": {
+    "filename": "qiyana.json",
+    "name": "QIYANA",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "quinn": {
+    "filename": "quinn.json",
+    "name": "QUINN",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "rakan": {
+    "filename": "rakan.json",
+    "name": "RAKAN",
+    "tier": "1",
+    "role": "Support"
+  },
+  "rammus": {
+    "filename": "rammus.json",
+    "name": "RAMMUS",
+    "tier": "1",
+    "role": "Tank"
+  },
+  "reksai": {
+    "filename": "reksai.json",
+    "name": "REK'SAI",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "rell": {
+    "filename": "rell.json",
+    "name": "RELL",
+    "tier": "1",
+    "role": "Tank"
+  },
+  "renata_glasc": {
+    "filename": "renata_glasc.json",
+    "name": "RENATA GLASC",
+    "tier": "1",
+    "role": "Support"
+  },
+  "renekton": {
+    "filename": "renekton.json",
+    "name": "RENEKTON",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "rengar": {
+    "filename": "rengar.json",
+    "name": "RENGAR",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "riven": {
+    "filename": "riven.json",
+    "name": "RIVEN",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "rumble": {
+    "filename": "rumble.json",
+    "name": "RUMBLE",
+    "tier": "3",
+    "role": "Fighter"
+  },
+  "ryze": {
+    "filename": "ryze.json",
+    "name": "RYZE",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "samira": {
+    "filename": "samira.json",
+    "name": "SAMIRA",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "sejuani": {
+    "filename": "sejuani.json",
+    "name": "SEJUANI",
+    "tier": "1",
+    "role": "Tank"
+  },
+  "senna": {
+    "filename": "senna.json",
+    "name": "SENNA",
+    "tier": "2",
+    "role": "Support"
+  },
+  "seraphine": {
+    "filename": "seraphine.json",
+    "name": "SERAPHINE",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "sett": {
+    "filename": "sett.json",
+    "name": "SETT",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "shaco": {
+    "filename": "shaco.json",
+    "name": "SHACO",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "shen": {
+    "filename": "shen.json",
+    "name": "SHEN",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "shyvana": {
+    "filename": "shyvana.json",
+    "name": "SHYVANA",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "singed": {
+    "filename": "singed.json",
+    "name": "SINGED",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "sion": {
+    "filename": "sion.json",
+    "name": "SION",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "sivir": {
+    "filename": "sivir.json",
+    "name": "SIVIR",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "skarner": {
+    "filename": "skarner.json",
+    "name": "SKARNER",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "smolder": {
+    "filename": "smolder.json",
+    "name": "SMOLDER",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "sona": {
+    "filename": "sona.json",
+    "name": "SONA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "soraka": {
+    "filename": "soraka.json",
+    "name": "SORAKA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "swain": {
+    "filename": "swain.json",
+    "name": "SWAIN",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "sylas": {
+    "filename": "sylas.json",
+    "name": "SYLAS",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "syndra": {
+    "filename": "syndra.json",
+    "name": "SYNDRA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "tahm_kench": {
+    "filename": "tahm_kench.json",
+    "name": "TAHM KENCH",
+    "tier": "1",
+    "role": "Support"
+  },
+  "taliyah": {
+    "filename": "taliyah.json",
+    "name": "TALIYAH",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "talon": {
+    "filename": "talon.json",
+    "name": "TALON",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "taric": {
+    "filename": "taric.json",
+    "name": "TARIC",
+    "tier": "1",
+    "role": "Support"
+  },
+  "teemo": {
+    "filename": "teemo.json",
+    "name": "TEEMO",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "thresh": {
+    "filename": "thresh.json",
+    "name": "THRESH",
+    "tier": "1",
+    "role": "Support"
+  },
+  "tristana": {
+    "filename": "tristana.json",
+    "name": "TRISTANA",
+    "tier": "2",
+    "role": "Unknown"
+  },
+  "trundle": {
+    "filename": "trundle.json",
+    "name": "TRUNDLE",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "tryndamere": {
+    "filename": "tryndamere.json",
+    "name": "TRYNDAMERE",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "twisted_fate": {
+    "filename": "twisted_fate.json",
+    "name": "TWISTED FATE",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "twitch": {
+    "filename": "twitch.json",
+    "name": "TWITCH",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "udyr": {
+    "filename": "udyr.json",
+    "name": "UDYR",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "urgot": {
+    "filename": "urgot.json",
+    "name": "URGOT",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "varus": {
+    "filename": "varus.json",
+    "name": "VARUS",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "vayne": {
+    "filename": "vayne.json",
+    "name": "VAYNE",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "veigar": {
+    "filename": "veigar.json",
+    "name": "VEIGAR",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "velkoz": {
+    "filename": "velkoz.json",
+    "name": "VEL'KOZ",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "vex": {
+    "filename": "vex.json",
+    "name": "VEX",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "vi": {
+    "filename": "vi.json",
+    "name": "VI",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "viego": {
+    "filename": "viego.json",
+    "name": "VIEGO",
+    "tier": "1",
+    "role": "Assassin"
+  },
+  "viktor": {
+    "filename": "viktor.json",
+    "name": "VIKTOR",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "vladimir": {
+    "filename": "vladimir.json",
+    "name": "VLADIMIR",
+    "tier": "2",
+    "role": "Mage"
+  },
+  "volibear": {
+    "filename": "volibear.json",
+    "name": "VOLIBEAR",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "warwick": {
+    "filename": "warwick.json",
+    "name": "WARWICK",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "wukong": {
+    "filename": "wukong.json",
+    "name": "WUKONG",
+    "tier": "2",
+    "role": "Fighter"
+  },
+  "xayah": {
+    "filename": "xayah.json",
+    "name": "XAYAH",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "xerath": {
+    "filename": "xerath.json",
+    "name": "XERATH",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "xin_zhao": {
+    "filename": "xin_zhao.json",
+    "name": "XIN ZHAO",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "yasuo": {
+    "filename": "yasuo.json",
+    "name": "YASUO",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "yone": {
+    "filename": "yone.json",
+    "name": "YONE",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "yorick": {
+    "filename": "yorick.json",
+    "name": "YORICK",
+    "tier": "1",
+    "role": "Fighter"
+  },
+  "yunara": {
+    "filename": "yunara.json",
+    "name": "YUNARA",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "yuumi": {
+    "filename": "yuumi.json",
+    "name": "YUUMI",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "zac": {
+    "filename": "zac.json",
+    "name": "ZAC",
+    "tier": "1",
+    "role": "Tank"
+  },
+  "zed": {
+    "filename": "zed.json",
+    "name": "ZED",
+    "tier": "2",
+    "role": "Assassin"
+  },
+  "zeri": {
+    "filename": "zeri.json",
+    "name": "ZERI",
+    "tier": "1",
+    "role": "Unknown"
+  },
+  "ziggs": {
+    "filename": "ziggs.json",
+    "name": "ZIGGS",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "zilean": {
+    "filename": "zilean.json",
+    "name": "ZILEAN",
+    "tier": "2",
+    "role": "Support"
+  },
+  "zoe": {
+    "filename": "zoe.json",
+    "name": "ZOE",
+    "tier": "1",
+    "role": "Mage"
+  },
+  "zyra": {
+    "filename": "zyra.json",
+    "name": "ZYRA",
+    "tier": "2",
+    "role": "Mage"
+  }
+}

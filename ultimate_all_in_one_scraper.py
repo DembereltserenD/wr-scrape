@@ -113,10 +113,135 @@ def extract_champion_image_and_stats(soup, url, champion_data):
             stats[title] = percentage
     champion_data['stats'] = stats
     
-    # Extract base stats (simplified)
-    champion_data['base_stats'] = {}
+    # Extract base stats
+    base_stats = extract_base_stats(soup)
+    champion_data['base_stats'] = base_stats
     
     return champion_data
+
+def extract_base_stats(soup):
+    """Extract champion base stats from the stats table"""
+    base_stats = {}
+    
+    # Method 1: Look for the stats table in the stats-block
+    stats_block = soup.find('div', class_='stats-block')
+    if stats_block:
+        table = stats_block.find('table')
+        if table:
+            table_html = str(table)
+            
+            # Extract stats using specific patterns for the wr-meta format
+            # Pattern: <!--smile:statname-->...<!--/smile--> NUMBER (GROWTH)
+            stat_patterns = {
+                'attack_damage': r'<!--smile:attackdamage-->.*?<!--/smile-->\s*(\d+(?:\.\d+)?)',
+                'health': r'<!--smile:heal-->.*?<!--/smile-->\s*(\d+)',
+                'health_regen': r'<!--smile:healthregeneration-->.*?<!--/smile-->\s*(\d+(?:\.\d+)?)',
+                'attack_speed': r'<!--smile:attackspeed-->.*?<!--/smile-->\s*(\d+(?:\.\d+)?)',
+                'mana': r'<!--smile:mana-->.*?<!--/smile-->\s*(\d+)',
+                'mana_regen': r'<!--smile:mpreg-->.*?<!--/smile-->\s*(\d+(?:\.\d+)?)',
+                'movement_speed': r'<!--smile:movementspeed-->.*?<!--/smile-->\s*(\d+)',
+                'armor': r'<!--smile:armor-->.*?<!--/smile-->\s*(\d+(?:\.\d+)?)',
+                'magic_resist': r'<!--smile:magicresistance-->.*?<!--/smile-->\s*(\d+(?:\.\d+)?)'
+            }
+            
+            for stat_name, pattern in stat_patterns.items():
+                match = re.search(pattern, table_html, re.IGNORECASE | re.DOTALL)
+                if match:
+                    try:
+                        if stat_name in ['health', 'mana', 'movement_speed']:
+                            base_stats[stat_name] = int(match.group(1))
+                        else:
+                            base_stats[stat_name] = float(match.group(1))
+                    except ValueError:
+                        pass
+    
+    # Method 2: Alternative pattern matching for emoji alt attributes
+    if not base_stats:
+        stats_block = soup.find('div', class_='stats-block')
+        if stats_block:
+            table = stats_block.find('table')
+            if table:
+                cells = table.find_all('td')
+                
+                for cell in cells:
+                    cell_html = str(cell)
+                    cell_text = cell.get_text(strip=True)
+                    
+                    # Look for emoji images with alt attributes
+                    if 'alt="attackdamage"' in cell_html:
+                        match = re.search(r'(\d+(?:\.\d+)?)', cell_text)
+                        if match:
+                            base_stats['attack_damage'] = float(match.group(1))
+                    
+                    elif 'alt="heal"' in cell_html:
+                        match = re.search(r'(\d+)', cell_text)
+                        if match:
+                            base_stats['health'] = int(match.group(1))
+                    
+                    elif 'alt="healthregeneration"' in cell_html:
+                        match = re.search(r'(\d+(?:\.\d+)?)', cell_text)
+                        if match:
+                            base_stats['health_regen'] = float(match.group(1))
+                    
+                    elif 'alt="attackspeed"' in cell_html:
+                        match = re.search(r'(\d+(?:\.\d+)?)', cell_text)
+                        if match:
+                            base_stats['attack_speed'] = float(match.group(1))
+                    
+                    elif 'alt="mana"' in cell_html:
+                        match = re.search(r'(\d+)', cell_text)
+                        if match:
+                            base_stats['mana'] = int(match.group(1))
+                    
+                    elif 'alt="mpreg"' in cell_html:
+                        match = re.search(r'(\d+(?:\.\d+)?)', cell_text)
+                        if match:
+                            base_stats['mana_regen'] = float(match.group(1))
+                    
+                    elif 'alt="movementspeed"' in cell_html:
+                        match = re.search(r'(\d+)', cell_text)
+                        if match:
+                            base_stats['movement_speed'] = int(match.group(1))
+                    
+                    elif 'alt="armor"' in cell_html:
+                        match = re.search(r'(\d+(?:\.\d+)?)', cell_text)
+                        if match:
+                            base_stats['armor'] = float(match.group(1))
+                    
+                    elif 'alt="magicresistance"' in cell_html:
+                        match = re.search(r'(\d+(?:\.\d+)?)', cell_text)
+                        if match:
+                            base_stats['magic_resist'] = float(match.group(1))
+    
+    # Method 3: Fallback - look for any table with stats
+    if not base_stats:
+        tables = soup.find_all('table')
+        for table in tables:
+            table_text = table.get_text()
+            
+            # Look for number patterns that might be stats
+            # Format: "52 (3.6)" where 52 is base stat and 3.6 is growth
+            stat_matches = re.findall(r'(\d+(?:\.\d+)?)\s*\([^)]+\)', table_text)
+            
+            if len(stat_matches) >= 6:  # Should have at least 6 base stats
+                try:
+                    # Common order in Wild Rift: AD, Health, Health Regen, AS, Mana, Mana Regen, MS, Armor, MR
+                    if len(stat_matches) >= 8:  # At least 8 stats
+                        base_stats['attack_damage'] = float(stat_matches[0])
+                        base_stats['health'] = int(stat_matches[1])
+                        base_stats['health_regen'] = float(stat_matches[2])
+                        base_stats['attack_speed'] = float(stat_matches[3])
+                        base_stats['mana'] = int(stat_matches[4])
+                        base_stats['mana_regen'] = float(stat_matches[5])
+                        base_stats['movement_speed'] = int(stat_matches[6])
+                        base_stats['armor'] = float(stat_matches[7])
+                        if len(stat_matches) >= 9:
+                            base_stats['magic_resist'] = float(stat_matches[8])
+                    break
+                except (ValueError, IndexError):
+                    continue
+    
+    return base_stats
 
 def extract_abilities(soup, url, champion_data):
     """Extract champion abilities"""
@@ -820,6 +945,29 @@ def smart_merge_champion_data(champion_name, url):
                 final_data['balance_status'] = fresh_data.get('balance_status', '')
             if not final_data.get('stats'):
                 final_data['stats'] = fresh_data.get('stats', {})
+            # Always update base_stats if fresh data has better stats (not all zeros)
+            fresh_base_stats = fresh_data.get('base_stats', {})
+            existing_base_stats = final_data.get('base_stats', {})
+            
+            # Check if existing base stats are empty or all zeros
+            existing_has_real_stats = any(
+                value > 0 for value in existing_base_stats.values() 
+                if isinstance(value, (int, float))
+            )
+            
+            # Check if fresh base stats have real values
+            fresh_has_real_stats = any(
+                value > 0 for value in fresh_base_stats.values() 
+                if isinstance(value, (int, float))
+            )
+            
+            if fresh_has_real_stats and not existing_has_real_stats:
+                final_data['base_stats'] = fresh_base_stats
+                print(f"    + Updated base stats with real values")
+            elif not final_data.get('base_stats'):
+                final_data['base_stats'] = fresh_base_stats
+                if fresh_base_stats:
+                    print(f"    + Added base stats")
             if not final_data.get('abilities'):
                 final_data['abilities'] = fresh_data.get('abilities', [])
             

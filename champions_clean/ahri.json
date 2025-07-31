@@ -13,7 +13,17 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 52.0,
+    "health": 630,
+    "health_regen": 8.0,
+    "attack_speed": 0.75,
+    "mana": 435,
+    "mana_regen": 18.0,
+    "movement_speed": 355,
+    "armor": 34.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606313635_ahri_0.jpg",

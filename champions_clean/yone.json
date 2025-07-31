@@ -13,7 +13,17 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 54.0,
+    "health": 650,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 0,
+    "mana_regen": 0.0,
+    "movement_speed": 355,
+    "armor": 43.0,
+    "magic_resist": 38.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-09/1662399280_yone_way_of_the_hunter.webp",

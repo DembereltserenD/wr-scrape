@@ -12,7 +12,16 @@
     "utility": 33,
     "difficulty": 33
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 52.0,
+    "health": 9,
+    "attack_speed": 0.8,
+    "mana": 390,
+    "mana_regen": 15.0,
+    "movement_speed": 345,
+    "armor": 40.0,
+    "magic_resist": 30.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606432642_amumu_0.jpg",

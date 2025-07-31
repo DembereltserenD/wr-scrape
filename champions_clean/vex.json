@@ -12,7 +12,17 @@
     "utility": 66,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 660,
+    "health_regen": 8.0,
+    "attack_speed": 0.75,
+    "mana": 480,
+    "mana_regen": 12.0,
+    "movement_speed": 360,
+    "armor": 34.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-09/1663373876_vex_doom_27n_gloom.webp",

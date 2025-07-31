@@ -12,7 +12,17 @@
     "utility": 33,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 66.0,
+    "health": 660,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 460,
+    "mana_regen": 32.0,
+    "movement_speed": 355,
+    "armor": 40.0,
+    "magic_resist": 38.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-10/1665255125_blade27s_end.webp",

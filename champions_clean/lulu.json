@@ -13,7 +13,17 @@
     "utility": 66,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 46.0,
+    "health": 600,
+    "health_regen": 8.0,
+    "attack_speed": 0.75,
+    "mana": 480,
+    "mana_regen": 21.0,
+    "movement_speed": 345,
+    "armor": 40.0,
+    "magic_resist": 35.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2021-01/1609850918_lulu-passive-min.png",

@@ -12,7 +12,16 @@
     "utility": 33,
     "difficulty": 100
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 54.0,
+    "health": 8,
+    "attack_speed": 0.77,
+    "mana": 420,
+    "mana_regen": 14.0,
+    "movement_speed": 350,
+    "armor": 34.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2024-08/1724179623_aurora_spirit_abjuration.webp",

@@ -1,6 +1,8 @@
 {
   "name": "K'SANTE",
-  "roles": ["Tank"],
+  "roles": [
+    "Tank"
+  ],
   "image": "https://wr-meta.com/uploads/posts/2022-11/1668359593_ksante_01_11zon.webp",
   "tier": 1,
   "stats": {},
@@ -42,7 +44,10 @@
       "name": "K"
     }
   ],
-  "lanes": ["Baron", "Support"],
+  "lanes": [
+    "Baron",
+    "Support"
+  ],
   "builds": [
     {
       "lane": "Build_1",

@@ -16,16 +16,28 @@ module.exports = {
       },
       keyframes: {
         float: {
-          "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-20px)" },
+          "0%, 100%": {
+            transform: "translateY(0px)"
+          },
+          "50%": {
+            transform: "translateY(-20px)"
+          },
         },
         glow: {
-          from: { boxShadow: "0 0 20px rgba(59, 130, 246, 0.5)" },
-          to: { boxShadow: "0 0 30px rgba(147, 51, 234, 0.8)" },
+          from: {
+            boxShadow: "0 0 20px rgba(59, 130, 246, 0.5)"
+          },
+          to: {
+            boxShadow: "0 0 30px rgba(147, 51, 234, 0.8)"
+          },
         },
       },
       backdropBlur: {
         xs: "2px",
+      },
+      cursor: {
+        'hand': 'url("/Hand.cur"), auto',
+        'hand-pointer': 'url("/Hand.cur"), pointer',
       },
     },
   },

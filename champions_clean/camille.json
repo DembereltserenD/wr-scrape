@@ -12,7 +12,16 @@
     "utility": 33,
     "difficulty": 100
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 62.0,
+    "health": 690,
+    "health_regen": 11.0,
+    "attack_speed": 0.8,
+    "mana": 390,
+    "mana_regen": 15.0,
+    "movement_speed": 350,
+    "armor": 46.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606388743_camille_0.jpg",

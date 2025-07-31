@@ -169,13 +169,13 @@ const ChampionsPageContent: React.FC<ChampionsPageProps> = ({ champions }) => {
                 ? "Wild Rift-ийн бүх баатруудын дэлгэрэнгүй мэдээлэл, зэрэглэл, болон стратеги"
                 : "Complete champion guide with tier lists, builds, and strategies for Wild Rift"}
             </p>
-            <div className="inline-flex items-center px-6 py-3 bg-black/40 backdrop-blur-sm rounded-full border border-gray-700">
-              <div className="flex items-center space-x-2 text-gray-300">
+            <div className="inline-flex items-center px-6 py-3 bg-black/40 backdrop-blur-sm rounded-full border border-gray-700 hover:bg-black/60 hover:border-gray-600 transition-all duration-200 cursor-pointer group">
+              <div className="flex items-center space-x-2 text-gray-300 group-hover:text-white">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">
-                  {t("sections.patch")}
-                </span>
-                <PatchInfo showLink={false} />
+                <PatchInfo
+                  showLink={true}
+                  className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-200"
+                />
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Item, ItemCard } from '../types/item';
+import PatchInfo from './PatchInfo';
 
 interface ItemsSectionProps {
     items: Item[];
@@ -70,9 +71,10 @@ const ItemsSection: React.FC<ItemsSectionProps> = ({
                     {t('sections.items')}
                 </h2>
                 {showPatchInfo && (
-                    <span className="bg-primary-purple text-white px-3 py-1 rounded-full text-sm font-medium">
-                        Patch 6.2b
-                    </span>
+                    <PatchInfo
+                        showLink={true}
+                        className="bg-primary-purple text-white px-3 py-1 rounded-full text-sm font-medium hover:bg-primary-purple/80 transition-colors duration-200"
+                    />
                 )}
             </div>
 

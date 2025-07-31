@@ -13,7 +13,17 @@
     "utility": 100,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 54.0,
+    "health": 660,
+    "health_regen": 8.0,
+    "attack_speed": 0.75,
+    "mana": 460,
+    "mana_regen": 10.0,
+    "movement_speed": 355,
+    "armor": 34.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-07/1657054343_iceborn_subjugation.webp",

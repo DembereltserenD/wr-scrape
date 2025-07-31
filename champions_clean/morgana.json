@@ -13,7 +13,17 @@
     "utility": 66,
     "difficulty": 33
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 630,
+    "health_regen": 6.0,
+    "attack_speed": 0.0,
+    "mana": 435,
+    "mana_regen": 15.0,
+    "movement_speed": 360,
+    "armor": 37.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-01/1641940111_morgana_0-min.jpg",

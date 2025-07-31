@@ -12,7 +12,17 @@
     "utility": 100,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 52.0,
+    "health": 570,
+    "health_regen": 6.0,
+    "attack_speed": 0.62,
+    "mana": 345,
+    "mana_regen": 21.0,
+    "movement_speed": 340,
+    "armor": 35.0,
+    "magic_resist": 30.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-01/1641779479_senna_0-min.jpg",

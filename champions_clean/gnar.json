@@ -12,7 +12,17 @@
     "utility": 33,
     "difficulty": 100
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 62.0,
+    "health": 600,
+    "health_regen": 6.0,
+    "attack_speed": 0.75,
+    "mana": 0,
+    "mana_regen": 0.0,
+    "movement_speed": 335,
+    "armor": 43.0,
+    "magic_resist": 32.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-07/1656885096_rage_gene.webp",

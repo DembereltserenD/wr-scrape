@@ -31,9 +31,45 @@ const nextConfig = {
   // Performance optimizations
   experimental: {
     scrollRestoration: true,
+    optimizePackageImports: ['recharts'],
   },
   // Compression
   compress: true,
+  // Static optimization
+  trailingSlash: false,
+  // Webpack optimizations
+  webpack: (config, {
+    dev,
+    isServer
+  }) => {
+    if (!dev && !isServer) {
+      // Optimize for production builds
+      config.optimization.splitChunks = {
+        chunks: 'all',
+        cacheGroups: {
+          default: false,
+          vendors: false,
+          // Vendor chunk
+          vendor: {
+            name: 'vendor',
+            chunks: 'all',
+            test: /node_modules/,
+            priority: 20,
+          },
+          // Common chunk
+          common: {
+            name: 'common',
+            minChunks: 2,
+            chunks: 'all',
+            priority: 10,
+            reuseExistingChunk: true,
+            enforce: true,
+          },
+        },
+      };
+    }
+    return config;
+  },
   // Bundle analyzer (enable when needed)
   // bundleAnalyzer: {
   //   enabled: process.env.ANALYZE === 'true',

@@ -28,6 +28,11 @@ export interface ChampionStats {
   armor: StatValue;
   magic_resistance: StatValue;
   critical_strike: StatValue;
+  // Champion performance stats
+  damage?: StatValue;
+  toughness?: StatValue;
+  utility?: StatValue;
+  difficulty?: StatValue;
 }
 
 export interface Ability {
@@ -52,13 +57,15 @@ export interface ChampionAbilities {
 
 export interface ChampionItem {
   name: string;
-  stats: Record<string, any>;
-  cost: number;
-  passive: string;
-  active: string;
-  description: string;
-  category: string;
-  tier: string;
+  image?: string;
+  alt?: string;
+  description?: string;
+  cost?: number;
+  stats?: Record<string, any>;
+  passive?: string;
+  active?: string;
+  category?: string;
+  tier?: string;
 }
 
 export interface AlternativeBuild {
@@ -69,22 +76,29 @@ export interface AlternativeBuild {
 
 export interface ChampionBuilds {
   lanes: string[];
-  starting_items: string[];
-  core_items: string[];
-  boots: string[];
-  situational_items: string[];
+  starting_items: ChampionItem[];
+  core_items: ChampionItem[];
+  boots: ChampionItem[];
+  situational_items: ChampionItem[];
   situational: string[]; // For compatibility with BuildGuideI18n component
-  example_build: string[];
+  example_build: ChampionItem[];
   enchants: string[];
   alternative_builds: AlternativeBuild[];
   lane_specific: Record<string, any>;
   core_items_detailed: ChampionItem[];
 }
 
+export interface Rune {
+  name: string;
+  image?: string;
+  alt?: string;
+  description?: string;
+}
+
 export interface RuneTree {
   tree: string;
-  keystone: string;
-  runes: string[];
+  keystone: Rune | string;
+  runes: Rune[];
 }
 
 export interface ChampionRunes {

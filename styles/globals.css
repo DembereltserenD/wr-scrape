@@ -4,8 +4,13 @@
 
 /* League of Legends Inspired Styles */
 @layer base {
+  * {
+    cursor: url('/Hand.cur'), auto !important;
+  }
+  
   body {
     @apply bg-black text-white;
+    cursor: url('/Hand.cur'), auto;
   }
 }
 
@@ -24,11 +29,11 @@
   }
 
   .card-background {
-    @apply bg-slate-800/30 backdrop-blur-sm border border-slate-700/50;
+    @apply bg-slate-800 bg-opacity-30 backdrop-blur-sm border border-slate-700 border-opacity-50;
   }
 
   .background-dark {
-    @apply bg-slate-900/50;
+    @apply bg-slate-900 bg-opacity-50;
   }
 
   .primary-purple {
@@ -54,6 +59,31 @@
   .responsive-caption {
     @apply text-sm;
   }
+
+  /* Custom cursor for interactive elements */
+  button, a, input, select, textarea, [role="button"], .clickable {
+    cursor: url('/Hand.cur'), pointer !important;
+  }
+
+  /* Ensure cursor works on hover states */
+  button:hover, a:hover, input:hover, select:hover, textarea:hover, [role="button"]:hover, .clickable:hover {
+    cursor: url('/Hand.cur'), pointer !important;
+  }
+
+  /* Handle specific cursor states */
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    cursor: url('/Hand.cur'), text !important;
+  }
+
+  /* Disabled elements */
+  button:disabled, input:disabled, select:disabled, textarea:disabled {
+    cursor: url('/Hand.cur'), not-allowed !important;
+  }
+
+  /* Loading states */
+  .loading, [aria-busy="true"] {
+    cursor: url('/Hand.cur'), wait !important;
+  }
 }
 
 @layer utilities {
@@ -63,6 +93,15 @@
 
   .animate-glow {
     animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  /* Custom cursor utilities */
+  .cursor-hand {
+    cursor: url('/Hand.cur'), auto !important;
+  }
+
+  .cursor-hand-pointer {
+    cursor: url('/Hand.cur'), pointer !important;
   }
 }
 

@@ -7,12 +7,12 @@ interface PatchInfoProps {
 }
 
 const PatchInfo: React.FC<PatchInfoProps> = ({
-    className = "bg-primary-purple text-white px-3 py-1 rounded-full text-sm font-medium",
+    className,
     showLink = false
 }) => {
     const [patchInfo, setPatchInfo] = useState({
-        version: '6.2b',
-        url: 'https://wildrift.leagueoflegends.com/en-us/news/game-updates/wild-rift-patch-notes-6-2b/'
+        version: 'Loading...',
+        url: '#'
     });
     const [loading, setLoading] = useState(true);
 
@@ -35,9 +35,13 @@ const PatchInfo: React.FC<PatchInfoProps> = ({
         fetchPatch();
     }, []);
 
+    // Default button styling
+    const defaultButtonClass = "inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary-purple to-accent-pink text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200 border border-primary-purple/30";
+    const defaultSpanClass = "bg-primary-purple text-white px-3 py-1 rounded-full text-sm font-medium";
+
     if (loading) {
         return (
-            <span className={className}>
+            <span className={className || defaultSpanClass}>
                 Loading...
             </span>
         );
@@ -51,16 +55,42 @@ const PatchInfo: React.FC<PatchInfoProps> = ({
                 href={patchInfo.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`${className} hover:opacity-80 transition-opacity cursor-pointer`}
+                className={className || defaultButtonClass}
                 title="View patch notes"
             >
+                <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
+                </svg>
                 {content}
+                <svg
+                    className="w-3 h-3 opacity-70"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                </svg>
             </a>
         );
     }
 
     return (
-        <span className={className}>
+        <span className={className || defaultSpanClass}>
             {content}
         </span>
     );

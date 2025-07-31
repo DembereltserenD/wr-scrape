@@ -13,7 +13,17 @@
     "utility": 100,
     "difficulty": 66
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 52.0,
+    "health": 630,
+    "health_regen": 6.0,
+    "attack_speed": 0.8,
+    "mana": 390,
+    "mana_regen": 18.0,
+    "movement_speed": 350,
+    "armor": 40.0,
+    "magic_resist": 35.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2020-11/1606428288_nami_0.jpg",

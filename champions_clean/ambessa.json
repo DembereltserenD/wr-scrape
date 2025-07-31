@@ -13,7 +13,17 @@
     "utility": 33,
     "difficulty": 100
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 62.0,
+    "health": 660,
+    "health_regen": 8.0,
+    "attack_speed": 0.8,
+    "mana": 0,
+    "mana_regen": 0.0,
+    "movement_speed": 355,
+    "armor": 43.0,
+    "magic_resist": 36.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2024-10/1729619517_1x.webp",

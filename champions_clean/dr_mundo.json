@@ -13,7 +13,16 @@
     "utility": 33,
     "difficulty": 33
   },
-  "base_stats": {},
+  "base_stats": {
+    "attack_damage": 58.0,
+    "health": 720,
+    "health_regen": 9.0,
+    "attack_speed": 0.8,
+    "mana": 0,
+    "mana_regen": 0.0,
+    "movement_speed": 355,
+    "armor": 40.0
+  },
   "abilities": [
     {
       "image": "https://wr-meta.com/uploads/posts/2022-01/1641696600_drmundo-rework_0-min.jpg",
