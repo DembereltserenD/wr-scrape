@@ -19,3 +19,6 @@ export type {
   DropdownVariant,
   DropdownSize,
 } from "./Dropdown";
+
+export { default as Tooltip } from "./Tooltip";
+export type { TooltipProps } from "./Tooltip";
