@@ -90,67 +90,44 @@ const ChampionPageContent: React.FC<ChampionPageProps> = ({
         {/* Clean gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/40 pointer-events-none" />
 
-        {/* Hero Section */}
-        <ChampionHero
-          championData={championData}
-          t={t}
-          getTierColor={getTierColor}
-          getRoleTranslation={getRoleTranslation}
-          getDifficultyTranslation={getDifficultyTranslation}
-        />
+        {/* Hero Section with max width container */}
+        <div className="relative z-10">
+          <div className="max-w-7xl mx-auto">
+            <ChampionHero
+              championData={championData}
+              t={t}
+              getTierColor={getTierColor}
+              getRoleTranslation={getRoleTranslation}
+              getDifficultyTranslation={getDifficultyTranslation}
+            />
+          </div>
+        </div>
 
         {/* Content */}
-        <div className="relative z-10 container mx-auto px-4 py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Main Content */}
-            <div className="lg:col-span-2 space-y-8">
-              <div className="bg-slate-800/80 rounded-2xl border border-slate-600/40 p-1 shadow-2xl">
-                <div className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-xl p-6">
+        <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="space-y-8">
+              {/* Statistics Section */}
+              <div className="bg-slate-800/80 backdrop-blur-sm rounded-3xl border border-slate-600/40 p-1 shadow-2xl hover:shadow-3xl transition-all duration-500">
+                <div className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-[22px] p-8">
                   <ChampionStatsPieChart stats={championData.stats} />
                 </div>
               </div>
-              <div className="bg-slate-800/80 rounded-2xl border border-slate-600/40 p-1 shadow-2xl">
-                <div className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-xl p-6">
+
+              {/* Abilities Section */}
+              <div className="bg-slate-800/80 backdrop-blur-sm rounded-3xl border border-slate-600/40 p-1 shadow-2xl hover:shadow-3xl transition-all duration-500">
+                <div className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-[22px] p-8">
                   <AbilitiesI18n abilities={championData.abilities} />
                 </div>
               </div>
-            </div>
 
-            {/* Sidebar */}
-            <div className="space-y-8">
-              <div className="bg-slate-800/80 rounded-2xl border border-slate-600/40 p-1 shadow-2xl">
-                <div className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-xl p-6">
+              {/* Build Guide and Runes Section */}
+              <div className="bg-slate-800/80 backdrop-blur-sm rounded-3xl border border-slate-600/40 p-1 shadow-2xl hover:shadow-3xl transition-all duration-500">
+                <div className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-[22px] p-8">
                   <BuildGuideI18n
                     builds={championData.builds}
                     runes={championData.runes}
                   />
-                </div>
-              </div>
-
-              {/* Meta Info */}
-              <ChampionMeta championData={championData} t={t} />
-
-              {/* Tips */}
-              <div className="bg-slate-800/90 rounded-2xl border border-slate-600/50 p-1 shadow-2xl hover:border-slate-500/70 transition-all duration-300">
-                <div className="bg-gradient-to-br from-slate-700/60 to-slate-800/60 rounded-xl p-6">
-                  <h3 className="text-2xl font-black mb-6 bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent flex items-center">
-                    💡 {t("tips.title")}
-                  </h3>
-                  <ul className="space-y-3">
-                    {championData.tips.map((tip, index) => (
-                      <li
-                        key={index}
-                        className="flex items-start p-3 bg-black/30 rounded-lg border border-cyan-500/20 hover:border-cyan-500/40 transition-all duration-200"
-                      >
-                        <span className="text-cyan-400 mr-3 mt-1 text-lg">
-                          ⚡
-                        </span>
-                        <span className="text-gray-200 font-medium leading-relaxed">
-                          {tip}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>
