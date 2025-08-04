@@ -135,42 +135,47 @@ export class ChampionDataLoader {
       },
       builds: {
         lanes: scrapedData.lanes || [],
-        starting_items:
-          firstBuild.start_items?.map((item: any) => item.name) || [],
-        core_items: firstBuild.core_items?.map((item: any) => item.name) || [],
-        boots: [],
+        starting_items: firstBuild.start_items || [],
+        core_items: firstBuild.core_items || [],
+        boots: firstBuild.boots_enchants || [],
         situational_items:
           firstBuild.situational_items?.flatMap(
-            (cat: any) => cat.items?.map((item: any) => item.name) || [],
+            (cat: any) => cat.items || [],
           ) || [],
         situational:
           firstBuild.situational_items?.flatMap(
             (cat: any) => cat.items?.map((item: any) => item.name) || [],
           ) || [],
-        example_build:
-          firstBuild.example_build?.map((item: any) => item.name) || [],
+        example_build: firstBuild.example_build || [],
         enchants:
           firstBuild.boots_enchants?.map((item: any) => item.name) || [],
         alternative_builds: [],
         lane_specific: {},
-        core_items_detailed: [],
+        core_items_detailed: firstBuild.core_items || [],
       },
       runes: {
         primary: {
           tree: "Unknown",
-          keystone: firstBuild.runes?.keystone?.name || "Unknown",
-          runes: firstBuild.runes?.primary?.map((rune: any) => rune.name) || [],
+          keystone: firstBuild.runes?.keystone
+            ? this.transformRune(firstBuild.runes.keystone)
+            : "Unknown",
+          runes:
+            firstBuild.runes?.primary?.map((rune: any) =>
+              this.transformRune(rune),
+            ) || [],
         },
         secondary: {
           tree: "Unknown",
           keystone: "",
           runes:
-            firstBuild.runes?.secondary?.map((rune: any) => rune.name) || [],
+            firstBuild.runes?.secondary?.map((rune: any) =>
+              this.transformRune(rune),
+            ) || [],
         },
         stat_shards: [],
       },
-      summoner_spells:
-        firstBuild.summoner_spells?.map((spell: any) => spell.name) || [],
+      summoner_spells: firstBuild.summoner_spells || [],
+
       counters: {
         strong_against: [],
         weak_against: [],
@@ -221,6 +226,27 @@ export class ChampionDataLoader {
       damage_type: "Physical" as const,
       image: abilityData.image || "",
       notes: [],
+    };
+  }
+
+  /**
+   * Transform rune data with proper image handling
+   */
+  private static transformRune(runeData: any): any {
+    if (!runeData) {
+      return {
+        name: "Unknown",
+        image: "",
+        alt: "Unknown",
+        description: "",
+      };
+    }
+
+    return {
+      name: runeData.name || "Unknown",
+      image: runeData.image || "",
+      alt: runeData.alt || runeData.name || "Unknown",
+      description: runeData.description || "",
     };
   }
 

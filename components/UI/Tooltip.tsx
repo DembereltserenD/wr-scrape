@@ -27,9 +27,9 @@ const Tooltip: React.FC<TooltipProps> = ({
     timeoutRef.current = setTimeout(() => {
       const rect = triggerRef.current?.getBoundingClientRect();
       if (rect) {
-        // Position tooltip closer to the image
+        // Position tooltip directly above the center of the image
         const x = rect.left + rect.width / 2;
-        const y = rect.top - 5; // Reduced gap from 10 to 5
+        const y = rect.top - 8; // Position just above the image
         setPosition({ x, y });
         setIsVisible(true);
       }
@@ -59,7 +59,7 @@ const Tooltip: React.FC<TooltipProps> = ({
       const viewportHeight = window.innerHeight;
 
       let adjustedX = position.x - rect.width / 2;
-      let adjustedY = position.y - rect.height;
+      let adjustedY = position.y - rect.height - 8; // Add small gap above image
 
       // Adjust horizontal position if tooltip goes off screen
       if (adjustedX < 10) {
@@ -72,7 +72,7 @@ const Tooltip: React.FC<TooltipProps> = ({
       if (adjustedY < 10) {
         const triggerRect = triggerRef.current?.getBoundingClientRect();
         if (triggerRect) {
-          adjustedY = triggerRect.bottom + 5; // Show below the trigger element
+          adjustedY = triggerRect.bottom + 8; // Show below the trigger element with gap
         } else {
           adjustedY = position.y + 40; // Fallback
         }
@@ -97,16 +97,16 @@ const Tooltip: React.FC<TooltipProps> = ({
       {isVisible && (
         <div
           ref={tooltipRef}
-          className="fixed z-[9999] pointer-events-none"
+          className="fixed z-[99999] pointer-events-none"
           style={{
             left: position.x,
             top: position.y,
           }}
         >
-          <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-yellow-400/60 rounded-lg shadow-2xl backdrop-blur-sm max-w-sm">
-            <div className="p-4">{content}</div>
+          <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border-2 border-yellow-400/60 rounded-lg shadow-2xl backdrop-blur-sm max-w-sm relative">
+            <div className="p-4 relative z-[100000]">{content}</div>
             {/* Arrow */}
-            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 z-[100000]">
               <div className="w-4 h-4 bg-slate-900 border-r-2 border-b-2 border-yellow-400/60 transform rotate-45"></div>
             </div>
           </div>
